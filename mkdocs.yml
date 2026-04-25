@@ -10,8 +10,9 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
     - navigation.indexes
     - navigation.top
     - search.suggest
@@ -34,16 +35,9 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
-nav:
-  - Home: index.md
-  - Rules:
-    - Overview: rules/index.md
-    - "§1 The Stat Line": rules/01-stat-line.md
-  - Armies:
-    - Overview: armies/index.md
-    - Seraphon:
-      - Overview: armies/seraphon/index.md
-      - Saurus Warriors: armies/seraphon/saurus-warriors.md
+# Auto-nav: navigation tree is generated from the docs/ folder structure.
+# Section landings come from each folder's index.md (navigation.indexes feature).
+# To customise ordering, prefix files with NN- numeric prefixes.
 
 markdown_extensions:
   - admonition

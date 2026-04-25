@@ -1,5 +1,6 @@
 # §1 The Stat Line
 
+
 | Stat | Abbr | Description |
 |------|------|-------------|
 | Movement | M | Base movement in inches |
@@ -15,14 +16,14 @@
 
 **Attacks are a weapon property, not a stat.** The number of attacks a model makes is defined per-weapon on the weapon profile, not on the stat line. A model with three weapon profiles (e.g., a Monster's natural weapons plus a howdah-mounted ranged weapon) has three independent Attack values. This keeps multi-weapon units cleanly expressible and prevents double-counting across attack modes. When a weapon is used, the model makes the Attacks listed on that weapon's profile, resolved at the weapon's own S, AP, D, and any special rules.
 
-## Armour and Protection (separate from stat line)
+### Armour and Protection (separate from stat line)
 
 | Stat | Description |
 |------|-------------|
 | Armour Save (AS) | Base save from armour and natural scales |
 | Ward Save (WS) | Unmodifiable save (magical protection, blessed, etc.) |
 
-## Magical Profile (wizards only, separate from stat line)
+### Magical Profile (wizards only, separate from stat line)
 
 | Stat | Abbr | Description |
 |------|------|-------------|
@@ -36,7 +37,7 @@
 
 See §7.3 (Magic Phase) for full rules.
 
-## Unit Strength (US)
+### Unit Strength (US)
 
 Unit Strength represents a model's **physical presence and mass**. It is a stat-line characteristic, independent of Wounds (which is durability) and LiS (which is visibility). Each model contributes its US to its unit — a unit's **total US** is the sum of all surviving models' US values, updated dynamically as casualties are removed.
 
@@ -52,11 +53,11 @@ Unit Strength represents a model's **physical presence and mass**. It is a stat-
 
 **US and Degrading.** Monsters with the Degrading rule may have US on their damage table, decreasing as wounds are lost. A wounded Stegadon is a smaller presence than a healthy one — less imposing on the battlefield, contributes less to objectives, and its death counts for fewer CR wounds.
 
-**Monster US = current W.** As a convention, Monster-keyword units have **US equal to their current remaining Wounds** rather than a fixed value. A full-strength Monster contributes its maximum W as US; a heavily-wounded Monster contributes proportionally less. This is a smoother version of the tier-based US-degrading pattern — the wound pool directly reads as battlefield presence.
+**Monster US = current W.** As a convention, Monster-keyword units have **US equal to their current remaining Wounds** rather than a fixed value. A full-strength Monster contributes its maximum W as US; a heavily-wounded Monster contributes proportionally less. This is a smoother version of the tier-based US-degrading pattern — the wound pool directly reads as battlefield presence. The Monster's *typical* W value governs the top-end presence; individual profiles should set LiS independently to reflect the Monster's scale irrespective of W (a Carnosaur and a Stegadon may both be W10+ but carry different LiS per their sheer physical volume).
 
 **Characters and command US.** A character model adds **+1 US** to the typical value for its type (a foot character on an Infantry chassis starts at US 2 rather than 1; a Cavalry character at US 3; a Monster-mounted character at US 6). The army **general** adds a further **+1 US** on top, reflecting command gravity — a foot general is US 3, a mounted general US 4, a monster-mounted general US 7. These are baseline values; individual character profiles may override them for specifically thematic reasons.
 
-## Unit Types
+### Unit Types
 
 Each unit has exactly one **type keyword**, assigned in its profile. Unit types are categorical tags that rules reference (Flaming's beast panic, Killing Blow's target clauses, Apex Predator, Sniper allocation, etc.). They describe what kind of thing the unit is, not how it fights — type keywords do not confer mechanical benefits themselves.
 
@@ -69,15 +70,15 @@ Each unit has exactly one **type keyword**, assigned in its profile. Unit types 
 | **Warbeast** | Non-ridden pack animals, lone beasts below Monster scale, or domesticated combat animals. | 2 | 2 |
 | **Monster** | Enormous single-model creatures. Dragons, Carnosaurs, Giants, Stegadons. | 4+ | 5 |
 | **Chariot** | Riders on a wheeled vehicle drawn by beasts. | 3 | 3 |
-| **Swarm** | A mass of small creatures fighting as a single unit — rats, bats, spiders, insects. | 0 | 5 |
+| **Swarm** | A mass of small creatures fighting as a single unit — rats, bats, spiders, insects. Individually small but numerous; low to the ground. | 0 | 5 |
 
-**One type per unit.** If mounted, the mount determines the unit type — Skinks on Cold Ones are Cavalry even though the riders are Skink-sized.
+**One type per unit.** If mounted, the mount determines the unit type — Skinks on Cold Ones are Cavalry even though the riders are Skink-sized. Mixed combinations (e.g., a character and their mount counting separately) are not permitted at the unit level.
 
 **Type vs LiS are independent.** The "typical" LiS column is guidance, not binding. A small but monstrous creature may be tagged Monster with LiS 2 if thematic; an unusually large humanoid may be tagged Infantry with LiS 2. LiS is an independent stat that rules reference alongside type keywords.
 
-**Swarms are a special case.** A Swarm base's **US is dynamic** — equal to its **current remaining Wounds**, not a fixed value. As the swarm takes damage its mass on objectives diminishes in real time.
+**Swarms are a special case.** A Swarm base's **US is dynamic** — equal to its **current remaining Wounds**, not a fixed value. As the swarm takes damage its mass on objectives diminishes in real time; a full-strength base contributes full US, a heavily-wounded base contributes little. The "Typical US 5" entry in the table above is indicative only for a rough mid-strength swarm base. Individual swarm profiles may also tie other stats to remaining Wounds (e.g., Attacks), but US is the type-wide default.
 
-## Rider and Mount Profiles
+### Rider and Mount Profiles
 
 Units whose models consist of a rider and a mount (Cavalry, Monstrous Cavalry, Chariot, Monster-mounted characters) display **two profiles** on their unit card — one for the rider and one for the mount. Rider and mount are a single model for casualty purposes; their profiles combine contextually per the table below.
 
@@ -91,7 +92,9 @@ Units whose models consist of a rider and a mount (Cavalry, Monstrous Cavalry, C
 | **Leadership and stress** | The **rider's Ld** (the rider commands the mount); stress is tracked at the unit level |
 | **LiS, US** | Listed on the unit-level entry (not per-profile) — representing the combined model's size and mass |
 
-## Unit Keywords
+**Allocating wounds.** Wounds removed from the model are taken from the combined pool. When it reaches zero, the model is removed — there is no bookkeeping distinction between "rider killed" and "mount killed" for game purposes, unless a specific effect references one of them independently (e.g., a spell that targets the mount alone); in such cases the effect's text is authoritative and a separate wound pool may be tracked as the rule directs.
+
+### Unit Keywords
 
 Every unit profile carries a **keyword line** — a list of tags that identify the unit for the purpose of rules that target categories of units rather than specific profiles. Keywords let effects say "any Saurus unit" or "any Core unit" or "any Monster" without listing every profile that qualifies.
 
@@ -101,22 +104,26 @@ Every unit profile carries a **keyword line** — a list of tags that identify t
 |----------|----------|
 | **Faction** | Lizardmen (Seraphon is an AoS-specific alias; "Lizardmen" is the canonical faction keyword) |
 | **Sub-faction / race** | Saurus, Skink, Kroxigor, Slann |
-| **Unit type** | Infantry, Cavalry, Monstrous Infantry, Monstrous Cavalry, Warbeast, Monster, Chariot, Swarm |
+| **Unit type** | Infantry, Cavalry, Monstrous Infantry, Monstrous Cavalry, Warbeast, Monster, Chariot, Swarm (matches the Unit Types table above — every unit carries its type keyword here as well) |
 | **Role** | Core, Special, Rare, Hero, Lord (army-composition categories for list building) |
-| **Descriptive** | Situational tags for narrow rule hooks — e.g., Aquatic, Mounted, etc. |
+| **Descriptive** | Situational tags for narrow rule hooks — e.g., Aquatic, Mounted, etc. — added to profiles that need them |
 
 A typical keyword line for a Saurus Warriors unit: `Lizardmen, Saurus, Infantry, Core`.
 
-**Effects reference keywords directly.** A spell text reading "all friendly Lizardmen units within 12" gain +1 to hit" applies to any friendly unit with the Lizardmen keyword — including characters, core, rare, monsters, etc.
+**Effects reference keywords directly.** A spell text reading "all friendly Lizardmen units within 12" gain +1 to hit" applies to any friendly unit with the Lizardmen keyword — including characters, core, rare, monsters, etc., as long as they share the faction tag. Weapon text reading "damage 2 against Cavalry" applies to any target with the Cavalry keyword, regardless of faction.
 
-Keywords are **static** — printed on the profile, not gained or lost in play — unless a rule explicitly adds or removes one.
+Keywords are **static** — printed on the profile, not gained or lost in play — unless a rule explicitly adds or removes one (e.g., a transformation spell that temporarily grants Monster).
 
-## Mixed Unit
+### Mixed Unit
 
 A unit whose composition includes models of two or more distinct profiles — e.g., a Warbeast accompanied by a fixed pool of Handler support models, a crew-served weapon with its Crew, a Chariot with a Rider and a Driver. Both profiles appear on the unit card; each model uses its own profile when attacking or being attacked.
 
-**Wound allocation.** Wounds inflicted on a Mixed Unit are applied to the **supporting profile** (Handlers, Crew, etc.) first. Only once all supporting models are removed may wounds be allocated to the **primary profile**.
+**Wound allocation.** Wounds inflicted on a Mixed Unit are applied to the **supporting profile** (Handlers, Crew, etc.) first. Only once all supporting models are removed may wounds be allocated to the **primary profile**. Rules that specifically target a named model or profile (Sniper, Precision Strike, "pick a model" effects) bypass this priority and apply per the targeting rule's own text.
 
-**Movement and coherency.** All models move together as a single unit. The **primary profile sets the unit's M**. Supporting models must remain within **2"** of a primary model at the end of any move; a supporting model isolated from all primary models is removed as a casualty.
+**Movement and coherency.** All models move together as a single unit. The **primary profile sets the unit's M** (slowest-moves-all is the convention). Supporting models must remain within **2"** of a primary model at the end of any move; a supporting model isolated from all primary models is removed as a casualty.
 
 **If all primary models are destroyed**, any remaining supporting models are also removed and the unit is destroyed. Supporting models cannot outlive their primaries.
+
+Individual unit profiles specify the composition — typically a fixed ratio of support-to-primary (e.g. "3 Handlers per Beast"). Fixed ratios are locked at deployment and cannot be adjusted in play, unlike regular unit sizes.
+
+---
