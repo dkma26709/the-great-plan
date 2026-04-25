@@ -36,9 +36,11 @@ No mandatory rank-and-file, but a formation geometry system — Formed / Loose /
 
 Losing a combat makes you fall back along a calculated path. The combat difference determines how far. No instant flee-and-pursue loops; no combats that evaporate a unit in one round from a single failed test. You lose ground, you take stress, and the fight continues on a new line next turn.
 
-### Magic is activations, not dice-pool roulette
+### Magic is per-wizard, not dice-pool roulette
 
-Each wizard has a profile — Cast Base, Dispel Base, Channelling, Cast Bonus, Dispel Bonus, Dispel Range, Lore Access. Activations are spent on either casting or dispelling — the player chooses the split each turn. A defensive Light wizard is a genuinely different statline from an aggressive Vampire Lord, not just "a wizard at level X."
+Each wizard has its own magic profile — separate **Cast** and **Dispel** pools (dice contributed each Magic phase), **Channelling** for extra flexible dice on 5+s, **Cast / Dispel Bonus** modifiers capped at **+5**, **Dispel Range**, and tier-gated **Lore Access** (1-4: Basic / Intermediate / Advanced / Master).
+
+Wizards roll from their own pools — no shared army-wide power dice, no dice-pool spam. Players alternate activations (cast / dispel) until both sides pass. A defensive Light wizard built around dispel is a genuinely different statline from an aggressive Vampire Lord built around offensive casts. Spells are tier-gated by Lore Access; a Level 1 caster cannot reach Master-tier capstones, structurally.
 
 ## Where to find what
 
