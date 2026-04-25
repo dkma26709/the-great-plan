@@ -65,8 +65,8 @@ The Magic phase runs on a two-tier dice-pool economy: each wizard has **personal
 
 At the start of each Magic phase (after first-activation is determined per §7.1), each player in turn performs the following, independently (asymmetric — the two players roll their own pools):
 
-1. **Personal pools.** For each of your wizards, place **CaB** dice in that wizard's Cast pool and **DiB** dice in their Dispel pool.
-2. **Channeling rolls.** For each of your wizards, roll **Ch D6s**. For every result of **5+**, gain one extra die — placed, at your discretion, into that wizard's Cast pool *or* Dispel pool. A wizard with Ch 0 rolls nothing.
+1. **Personal pools.** For each of your wizards, place **Cast Base** dice in that wizard's Cast pool and **Dispel Base** dice in their Dispel pool.
+2. **Channeling rolls.** For each of your wizards, roll **Channelling D6s**. For every result of **5+**, gain one extra die — placed, at your discretion, into that wizard's Cast pool *or* Dispel pool. A wizard with Channelling 0 rolls nothing.
 3. **Shared magic pool.** Roll **`floor(points limit / 1000)` D3**, minimum 1D3. The sum is your shared magic pool for the phase — external to any specific wizard, usable on any of your casts or dispels.
 
 All pools are **per-player**. Unused dice are **lost** at phase end unless a specific rule (typically RIP or similar persistent effects) says otherwise.
@@ -91,7 +91,7 @@ There is **no per-wizard cap** on casts: a wizard may keep casting as long as th
 
 **Range and line of sight** are defined per spell. Some spells require line of sight; others do not. Some target a point on the battlefield; others target a unit. The spell's description is authoritative.
 
-**Spells Known** is set per army book entry — the number of spells the wizard selects from their available lores during list building, up to the tier their LA permits. The special rule **Loremaster** replaces this: the wizard knows all spells in the specified lore up to their LA tier.
+**Spells Known** is set per army book entry — the number of spells the wizard selects from their available lores during list building, up to the tier their Lore Access permits. The special rule **Loremaster** replaces this: the wizard knows all spells in the specified lore up to their Lore Access tier.
 
 #### Casting a Spell
 
@@ -99,7 +99,7 @@ There is **no per-wizard cap** on casts: a wizard may keep casting as long as th
 2. **Invest dice.** The casting wizard declares how many dice to invest from their personal Cast pool. Shared-pool dice may also be spent (one-for-one, each adding one die to the cast). **There is no upper limit on dice invested.**
 3. **Roll all invested dice.**
 4. **Bonus D6s.** For each natural **6** rolled in the cast pool, roll **one additional D6** and add its result to the sum. Bonus D6s count as rolled dice for miscast purposes (below). Bonus D6s do **not** themselves generate further bonuses — there is no chain.
-5. **Cast result** = sum of all dice (initial + bonuses) + **CB** (capped +5).
+5. **Cast result** = sum of all dice (initial + bonuses) + **Cast Bonus** (capped +5).
 6. **Compare to casting value.** If the cast result meets or exceeds the spell's CV, the cast succeeds (subject to dispel). If lower, the cast fails.
 7. **Check for miscast** (below). Miscasts apply regardless of success or failure — there is no auto-fail from miscast; the cast resolves at its face-value result.
 
@@ -109,17 +109,17 @@ There is **no per-wizard cap** on casts: a wizard may keep casting as long as th
 
 After a spell is successfully cast, the opposing player may attempt a single dispel attempt, provided they have at least one wizard eligible to act as lead dispeller:
 
-1. The **lead dispeller** must be within **DR** of the spell's target (or of the casting wizard, for spells with no target point).
+1. The **lead dispeller** must be within **Dispel Range** of the spell's target (or of the casting wizard, for spells with no target point).
 2. The player must have at least 1 Dispel Die available (personal or shared) to invest.
 
 **Procedure:**
 
 1. **Nominate the lead dispeller.**
-2. **Nominate supporting wizards.** Any other friendly wizards *also within their own DR* of the target may contribute dispel dice.
+2. **Nominate supporting wizards.** Any other friendly wizards *also within their own Dispel Range* of the target may contribute dispel dice.
 3. **Invest dice.** The lead and each supporter may invest any number of Dispel Dice from their personal pools. Shared-pool dice may also be added. **No upper limit.**
 4. **Roll all invested dice.**
 5. **Bonus D6s.** Each natural **6** grants a bonus D6 (same mechanic as casting).
-6. **Dispel result** = sum of all dice (initial + bonuses) + **lead wizard's DB + 1 per supporting wizard** (total effective DB capped at **+5**).
+6. **Dispel result** = sum of all dice (initial + bonuses) + **lead wizard's Dispel Bonus + 1 per supporting wizard** (total effective Dispel Bonus capped at **+5**).
 7. **Compare to cast result.** If dispel ≥ cast result, the spell is nullified. The caster's invested dice are still spent.
 8. **Check for dispel miscast** (below).
 
@@ -166,7 +166,7 @@ Certain spells have the **Remains In Play (RIP)** keyword. A RIP spell is cast a
 **Dispelling a RIP spell:**
 
 - **On the turn it is cast:** the opponent's single dispel opportunity (the normal reaction to the cast) is the only chance to stop it. If the opponent chooses not to dispel, or the dispel attempt fails, the spell is locked in for that turn — no second dispel is permitted the same turn.
-- **In subsequent turns:** the opponent may spend one dispel activation during the caster's Magic phase to attempt to dispel the RIP spell. Roll 2D6 + DB against the spell's original casting result. Only one dispel attempt per RIP spell per turn.
+- **In subsequent turns:** the opponent may spend one dispel activation during the caster's Magic phase to attempt to dispel the RIP spell. Roll 2D6 + Dispel Bonus against the spell's original casting result. Only one dispel attempt per RIP spell per turn.
 
 **Caster voluntary end:** the caster may voluntarily end a RIP spell at any time, at no activation cost.
 

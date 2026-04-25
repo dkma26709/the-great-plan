@@ -13,7 +13,7 @@
 
 **D3 hits** at **AP -2, D1**. **Armour-Seeking** (see §8) — each hit wounds on a D6 roll equal to or higher than the target model's unmodified worn armour save value (Natural Armour excluded); targets with no worn armour cannot be wounded. **Magical Attacks.** The workhorse Metal opener — modest against lightly-armoured foes, devastating against knights and elite infantry. The more metal they wear, the more the spell has to grip.
 
-#### Basic (Tier 1) — LA 1+
+#### Basic (Tier 1) — Lore Access 1+
 
 **Rust** *(Summoning)*
 
@@ -49,7 +49,7 @@ Target friendly unit's **melee attacks gain +1 AP** (AP 0 → AP -1; AP -1 → A
 
 Target friendly unit's **melee attacks gain +1 damage** (D1 → D2; D2 → D3; D D3 → D D3+1, etc.) until start of next turn. Forge-light clings to every edge; a graze bites like a severing blow. Stacks meaningfully with Enchanted Blades — a unit under both buffs deals +1 AP and +1 damage in melee for one devastating turn.
 
-#### Intermediate (Tier 2) — LA 2+
+#### Intermediate (Tier 2) — Lore Access 2+
 
 **Weight of Iron**
 
@@ -85,7 +85,7 @@ Natural Armour is not counted. The unit's own plate turns against it — each st
 
 Target enemy unit's **melee attacks are treated as AP 0** until start of next turn, regardless of their original AP value. Edges corrode and chip; pointed strikes become dull blows. A knight's AP -3 lance is neutered to a blunt-headed pole; a Chaos Warrior's AP -2 sword glances off mail. Devastating against heavy-armoured attackers; irrelevant against already-AP-0 skirmishers (self-balancing against cheap units).
 
-#### Advanced (Tier 3) — LA 3+
+#### Advanced (Tier 3) — Lore Access 3+
 
 **Final Transmutation**
 
@@ -120,4 +120,4 @@ The unit's blades turn leaden — strikes still land, but find less purchase. Pa
 ---
 
 
-The following lores are **restricted to specific factions and wizard types**. They include a fourth tier (Master, LA 4+) no general lore reaches, in exchange for narrower flavour. A faction-lore caster trades the breadth of the eight general lores for depth — magic no other army can wield.
+The following lores are **restricted to specific factions and wizard types**. They include a fourth tier (Master, Lore Access 4+) no general lore reaches, in exchange for narrower flavour. A faction-lore caster trades the breadth of the eight general lores for depth — magic no other army can wield.

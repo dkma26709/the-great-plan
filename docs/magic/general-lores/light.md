@@ -13,7 +13,7 @@
 
 Target friendly unit gains **Ward vs Spells (6+)** until start of next turn. A modest magical shielding — the cornerstone of Light's protective identity.
 
-#### Basic (Tier 1) — LA 1+
+#### Basic (Tier 1) — Lore Access 1+
 
 **Steady the Faithful**
 
@@ -39,7 +39,7 @@ Target friendly unit may reroll failed to-hit rolls of 1 in both melee and range
 
 Target friendly unit gains **+1 to all armour and ward saves** until start of next turn. Walls of brilliance deflect incoming blows. Subject to the normal Armour and Ward stacking caps (2+ armour, 4+ ward from stacking).
 
-#### Intermediate (Tier 2) — LA 2+
+#### Intermediate (Tier 2) — Lore Access 2+
 
 **Net of Amyntok**
 
@@ -65,7 +65,7 @@ Target friendly unit gains **+2 Movement and +2 Initiative** until start of next
 
 The caster and their unit (if attached to one) may immediately make a free **M + D6 move** directly away from the nearest enemy model. A bolt of brilliance that carries them to safety. Does not prevent the caster from casting again this phase; does not trigger any pursuit, Elusive-style penalty, or stress from Fleeing (this is a controlled magical escape, not flight).
 
-#### Advanced (Tier 3) — LA 3+
+#### Advanced (Tier 3) — Lore Access 3+
 
 **Banishment** *(RIP, template, stationary)*
 

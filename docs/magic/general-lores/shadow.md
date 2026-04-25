@@ -13,7 +13,7 @@
 
 Caster chooses one of **WS, BS, I, or M**. Target enemy unit suffers **-D3** to that characteristic until start of next turn (minimum 1 — characteristics cannot drop below 1). Confusion fills their minds — swords miss their marks, legs falter, arrows fly wide. The workhorse Shadow cast — always available, flexible, softens any unit for what comes next.
 
-#### Basic (Tier 1) — LA 1+
+#### Basic (Tier 1) — Lore Access 1+
 
 **The Withering**
 
@@ -47,7 +47,7 @@ Target friendly unit suffers **-1 to hit against it from ranged attacks** until 
 
 Target **single friendly character** (not a unit, not a champion in a unit — solo models only) may immediately make a **12" Fly move**, ignoring terrain and models. The character cannot end within 1" of an enemy unit or inside impassable. Cannot declare a Charge as part of this move. The character fades into shadow and re-emerges somewhere useful. Paired with Fading Step, a Shadow wizard on foot can reposition over 20" in a single magic phase.
 
-#### Intermediate (Tier 2) — LA 2+
+#### Intermediate (Tier 2) — Lore Access 2+
 
 **Veil of Unreality**
 
@@ -73,7 +73,7 @@ Target enemy unit gains **Always Strikes Last** (see §8) until start of next tu
 
 Target friendly unit may immediately make a **D6" Fly move** (not a Charge, 1" rule, no impassable). The unit must end in a legal formation. Cannot be cast on a unit that has already declared a Charge this turn. A small unit-scale reposition — step a block out of a charge lane, slide a flank into threat range, fade a vulnerable unit behind cover. Shorter than Steed of Shadows (T1, character, 12") but unit-scale.
 
-#### Advanced (Tier 3) — LA 3+
+#### Advanced (Tier 3) — Lore Access 3+
 
 **Pendulum of Shadow** *(line template)*
 

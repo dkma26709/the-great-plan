@@ -13,7 +13,7 @@
 
 D6 hits at **S4, AP -1, D1, Flaming**. Every Fire wizard can call down a Fireball.
 
-#### Basic (Tier 1) — LA 1+
+#### Basic (Tier 1) — Lore Access 1+
 
 **Flame Breath**
 
@@ -47,7 +47,7 @@ D6 hits at **S5, AP 0, D1, Flaming, Ward Piercing (1)**. Bolts of fire that cut 
 
 Target enemy unit is caged in circling fire. While this spell is in play, whenever the target unit performs any movement action (Advance, March, Charge, Wheel, voluntary Flee, Elusive's reactive move), it suffers **D6 hits at S4, AP 0, D1, Flaming**. The unit is not prevented from moving — it simply pays the price in fire each time it tries.
 
-#### Intermediate (Tier 2) — LA 2+
+#### Intermediate (Tier 2) — Lore Access 2+
 
 **Burning Head**
 
@@ -73,7 +73,7 @@ Target friendly unit is wreathed in defensive fire. While this spell is in play,
 
 D3 hits at **S7, AP -3, D2, Flaming**. A concentrated lance of liquid fire — bores through heavy armour and elite infantry alike. The anti-plate answer in the lore's toolkit.
 
-#### Advanced (Tier 3) — LA 3+
+#### Advanced (Tier 3) — Lore Access 3+
 
 **Flame Storm** *(RIP, template, drifting)*
 

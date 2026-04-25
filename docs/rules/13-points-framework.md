@@ -181,7 +181,7 @@ The framework has been fit against the current roster of priced units:
 | Ancient Salamander (beast + 3 Handlers bundle) | — | — | — | 115 (formula+weapon premium) | **140** (priced) | +25 |
 | Arcanadon (beast only — W14, sauropod, Stubborn, Aura of the Old Ones, PoA cannon) | 42 | 14 | 8.48 | 356 | 360 | +4 |
 | Arcanadon (beast + 3 Crew bundle with Power of the Ancients) | — | — | — | ~380 | **400** | +20 |
-| Coatl (W8 — Fly 8, MR3, Terror, Magical Storm, Guardian; Wizard flat pkg +50 for LA 3 / CaB 2 / DiB 2 / Ch 2 / CB +1 / DR 18") | 30 | 8 | 5.48 | 214 (164 base + 50 flat wizard) | **225** | +11 |
+| Coatl (W8 — Fly 8, MR3, Terror, Magical Storm, Guardian; Wizard flat pkg +50 for Lore Access 3 / Cast Base 2 / Dispel Base 2 / Channelling 2 / Cast Bonus +1 / Dispel Range 18") | 30 | 8 | 5.48 | 214 (164 base + 50 flat wizard) | **225** | +11 |
 | Dread Saurian (beast only — W25 apex, Earth-Shaking Roar, 4-weapon profile, NA 3+, LiS 6) | 40 | 25 | 13.98 | 559 | **550** | -9 |
 
 **Drift policy:**
@@ -191,7 +191,7 @@ The framework has been fit against the current roster of priced units:
 - Jungle Swarms was investigated — formula produces 32; draft price was 30. Updated to 32 per the ≥ 2 pt threshold policy.
 - Ancient Salamander Δ +25 — the Searing Stream template weapon (S 5 AP -2) is under-priced in the equipment table (+4 for a basic flame template); playtesting will decide whether to bump template weapon baseline or keep the bundle premium.
 - Arcanadon bundle Δ +20 — the Power of the Ancients (cannon + channel-aura combo) is underweighted in the rule-contribution table. Deferred investigation; value matches Stegadon's price envelope for a comparable apex-utility Monster and reads correct by design intent.
-- Coatl Δ +11 — the Wizard package is currently priced **flat** (+50 for LA 3 / CaB 2 / DiB 2 / Ch 2 / CB +1 / DR 18") rather than W-factor-multiplied. Convention pending formal §13 write-up once more wizard profiles (Skink Priest, Slann) are drafted. Multiplying the wizard package by the W factor would over-price magic on durable casters; keeping flat is the current working call.
+- Coatl Δ +11 — the Wizard package is currently priced **flat** (+50 for Lore Access 3 / Cast Base 2 / Dispel Base 2 / Channelling 2 / Cast Bonus +1 / Dispel Range 18") rather than W-factor-multiplied. Convention pending formal §13 write-up once more wizard profiles (Skink Priest, Slann) are drafted. Multiplying the wizard package by the W factor would over-price magic on durable casters; keeping flat is the current working call.
 
 ### 13.6 Caveats and Limitations
 

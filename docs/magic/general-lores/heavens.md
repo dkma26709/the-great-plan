@@ -15,7 +15,7 @@
 
 Target friendly unit may reroll all to-hit, to-wound, and armour save rolls of 1. The stars align — minor adjustments to fate that compound across an entire unit's worth of dice.
 
-#### Basic (Tier 1) — LA 1+
+#### Basic (Tier 1) — Lore Access 1+
 
 **Iceshard Blizzard**
 
@@ -49,7 +49,7 @@ Target enemy unit is pushed D6" directly away from the caster. If the unit conta
 
 D6 S5 hits with Lightning Attacks (ignore armour saves). A single devastating bolt called down from the heavens — the signature damage spell of every Heavens wizard. Basic tier but high casting value: any Heavens caster can learn it, but landing it reliably demands real magical ability.
 
-#### Intermediate (Tier 2) — LA 2+
+#### Intermediate (Tier 2) — Lore Access 2+
 
 **Curse of the Midnight Wind**
 
@@ -75,7 +75,7 @@ The caster and all friendly units within 12" may reroll one failed dispel or rec
 
 All enemy units within 18" of the caster suffer D3 S4 hits with Lightning Attacks (ignore armour saves). A ring of celestial lightning radiating outward from the wizard — punishes anything that gets too close, in any direction. The caster stands at the eye of the storm.
 
-#### Advanced (Tier 3) — LA 3+
+#### Advanced (Tier 3) — Lore Access 3+
 
 **Chain Lightning**
 

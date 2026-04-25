@@ -491,7 +491,7 @@ Expendable combines naturally with Unbreakable (slaves driven forward under the 
 
 This wizard knows all spells in the named lore, up to the tier their Lore Access permits. Loremaster replaces the normal Spells Known count for the named lore — no selection needed at list building. If the wizard has Loremaster in multiple lores, each is counted separately.
 
-Example: A Skink Priest with **Loremaster (Heavens)** and LA 2 in Heavens knows the signature spell plus all Basic and Intermediate spells in the Heavens lore automatically. If the wizard's Heavens LA increased to 3, they would gain all Advanced spells as well.
+Example: A Skink Priest with **Loremaster (Heavens)** and Lore Access 2 in Heavens knows the signature spell plus all Basic and Intermediate spells in the Heavens lore automatically. If the wizard's Heavens Lore Access increased to 3, they would gain all Advanced spells as well.
 
 #### Divination (X/Y)
 

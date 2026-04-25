@@ -13,7 +13,7 @@
 
 Target enemy **single model** (character, champion, or any solo model — not a rank-and-file model in a unit). The target suffers **D3 wounds with no armour save allowed** (ward saves permitted). The cheap sniper — Death's workmanlike spell, always available, threatens every exposed hero on the field. A character with decent Wounds and a ward save weathers one cast; a glass-cannon wizard opposite just died.
 
-#### Basic (Tier 1) — LA 1+
+#### Basic (Tier 1) — Lore Access 1+
 
 **Spirit Leech**
 
@@ -47,7 +47,7 @@ Target enemy unit suffers **D3 wounds with no saves allowed** (ward saves permit
 
 Target enemy unit **cannot Rally** until start of next turn — any stress on the unit stays on it through the Rally sub-phase. Makes stress stick. Directly weaponises the lore attribute: Presence of Doom applies stress, Pall of Despair prevents its removal. One of the cleanest combos in the lore.
 
-#### Intermediate (Tier 2) — LA 2+
+#### Intermediate (Tier 2) — Lore Access 2+
 
 **Wind of Death**
 
@@ -73,7 +73,7 @@ On cast, target enemy unit suffers **-1 T** immediately. At the start of **each 
 
 Target enemy unit treats its Ld as **-2 lower** for all stress threshold calculations until start of next turn (Shaken at Ld-6, Wavering at Ld-4, Broken at Ld-2). Ld for combat resolution modifiers and other Ld-dependent rules is unchanged — only the *stress thresholds* shift. A morale crusher that makes existing stress bite twice as hard without adding a single point.
 
-#### Advanced (Tier 3) — LA 3+
+#### Advanced (Tier 3) — Lore Access 3+
 
 **Soulblight**
 
