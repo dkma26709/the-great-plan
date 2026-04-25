@@ -1,0 +1,59 @@
+site_name: The Great Plan
+site_description: A Warhammer hybrid ruleset combining AoS design philosophy with WAP/Old World stat granularity
+site_url: https://dkma26709.github.io/the-great-plan/
+repo_url: https://github.com/dkma26709/the-great-plan
+repo_name: dkma26709/the-great-plan
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Rules:
+    - Overview: rules/index.md
+    - "§1 The Stat Line": rules/01-stat-line.md
+  - Armies:
+    - Overview: armies/index.md
+    - Seraphon:
+      - Overview: armies/seraphon/index.md
+      - Saurus Warriors: armies/seraphon/saurus-warriors.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
