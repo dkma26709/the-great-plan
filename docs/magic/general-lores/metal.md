@@ -19,17 +19,17 @@
 
 | CV | Range | Type |
 |----|-------|------|
-| 8 | 18" | Hex, Summoning |
+| 10 | 18" | Hex, Summoning |
 
 Target enemy unit **permanently** suffers **-1 to its worn armour save** (min 7+ — 6+ armour is lost entirely, 2+ becomes 3+, etc.) for the remainder of the game. Natural Armour is not affected — only worn armour corrodes. Per Summoning rules (§7.3), this effect cannot be dispelled after the cast-turn reaction has passed. Once it sticks, it stays.
 
-Creates cross-lore synergy: a Rust-debuffed unit is easier for *any* subsequent spell, weapon, or attack to get through. A Rust cast in Turn 1 is a gift that keeps giving for the rest of the game.
+Creates cross-lore synergy: a Rust-debuffed unit is easier for *any* subsequent spell, weapon, or attack to get through. A Rust cast in Turn 1 is a gift that keeps giving for the rest of the game. Very-strong-for-tier — game-long permanent armour debuff held at the top of Basic CV.
 
 **Glittering Robe**
 
 | CV | Range | Type | Duration |
 |----|-------|------|----------|
-| 6 | 18" | Augment | Until start of next turn |
+| 7 | 18" | Augment | Until start of next turn |
 
 Target friendly unit gains **+1 to its armour save** until start of next turn (max 2+, per §8 Armour Save Stacking). A unit with no armour save gains **6+** instead. Living metal flows over the target — mail thickens, helms cover more of the face, plate seams close. A reactive defensive cast — drop it on a unit about to be charged.
 
@@ -37,7 +37,7 @@ Target friendly unit gains **+1 to its armour save** until start of next turn (m
 
 | CV | Range | Type | Duration |
 |----|-------|------|----------|
-| 7 | 18" | Augment | Until start of next turn |
+| 8 | 18" | Augment | Until start of next turn |
 
 Target friendly unit's **melee attacks gain +1 AP** (AP 0 → AP -1; AP -1 → AP -2, etc.) until start of next turn. The unit's weapons glow with forge-light; edges that would graze now bite. Classic weapon-enchantment effect.
 
@@ -45,7 +45,7 @@ Target friendly unit's **melee attacks gain +1 AP** (AP 0 → AP -1; AP -1 → A
 
 | CV | Range | Type | Duration |
 |----|-------|------|----------|
-| 7 | 18" | Augment | Until start of next turn |
+| 8 | 18" | Augment | Until start of next turn |
 
 Target friendly unit's **melee attacks gain +1 damage** (D1 → D2; D2 → D3; D D3 → D D3+1, etc.) until start of next turn. Forge-light clings to every edge; a graze bites like a severing blow. Stacks meaningfully with Enchanted Blades — a unit under both buffs deals +1 AP and +1 damage in melee for one devastating turn.
 
@@ -55,7 +55,7 @@ Target friendly unit's **melee attacks gain +1 damage** (D1 → D2; D2 → D3; D
 
 | CV | Range | Type | Duration |
 |----|-------|------|----------|
-| 8 | 18" | Hex | Until start of next turn |
+| 10 | 18" | Hex | Until start of next turn |
 
 Target enemy unit's **Movement is reduced by (6 − unmodified worn armour save value)** until start of next turn, minimum 0.
 
@@ -73,17 +73,25 @@ Natural Armour is not counted. The unit's own plate turns against it — each st
 
 | CV | Range | Type |
 |----|-------|------|
-| 9 | 18" | Magic Missile |
+| 11 | 24" | Magic Missile |
 
-**1 hit at S7, AP -4, damage D3.** **Magical Attacks.** A single lodestone-guided bolt that punches through plate with absolute accuracy. Metal's narrow-and-heavy damage idiom — contrasts Searing Doom's broader Armour-Seeking approach. Devastating against a single multi-wound target: monsters, heavy cavalry, characters.
+**1 hit at S7, AP -4, damage D3.** **Magical Attacks.** A single lodestone-guided bolt that punches through plate with absolute accuracy. Metal's narrow-and-heavy damage idiom — contrasts Searing Doom's broader Armour-Seeking approach. Devastating against a single multi-wound target: monsters, heavy cavalry, characters. Range 24" (vs Metal's 18" baseline) — Lodestone is the lone Metal projectile distinct enough to warrant longer reach: a guided lodestone bolt is *attracted* to its target across the field, where the lore's other spells require closer metal-mastery.
 
 **Corroded Edge**
 
 | CV | Range | Type | Duration |
 |----|-------|------|----------|
-| 9 | 18" | Hex | Until start of next turn |
+| 11 | 18" | Hex | Until start of next turn |
 
 Target enemy unit's **melee attacks are treated as AP 0** until start of next turn, regardless of their original AP value. Edges corrode and chip; pointed strikes become dull blows. A knight's AP -3 lance is neutered to a blunt-headed pole; a Chaos Warrior's AP -2 sword glances off mail. Devastating against heavy-armoured attackers; irrelevant against already-AP-0 skirmishers (self-balancing against cheap units).
+
+**Forgemaster's Demand**
+
+| CV | Range | Type | Duration |
+|----|-------|------|----------|
+| 11 | 18" | Hex | Until start of next turn |
+
+Target enemy unit's worn armour save value **worsens by 2** until start of next turn (a 2+ save becomes 4+; a 4+ becomes 6+; a 6+ is lost entirely; no worn armour stays no armour). Natural Armour is unaffected. The wizard wills the unit's armour to remember every weak point — for one turn, the mail loosens, the plate thins, the seams part. Distinct from the lore's other armour-strip options: **Rust** (permanent -1 armour), **Corroded Edge** (zeros enemy AP rather than removing armour), **Weight of Iron** (M slow scaled by armour). Forgemaster's Demand is the *temporary-but-huge* -2 armour spike — devastating for one decisive turn against heavy infantry, cavalry, or monsters; pairs with any incoming damage source (charge, magic missile, shooting volley) to crack the target before its armour reasserts.
 
 #### Advanced (Tier 3) — Lore Access 3+
 
@@ -91,7 +99,7 @@ Target enemy unit's **melee attacks are treated as AP 0** until start of next tu
 
 | CV | Range | Type |
 |----|-------|------|
-| 13 | 18" | Direct Damage |
+| 14 | 18" | Direct Damage |
 
 Target enemy unit. For each model in the target unit, roll a **D6 — on a 4+, that model is hit**. Each hit then rolls to wound using **Armour-Seeking** (see §8). Successful wounds deal **1 damage** with **no armour save allowed** (ward saves permitted). **Magical Attacks.**
 
@@ -101,7 +109,7 @@ Models with no worn armour cannot be wounded (per Armour-Seeking). The 4+ to-hit
 
 | CV | Range | Type | Duration |
 |----|-------|------|----------|
-| 12 | 18" | Augment | Until start of next turn |
+| 13 | 18" | Augment | Until start of next turn |
 
 Target friendly unit's melee attacks gain **+1 S, +1 AP, and Magical Attacks** (if not already) until start of next turn. The forge pours its heat and will into every blade — strikes fall harder, cut deeper, and bite through wards. Stacks with Enchanted Blades (+1 AP → +2 AP total) and Forge Weapons (+1 damage) for a one-turn demolition setup on a key combat unit.
 
@@ -109,13 +117,35 @@ Target friendly unit's melee attacks gain **+1 S, +1 AP, and Magical Attacks** (
 
 | CV | Range | Type |
 |----|-------|------|
-| 9 | 18" | Hex, Summoning |
+| 13 | 18" | Hex, Summoning |
 
 Target enemy unit's melee attacks **permanently suffer +1 AP** (AP -3 becomes AP -2; AP -1 becomes AP 0; AP 0 stays AP 0, since AP cannot go positive). Per Summoning rules (§7.3), this effect cannot be dispelled after the cast-turn reaction has passed.
 
-The unit's blades turn leaden — strikes still land, but find less purchase. Pairs with Rust for a permanent offence-and-defence downgrade of the same target: one spell corrodes their armour, the other softens their edge.
+The unit's blades turn leaden — strikes still land, but find less purchase. Pairs with Rust for a permanent offence-and-defence downgrade of the same target: one spell corrodes their armour, the other softens their edge. Very-strong-for-tier — game-long permanent weapon debuff. CV held at the high end of Advanced to match Rust's calibration as Basic-top permanent debuff.
 
-> **Design note on Metal.** Metal is the *armour-and-weapon* lore — its mechanical grip is metal itself, everywhere on the battlefield. Two permanent Summoning debuffs (Rust and Transmutation of Lead) let Metal leave lasting scars that other lores don't match. The Armour-Seeking mechanic (Searing Doom, Final Transmutation) creates an anti-armour identity distinct from Heavens' Lightning Attacks (which ignores armour entirely): Armour-Seeking *uses* armour as the wound vector rather than bypassing it. Armour-buffing (Glittering Robe) and weapon enchantment (Enchanted Blades, Forge Weapons, Spirit of the Forge) complete a lore that treats metal both as the enemy's weakness and the ally's strength. Where Fire burns through fear of destruction, Metal corrodes the trust soldiers place in their own gear.
+#### Master (Tier 4) — Lore Access 4+
+
+**Storm of Iron**
+
+| CV | Range | Type |
+|----|-------|------|
+| 18 | 24" | Direct Damage, Instant |
+
+Target enemy unit suffers **2D6 hits** at **S 6, AP -2, D 2, Magical Attacks, Armour-Seeking** (see §8 — each hit wounds if the to-wound D6 roll is equal to or greater than the model's unmodified worn armour save value). Models with **no worn armour cannot be wounded** by this spell. The wizard reaches into the target unit and turns every plate, helm, and buckler into a guided projectile striking inward.
+
+Apex single-target Metal damage. The "Armour-Seeking only wounds armoured models" framing is identity-defining — Metal punishes armour, doesn't burn flesh. Devastating against armoured elite (Bretonnian Knights, Chaos Warriors, character bunkers in heavy plate); inert against unarmoured (peasants, beastmen, skirmishers, naked beasts). CV 18 reflects the raw output ceiling against the targets the spell is designed to crack — 2D6 hits at S6 D2 with Armour-Seeking through 2+ plate is more wounds than any Heavens or Fire single-target spell against the same target.
+
+**Iron Aegis** *(RIP, aura)*
+
+| CV | Range | Type |
+|----|-------|------|
+| 16 | 18" (self-radius) | Augment (aura), Remains In Play |
+
+*Remains In Play.* While in play, all friendly units wholly within **18"** of the caster gain **+1 to their armour save** (max 2+, per §8 Armour Save Stacking) for as long as the spell remains in play. A unit with no armour save gains **6+** instead.
+
+Single rule. Scales Glittering Robe (Basic, single-target +1 armour, until-next-turn) up to army-wide RIP. Mirrors how the other lore Master Bs scale a lower-tier signature to army-wide-persistent (Reading of the Stars, Pha's Vigil, Pall of Doom, Mantle of the Beasts, Cloak of Mirrors all follow this pattern). Caster has to commit a position near the line for the aura to cover the army's main body; RIP makes it dispellable.
+
+> **Design note on Lore of Metal.** Range identity is **mid-range** — 18" baseline almost throughout, since metal-mastery requires the wizard to "feel" the metal at moderate distance. **Lodestone (Int) and Storm of Iron (Master) push to 24"** as the lone projectile-archetype exceptions: a guided lodestone-bolt is *attracted* to its target across the field, where the lore's other spells require closer metal-mastery. CV calibration after this pass: Sig 6 (Galvanic Resonance Lore Attribute gives +1 cast vs heavy armour, so Searing Doom is more reliable in target conditions). Basic 7-10 with **Rust** at the top of band as a near-Intermediate-strength *permanent* armour debuff. Intermediate 10-11 with Lodestone (heavy precision missile), Corroded Edge (categorical AP debuff), and the new Forgemaster's Demand (-2 worn armour temporary) anchoring the band. Advanced 13-14, with **Transmutation of Lead** sharply pushed (was 9, now 13) to match Rust's calibration as a permanent Summoning debuff at Adv tier; Final Transmutation at the cap. Master 16-18: **Storm of Iron** for apex single-target Armour-Seeking damage, **Iron Aegis** for persistent army-wide armour buff. Lore identity: Metal remains the *armour-and-weapon* lore — two permanent Summoning debuffs (Rust, Transmutation of Lead) leave lasting scars no other lore matches; the Armour-Seeking mechanic (Searing Doom, Final Transmutation, Storm of Iron) creates an anti-armour identity distinct from Heavens' Lightning Attacks (which *ignores* armour); armour-buffing (Glittering Robe, Iron Aegis) and weapon enchantment (Enchanted Blades, Forge Weapons, Spirit of the Forge) complete a lore that treats metal both as the enemy's weakness and the ally's strength. Lore Attribute (Galvanic Resonance) remains unchanged.
 
 ---
 
