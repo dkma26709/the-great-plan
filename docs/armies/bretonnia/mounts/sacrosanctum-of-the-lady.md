@@ -10,5 +10,3 @@ The Lady's holiest battlefield platform — a ceremonial wagon drawn by harnesse
 > **Why deferred:** the Sacrosanctum requires (a) a Chariot / wagon unit-type that we haven't drafted (no other Bretonnian unit uses one, and no other faction in the ruleset has one yet), (b) Mixed Unit mechanics for the Prophetess + Grail Damsel pair, and (c) sacred-aura mechanics that may want their own §8 entry. Drafting any one of these three independently is a multi-decision design pass; combining all three for a single mount option would over-extend the current commit. The list-build option is reserved (cost 120 pts) but the mechanical resolution is pending — flagged in the §17 outstanding-stragglers list.
 
 ---
-
-*This document is a working draft for discussion. Nothing is final.*
