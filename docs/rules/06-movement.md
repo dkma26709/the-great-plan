@@ -222,4 +222,33 @@ Packing units tightly in depth becomes a real liability under this rule: a singl
 
 A charger may adjust its direction of travel by up to 45° during the charge path to find a good angle of contact or avoid terrain. Charge distance is measured along the wheel path. Wheeling does not change the charge arc.
 
+### Terrain
+
+Terrain features may carry one or more keywords that govern how models interact with them. The full system-wide Terrain framework (forests, hills, water, walls, line of sight blocking, charge interactions, etc.) is **pending a dedicated audit pass**; this initial section locks down only the specific Terrain keywords already referenced by drafted rules. Future terrain keywords (Cover, Difficult Terrain formal definition, Impassable Terrain interaction details, etc.) will be added as required.
+
+#### Dangerous Terrain
+
+A terrain feature with the **Dangerous Terrain** keyword imposes a per-model risk on units that move recklessly through it.
+
+When any model in a unit **Marches into** or **Charges through** a Dangerous Terrain feature, that model must immediately take a **Dangerous Terrain Test**:
+
+1. Roll a **D6**
+2. On a **1**, the model takes **1 wound** with **no saves allowed** (no Armour, no Ward, no Regeneration). The wound is environmental damage — sharpened stakes, lava bursts, collapsing scree, caltrops — not a weapon or magical attack, and no defensive layer applies
+3. On a **2-6**, the model is unhurt
+
+Each model in the unit tests independently. A 10-model unit charging through stakes makes 10 tests (each a 1-in-6 chance for that model to take a wound), averaging ~1.7 wounds across the unit.
+
+**Trigger granularity.** The test fires once per model per crossing. A unit that Marches into and out of the feature in a single move tests each model once. A unit that ends a March on the feature tests on entry; if it later leaves the feature on a subsequent movement, it tests again. **Advance** moves do NOT trigger Dangerous Terrain — the unit is moving carefully and avoids the hazards. Only **March** and **Charge** actions trigger the test (the unit is moving recklessly, fast enough to crash into stakes / step on caltrops / fall into pits).
+
+**Bypassed by:**
+- **Fly** (per §8) — flying movement passes over the ground feature entirely; no Dangerous Terrain test triggered
+- **Strider (X)** keyword where X matches the terrain type (e.g., **Strider (Stakes)**, **Strider (Lava)**, **Strider (Forest)**) — models with the matching Strider keyword skip the test for that terrain type
+- Specific exemptions on individual unit profiles
+
+**Common applications:**
+- **Defensive Stakes** (Bretonnian Longbowmen, §17) — peasant levies plant stakes at deployment; the staked band is Dangerous Terrain (Stakes type)
+- Future applications: trap-pits, caltrops, lava streams, sharpened spike-fields, magically-summoned hostile terrain, spell-summoned environmental hazards
+
+**Damage profile.** Default Dangerous Terrain inflicts **1 wound on a roll of 1** with no save. Specific terrain types may override the threshold (e.g., a particularly hazardous lava field might wound on a roll of 1-2; a mild caltrop field might wound on a roll of 1 only on March, not on Charge). Default applies when no override is specified.
+
 ---

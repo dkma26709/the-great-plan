@@ -27,10 +27,11 @@ FACTION_DIR = {
     "14": "armies/empire",
     "15": "armies/ogre-kingdoms",
     "16": "armies/vampire-counts",
+    "17": "armies/bretonnia",
 }
 
 GENERAL_LORES = {"Heavens", "Beasts", "Fire", "Light", "Life", "Death", "Shadow", "Metal"}
-FACTION_LORES = {"Geomancy", "Cosmic Architecture", "Necromancy"}
+FACTION_LORES = {"Geomancy", "Cosmic Architecture", "Necromancy", "the Lady"}
 
 UNIT_SUBSECTIONS = {
     "Core Units": "core",
@@ -55,6 +56,7 @@ WIPE_DIRS = [
     "armies/empire",
     "armies/ogre-kingdoms",
     "armies/vampire-counts",
+    "armies/bretonnia",
 ]
 
 

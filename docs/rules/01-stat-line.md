@@ -25,15 +25,15 @@
 
 ### Magical Profile (wizards only, separate from stat line)
 
-| Stat | Description |
-|------|-------------|
-| Cast Base | Fixed Cast Dice contributed to the wizard's personal Cast pool each Magic phase |
-| Dispel Base | Fixed Dispel Dice contributed to the wizard's personal Dispel pool each Magic phase |
-| Channelling | Number of D6s the wizard rolls at phase start; each result of **5+** generates one extra die, placed (player's choice) into this wizard's Cast *or* Dispel pool |
-| Cast Bonus | Modifier to cast rolls. Total effective Cast Bonus from all sources is capped at **+5** |
-| Dispel Bonus | Modifier to dispel rolls. Total effective Dispel Bonus (lead wizard + supporter contributions + item/spell bonuses) is capped at **+5** |
-| Dispel Range | Maximum range at which a wizard may act as lead dispeller or contribute dice to a dispel |
-| Lore Access | Highest spell tier accessible, per lore |
+| Stat | Abbr | Description |
+|------|------|-------------|
+| Cast Base | CaB | Fixed Cast Dice contributed to the wizard's personal Cast pool each Magic phase |
+| Dispel Base | DiB | Fixed Dispel Dice contributed to the wizard's personal Dispel pool each Magic phase |
+| Channeling | Ch | Number of D6s the wizard rolls at phase start; each result of **5+** generates one extra die, placed (player's choice) into this wizard's Cast *or* Dispel pool |
+| Cast Bonus | CB | Modifier to cast rolls. Total effective CB from all sources is capped at **+5** |
+| Dispel Bonus | DB | Modifier to dispel rolls. Total effective DB (lead wizard + supporter contributions + item/spell bonuses) is capped at **+5** |
+| Dispel Range | DR | Maximum range at which a wizard may act as lead dispeller or contribute dice to a dispel |
+| Lore Access | LA | Highest spell tier accessible, per lore |
 
 See §7.3 (Magic Phase) for full rules.
 

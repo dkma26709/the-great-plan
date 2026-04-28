@@ -8,6 +8,7 @@ The factions drafted so far. Each army has its own section with faction-specific
 - *Empire* — drafted; pages in progress
 - *Ogre Kingdoms* — drafted; pages in progress
 - *Vampire Counts* — drafted; pages in progress
+- **[Bretonnia](bretonnia/index.md)** — feature-complete chivalric faction; cavalry-dominant, faith-blessed, with full vow ladder and Lore of the Lady
 
 Each faction has a distinct mechanical paradigm:
 
@@ -17,3 +18,4 @@ Each faction has a distinct mechanical paradigm:
 | Empire | Combined-arms (gunpowder + lance + cannon + magic) | Worn armour stacking + Stubborn discipline | Specialist (single Wind per wizard) |
 | Ogre Kingdoms | Bull Charge + Mighty Blow + high A | High W + low save (absorb, don't deflect) | Native dual-lore (Maw + Beasts) |
 | Vampire Counts | Killing Blow + Bloodline Powers | Resurrection economy (raise faster than killed) | Multi-axis intrinsic (Death + Necromancy + Shadow) |
+| Bretonnia | Heavy Lance charge + Lance Formation wedge multiplier | Blessing of the Lady (variable Ward) + chivalric Vow ladder | Single-faction lore (Lady's Chosen only) |

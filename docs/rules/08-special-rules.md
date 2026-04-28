@@ -245,7 +245,9 @@ A weapon with Multiple Shots (X) and this rule **ignores the -1 to-hit penalty f
 
 #### Volley Fire
 
-Models in a unit armed with weapons that have Volley Fire may shoot even if their line of sight is **blocked by other models in their own unit**. Weapons must still be within range and the target must be in the model's arc. Enemy units and terrain continue to block LOS normally. Represents archers firing in a high arc over the heads of their front rank — massed bow armies, deep-formation shooting.
+Models in a unit armed with weapons that have Volley Fire may shoot even if their line of sight is **blocked by other models in their own unit**, at an **additional -1 to hit** for the volley shot. Weapons must still be within range and the target must be in the model's arc. Enemy units, friendly *other* units, and terrain continue to block LOS normally — Volley Fire bypasses own-unit blockage only.
+
+Per-model decision: each model in the unit independently chooses whether to Volley Fire (taking the -1 to hit) or shoot normally (only available if LiS is unblocked through standard means). Front-rank models with clear LiS typically shoot normally; rear-rank models obscured by their own front rank typically Volley Fire. Represents archers firing in a high arc over the heads of their own front rank — massed bow armies, deep-formation shooting. The -1 to hit captures the loss of precision when shooting indirectly without a clear line on the target.
 
 #### Indirect Fire
 
@@ -402,6 +404,23 @@ A package rule representing light horse, swift scouts, and mobile harassers. A u
 - **Flee reaction** — when charged, the unit may declare **Flee** as its charge reaction instead of Stand and Shoot. It immediately makes a free move of **M + D6 directly away** from the charger. If the charger can no longer reach, the charge fails. A unit that Flees this way does not become Broken, takes no stress from the Flee itself, and operates normally on subsequent turns. Coherency must be maintained — if the Flee move cannot end in a legal formation, it is limited to whatever distance is legal
 
 Fast Cavalry and Skirmishers (Loose formation) share free-pivots by design — both are evasion-oriented archetypes. A single unit may have both if thematic (mounted skirmishers). The Flee reaction is distinct from Elusive's 2" reactive scramble; a unit could have both, using Elusive for quick sidesteps and Flee as a genuine retreat from an overwhelming charge. Fast Cavalry still pays the standard **-1 to hit for moving-and-shooting** (see §7.4) — the package confers positioning advantages, not shooting advantages.
+
+#### Barding (mounts)
+
+Barding is heavy fabric or metal armour fitted to a mount. A barded mount gains both an armour benefit and a movement penalty:
+
+- **Armour Save:** +1 step (per Armour Save Stacking, §8 Defence)
+- **Movement:** the mount's M is reduced by **2** for the additional weight (e.g., a Warhorse at M 10 baseline becomes M 8 when barded)
+
+The M penalty applies to all movement — Advance, March, Charge, Flee — and is calculated from the mount's profile M before any other modifier. Negated by **Purebred Warhorse** (below) and any other rule that explicitly waives barding's M penalty.
+
+For Rider-and-Mount profiles, the unit's effective M is the mount's M; the barding penalty therefore reduces the unit's movement directly. A character or rider profile is unaffected on foot (foot-profile M does not interact with mount barding).
+
+#### Purebred Warhorse
+
+A model with this special rule does **not** suffer the M penalty for being barded. Bretonnian destriers are bred and conditioned over generations to bear the weight of full barding without losing pace; common warhorses are not. The Armour Save bonus from barding still applies normally — only the M penalty is waived.
+
+Granted to specific Bretonnian mount profiles (see §17). The rule has no effect on a mount without barding (there is no penalty to negate).
 
 #### Random Movement (XDY)
 
