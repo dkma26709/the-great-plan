@@ -5,11 +5,11 @@
 
 | M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 4 | 4 | 4 | 3 | 3 | 3 | 1 | 4 | 9 | 1 | 1 |
+| 4 | 4 | 4 | 3 | 3 | 3 | 1 | 4 | 10 | 1 | 1 |
 
-**Heft calibration:** WS 4 / I 4 inherited from WFB — Greatswords are genuinely trained soldiers, not militia. **Res 8 → 9** matches Empire elite-tier (Knights, Inner Circle). All other stats unchanged from reference.
+**Heft calibration:** WS 4 / I 4 inherited from WFB — Greatswords are genuinely trained soldiers, not militia. **Res 9 → 10** (pass 2, 2026-04-30): the State Troops baseline shifted to Res 9, and Greatswords sit one tier above (matching the Imperial Knight + Inner Circle elite-tier convention at Res 10). Captures the lore-canonical "exceptional for human infantry" framing — Greatswords are the Empire's pinnacle of mortal-veteran morale resilience. All other stats unchanged from reference.
 
-**Points:** 12 per model
+**Points:** 14 per model
 
 - **Keywords:** Empire, Human, Infantry, Special, State Troops
 - **Unit type:** Infantry

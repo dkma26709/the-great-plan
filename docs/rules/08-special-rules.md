@@ -67,7 +67,7 @@ Cross-faction reference for which units carry **Disciplined** / **Undisciplined*
 | Faction | Disciplined units | Undisciplined units | Cold-Blooded units |
 |---------|-------------------|----------------------|---------------------|
 | **Lizardmen / Seraphon** | Saurus Warriors, Saurus Temple Guard, Saurus characters (Oldblood, Scar-Veteran), Aggradon Lancers, Horned One Riders | — | **All Lizardmen units** (faction-wide trait — Saurus, Skink, Kroxigor, Saurian beasts, Slann) |
-| **Empire** | Greatswords, Reiksguard, Imperial Knights, Demigryph Knights, Wizard Lord, Imperial General, Empire characters | Empire State Troops Halberdiers / Handgunners (neutral — drilled, but not elite-tier; baseline D3) | — |
+| **Empire** | All State Troops (Halberdiers, Handgunners, Swordsmen, Spearmen, Crossbowmen — drilled-daily professional standing army), Greatswords, Reiksguard, Imperial Knights, Demigryph Knights, Wizard Lord, Imperial General, Empire characters | — | — |
 | **Bretonnia** | Knights of the Realm, Knights Errant, Questing Knights, Pegasus Knights, Bretonnian Lord, Paladin, Damsel, Prophetess | Men-at-Arms, Longbowmen, Bidowers, Field Trebuchet crew | — |
 | **Ogre Kingdoms** | Tyrant, Bruiser, Slaughtermaster (commander tier — drilled by violence rather than discipline) | Ogre Bulls (rabble), Gnoblar units (when drafted) | — |
 | **Vampire Counts** | Vampire Lord, Vampire characters, Grave Guard | Skeleton Warriors, Zombies (rabble baseline; Undead-specific morale rules layer on top) | — |
@@ -85,7 +85,7 @@ Cross-faction reference for which units carry **Disciplined** / **Undisciplined*
 - **Slann** = Cold-Blooded only = net -1 (toad-cold metabolism; Recovery -1 on a Lord-tier Resolve floor)
 - **Bretonnian Knights** = Disciplined = net +1 (D3 + 1)
 - **Bretonnian Men-at-Arms** = Undisciplined = net -1
-- **Empire State Troops** = neutral = D3 baseline
+- **Empire State Troops** = Disciplined = net +1 (D3 + 1) — all five State Troops (Halberdiers, Handgunners, Swordsmen, Spearmen, Crossbowmen) carry Disciplined per pass 2; daily-drilling lore captured. State Troops rule (reroll near General/BSB) layers on conditionally
 - **Empire Greatswords** = Disciplined + Professional Soldiers (auto-reroll) = effectively very high Recovery floor
 - **Chaos Warriors** = Will of Chaos (reroll recovery) = effective +1 Recovery via reroll, Disciplined would double-up; leaving neutral baseline avoids the stack
 

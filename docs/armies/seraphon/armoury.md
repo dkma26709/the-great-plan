@@ -98,9 +98,11 @@ The Razordon bristles with retractable quills that it can fire as a storm of bar
 
 #### Moonstone Club
 
-**3" reach | +2 S | AP -2 | D2 | Two-handed (cannot combine with shield in melee)**
+**3" reach | Wide-Arc Swings (see below) | +2 S | AP -2 | D D3 | Two-handed (cannot combine with shield in melee)**
 
 A huge fossil-stone maul wielded in both hands by Kroxigor — the head alone weighs more than a man, chipped and chiselled from a single slab of moonstone found in the deep pits. The extended reach lets a Kroxigor strike over the front rank of a friendly unit; the Strength bonus turns a S5 Kroxigor into a S7 engine of destruction, cleaving through armour and bone alike. Paired thematically with the smaller Skink Moonstone Javelin — shared stone-armoury tradition between the cold-blooded cousins.
+
+**Wide-Arc Swings:** when a Kroxigor attacks with the Moonstone Club, its **A equals the number of enemy models in base contact within the Club's 3" reach in the Kroxigor's front arc**, **minimum A 2**, **maximum A 6**. Captures the lore-perfect sweeping motion of a Kroxigor swing — "easily reach over any intervening Skinks, allowing the reptilian giants to pulp more than their share of any foe" + "splatter a man-sized creature beyond all recognition." A 2 minimum: a Kroxigor focused on a single tough target still swings hard. A 6 maximum: the physical arc-radius of a swing has a practical upper bound — the Kroxigor pivots through a wide rotation but can't strike all 360° in a single motion. **D D3** captures multi-wound impact against larger foes (Carnosaur, Oldblood, multi-W cavalry) while averaging D 2 against rank-and-file.
 
 #### Ancient Weapons
 

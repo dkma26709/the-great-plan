@@ -30,6 +30,7 @@
   - If no charge is possible (no visible enemy within charge range), the Carnosaur instead gains **+1 stress** and may not Advance or March this Movement phase (it stalks restlessly, scanning for prey).
   
   While within **18" of a friendly Slann**, **no Untamed roll is required** — the Slann's psychic leash holds the Carnosaur fully bound. Reliable when the Slann is near, unpredictable when isolated. Mechanically reinforces the Slann + Wild-Carnosaur deployment pattern; the lore-framing of "Slann's will compels the beast" is enacted directly through the rule.
+- **Locked Jaws** *(Lizardmen biology — soft inherit from Saurus species pass 2)* — if this Carnosaur is reduced to 0 W *during the Combat phase*, before being removed it makes **1 final Massive Jaws attack** against the model that scored the killing blow (or the closest enemy model in base contact, if the killing attacker is out of base contact). Single attack — no Predatory Fighter cascade on the death-bite, no Pinned Prey or Apex Predator interaction (the dying beast manages one last reflexive snap, not a calculated bite). Lore: severed reptilian heads keep snapping; even in death the apex predator's jaws still close on the killer.
 - **Degrading** *(3-tier damage table, inherited)* — see table below
 
 **Weapon profiles:**
