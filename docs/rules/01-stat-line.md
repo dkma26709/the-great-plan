@@ -4,15 +4,18 @@
 | Stat | Abbr | Description |
 |------|------|-------------|
 | Movement | M | Base movement in inches |
-| Weapon Skill | WS | Melee combat ability |
+| Weapon Skill (Attack) | WS-A | Skill at striking enemies in melee |
+| Weapon Skill (Defence) | WS-D | Skill at avoiding being struck in melee |
 | Ballistic Skill | BS | Ranged combat ability |
 | Strength | S | Raw hitting power |
 | Toughness | T | Physical resilience |
 | Wounds | W | Damage each model can absorb — used freely for flavour, not locked to 1 for infantry |
 | Initiative | I | Determines strike order in combat |
-| Leadership | Ld | Resistance to stress and morale effects |
+| Resolve | Res | Resistance to stress and morale effects |
 | Line of Sight | LiS | Size/visibility for LoS calculations (see §7.4) |
 | Unit Strength | US | Physical presence and mass of one model. See below |
+
+**Note on the WS-A / WS-D split:** Weapon Skill is split into two stats — **WS-A** (the attacker's skill at landing blows) and **WS-D** (the defender's skill at avoiding them). The §3 To Hit (Melee) table compares **attacker's WS-A vs defender's WS-D**. Always display both values on a profile (e.g., `WS-A 4 / WS-D 4`) even when symmetric, so the architecture is visible. Asymmetric profiles capture lore-distinct combat archetypes — frenzied glass-cannons (high WS-A / low WS-D), evasive skirmishers (low WS-A / high WS-D), bred-warrior moderate-attacker / lower-defender (Saurus), apex predators with heavy committed motion (Carnosaur high WS-A / moderate WS-D), and so on.
 
 **Attacks are a weapon property, not a stat.** The number of attacks a model makes is defined per-weapon on the weapon profile, not on the stat line. A model with three weapon profiles (e.g., a Monster's natural weapons plus a howdah-mounted ranged weapon) has three independent Attack values. This keeps multi-weapon units cleanly expressible and prevents double-counting across attack modes. When a weapon is used, the model makes the Attacks listed on that weapon's profile, resolved at the weapon's own S, AP, D, and any special rules.
 
@@ -21,7 +24,7 @@
 | Stat | Description |
 |------|-------------|
 | Armour Save (AS) | Base save from armour and natural scales |
-| Ward Save (WS) | Unmodifiable save (magical protection, blessed, etc.) |
+| Ward Save | Unmodifiable save (magical protection, blessed, etc.) — referred to as "Ward (X+)" in body text; no abbreviation reused |
 
 ### Magical Profile (wizards only, separate from stat line)
 
@@ -89,7 +92,7 @@ Units whose models consist of a rider and a mount (Cavalry, Monstrous Cavalry, C
 | **An attack against the model** | Attacker's to-hit uses the **highest WS** of rider or mount. To-wound uses the **highest T** |
 | **Armour save** | The model's combined save (natural armour from the mount + any worn armour + shield), per §8 Armour Save Stacking |
 | **Wounds** | **Pooled** — the model's wound pool equals rider's W + mount's W. When the combined pool reaches zero, the model is removed |
-| **Leadership and stress** | The **rider's Ld** (the rider commands the mount); stress is tracked at the unit level |
+| **Resolve and stress** | The **rider's Res** (the rider commands the mount); stress is tracked at the unit level |
 | **LiS, US** | Listed on the unit-level entry (not per-profile) — representing the combined model's size and mass |
 
 **Allocating wounds.** Wounds removed from the model are taken from the combined pool. When it reaches zero, the model is removed — there is no bookkeeping distinction between "rider killed" and "mount killed" for game purposes, unless a specific effect references one of them independently (e.g., a spell that targets the mount alone); in such cases the effect's text is authoritative and a separate wound pool may be tracked as the rule directs.

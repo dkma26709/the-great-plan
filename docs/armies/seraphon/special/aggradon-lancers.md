@@ -5,15 +5,15 @@
 
 **Rider (Crested Saurus):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 4 | 4  | 0  | 4 | 4 | 2 | 2 | 10 |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 4 | 4 | 4 | 0 | 4 | 4 | 2 | 2 | 10 |
 
 **Mount (Aggradon):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 7 | 3  | 0  | 5 | 5 | 4 | 2 | 3  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 7 | 3 | 3 | 0 | 5 | 5 | 4 | 2 | 3 |
 
 **Unit-level:**
 
@@ -42,8 +42,9 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Celestite Spear** *(rider option, 1H with shield)* — 2" reach | **A 2** | S 4 (+1 I baseline) | D 1 | On charge (front arc): +1 S, AP -1 | Against Cavalry / Monstrous Cavalry / Warbeast / Monster / Chariot: Damage 2 (see Armoury)
+- **Saurus Jaws** *(rider natural, always — front-rank only)* — **0.5" reach** | **A 1** | S 4 | AP 0 | D 1 — the Crested Saurus rider's own jaws; resolved at the rider's WS 4 / I 2. Distinct from the Aggradon's bite below — this is the rider snapping at anything that gets close enough, while the mount tears with its own substantially nastier maw `[Natural]`
+- **Celestite Spear** *(rider option, 1H with shield)* — 2" reach | **A 2** | S 4 (+1 I baseline) | D 1 | On charge (front arc): +1 S, AP -1 | Against Cavalry / Monstrous Cavalry / Warbeast / Monster / Chariot: Damage 2 (see Armoury) `[1H Reach]`
 - **Celestite Club** *(rider option, 1H with shield)* — 1" reach | **A 2** | S 4 | AP -1 | D 1 | On charge: +1 S, AP -2, D 2 | Against W 3+ targets: +1 Damage (see Armoury)
-- **Aggradon's Rending Bites and Striking Talons** *(mount natural, each model)* — 1" reach | **A 3** | S 5 | AP -2 | D 2 — resolved at mount WS 3, I 2
+- **Aggradon's Rending Bites and Striking Talons** *(mount natural, each model)* — 1" reach | **A 3** | S 5 | AP -2 | D 2 — resolved at mount WS 3, I 2 `[Natural]`
 
-> **Lore notes:** Replaces the legacy Cold One Riders as the heavy Saurus cavalry Special slot — Aggradons are the current-edition mounts, with proper models and an identity that doesn't lean on a Stupidity mitigation scaffold. Saurus rider stats match the Saurus Warriors baseline (W2, Ld10, T4) with Stubborn + Predatory Fighter inherited from the Saurus keyword. The Aggradon's W4 brings pooled durability to W6 per model, priced through the quadratic wound factor at ~120 pts. Blood Frenzy is the identity rule — a one-way trip into committed aggression. Once the first unsaved wound is dealt, the unit cannot be held back; the mount is decides for everyone. Against elite targets and large prey especially, Aggradon Lancers are designed to commit fully and finish what they start.
+> **Lore notes:** Replaces the legacy Cold One Riders as the heavy Saurus cavalry Special slot — Aggradons are the current-edition mounts, with proper models and an identity that doesn't lean on a Stupidity mitigation scaffold. Saurus rider stats match the Saurus Warriors baseline (W2, Res10, T4) with Stubborn + Predatory Fighter inherited from the Saurus keyword. The Aggradon's W4 brings pooled durability to W6 per model, priced through the quadratic wound factor at ~120 pts. Blood Frenzy is the identity rule — a one-way trip into committed aggression. Once the first unsaved wound is dealt, the unit cannot be held back; the mount is decides for everyone. Against elite targets and large prey especially, Aggradon Lancers are designed to commit fully and finish what they start.

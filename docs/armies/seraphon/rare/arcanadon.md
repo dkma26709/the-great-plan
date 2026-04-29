@@ -5,17 +5,17 @@
 
 **Arcanadon (Beast):**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 6 | 3  | 0  | 6 | 6 | 14| 1 | 6  | 5   | =W |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 6 | 3 | 3 | 0 | 6 | 6 | 14 | 1 | 6 | 5 | =W |
 
 *Arcanadon US equals current remaining W per the Monster-US convention. **A is on weapons** (see profiles below) — no Attack stat on the profile line.*
 
 **Skink Crew (×3, fixed — fires the Power of the Ancients relic):**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| — | 3  | 3  | 3 | 2 | 1 | 4 | 6  | 1   | 1  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| — | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 
 *Skink Crew share the Arcanadon's M (they ride the howdah). Crew **do not have Aquatic** (the Arcanadon is a dry-land sauropod, not a swimmer — per the Skink-on-mount rule).*
 
@@ -41,10 +41,10 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Crushing Bulk** *(Arcanadon natural, always-available)* — 1" reach | **A D6** | S 6 | AP -1 | D 1 — sauropod mass plodding forward, stepping on things, knocking formations aside
-- **Bone-Crushing Tail** *(Arcanadon natural, rear arc only)* — 3" reach | **A 3** | S 6 | AP -2 | D D3 — the tail whips faster than anything of that size has any right to; keeps flankers honest with heavy, armour-piercing strikes
+- **Crushing Bulk** *(Arcanadon natural, always-available)* — 1" reach | **A D6** | S 6 | AP -1 | D 1 — sauropod mass plodding forward, stepping on things, knocking formations aside `[Natural]`
+- **Bone-Crushing Tail** *(Arcanadon natural, rear arc only)* — 3" reach | **A 3** | S 6 | AP -2 | D D3 — the tail whips faster than anything of that size has any right to; keeps flankers honest with heavy, armour-piercing strikes `[Natural]`
 - **Power of the Ancients — Cannon** *(howdah relic, Skink Crew fire once per Shooting phase)* — **24" range | Small Round Template | Magical Attacks | Flaming | Scatter (Artillery Die) (see §8)**. All models under the final template position suffer a hit at **S 5 | AP -2 | D D3**. Place the Small Round Template anywhere within 24" of the Arcanadon; roll scatter die + Artillery Die per §8. On a **MISFIRE** result the cannon fails to discharge this phase (no self-damage — the engine simply does not respond). The shot is resolved using the Skink Crew's BS (the Crew do the aiming).
-- **Hand weapon** *(Skink Crew self-defence)* — 1" reach | **A 1** | AP 0 | D 1
+- **Hand weapon** *(Skink Crew self-defence)* — 1" reach | **A 1** | AP 0 | D 1 `[1H Blade]`
 
 **Damage Table (Degrading):**
 

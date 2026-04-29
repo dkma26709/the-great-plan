@@ -3,9 +3,9 @@
 
 > Wights — warriors whose souls never passed on, who linger in their barrows wielding the same weapons they were buried with. Elite undead infantry: heavier armour, sharper weapons, **Killing Blow** on Wight Blades (the ancient weapons still carry the magic of their original wielders). Serve as the Vampire's personal guard, the elite counter-punch to enemy breakthroughs. Where Skeletons are fodder, Grave Guard are killers — drilled in life, deadly in undeath.
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 4 | 3  | 3  | 4 | 4 | 1 | 3 | 6  | 1   | 1  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 4 | 3 | 3 | 3 | 4 | 4 | 1 | 3 | 6 | 1 | 1 |
 
 **Points:** **12** per model
 
@@ -31,8 +31,8 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Wight Blade** *(default, 1H with shield)* — 1" reach | **A 1** | S 4 | AP -1 | D 1 | **Killing Blow** (see §8) — the ancient grave-bound weapons retain magical edges
-- **Polearm (Wight)** *(option, 1H with shield)* — 2" reach | A 1 | S+1 (= S 5) | AP -1 | D 1 | Killing Blow
-- **Great weapon (Wight)** *(option, 2H — no shield)* — 1" reach | A 1 | S+2 (= S 6) | AP -2 | D 1 | Killing Blow | Two-Handed
+- **Wight Blade** *(default, 1H with shield)* — 1" reach | **A 1** | S 4 | AP -1 | D 1 | **Killing Blow** (see §8) — the ancient grave-bound weapons retain magical edges `[1H Blade]`
+- **Polearm (Wight)** *(option, 1H with shield)* — 2" reach | A 1 | S+1 (= S 5) | AP -1 | D 1 | Killing Blow `[1H Reach]`
+- **Great weapon (Wight)** *(option, 2H — no shield)* — 1" reach | A 1 | S+2 (= S 6) | AP -2 | D 1 | Killing Blow | Two-Handed `[2H]`
 
-> **Lore notes:** Stats at WFB reference baseline — WS 3 / S 4 / T 4 / I 3 / Ld 6. No +1 heft bump on Ld (Undead intentional). Heavier kit than Skeletons — medium armour + shield baseline (4+ save), heavy-armour upgrade to 3+. **Killing Blow on all Wight weapons** is the unit identity — the ancient buried armaments carry magical edges, capable of cleaving any non-character single-wound target on a wound roll of 6 (per §8). Tests our keyword stacking — **Undead + Wight** sub-keyword interaction; future Wight-only banner effects or magic items can target the Wight keyword specifically. Points **12** per model — premium over reference 10 covers heft of save (4+ baseline vs reference 5+), Killing Blow on baseline equipment, and our Undead-keyword integration. Sits at the same per-model cost as Empire Greatswords (12 pts) but with W 1 (vs Greatswords' W 1) and Killing Blow as a major damage spike; balanced by lower Ld (6 vs Greatsword 9) and Crumble fragility.
+> **Lore notes:** Stats at WFB reference baseline — WS 3 / S 4 / T 4 / I 3 / Res 6. No +1 heft bump on Res (Undead intentional). Heavier kit than Skeletons — medium armour + shield baseline (4+ save), heavy-armour upgrade to 3+. **Killing Blow on all Wight weapons** is the unit identity — the ancient buried armaments carry magical edges, capable of cleaving any non-character single-wound target on a wound roll of 6 (per §8). Tests our keyword stacking — **Undead + Wight** sub-keyword interaction; future Wight-only banner effects or magic items can target the Wight keyword specifically. Points **12** per model — premium over reference 10 covers heft of save (4+ baseline vs reference 5+), Killing Blow on baseline equipment, and our Undead-keyword integration. Sits at the same per-model cost as Empire Greatswords (12 pts) but with W 1 (vs Greatswords' W 1) and Killing Blow as a major damage spike; balanced by lower Res (6 vs Greatsword 9) and Crumble fragility.

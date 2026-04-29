@@ -24,7 +24,7 @@ Pattern note: this is the **first Strength-variable Ward Save** in the ruleset. 
 
 The standard chivalric vow taken by every Bretonnian knight upon investiture. Confers eligibility for the **Blessing of the Lady** (see above) — that is the *entire* mechanical content of the Knight's Vow. It is a marker, not an active rule.
 
-Knight's Vow grants no Stubborn, no additional Ld, no other effect — those are reserved for the higher vows (Crusader's, Questing, Grail). The Blessing IS the vow's reward.
+Knight's Vow grants no Stubborn, no additional Res, no other effect — those are reserved for the higher vows (Crusader's, Questing, Grail). The Blessing IS the vow's reward.
 
 Pattern: a clean eligibility marker, tier 1 of the vow ladder.
 
@@ -103,7 +103,7 @@ Lance Formation is **no more sticky than Formed itself** — once the geometry i
 
 After the charge round, reach and AP revert to baseline. Lance Formation continues to count for any other rules that reference it (e.g., banner effects, magic items that interact with Lance), but the offensive bonuses fire only on the turn of the charge.
 
-**All Formed defensive benefits apply** — Lance *is* Formed, not a replacement for it. +1 Ld for stress thresholds (non-directional), charge resistance on the front arc (deny enemy +1 I), 2-CR absorb before stress — all apply normally while in Lance.
+**All Formed defensive benefits apply** — Lance *is* Formed, not a replacement for it. +1 Res for stress thresholds (non-directional), charge resistance on the front arc (deny enemy +1 I), 2-CR absorb before stress — all apply normally while in Lance.
 
 **Geometry note.** With +2" reach extension, knights in row 2 and row 3 can both strike at enemies in base contact with row 1 (the extended reach overcomes the rear-rank distance). A 6-model wedge thus produces all 6 weapon attacks on the charge round — 1 from the wedge tip + 2 from row 2 + 3 from row 3 — instead of the 1 front-rank attack a normal cavalry charge would generate. Larger wedges may have rear ranks (row 4, row 5, etc.) that still cannot reach even with the extension; the wedge geometry naturally caps strikes at the rows that fit within reach. The wedge maximises charge impact at the cost of fewer front-rank models in base contact (a 3-model-wide wedge produces only 1 front-rank attack post-charge, when reach reverts to baseline).
 

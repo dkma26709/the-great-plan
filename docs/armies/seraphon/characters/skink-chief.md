@@ -5,9 +5,9 @@
 
 **Skink Chief:**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 8 | 4  | 5  | 4 | 3 | 3 | 6 | 8  | 1   | 2  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 8 | 4 | 4 | 5 | 4 | 3 | 3 | 6 | 8 | 1 | 2 |
 
 **Points:** **85** base (on foot, with Blowpipe + hand weapon + shield)
 
@@ -29,12 +29,12 @@
 
 **Weapon profiles (A on weapons, all Poisoned Attacks if Jungle Poisons taken):**
 
-- **Hand weapon** *(default melee)* — 1" | **A 2** | S 4 | AP 0 | D 1
-- **Celestite Spear** *(option)* — 2" | A 2 | S 4 | AP -1 | D 1
+- **Hand weapon** *(default melee)* — 1" | **A 2** | S 4 | AP 0 | D 1 `[1H Blade]`
+- **Celestite Spear** *(option)* — 2" | A 2 | S 4 | AP -1 | D 1 `[1H Reach]`
 - **Additional Hand Weapon** *(option)* — adds +1 A to the hand weapon profile (A 3 total, no other change)
 - **Blowpipe** *(default ranged, see Armoury)* — 18" range | S 3 | AP 0 | D 1 | **Multiple Shots (2)** | Quick to Fire | Poisoned Attacks
 - **Moonstone Javelin** *(option)* — 8" range | S 4 | AP -1 | D 1 | Quick to Fire
 - **Skink Sling** *(option)* — 18" range | S 4 | AP -1 | D 1
 - **Shortbow** *(option)* — 18" range | S 3 | AP 0 | D 1
 
-> **Lore notes:** WS 4 (vs Skink Cohort 3) marks "aggressive by Skink standards" without overstepping into brawler tier. **BS 5 is the signature upgrade** — the Chief is the best-shot Skink in the army, literalising the scout-coordinator identity. S 4 / T 3 / I 6 stepped up moderately from Cohort baselines; W 3 tripled from Cohort W 1 for Hero durability. Ld 8 (vs Cohort 6) for Hero-tier Skink resolve. **Target Designation** is the everyday identity rule (fires every Shooting phase); **Scout** is the deployment-level expression. Both capture the "spot, alert, guide" lore mechanically. Points **85** base — a reliable command-and-coordination Hero at ~1/3 the cost of the Oldblood.
+> **Lore notes:** WS 4 (vs Skink Cohort 3) marks "aggressive by Skink standards" without overstepping into brawler tier. **BS 5 is the signature upgrade** — the Chief is the best-shot Skink in the army, literalising the scout-coordinator identity. S 4 / T 3 / I 6 stepped up moderately from Cohort baselines; W 3 tripled from Cohort W 1 for Hero durability. Res 8 (vs Cohort 6) for Hero-tier Skink resolve. **Target Designation** is the everyday identity rule (fires every Shooting phase); **Scout** is the deployment-level expression. Both capture the "spot, alert, guide" lore mechanically. Points **85** base — a reliable command-and-coordination Hero at ~1/3 the cost of the Oldblood.

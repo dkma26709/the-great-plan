@@ -5,9 +5,9 @@
 
 **Vampire:**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 6 | 5  | 4  | 4 | 4 | 4 | 6 | 9  | 1   | 2  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 6 | 5 | 5 | 4 | 4 | 4 | 4 | 6 | 9 | 1 | 2 |
 
 **Magic Profile (level-dependent):**
 
@@ -41,9 +41,9 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Hand weapon** *(default, 1H with shield)* — 1" reach | **A 3** | S 4 | AP 0 | D 1
-- **Great weapon** *(option, 2H — no shield)* — 1" reach | A 3 | S+2 (= S 6) | AP -2 | D 1 | Two-Handed
-- **Lance** *(option, mounted only)* — 2" reach | A 3 | charge: S+2, AP -2, D 2; subsequent: S+0, AP 0, D 1
-- **Bite** *(natural, always — once per melee round)* — 1" reach | **A 1** | S 4 | AP -1 | D 1
+- **Hand weapon** *(default, 1H with shield)* — 1" reach | **A 3** | S 4 | AP 0 | D 1 `[1H Blade]`
+- **Great weapon** *(option, 2H — no shield)* — 1" reach | A 3 | S+2 (= S 6) | AP -2 | D 1 | Two-Handed `[2H]`
+- **Lance** *(option, mounted only)* — 2" reach | A 3 | charge: S+2, AP -2, D 2; subsequent: S+0, AP 0, D 1 `[1H Lance]`
+- **Bite** *(natural, always — once per melee round)* — 1" reach | **A 1** | S 4 | AP -1 | D 1 — Hero-tier fanged strike; **feeding trigger** — an unsaved wound caused by this Bite triggers **Vampiric Hunger** (regen 1 W, capped 1 W/turn — see Faction Mechanics). The Hero vampire feeds through fang only, same as the Lord `[Natural]`
 
-> **Lore notes:** Stats per heft — WS 5 / BS 4 / S 4 / T 4 / I 6 / A 3 close to reference. **W 2 → 4** Hero-tier wound bump (vampires don't bulk up like Ogre Heroes, but supernatural toughness gives meaningful durability; revised 2026-04-25 from W 3 to W 4 per "+1 W to all §16 heroes" calibration call). **Ld 9 reference unchanged** — already high for a Hero. Combined 3+ save baseline (heavy armour + shield); great weapon swap to 4+. Magic profile is the Hero-caster ladder — Lvl 1 (Lore Access 1) baseline, Lvl 2 (Lore Access 2) upgrade for +30 pts. Single-lore (Necromancy) intrinsic — significantly less arcane breadth than Vampire Lord's three-lore access; this is the Hero/Lord magic-breadth differentiator. **Vampiric Hunger** intrinsic + **Bloodline Powers** menu = same identity-expression structure as Vampire Lord, scaled to Hero budget. Points **125** base — Hero-tier vampire pricing; sits between Captain of the Empire (80 pts, no caster) and Saurus Scar-Veteran (170 pts, Saurus apex Hero with Battlefield Growl). Per-model cost reflects W 4 + Lvl 1 Wizard + Vampiric Hunger + Bloodline Powers slot, scaled below the Vampire Lord by removing two lore-access tiers and reducing W / weapon-A.
+> **Lore notes:** Stats per heft — WS 5 / BS 4 / S 4 / T 4 / I 6 / A 3 close to reference. **W 2 → 4** Hero-tier wound bump (vampires don't bulk up like Ogre Heroes, but supernatural toughness gives meaningful durability; revised 2026-04-25 from W 3 to W 4 per "+1 W to all §16 heroes" calibration call). **Res 9 reference unchanged** — already high for a Hero. Combined 3+ save baseline (heavy armour + shield); great weapon swap to 4+. Magic profile is the Hero-caster ladder — Lvl 1 (Lore Access 1) baseline, Lvl 2 (Lore Access 2) upgrade for +30 pts. Single-lore (Necromancy) intrinsic — significantly less arcane breadth than Vampire Lord's three-lore access; this is the Hero/Lord magic-breadth differentiator. **Vampiric Hunger** intrinsic + **Bloodline Powers** menu = same identity-expression structure as Vampire Lord, scaled to Hero budget. Points **125** base — Hero-tier vampire pricing; sits between Captain of the Empire (80 pts, no caster) and Saurus Scar-Veteran (170 pts, Saurus apex Hero with Battlefield Growl). Per-model cost reflects W 4 + Lvl 1 Wizard + Vampiric Hunger + Bloodline Powers slot, scaled below the Vampire Lord by removing two lore-access tiers and reducing W / weapon-A.

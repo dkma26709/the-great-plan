@@ -107,9 +107,9 @@ Place a **large round template** anywhere within 18" of the caster; on initial p
 |----|-------|------|----------|
 | 13 | 18" | Augment | Until start of next turn |
 
-Target friendly unit uses its **Ld value instead of S** for wound rolls in melee combat until start of next turn. Armour and ward saves are unchanged; only the wound roll is boosted. The unit's blades strike with the weight of their will — minds sharpened into swords.
+Target friendly unit uses its **Res value instead of S** for wound rolls in melee combat until start of next turn. Armour and ward saves are unchanged; only the wound roll is boosted. The unit's blades strike with the weight of their will — minds sharpened into swords.
 
-A wild swing: S3 peasants with Ld 7 suddenly wound as if S7; a Loremaster character with Ld 10 wounds on 2+ against almost anything. Rewards well-led, high-Ld units (generals' regiments, veteran blocks) and makes an otherwise-average combat unit into a surgical cleaver for one brutal turn.
+A wild swing: S3 peasants with Res 7 suddenly wound as if S7; a Loremaster character with Res 10 wounds on 2+ against almost anything. Rewards well-led, high-Res units (generals' regiments, veteran blocks) and makes an otherwise-average combat unit into a surgical cleaver for one brutal turn.
 
 #### Master (Tier 4) — Lore Access 4+
 

@@ -5,9 +5,9 @@
 
 **Bretonnian Lord:**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 4 | 6  | 5  | 4 | 4 | 5 | 6 | 10 | 2   | 3  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 4 | 6 | 6 | 5 | 4 | 4 | 5 | 6 | 10 | 2 | 3 |
 
 **Points:** **170** base (on foot, hand weapon + heavy armour, Knight's Vow)
 
@@ -42,7 +42,7 @@
 - **Special rules:**
   - **Knight's Vow** (default — see §17 Faction Mechanics) — Blessing-eligibility marker. Replace with Crusader's / Questing / Grail Vow at list-build (see Vow upgrade options above)
   - **Blessing of the Lady** (intrinsic via the Vow — see §17) — Ward Save 6+ vs S ≤ 4, 5+ vs S ≥ 5, applying to rider and mount alike. Lost on flee from combat
-  - **Inspiring Presence (12")** *(intrinsic — see §8)* — the Bretonnian Lord is the army's nominated General by default; baseline §8 rule applies. Friendly Bretonnia units within 12" treat their Ld as the Lord's (10), enables rally without Leader, allows rally in combat, may reroll recovery / rally rolls
+  - **Inspiring Presence (12")** *(intrinsic — see §8)* — the Bretonnian Lord is the army's nominated General by default; baseline §8 rule applies. Friendly Bretonnia units within 12" treat their Res as the Lord's (10), enables rally without Leader, allows rally in combat, may reroll recovery / rally rolls
   - **Lance Formation eligible** (when mounted on Warhorse and attached to a KotR or Knights Errant unit per §1 Character Attachment Exception, §6) — counts as Lance per §17 Faction Mechanics
   - **Purebred Warhorse** (when mounted on Warhorse — see §8) — negates barding's -2 M penalty
   - **Class Barrier** *(clause of Peasant's Duty — interaction)* — this character cannot effectively attach to a peasant unit (Men-at-Arms, Longbowmen, Bidowers, Field Trebuchet) per the Peasant's Duty Class Barrier clause. The Lord can stand within 6" of a peasant unit to grant the Inspiring Presence aura, but loses Character Attachment shielding (per §6) when standing within the peasant unit's coherency
@@ -50,12 +50,12 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Hand weapon** *(default, 1H — pairs with shield if taken)* — 1" reach | **A 4** | S 4 | AP 0 | D 1
-- **Polearm (Bretonnian Bill)** *(option, foot only, 1H with shield)* — 2" reach | **A 4** | S+1 (= S 5) | AP -1 | D 1
+- **Hand weapon** *(default, 1H — pairs with shield if taken)* — 1" reach | **A 4** | S 4 | AP 0 | D 1 `[1H Blade]`
+- **Polearm (Bretonnian Bill)** *(option, foot only, 1H with shield)* — 2" reach | **A 4** | S+1 (= S 5) | AP -1 | D 1 `[1H Reach]`
 - **Heavy Lance** *(option, mounted only, 1H with shield)* — 2" reach | **A 4** | charge: S+2 (= S 6), AP -2, D 2; subsequent rounds: S+0 (= S 4), AP 0, D 1
-- **Great Weapon** *(option, 2H — no shield)* — 1" reach | **A 4** | S+2 (= S 6) | AP -2 | D 1 | Two-Handed
+- **Great Weapon** *(option, 2H — no shield)* — 1" reach | **A 4** | S+2 (= S 6) | AP -2 | D 1 | Two-Handed `[2H]`
 
-> **Lore notes:** **Stats one rung above Imperial General — combat-lord identity.** WS 6 / BS 5 / S 4 / T 4 / **W 5** / I 6 / Ld 10 / LiS 2 / US 3. The §17 heft note's original "Bretonnian Lord W 3 → 4" calibration was tuned to "match Imperial General / Wizard Lord" (W 4 baseline); we've revised upward to **W 5** because the Bretonnian Lord *leads from the front rank* in a way the Imperial General does not. Imperial General is the tactical-command anchor (typically holding back, directing units, surviving by distance); Bretonnian Lord is the chivalric hammer (rides at the head of the charge, takes blows from the enemy front line, expected to engage personally). The +1 W reflects that combat-lord identity. Other stats unchanged from Imperial General — the differentiator is durability, not skill or attack output.
+> **Lore notes:** **Stats one rung above Imperial General — combat-lord identity.** WS 6 / BS 5 / S 4 / T 4 / **W 5** / I 6 / Res 10 / LiS 2 / US 3. The §17 heft note's original "Bretonnian Lord W 3 → 4" calibration was tuned to "match Imperial General / Wizard Lord" (W 4 baseline); we've revised upward to **W 5** because the Bretonnian Lord *leads from the front rank* in a way the Imperial General does not. Imperial General is the tactical-command anchor (typically holding back, directing units, surviving by distance); Bretonnian Lord is the chivalric hammer (rides at the head of the charge, takes blows from the enemy front line, expected to engage personally). The +1 W reflects that combat-lord identity. Other stats unchanged from Imperial General — the differentiator is durability, not skill or attack output.
 >
 > **Knight's Vow + Blessing baseline.** The Lord starts with Knight's Vow → Blessing of the Lady intrinsic. The vow upgrade ladder (Crusader's, Questing, Grail) lets the player invest in stronger faction-internal layers as a list-build choice. The +15 / +15 / +30 cost progression captures the layering: each vow tier adds a meaningful protection (Crusader's = Immunity Panic + charge bonus; Questing = Stubborn + lance prohibition; Grail = improved Blessing 5+/4+ + Stubborn + Immune to Psychology). **Frenzy explicitly NOT granted by Grail Vow** — the apex chivalric character is *serene under divine protection*, not berserk; the Grail-touched knight has stood before the Lady herself and returned with calm, measured devotion, not with rage. Earlier drafts proposed Frenzy on Grail Vow; rejected because Frenzy's "loss of self-control" lore is incompatible with the Grail-quest framing. Mechanically, Grail Vow's *improved Blessing* (5+/4+ Ward, one step better than Knight's Vow's 6+/5+) provides the apex defensive layer instead — the Lady's hand is consistently present rather than the knight raging in combat. (Crusader's Vow and Grail Vow keyword definitions are forward-compat per §17 mechanics; their full per-unit interactions will be drafted in a future expansion when the Vow ladder is fully populated with units.)
 >
@@ -74,7 +74,7 @@
 > - Lord with Grail Vow + Royal Hippogryph mount + Battle Standard + 100 pts magic items: 170 + 30 + 150 + 25 + 100 = **475 pts** (the duchy's grand champion, fully kitted)
 >
 > **Compare:**
-> - **Imperial General (150 pts, W 4)** — same WS / BS / S / T / I / Ld baseline, but **W 4 vs Bretonnian Lord's W 5** — Imperial General is the back-line tactical anchor, Bretonnian Lord is the front-line combat lord. Imperial gets Tactical Master (nominated-unit reroll + Ld 10 buff), Bretonnian gets Inspiring Charge (Lord-charge-trigger, 18" reroll aura). No Blessing on the Imperial side, no Vow ladder, no aerial mounts beyond Pegasus
+> - **Imperial General (150 pts, W 4)** — same WS / BS / S / T / I / Res baseline, but **W 4 vs Bretonnian Lord's W 5** — Imperial General is the back-line tactical anchor, Bretonnian Lord is the front-line combat lord. Imperial gets Tactical Master (nominated-unit reroll + Res 10 buff), Bretonnian gets Inspiring Charge (Lord-charge-trigger, 18" reroll aura). No Blessing on the Imperial side, no Vow ladder, no aerial mounts beyond Pegasus
 > - **Saurus Oldblood (260 pts)** — Lizardmen Lord-tier combat apex; W 7 / NA 2+ / WS 7 / S 5 / T 5 / Predatory Fighter. Substantially more durable and harder-hitting at a substantially higher cost. The Saurus apex is more *combat monster*; the Bretonnian Lord is more *chivalric leader with mount options, faith-blessing, and front-line W 5 durability*
 > - **Slann Mage-Priest (400 pts)** — Lizardmen Lord-caster apex, no combat parity. Different role
 >

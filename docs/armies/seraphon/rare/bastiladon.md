@@ -5,17 +5,17 @@
 
 **Bastiladon (Beast):**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 4 | 3  | 0  | 5 | 7 | 10| 1 | 6  | 4   | =W |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 4 | 3 | 3 | 0 | 5 | 7 | 10 | 1 | 6 | 4 | =W |
 
 *Bastiladon US equals current remaining W per the Monster-US convention. **A is on weapons** (see profiles below) — no Attack stat on the profile line. T 7 matches Stegadon's toughness — both the big biological-armour saurians sit at the same resilience tier; Bastiladon pulls ahead on the save (2+ vs 3+).*
 
 **Skink Crew (3 or 4, fixed by relic choice):**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| — | 3  | 3  | 3 | 2 | 1 | 4 | 6  | 1   | 1  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| — | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 
 *Skink Crew share the Bastiladon's M (they ride the howdah). Crew count depends on the howdah relic — see Equipment below. Crew **do not have Aquatic** (the Bastiladon is a land fortress, not a swimmer — per the Skink-on-mount rule, Skinks inherit Aquatic only from water-native mounts).*
 
@@ -48,8 +48,8 @@
 **Weapon profiles (A on weapons):**
 
 - **Slab-Paws** *(Bastiladon, natural, always available)* — 1" reach | **A 2** | S 5 | AP -1 | D 1 — the armoured forelegs stomp and shove
-- **Crushing Bulk** *(Bastiladon, natural, always available)* — 1" reach | **A D6** | S 5 | AP -1 | D 1 — the beast's sheer mass pressing forward, stepping on things, knocking them aside
-- **Crushing Tail** *(Bastiladon, natural, rear arc only)* — 3" reach | **A 1** | S 6 | AP -2 | D D3 — the armoured tail comes around with full-body weight when flankers approach; replaces the old Thunderous Bludgeon rule with a proper rear-arc weapon
+- **Crushing Bulk** *(Bastiladon, natural, always available)* — 1" reach | **A D6** | S 5 | AP -1 | D 1 — the beast's sheer mass pressing forward, stepping on things, knocking them aside `[Natural]`
+- **Crushing Tail** *(Bastiladon, natural, rear arc only)* — 3" reach | **A 1** | S 6 | AP -2 | D D3 — the armoured tail comes around with full-body weight when flankers approach; replaces the old Thunderous Bludgeon rule with a proper rear-arc weapon `[Natural]`
 - **Ark of Sotek** *(howdah relic, default — two-part effect)*:
   - **Summoning (end of each friendly turn):** nominate a friendly **Jungle Swarms** unit within 6" of this Bastiladon. Roll a D6 — on a **4+**, add **one Jungle Swarm base** to the nominated unit. The unit may exceed its starting size by this means. If the new base cannot be placed legally (insufficient room, no model available), the summoning is lost with no effect.
   - **Sotek's Sting (any friendly Shooting phase):** the Ark may be activated once per Shooting phase. Roll a **D6"** range — all enemy units with any model within that distance of the Bastiladon suffer **2D6 hits at S 2, AP 0, D 1**, distributed per shooting wound allocation rules. Usable even if the Bastiladon moved, charged, or is engaged in melee. A writhing burst of serpents boiling from the Ark onto the nearest targets.
@@ -60,6 +60,6 @@
     - **4–5** — 2D6 hits at S 5
     - **6** — 2D6 hits at S 6, **and** the target unit suffers **-1 WS and -1 BS** (minimum 1) until the start of the target's next friendly turn
   - Magical Attacks and Flaming keywords apply to every hit regardless of the D6 roll. Slow to Fire does NOT apply — the engine is always ready to fire; the crew merely aims.
-- **Hand weapon** *(Skink Crew self-defence)* — 1" reach | **A 1** | AP 0 | D 1
+- **Hand weapon** *(Skink Crew self-defence)* — 1" reach | **A 1** | AP 0 | D 1 `[1H Blade]`
 
 > **Lore notes:** NA 2+ is the highest save in the entire roster — the Bastiladon is the only unit where biological armour rivals the best forged plate of any faction. Combined with T 7 (matching Stegadon; the two tankiest biological profiles are equal in raw resilience, the Bastiladon pulls ahead on save, the Stegadon on wound pool), W 10, and Impervious Defence's no-flank-or-rear, the Bastiladon is genuinely hard to dislodge; it is a moving terrain piece with a relic on top. The three-weapon melee profile (Slab-Paws + Crushing Bulk + Crushing Tail) replaces the old single-weapon Thunderous Bludgeon nomination rule with weapon-level clarity — the rear-arc Crushing Tail is a proper dedicated weapon rather than a mid-round stat-boost toggle. The howdah-relic choice is the unit's identity flex, each with a distinct play-style: Ark of Sotek (summoning + AoE, for Jungle-Swarm-farming armies), Revivification Crystal (support Regen aura, for tarpit armies), Solar Engine (magic-missile substitute + Initiative aura, for non-Slann lists that want a ranged platform). Beam of Chotec is now a **Magical-Attacks shooting weapon** (not a bound spell) — simpler, no magic-system integration needed, variable output via D6. Points scale via §13 extended wound factor (W10 = 6.48 per revised linear extension at 0.5/W past W8); stat sum 38.5 × 6.48 = 250 beast, bundled with 4 Crew (Ark) or 3 Crew (Crystal/Engine) per the GW-model-correct count.

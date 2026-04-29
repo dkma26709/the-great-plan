@@ -71,7 +71,7 @@ On cast, target enemy unit suffers **-1 T** immediately. At the start of **each 
 |----|-------|------|----------|
 | 11 | 18" | Hex | Until start of next turn |
 
-Target enemy unit treats its Ld as **-2 lower** for all stress threshold calculations until start of next turn (Shaken at Ld-6, Wavering at Ld-4, Broken at Ld-2). Ld for combat resolution modifiers and other Ld-dependent rules is unchanged — only the *stress thresholds* shift. A morale crusher that makes existing stress bite twice as hard without adding a single point.
+Target enemy unit treats its Res as **-2 lower** for all stress threshold calculations until start of next turn (Shaken at Res-6, Wavering at Res-4, Broken at Res-2). Res for combat resolution modifiers and other Res-dependent rules is unchanged — only the *stress thresholds* shift. A morale crusher that makes existing stress bite twice as hard without adding a single point.
 
 **Echoing Doom**
 

@@ -5,15 +5,15 @@
 
 **Rider (Imperial Knight):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 4 | 4  | 3  | 3 | 3 | 1 | 3 | 9  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 4 | 4 | 4 | 3 | 3 | 3 | 1 | 3 | 9 |
 
 **Mount (Warhorse — barded):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 8 | 3  | 0  | 3 | 3 | 1 | 3 | 5  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 8 | 3 | 3 | 0 | 3 | 3 | 1 | 3 | 5 |
 
 *(Warhorse baseline M 10, reduced to M 8 by barding per §8 Barding rule.)*
 
@@ -56,10 +56,10 @@ Only one Order per unit; multiple units may each take different orders. Stacks w
 
 **Weapon profiles (A on weapons):**
 
-- **Heavy Lance** *(default, 1H with shield)* — **2" reach | A 1 | on charge (first round): S+2, AP -2, D 2; subsequent rounds: S+0, AP 0, D 1** — the Empire's signature shock weapon. Charge-only damage spike; after the first round, Imperial Knights rely on mount attacks or a weapon swap for sustained output
+- **Heavy Lance** *(default, 1H with shield)* — **2" reach | A 1 | on charge (first round): S+2, AP -2, D 2; subsequent rounds: S+0, AP 0, D 1** — the Empire's signature shock weapon. Charge-only damage spike; after the first round, Imperial Knights rely on mount attacks or a weapon swap for sustained output `[1H Lance]`
 - **Cavalry Hammers** *(option, 1H with shield, +1 pt/model)* — 1" reach | **A 1** | S+1 | AP -1 | D 1 — one-handed hammer; consistent damage every round
-- **Great Weapon** *(option, 2H — no shield, save 3+ with barding)* — 1" reach | **A 1** | S+2 (= S 5, or S 6 with Inner Circle) | AP -2 | D 1 | Two-Handed
-- **Great Hammer** *(Knights of the White Wolf only, 2H — no shield)* — 1" reach | **A 1** | S+2 | AP -2 | D 1 | Two-Handed (replaces Heavy Lance entirely; effective every round)
-- **Warhorse's Hooves and Bite** *(mount natural, each model)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 — the mount contributes its own attack; rider and mount attack independently per §1
+- **Great Weapon** *(option, 2H — no shield, save 3+ with barding)* — 1" reach | **A 1** | S+2 (= S 5, or S 6 with Inner Circle) | AP -2 | D 1 | Two-Handed `[2H]`
+- **Great Hammer** *(Knights of the White Wolf only, 2H — no shield)* — 1" reach | **A 1** | S+2 | AP -2 | D 1 | Two-Handed (replaces Heavy Lance entirely; effective every round) `[2H]`
+- **Warhorse's Hooves and Bite** *(mount natural, each model)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 — the mount contributes its own attack; rider and mount attack independently per §1 `[Natural]`
 
-> **Lore notes:** Rider stats unchanged from WFB baseline — Imperial Knights are veteran human soldiers, not spawn-bred Saurus. Ld 8 → 9 for Empire elite-tier heft calibration (Knights, Greatswords, Inner Circle characters all sit at Ld 9). **Warhorse baseline M 8 → 10** unbarded — Imperial Knights match Horned Ones at the medium-cavalry tier; still below fast Raptadons (M 12). With barding (default kit), the Warhorse drops to **M 8** per the §8 Barding rule (-2 M for the added weight). Imperial Warhorses are not bred to bear barding without speed loss; only Bretonnian destriers (Purebred Warhorse, §8) negate the penalty. Combined 2+ save via heavy armour + shield + barding (one step per source per §8) makes Imperial Knights extremely durable against S 3-4 attacks; S 5+ and AP -2+ weapons (great weapons, cannon, magic missiles) are the reliable answer. Inner Circle upgrade +1 S +1 I is a clean "veteran" pattern — transferable to other factions' elite-cavalry upgrades. **Knightly Order designations** are whole-unit flat-cost mechanical upgrades, each with a distinct identity twist (Stubborn reroll / Frenzy + great hammers / Fear + charge-distance bonus / anti-Daemon / anti-Undead). Only one order per unit forces a tactical commitment at list-build. Five orders drafted from classical Imperial orders; additional orders (Knights Griffon, Knights of the Everlasting Sword, etc.) can extend in a future pass. **Breakthrough Charge** is the identity rule — a third option alongside follow-up/hold when the Knights win a charge, letting them ride through the broken line and reposition for a second charge. Contrasts Seraphon Aggradon Lancers' Blood Frenzy (irrevocable commitment forward); Imperial Knights are the *controlled* hammer that can redirect mid-battle. Points 24 base per model — +6 over reference 18 covering Ld bump, weapon-tier revision, and human-cavalry-heft premium. Matches our Horned One Riders (28 pts) at the Seraphon-equivalent tier when accounting for Imperial Knights' better save (2+ vs 4+) balanced against Horned Ones' Impaling Charge identity.
+> **Lore notes:** Rider stats unchanged from WFB baseline — Imperial Knights are veteran human soldiers, not spawn-bred Saurus. Res 8 → 9 for Empire elite-tier heft calibration (Knights, Greatswords, Inner Circle characters all sit at Res 9). **Warhorse baseline M 8 → 10** unbarded — Imperial Knights match Horned Ones at the medium-cavalry tier; still below fast Raptadons (M 12). With barding (default kit), the Warhorse drops to **M 8** per the §8 Barding rule (-2 M for the added weight). Imperial Warhorses are not bred to bear barding without speed loss; only Bretonnian destriers (Purebred Warhorse, §8) negate the penalty. Combined 2+ save via heavy armour + shield + barding (one step per source per §8) makes Imperial Knights extremely durable against S 3-4 attacks; S 5+ and AP -2+ weapons (great weapons, cannon, magic missiles) are the reliable answer. Inner Circle upgrade +1 S +1 I is a clean "veteran" pattern — transferable to other factions' elite-cavalry upgrades. **Knightly Order designations** are whole-unit flat-cost mechanical upgrades, each with a distinct identity twist (Stubborn reroll / Frenzy + great hammers / Fear + charge-distance bonus / anti-Daemon / anti-Undead). Only one order per unit forces a tactical commitment at list-build. Five orders drafted from classical Imperial orders; additional orders (Knights Griffon, Knights of the Everlasting Sword, etc.) can extend in a future pass. **Breakthrough Charge** is the identity rule — a third option alongside follow-up/hold when the Knights win a charge, letting them ride through the broken line and reposition for a second charge. Contrasts Seraphon Aggradon Lancers' Blood Frenzy (irrevocable commitment forward); Imperial Knights are the *controlled* hammer that can redirect mid-battle. Points 24 base per model — +6 over reference 18 covering Res bump, weapon-tier revision, and human-cavalry-heft premium. Matches our Horned One Riders (28 pts) at the Seraphon-equivalent tier when accounting for Imperial Knights' better save (2+ vs 4+) balanced against Horned Ones' Impaling Charge identity.

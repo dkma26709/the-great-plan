@@ -5,9 +5,11 @@
 
 **Carnosaur (Mount profile):**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 10 | 4  | 0  | 7 | 5 | 10| 3 | 8  | 4   | =W |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 10 | 5 | 3 | 0 | 7 | 5 | 10 | 3 | 8 | 4 | =W |
+
+*(WS-A 5 / WS-D 3 — same asymmetry as the Wild Carnosaur Rare entry: apex offensive skill, telegraphed defensive motion. The mount-package version inherits the same beast-stat fingerprint; the rider's own WS-A / WS-D apply to the rider's attacks separately.)*
 
 *Carnosaur US equals current remaining W per the Monster-US convention. **A is on weapons** (see profiles below) — no Attack stat on the profile line.*
 
@@ -27,9 +29,9 @@
 
 **Weapon profiles (A on weapons — mount natural weapons only; rider attacks use their own weapon profiles per §1 Rider and Mount Profiles):**
 
-- **Massive Jaws** *(Carnosaur natural, front arc)* — **2" reach | A 3 | S 7 | AP -3 | D D3** — the primary predator weapon. On any unmodified **to-wound roll of 6** (before any re-rolls or modifiers), the wound inflicts **D6 damage** instead of D3 — the jaws close fully and crush the target. Apex Predator bonuses apply against eligible targets per the rule above.
-- **Raking Claws** *(Carnosaur natural, always-available)* — 1" reach | **A 2** | S 5 | AP -1 | D 1 — pinning strikes to hold prey or rake across infantry; the setup, not the kill
-- **Sweeping Tail** *(Carnosaur natural, rear arc only)* — 3" reach | **A D3** | S 5 | AP 0 | D 1 — a reflex weapon, the tail sweeps whatever approaches from behind
+- **Massive Jaws** *(Carnosaur natural, front arc)* — **2" reach | A 3 | S 7 | AP -3 | D D3** — the primary predator weapon. On any unmodified **to-wound roll of 6** (before any re-rolls or modifiers), the wound inflicts **D6 damage** instead of D3 — the jaws close fully and crush the target. Apex Predator bonuses apply against eligible targets per the rule above. `[Natural]`
+- **Raking Claws** *(Carnosaur natural, always-available)* — 1" reach | **A 2** | S 5 | AP -1 | D 1 — pinning strikes to hold prey or rake across infantry; the setup, not the kill `[Natural]`
+- **Sweeping Tail** *(Carnosaur natural, rear arc only)* — 3" reach | **A D3** | S 5 | AP 0 | D 1 — a reflex weapon, the tail sweeps whatever approaches from behind `[Natural]`
 
 **Damage Table (Degrading):**
 

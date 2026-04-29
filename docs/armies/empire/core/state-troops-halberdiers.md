@@ -3,9 +3,9 @@
 
 > State Troops of the Empire — city militia levied from each Imperial province, drilled in polearm and shield. The halberd is the Empire's versatile polearm: a spear-point for reach, an axe head for chop, a hook for pulling cavalry off their mounts. Not elite; human-scale everything. A Halberdier block holds the centre while Knights charge the flanks and Handgunners thin the approaching line. Typically 20-30 strong, marching under the sigils of Reikland, Averland, or Middenland — whichever Elector pays them.
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 4 | 3  | 3  | 3 | 3 | 1 | 3 | 8  | 1   | 1  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 4 | 3 | 3 | 3 | 3 | 3 | 1 | 3 | 8 | 1 | 1 |
 
 - **Keywords:** Empire, Human, Infantry, Core, State Troops
 - **Unit type:** Infantry
@@ -26,6 +26,6 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Empire Halberd** *(default, 1H — may pair with shield)* — **2" reach | A 1 | S+1 (= S 4) | AP -1 | D 1** — one-handed polearm; the spear-point-plus-axe-head design lets the wielder keep a shield. Distinct from the two-handed Celestite Polearm in the Seraphon Armoury (§10)
+- **Empire Halberd** *(default, 1H — may pair with shield)* — **2" reach | A 1 | S+1 (= S 4) | AP -1 | D 1 | Killing Blow (Cavalry / Monstrous Cavalry, 2)** — one-handed polearm; the spear-point-plus-axe-head design lets the wielder keep a shield. The halberd's hook catches harness, stirrup, and rider — on an unmodified to-wound roll of 6 against a model with the **Cavalry** or **Monstrous Cavalry** keyword, the attack deals **2 Damage** instead of D 1 (per §8 Killing Blow). Represents the iconic dehorsing strike: hook the rider, drag him from the saddle, finish him on the ground. Distinct from the two-handed Celestite Polearm in the Seraphon Armoury (§10) `[1H Reach]`
 
-> **Lore notes:** M/WS/BS/S/T/W/I unchanged from WFB reference — Empire humans don't inflate the way Saurus do. **Ld 7 → 8** is the sole bump, matching our stress-system calibration (Ld 7 = Broken at 7 stress; Ld 8 = Broken at 8; keeps State Troops playable without making them Saurus-tough). +1 S on the halberd brings Halberdiers to S 4 in melee — enough to wound T 3 on 3+, T 4 on 4+. 2" reach gives the second rank a chance to stab past the first, matching the dense-block lore. Shield + medium armour = 4+ combined save; shield + light armour = 5+. Points 6 per model — +1 over reference 5, covers the Ld bump.
+> **Lore notes:** M/WS/BS/S/T/W/I unchanged from WFB reference — Empire humans don't inflate the way Saurus do. **Res 7 → 8** is the sole bump, matching our stress-system calibration (Res 7 = Broken at 7 stress; Res 8 = Broken at 8; keeps State Troops playable without making them Saurus-tough). +1 S on the halberd brings Halberdiers to S 4 in melee — enough to wound T 3 on 3+, T 4 on 4+. 2" reach gives the second rank a chance to stab past the first, matching the dense-block lore. **Killing Blow (Cavalry / Monstrous Cavalry, 2)** is the thematic identity flourish — the unit's lore explicitly mentions "a hook for pulling cavalry off their mounts," and the mechanic now reflects it. Threshold-gated on a single die (unmodified to-wound 6) keeps the spike rare; against a charging Imperial Knight or Demigryph block, every Halberdier in contact has a 1-in-6 chance of catching the rider with the hook and converting it into a 2-W strike. Shield + medium armour = 4+ combined save; shield + light armour = 5+. Points 6 per model — held for now; revisit during cavalry-heavy playtest if the Killing Blow proves to swing the Halberdier role too hard against mounted lists.

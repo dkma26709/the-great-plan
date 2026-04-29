@@ -3,9 +3,9 @@
 
 > Elite Skink ambushers of the chameleon-caste. Their scales shift colour and pattern to match canopy, stone, or water — a Chameleon Skink at rest is almost invisible even to another Skink. They carry Dartpipes refined by the temple apothecaries, with venom measured precisely for a single considered shot rather than the spray of common Skink Blowpipes. Where the cohort stands and the skirmisher darts, the chameleon-caste *waits* — and then the cannon crew dies, the wizard forgets his spell mid-cast, and the knight topples from his saddle with a dart in his throat.
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |   | Points |
-|---|----|----|---|---|---|---|----|-----|----|---|--------|
-| 8 | 2  | 4  | 3 | 2 | 1 | 4 | 5  | 1   | 1  |   | **14** |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |  | Points |
+|---|----|----|----|---|---|---|---|----|-----|----|---|--------|
+| 8 | 2 | 2 | 4 | 3 | 2 | 1 | 4 | 5 | 1 | 1 |  | **14** |
 
 - **Keywords:** Lizardmen, Skink, Infantry, Special
 - **Unit type:** Infantry (Skirmishers — coherency 2")
@@ -29,7 +29,7 @@
 **Weapon profiles (A on weapons):**
 
 - **Dartpipe** *(default ranged)* — 18" range | S 3 | AP 0 | D 1 | Quick to Fire | Poisoned Attacks (see Armoury)
-- **Celestite Dagger** *(melee fallback)* — 1" | **A 1** | S 3 | AP 0 | D 1 | Poisoned Attacks (see Armoury)
+- **Celestite Dagger** *(melee fallback)* — 1" | **A 1** | S 3 | AP 0 | D 1 | Poisoned Attacks (see Armoury) `[1H Blade]`
 - **Skink Sling** *(swap option — replaces Dartpipe + adds shield)* — 12" range | S 3 | AP 0 | D 1 | Quick to Fire (see Armoury)
 
 > **Lore notes:** BS 4 is the highest in the Lizardmen roster — Chameleon Skinks are the sniper-caste, not the volume-of-fire caste. M 8 matches our standard Skink baseline (not the WFB reference M6 — we normalised Skink movement to 8). Scouts gives them forward deployment, Chameleon gives them passive ranged protection, and the long-range Dartpipe gives them a precision threat other Skink units lack. Loner prevents character attachment — chameleon-caste hunters don't march at the general's side, they stalk alone or in small pairs. **Perfect Stillness** is the identity rule: the unit trades mobility for precision, rewarding patient players who deploy Scouted-forward in cover and don't move — gaining Sniper (any-model targeting) plus +1 to hit makes every turn of stillness a turn where the enemy's characters and war machines should fear the canopy. The Sling + shield swap is for players who want a more survivable melee-adjacent posture — sacrificing the long-range venom for a 5+ save and a closer-range missile. Points at 14 reflect the compound ability stack (BS 4 + Scouts + Chameleon + Poisoned + conditional Sniper) at Skink-infantry durability.

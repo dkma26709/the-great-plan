@@ -33,7 +33,7 @@ For units with **pooled wound counts** (Rider and Mount Profiles, per §1), use 
 
 ### 13.2 Stat Contribution
 
-Start from a **baseline of 5**, representing a standard grunt — WS3 S3 T3 W1 I3 A1 Ld7 M4, 6+ save. Adjust per the tables below.
+Start from a **baseline of 5**, representing a standard grunt — WS3 S3 T3 W1 I3 A1 Res7 M4, 6+ save. Adjust per the tables below.
 
 **Per-stat modifiers:**
 
@@ -44,7 +44,7 @@ Start from a **baseline of 5**, representing a standard grunt — WS3 S3 T3 W1 I
 | T | ±1.5 |
 | I | ±0.5 |
 | A | ±1.5 per attack |
-| Ld | ±0.5 |
+| Res | ±0.5 |
 | M | ±0.25 (M4–M8 range; M9+ scales faster per judgement) |
 | Save | +1 per step above 6+ (5+ = +1, 4+ = +2, 3+ = +3, 2+ = +4) |
 

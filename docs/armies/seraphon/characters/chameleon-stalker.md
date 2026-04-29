@@ -5,9 +5,9 @@
 
 **Chameleon Stalker:**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 8 | 4  | 6  | 3 | 3 | 3 | 7 | 8  | 1   | 1  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 8 | 4 | 4 | 6 | 3 | 3 | 3 | 7 | 8 | 1 | 1 |
 
 **Points:** **95** base (with Chameleon Dartpipe + Celestite Dagger)
 
@@ -28,9 +28,9 @@
 **Weapon profiles:**
 
 - **Chameleon Dartpipe** *(default ranged, see Armoury)* — **24" range | S 3 | AP -1 | D 1 | Multiple Shots (2) | Poisoned Attacks | Quick to Fire** — temple-refined venom, precisely measured; longer range than standard Blowpipe. *Ambush Killshot modifies the first shot only: +1 to hit, AP -2, D D3.*
-- **Celestite Dagger** *(default melee)* — 1" | **A 2** | S 3 | AP 0 | D 1
+- **Celestite Dagger** *(default melee)* — 1" | **A 2** | S 3 | AP 0 | D 1 `[1H Blade]`
 
-> **Lore notes:** WS 4 (vs Chameleon Skink unit WS 2) — the Stalker is a competent blade-fighter but still primarily ranged. **BS 6 is the apex shot in the entire Seraphon roster** — literalises the "seven Stalkers killed five thousand Orcs" lore. T 3 thicker scales; W 3 Hero durability; I 7 supernatural reflexes; Ld 8 Hero-Skink resolve. LiS 1 and US 1 kept Skink-baseline — the Stalker is compact and slight, not looming. **Ambush Killshot** is a genuinely once-per-game rule — one catastrophic opening shot; afterwards, the Stalker fires as a standard Chameleon Dartpipe wielder. Models the Oxyotl archetype: opening-shot dominance rather than cumulative value across turns. Points **95** base — Hero-tier specialist pricing; high-value assassin, not a workhorse.
+> **Lore notes:** WS 4 (vs Chameleon Skink unit WS 2) — the Stalker is a competent blade-fighter but still primarily ranged. **BS 6 is the apex shot in the entire Seraphon roster** — literalises the "seven Stalkers killed five thousand Orcs" lore. T 3 thicker scales; W 3 Hero durability; I 7 supernatural reflexes; Res 8 Hero-Skink resolve. LiS 1 and US 1 kept Skink-baseline — the Stalker is compact and slight, not looming. **Ambush Killshot** is a genuinely once-per-game rule — one catastrophic opening shot; afterwards, the Stalker fires as a standard Chameleon Dartpipe wielder. Models the Oxyotl archetype: opening-shot dominance rather than cumulative value across turns. Points **95** base — Hero-tier specialist pricing; high-value assassin, not a workhorse.
 
 
-> Character mounts are available to specific characters as listed in each character entry's Mount options. A character riding a character mount uses the mount's stats for movement, the mount's save, the rider's WS/BS/Ld for character-appropriate actions, and combined wound allocation rules per §1 *Rider and Mount Profiles*. Stegadon mount variant is a Rare-tier standalone unit elsewhere in §10; the Carnosaur below is the classic Saurus Oldblood / Scar-Veteran apex-predator mount.
+> Character mounts are available to specific characters as listed in each character entry's Mount options. A character riding a character mount uses the mount's stats for movement, the mount's save, the rider's WS/BS/Res for character-appropriate actions, and combined wound allocation rules per §1 *Rider and Mount Profiles*. Stegadon mount variant is a Rare-tier standalone unit elsewhere in §10; the Carnosaur below is the classic Saurus Oldblood / Scar-Veteran apex-predator mount.

@@ -21,7 +21,7 @@ Turn counter advances. Then, in order:
 
 1. **"Start of turn" effects** resolve (General slain follow-up stress, spell durations, any other triggered effects).
 2. **Recovery rolls.** Every unit rolls D3 (+ modifiers from musician, BSB, General reroll) and removes that much stress.
-3. **Threshold check.** Each unit's stress is compared against its Ld-based thresholds. States (Shaken, Wavering, Broken) are applied or removed. Broken units will flee in the Movement phase.
+3. **Threshold check.** Each unit's stress is compared against its Res-based thresholds. States (Shaken, Wavering, Broken) are applied or removed. Broken units will flee in the Movement phase.
 4. Active player determination — the active player swaps each turn.
 
 ### 2. Movement Phase

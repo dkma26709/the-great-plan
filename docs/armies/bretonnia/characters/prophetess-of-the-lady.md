@@ -5,9 +5,9 @@
 
 **Prophetess of the Lady:**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 4 | 3  | 3  | 3 | 4 | 4 | 3 | 9  | 1   | 2  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 4 | 3 | 3 | 3 | 3 | 4 | 4 | 3 | 9 | 1 | 2 |
 
 **Magic Profile (level-dependent):**
 
@@ -46,9 +46,9 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Hand weapon** *(default, 1H)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 — a slim ceremonial blade or carved bone-handled knife from the Lady's grove. Even less impressive in melee than the Damsel's, given the Prophetess's age and focus on the magical arts. She is not a fighter
+- **Hand weapon** *(default, 1H)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 — a slim ceremonial blade or carved bone-handled knife from the Lady's grove. Even less impressive in melee than the Damsel's, given the Prophetess's age and focus on the magical arts. She is not a fighter `[1H Blade]`
 
-> **Lore notes:** **Stats match Empire Wizard Lord at Lord-caster tier** — WS 3 / BS 3 / S 3 / **T 4** / **W 4** / I 3 / A 1 / **Ld 9** (per §17 chivalric / Lady's-Chosen +1 calibration from WAP 8) / LiS 1 / US 2. T 4 and W 4 are the Lord-caster baseline (vs Hero-caster Damsel's T 3 / W 3) — modest durability bumps reflecting decades of life surviving battlefields under the Lady's Blessing. Magic Profile mirrors Wizard Lord's Lvl 3/4 ladder exactly — same Cast Base, Dispel Base, Channelling, Cast Bonus, Dispel Bonus, Dispel Range values; same +35 upgrade cost; same Lore Access progression.
+> **Lore notes:** **Stats match Empire Wizard Lord at Lord-caster tier** — WS 3 / BS 3 / S 3 / **T 4** / **W 4** / I 3 / A 1 / **Res 9** (per §17 chivalric / Lady's-Chosen +1 calibration from WAP 8) / LiS 1 / US 2. T 4 and W 4 are the Lord-caster baseline (vs Hero-caster Damsel's T 3 / W 3) — modest durability bumps reflecting decades of life surviving battlefields under the Lady's Blessing. Magic Profile mirrors Wizard Lord's Lvl 3/4 ladder exactly — same Cast Base, Dispel Base, Channelling, Cast Bonus, Dispel Bonus, Dispel Range values; same +35 upgrade cost; same Lore Access progression.
 >
 > **Lord-caster role parity with Wizard Lord and Slann.** The Prophetess is the Bretonnian Lord-tier caster equivalent. Compared to:
 > - **Empire Wizard Lord (160 / 195)** — same magic profile, broader Wind selection (8 lores vs Prophetess's 4), no Blessing intrinsic, no Magic Resistance. Wizard Lord is *broader*; Prophetess is *deeper into specific lore* (especially Lore of the Lady)

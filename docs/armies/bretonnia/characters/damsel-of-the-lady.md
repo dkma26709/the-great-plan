@@ -5,9 +5,9 @@
 
 **Damsel of the Lady:**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 4 | 3  | 3  | 3 | 3 | 3 | 3 | 8  | 1   | 1  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 4 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 8 | 1 | 1 |
 
 **Magic Profile (level-dependent):**
 
@@ -45,9 +45,9 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Hand weapon** *(default, 1H)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 — a slim ceremonial blade or carved bone-handled knife from the Lady's grove. Functional but unimpressive in melee — the Damsel is not a fighter
+- **Hand weapon** *(default, 1H)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 — a slim ceremonial blade or carved bone-handled knife from the Lady's grove. Functional but unimpressive in melee — the Damsel is not a fighter `[1H Blade]`
 
-> **Lore notes:** **Stats match Empire Battle Wizard at Hero-caster tier** — WS 3 / BS 3 / S 3 / T 3 / **W 3** (Hero caster bump per cross-faction convention; W 3 vs the combat-Hero W 4 of Paladin / Captain — wizards stay fragile by design) / I 3 / A 1 / **Ld 8** (per §17 chivalric / Lady's-Chosen +1 calibration from WAP 7). Magic Profile mirrors Battle Wizard's Lvl 1/2 ladder exactly — same Cast Base, Dispel Base, Channelling, Cast Bonus, Dispel Bonus, Dispel Range values; same +30 upgrade cost.
+> **Lore notes:** **Stats match Empire Battle Wizard at Hero-caster tier** — WS 3 / BS 3 / S 3 / T 3 / **W 3** (Hero caster bump per cross-faction convention; W 3 vs the combat-Hero W 4 of Paladin / Captain — wizards stay fragile by design) / I 3 / A 1 / **Res 8** (per §17 chivalric / Lady's-Chosen +1 calibration from WAP 7). Magic Profile mirrors Battle Wizard's Lvl 1/2 ladder exactly — same Cast Base, Dispel Base, Channelling, Cast Bonus, Dispel Bonus, Dispel Range values; same +30 upgrade cost.
 >
 > **Lady's Chosen, not Vow-bound.** The Damsel is the *only* Bretonnian character who is not knight-vow-bound (alongside the Prophetess). Per §17, "the Lady chose them directly as her handmaidens" — the keyword **Lady's Chosen** functions as a vow-keyword for all rule interactions (Class Barrier, Peasant's Duty aura source, spell restrictions on Blessing-keyword targets). Mechanically equivalent to a vow; lore-distinct.
 >
@@ -64,7 +64,7 @@
 > - Damsel Lvl 2 + Pegasus mount + 50 pt magic items: 85 + 30 + 20 + 50 = **185 pts** (the airborne Damsel — supports Pegasus Knights flank or Lord on Pegasus)
 >
 > **Compare:**
-> - **Battle Wizard (75 pts, Lvl 1)** — same stat baseline (W 3, Ld 8 post-bump), same Magic Profile ladder. Battle Wizard has 8-Wind palette; Damsel has 4 lores including Lady. Battle Wizard has no Blessing, no Magic Resistance baseline. +10 pts is the Bretonnian premium for Blessing + MR(1) + Lady's Chosen
+> - **Battle Wizard (75 pts, Lvl 1)** — same stat baseline (W 3, Res 8 post-bump), same Magic Profile ladder. Battle Wizard has 8-Wind palette; Damsel has 4 lores including Lady. Battle Wizard has no Blessing, no Magic Resistance baseline. +10 pts is the Bretonnian premium for Blessing + MR(1) + Lady's Chosen
 > - **Skink Priest (60 pts, Lvl 1)** — Lizardmen Hero-caster; Mark of the Old One narrows to 7 Winds (no Life). Damsel has Blessing + MR + 4-lore palette; Skink Priest has narrower-different lore but Skink-army synergy. +25 pts is the cross-faction gap reflecting our system's pricing of Lady-tier defensive layers
 > - **Paladin (95 pts)** — same Hero tier but combat-focused: W 4 vs W 3, WS 5 vs WS 3, A 3 vs A 1, no Wizard, no Magic Resistance. Different role — Paladin charges forward, Damsel hangs back and casts. Both at 85-95 pts is fair: Paladin pays for combat output, Damsel pays for magical utility
 >

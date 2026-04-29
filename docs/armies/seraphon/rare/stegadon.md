@@ -5,17 +5,17 @@
 
 **Stegadon (Beast):**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 6 | 3  | 0  | 6 | 6 | 12| 2 | 4  | 4   | =W |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 6 | 3 | 3 | 0 | 6 | 6 | 12 | 2 | 4 | 4 | =W |
 
 *Stegadon US equals its **current remaining Wounds** (per the Monster-US convention — see §1). A full-strength Stegadon contributes US 12 to its unit and the battlefield; a heavily-wounded Stegadon contributes proportionally less. **Note: A (Attacks) is not a profile stat — each weapon carries its own Attack count** (see Weapon profiles below). Framework-wide pass to move A onto weapons is pending; Stegadon is the first profiled unit under the new convention.*
 
 **Skink Crew (×5 per Stegadon, fixed — fires the Howdah weapon):**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| — | 3  | 3  | 3 | 2 | 1 | 4 | 6  | 1   | 1  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| — | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 
 *Skink Crew share the Stegadon's M (they are in the howdah — they do not move independently). Their profiles are used for resolving attacks, wounds, and howdah weapon shots; primary-profile wound allocation and Mixed Unit rules apply per §1.*
 
@@ -40,12 +40,12 @@
 
 **Weapon profiles (each with its own A):**
 
-- **Goring Horns** *(Stegadon, charge-only first round)* — 2" reach | **A 2** | S+2 (= S8 on charge) | AP -3 | D3 | **Unstoppable Momentum** (D3 hits per enemy model in reach)
-- **Crushing Bulk** *(Stegadon, always-available)* — 1" reach | **A D6** | S 6 | AP -1 | D 1 — the sheer tonnage pressing forward, stepping on things, knocking them aside
-- **Armoured Tail** *(Stegadon, rear arc only)* — 3" reach | **A 1** | S 6 | AP -1 | D 2 — muscular, heavy, tipped with bony clubs; keeps flankers honest from a distance
+- **Goring Horns** *(Stegadon, charge-only first round)* — 2" reach | **A 2** | S+2 (= S8 on charge) | AP -3 | D3 | **Unstoppable Momentum** (D3 hits per enemy model in reach) `[Natural]`
+- **Crushing Bulk** *(Stegadon, always-available)* — 1" reach | **A D6** | S 6 | AP -1 | D 1 — the sheer tonnage pressing forward, stepping on things, knocking them aside `[Natural]`
+- **Armoured Tail** *(Stegadon, rear arc only)* — 3" reach | **A 1** | S 6 | AP -1 | D 2 — muscular, heavy, tipped with bony clubs; keeps flankers honest from a distance `[Natural]`
 - **Giant Bow** *(Howdah, if chosen)* — 36" range | S 6 | AP -3 | D D3 — a single bolt the size of a spear, devastating one-shot anti-armour
 - **Giant Blowpipes** *(Howdah, if chosen)* — 12" range | S 3 | AP 0 | D 1 | **Multiple Shots (4D6)** | Poisoned Attacks | **Slow to Fire** (see §8) | **Rapid Fire** (see §8) — a hail of poisoned darts; crew-served volume weapon. Slow to Fire: cannot participate in Stand and Shoot. Rapid Fire negates the to-hit penalty that Multiple Shots usually imposes (the crew fires in rotation, always reloading while others loose)
-- **Hand weapon** *(Skink Crew self-defence)* — 1" reach | **A 1** | AP 0 | D 1
+- **Hand weapon** *(Skink Crew self-defence)* — 1" reach | **A 1** | AP 0 | D 1 `[1H Blade]`
 
 **Damage Table (Degrading):**
 

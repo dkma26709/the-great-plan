@@ -5,15 +5,15 @@
 
 **Ancient Salamander (Beast):**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 8 | 3  | 0  | 5 | 4 | 7 | 3 | 4  | 2   | 3  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 8 | 3 | 3 | 0 | 5 | 4 | 7 | 3 | 4 | 2 | 3 |
 
 **Skink Handler (×3, fixed):**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 8 | 3  | 3  | 3 | 2 | 1 | 4 | 6  | 1   | 1  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 8 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 
 **Points:** **140** per beast-bundle (1 Ancient Salamander + 3 Handlers)
 
@@ -39,7 +39,7 @@
 **Weapon profiles (A on weapons):**
 
 - **Searing Stream** *(Ancient Salamander ranged)* — **Flame Template | S 5 | AP -2 | D 1 | Flaming (see §8) | Slow to Fire (see §8) | Scatter (Artillery Die) (see §8)**. Same mechanic as Spout Flames (template placement + Artillery Die scatter with MISFIRE → D3 Handlers removed), but **hotter (S 5)** and **armour-piercing (AP -2)**. The Ancient's flame-sac holds a more concentrated mix — where the younger beast sprays, the Ancient projects. Catches the armoured infantry the regular Salamander can't crack.
-- **Claws and Bite** *(Ancient Salamander natural)* — 1" reach | **A 3** | S 5 | AP -1 | D 1 (at WS 3, I 3) — bigger than regular Salamander's claws
-- **Hand weapon** *(Handler)* — 1" reach | **A 1** | AP 0 | D 1
+- **Claws and Bite** *(Ancient Salamander natural)* — 1" reach | **A 3** | S 5 | AP -1 | D 1 (at WS 3, I 3) — bigger than regular Salamander's claws `[Natural]`
+- **Hand weapon** *(Handler)* — 1" reach | **A 1** | AP 0 | D 1 `[1H Blade]`
 
 > **Lore notes:** Differentiated from regular Salamander (80 pts) by +2 wounds, +1 S, +1 AP on the flame weapon, and a save step (6+ → 5+). Occupies a distinct anti-armour-infantry niche where regular Salamanders shred hordes. Fear kept (not upgraded to Terror), LiS 2 kept (not bumped to 4), Warbeast type kept (not Monster) — the Ancient is larger and meaner but still a jungle fire-beast, not a walking fortress. No Degrading table (Warbeast scale; degrading reserved for Monster-scale units per design principle). Points 140 per bundle: beast ~100 via stat sum 17 × W7 factor 4.36 = 74, plus +26 for the premium Searing Stream template weapon (S 5 AP -2 worth more than base template +4 framework value), plus 15 for Handler trio = 140.

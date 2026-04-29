@@ -3,7 +3,7 @@
 
 **Stress** represents accumulated psychological pressure on a unit — casualties, being targeted, losing ground. It is tracked as a counter that rises through the turn as triggers fire and falls via recovery and removal. When stress crosses a threshold, the unit enters a degraded state — **Shaken**, **Wavering**, or **Broken**.
 
-There are no Leadership tests anywhere in the system — no pass/fail rolls against Ld. Stress accumulation is deterministic (triggers add fixed amounts); recovery introduces variability (D3 rolls). Whether a unit crosses a threshold depends on its stress count at the Start of Turn (after recovery), its Ld, recovery luck, and any modifiers from nearby characters. The same rules apply uniformly to multi-model units and single models (monsters, characters).
+There are no Resolve tests anywhere in the system — no pass/fail rolls against Res. Stress accumulation is deterministic (triggers add fixed amounts); recovery introduces variability (D3 rolls). Whether a unit crosses a threshold depends on its stress count at the Start of Turn (after recovery), its Res, recovery luck, and any modifiers from nearby characters. The same rules apply uniformly to multi-model units and single models (monsters, characters).
 
 ### Triggers
 
@@ -24,18 +24,18 @@ There are no Leadership tests anywhere in the system — no pass/fail rolls agai
 
 ### Thresholds
 
-A unit's state is determined by its current stress count relative to its Leadership:
+A unit's state is determined by its current stress count relative to its Resolve:
 
 | State | Stress at |
 |-------|-----------|
-| — | 0 up to (Ld − 5) |
-| **Shaken** | Ld − 4 |
-| **Wavering** | Ld − 2 |
-| **Broken** | Ld |
+| — | 0 up to (Res − 5) |
+| **Shaken** | Res − 4 |
+| **Wavering** | Res − 2 |
+| **Broken** | Res |
 
-For reference at base Ld values (no modifiers):
+For reference at base Res values (no modifiers):
 
-| Ld | Shaken | Wavering | Broken |
+| Res | Shaken | Wavering | Broken |
 |----|--------|----------|--------|
 | 7 | 3 | 5 | 7 |
 | 8 | 4 | 6 | 8 |
@@ -46,31 +46,33 @@ For reference at base Ld values (no modifiers):
 
 | State | Effects |
 |-------|---------|
-| Shaken | −1 to hit (melee and ranged) |
-| Wavering | −1 to hit, cannot charge |
+| Shaken | −1 WS-A, −1 WS-D (melee), −1 BS (ranged) |
+| Wavering | −1 WS-A, −1 WS-D (melee), −1 BS (ranged); cannot charge |
 | Broken | flees every Movement phase (full-M move directly away from the nearest enemy); attacks against the unit hit automatically (no to-hit roll required); enemies may engage a Broken unit by simply moving into weapon reach — no charge declaration needed |
+
+**Note on melee state effects:** Shaken and Wavering apply **−1 to both WS-A and WS-D** as standard, mirroring the dual-axis split. The unit hits worse *and* gets hit easier in melee. Special rules may modify one axis or the other in specific cases; the universal stress effect hits both.
 
 States apply while the unit's stress is at or above the threshold. A unit whose stress drops below a threshold (via recovery, winning combat, or rally) loses the corresponding state at the next Start of Turn threshold check.
 
-### Size Leadership Bonus
+### Size Resolve Bonus
 
 Larger units are inherently more resilient — more bodies, more cohesion, less vulnerability to individual panic. Based on **current** model count:
 
-- **1–9 models:** base Ld
-- **10–19 models:** Ld +1
-- **20+ models:** Ld +2
-- **Single models:** base Ld (no size modifier)
+- **1–9 models:** base Res
+- **10–19 models:** Res +1
+- **20+ models:** Res +2
+- **Single models:** base Res (no size modifier)
 
-This raises the Shaken / Wavering / Broken thresholds by the same amount, so large blocks absorb considerably more stress before breaking than small units with the same base Ld. As a unit takes casualties, its size bonus may shrink — a 20-model unit reduced to 9 drops from +2 to base Ld, compounding its fragility.
+This raises the Shaken / Wavering / Broken thresholds by the same amount, so large blocks absorb considerably more stress before breaking than small units with the same base Res. As a unit takes casualties, its size bonus may shrink — a 20-model unit reduced to 9 drops from +2 to base Res, compounding its fragility.
 
 ### Characters as Morale Aids
 
-Two character-level special rules anchor a unit's morale. Full definitions are in §8 *Special Rules Glossary* — *Leadership and Command*.
+Two character-level special rules anchor a unit's morale. Full definitions are in §8 *Special Rules Glossary* — *Resolve and Command*.
 
-- **Inspiring Presence (X")** — the character raises Ld thresholds, enables rally (even in combat), and grants rerolls on recovery and rally rolls. The army general has Inspiring Presence (12") by default.
+- **Inspiring Presence (X")** — the character raises Res thresholds, enables rally (even in combat), and grants rerolls on recovery and rally rolls. The army general has Inspiring Presence (12") by default.
 - **Battle Standard Bearer (X")** — the character gives +1 combat resolution and +1 to recovery/rally rolls. The army's Battle Standard Bearer has Battle Standard Bearer (12") by default.
 
-The General and BSB serve different roles: the General is the morale backbone (enabling rally, rerolls, threshold bonuses), the BSB is a combat anchor (CR and recovery). Their effects stack. A unit within range of both benefits from Ld +1 thresholds, +1 CR, +1 to recovery/rally rolls, reroll on those rolls, and the ability to rally in combat.
+The General and BSB serve different roles: the General is the morale backbone (enabling rally, rerolls, threshold bonuses), the BSB is a combat anchor (CR and recovery). Their effects stack. A unit within range of both benefits from Res +1 thresholds, +1 CR, +1 to recovery/rally rolls, reroll on those rolls, and the ability to rally in combat.
 
 ### Stress-related Special Rules
 
@@ -95,7 +97,7 @@ Stress counters are recorded **throughout the turn** as their triggers occur —
 **Start of Turn** (next turn): two steps, in order:
 
 1. **Recovery rolls.** Every unit rolls for recovery (D3 + modifiers). Stress counters are reduced accordingly.
-2. **Threshold check.** Each unit's stress is compared against its Ld-based thresholds. States (Shaken, Wavering, Broken) are applied or removed based on the unit's current stress after recovery.
+2. **Threshold check.** Each unit's stress is compared against its Res-based thresholds. States (Shaken, Wavering, Broken) are applied or removed based on the unit's current stress after recovery.
 
 **Movement Phase** (immediately after): Broken units flee first, before any charges or normal movement are declared (see *Broken* in State Effects above).
 

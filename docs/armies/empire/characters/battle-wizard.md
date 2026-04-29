@@ -5,9 +5,9 @@
 
 **Battle Wizard:**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 4 | 3  | 3  | 3 | 3 | 3 | 3 | 8  | 1   | 1  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 4 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 8 | 1 | 1 |
 
 **Magic Profile (level-dependent):**
 
@@ -35,6 +35,6 @@
 
 **Weapon profiles:**
 
-- **Hand weapon** — 1" | A 1 | S 3 | AP 0 | D 1
+- **Hand weapon** — 1" | A 1 | S 3 | AP 0 | D 1 `[1H Blade]`
 
-> **Lore notes:** Stats from human caster baseline — WS / BS / S 3 / T 3 / I 3 (reference, no inflation; humans at base stats are genuinely fragile casters). **W 2 → 3** Hero-tier wound bump (revised 2026-04-25 alongside the §16 Vampire Counts Hero W bumps for cross-faction Hero-tier wound consistency). **Ld 7 → 8** for our stress-system calibration. Magic Profile is the entry tier of the Empire wizard ladder — Lvl 1 (Lore Access 1) at Cast Base 2 / Dispel Base 1 / Channelling 1 / Cast Bonus +0 / Dispel Bonus +0 / Dispel Range 18" is the weakest caster in the ruleset to date, befitting Lvl 1 College graduates. **Lvl 2 upgrade (+30 pts)** bumps Channelling +1, Cast Bonus +1, and unlocks Lore Access 2 — at this tier the Battle Wizard's magic profile matches the Skink Priest exactly (Cast Base 2 / Dispel Base 1 / Channelling 2 / Cast Bonus +1 / Dispel Bonus +0 / Dispel Range 18" / Lore Access 2), with breadth-of-Wind (8 vs Skink's 7) and durability (W 3 / T 3 / Ld 8 vs Skink's W 2 / T 2 / Ld 6) as the residual differentiators. Skink Priest at 70 pts has Aquatic + Arcane Vassal (Slann relay) + M 8 mobility on top — the comparison pricing 105 vs 70 books in those Skink-specific advantages. Points **75** base / **105** upgraded — Hero-tier caster pricing. The level-up mechanic tests our Lore Access-as-list-build-upgrade pattern (Skink Priest / High Priest are fixed at Lore Access 2 / Lore Access 3; Empire wizards have variable Lore Access via the +30 / +35 upgrade) — useful contrast for cross-faction list-build flex. **Cross-faction Hero-caster parity:** Battle Wizard now matches the §16 Necromancer at 75 / 105 pricing — both are single-lore Hero casters with the same level-upgrade ladder; the Battle Wizard picks one of the eight Winds at list-build, the Necromancer is locked to Necromancy.
+> **Lore notes:** Stats from human caster baseline — WS / BS / S 3 / T 3 / I 3 (reference, no inflation; humans at base stats are genuinely fragile casters). **W 2 → 3** Hero-tier wound bump (revised 2026-04-25 alongside the §16 Vampire Counts Hero W bumps for cross-faction Hero-tier wound consistency). **Res 7 → 8** for our stress-system calibration. Magic Profile is the entry tier of the Empire wizard ladder — Lvl 1 (Lore Access 1) at Cast Base 2 / Dispel Base 1 / Channelling 1 / Cast Bonus +0 / Dispel Bonus +0 / Dispel Range 18" is the weakest caster in the ruleset to date, befitting Lvl 1 College graduates. **Lvl 2 upgrade (+30 pts)** bumps Channelling +1, Cast Bonus +1, and unlocks Lore Access 2 — at this tier the Battle Wizard's magic profile matches the Skink Priest exactly (Cast Base 2 / Dispel Base 1 / Channelling 2 / Cast Bonus +1 / Dispel Bonus +0 / Dispel Range 18" / Lore Access 2), with breadth-of-Wind (8 vs Skink's 7) and durability (W 3 / T 3 / Res 8 vs Skink's W 2 / T 2 / Res 6) as the residual differentiators. Skink Priest at 70 pts has Aquatic + Arcane Vassal (Slann relay) + M 8 mobility on top — the comparison pricing 105 vs 70 books in those Skink-specific advantages. Points **75** base / **105** upgraded — Hero-tier caster pricing. The level-up mechanic tests our Lore Access-as-list-build-upgrade pattern (Skink Priest / High Priest are fixed at Lore Access 2 / Lore Access 3; Empire wizards have variable Lore Access via the +30 / +35 upgrade) — useful contrast for cross-faction list-build flex. **Cross-faction Hero-caster parity:** Battle Wizard now matches the §16 Necromancer at 75 / 105 pricing — both are single-lore Hero casters with the same level-upgrade ladder; the Battle Wizard picks one of the eight Winds at list-build, the Necromancer is locked to Necromancy.

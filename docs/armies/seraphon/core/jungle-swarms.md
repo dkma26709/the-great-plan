@@ -3,9 +3,9 @@
 
 > A roiling mass of the jungle's small reptiles — vipers, geckos, frogs, centipedes — flushed from the canopy by Skink priests and directed as a single tide of fang and venom. Individually negligible. Collectively, a base of Jungle Swarm absorbs more punishment than three Saurus Warriors and can contest any objective it slithers onto. Their purpose is mass, venom, and presence — not manoeuvre, not damage per point, but the sheer refusal of a patch of ground.
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |   | Points |
-|---|----|----|---|---|---|---|----|-----|----|---|--------|
-| 5 | 3  | 0  | 2 | 2 | 7 | 2 | 3  | 0   | =W |   | **32** |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |  | Points |
+|---|----|----|----|---|---|---|---|----|-----|----|---|--------|
+| 5 | 3 | 3 | 0 | 2 | 2 | 7 | 2 | 3 | 0 | =W |  | **32** |
 
 - **Keywords:** Lizardmen, Swarm, Core
 - **Unit type:** Swarm
@@ -26,4 +26,4 @@
 
 - **Fang and venom** *(natural attacks, dynamic A)* — 1" reach | **A = current W remaining** | S 2 | AP 0 | D 1 | Poisoned Attacks — each base's attacks equal its own remaining wound count
 
-> **Lore notes:** The A=W, US=W dynamic is the Swarm-type convention (see §1): both offensive output and board presence scale with remaining wound count. No damage table needed — one stat carries the information. Expendable eliminates the friendly-stress-spread on loss (nobody panics when the swarm is scoured; it was written off from deployment). Unstable means stress above Ld bleeds into wounds rather than panic states — the mass doesn't flee, it dies. Dispersed Mass caps incoming Damage at 1; multi-damage weapons are wasted on a creature with no single body to gut. Smothering Mass is the identity rule: the swarm is a positional anchor, not a damage unit — engaging a swarm is a commitment, not a poke.
+> **Lore notes:** The A=W, US=W dynamic is the Swarm-type convention (see §1): both offensive output and board presence scale with remaining wound count. No damage table needed — one stat carries the information. Expendable eliminates the friendly-stress-spread on loss (nobody panics when the swarm is scoured; it was written off from deployment). Unstable means stress above Res bleeds into wounds rather than panic states — the mass doesn't flee, it dies. Dispersed Mass caps incoming Damage at 1; multi-damage weapons are wasted on a creature with no single body to gut. Smothering Mass is the identity rule: the swarm is a positional anchor, not a damage unit — engaging a swarm is a commitment, not a poke.

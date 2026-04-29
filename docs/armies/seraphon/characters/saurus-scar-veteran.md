@@ -5,9 +5,9 @@
 
 **Saurus Scar-Veteran:**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 4 | 6  | 0  | 5 | 5 | 5 | 3 | 10 | 2   | 3  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 4 | 6 | 6 | 0 | 5 | 5 | 5 | 3 | 10 | 2 | 3 |
 
 **Points:** **170** base (on foot, with Celestite Blade + shield)
 
@@ -31,10 +31,10 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Saurus Jaws** *(natural, always)* — 1" | **A 2** | S 5 | AP -2 | D D3 — "torn limb from limb" lethality via the D D3 variance on each bite
-- **Celestite Blade** *(default, 1H)* — 1" | **A 4** | S+1 (= S 6) | AP -2 | D 1 — Scar-Veteran tier upgrades weapon **AP by +1** over Saurus Warrior tier. Represents skill — the veteran lands strikes that an unranked Saurus glances off
-- **Celestite Spear** *(option, 1H)* — 2" | A 4 | S+1 | AP -1 | D 1
-- **Celestite Polearm** *(option, 2H)* — 2" | A 4 | S+2 | AP -3 | D 1
-- **Celestite Great Weapon** *(option, 2H)* — 1" | A 3 | S+3 | AP -4 | D 2
+- **Saurus Jaws** *(natural, always)* — 1" | **A 2** | S 5 | AP -2 | D D3 — "torn limb from limb" lethality via the D D3 variance on each bite `[Natural]`
+- **Celestite Blade** *(default, 1H)* — 1" | **A 4** | S+1 (= S 6) | AP -2 | D 1 — Scar-Veteran tier upgrades weapon **AP by +1** over Saurus Warrior tier. Represents skill — the veteran lands strikes that an unranked Saurus glances off `[1H Blade]`
+- **Celestite Spear** *(option, 1H)* — 2" | A 4 | S+1 | AP -1 | D 1 `[1H Reach]`
+- **Celestite Polearm** *(option, 2H)* — 2" | A 4 | S+2 | AP -3 | D 1 `[1H Reach]`
+- **Celestite Great Weapon** *(option, 2H)* — 1" | A 3 | S+3 | AP -4 | D 2 `[2H]`
 
-> **Lore notes:** WS 6 genuinely apex among Saurus (vs Warrior WS 4). W 5 is the major heft — the Scar-Vet survives direct attention in a way rank-and-file cannot. I 3 is deliberately low — lore says "slow to react, not dull-witted"; one notch above Warrior I 2 honours veteran reflexes without contradicting the lore pillar. Ld 10 matches Saurus baseline (already capped). Weapon-tier AP +1 over Warriors captures skill, not strength (Scar-Vet's S is unchanged). Saurus Jaws D D3 literalises the "torn limb from limb" lore as weapon-level variance. **Battlefield Growl** is the identity rule — once-per-battle burst stress removal across nearby Saurus units. The bellow encodes as a morale effect rather than a geometry effect, fitting our stress-first system; complements Saurus Oldblood's Primeval Command (continuous aura on one unit) by delivering a multi-unit burst of relief once per game. Points **170** base (Hero-tier pricing; Scar-Vet sits in the middle of the character cost ladder — above Skink Chief 85, below Oldblood 260).
+> **Lore notes:** WS 6 genuinely apex among Saurus (vs Warrior WS 4). W 5 is the major heft — the Scar-Vet survives direct attention in a way rank-and-file cannot. I 3 is deliberately low — lore says "slow to react, not dull-witted"; one notch above Warrior I 2 honours veteran reflexes without contradicting the lore pillar. Res 10 matches Saurus baseline (already capped). Weapon-tier AP +1 over Warriors captures skill, not strength (Scar-Vet's S is unchanged). Saurus Jaws D D3 literalises the "torn limb from limb" lore as weapon-level variance. **Battlefield Growl** is the identity rule — once-per-battle burst stress removal across nearby Saurus units. The bellow encodes as a morale effect rather than a geometry effect, fitting our stress-first system; complements Saurus Oldblood's Primeval Command (continuous aura on one unit) by delivering a multi-unit burst of relief once per game. Points **170** base (Hero-tier pricing; Scar-Vet sits in the middle of the character cost ladder — above Skink Chief 85, below Oldblood 260).

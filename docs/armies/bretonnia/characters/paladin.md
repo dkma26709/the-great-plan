@@ -5,9 +5,9 @@
 
 **Paladin:**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 4 | 5  | 5  | 4 | 4 | 4 | 5 | 9  | 1   | 2  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 4 | 5 | 5 | 5 | 4 | 4 | 4 | 5 | 9 | 1 | 2 |
 
 **Points:** **95** base (on foot, hand weapon + heavy armour, Knight's Vow)
 
@@ -43,12 +43,12 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Hand weapon** *(default, 1H — pairs with shield if taken)* — 1" reach | **A 3** | S 4 | AP 0 | D 1
-- **Polearm (Bretonnian Bill)** *(option, foot only, 1H with shield)* — 2" reach | **A 3** | S+1 (= S 5) | AP -1 | D 1
+- **Hand weapon** *(default, 1H — pairs with shield if taken)* — 1" reach | **A 3** | S 4 | AP 0 | D 1 `[1H Blade]`
+- **Polearm (Bretonnian Bill)** *(option, foot only, 1H with shield)* — 2" reach | **A 3** | S+1 (= S 5) | AP -1 | D 1 `[1H Reach]`
 - **Heavy Lance** *(option, mounted only, 1H with shield)* — 2" reach | **A 3** | charge: S+2 (= S 6), AP -2, D 2; subsequent rounds: S+0 (= S 4), AP 0, D 1
-- **Great Weapon** *(option, 2H — no shield)* — 1" reach | **A 3** | S+2 (= S 6) | AP -2 | D 1 | Two-Handed
+- **Great Weapon** *(option, 2H — no shield)* — 1" reach | **A 3** | S+2 (= S 6) | AP -2 | D 1 | Two-Handed `[2H]`
 
-> **Lore notes:** **Stats match Captain of the Empire** — WS 5 / BS 5 / S 4 / T 4 / **W 4** (Hero-tier wound bump — matches Captain post-bump, per the cross-faction Hero W 2 → 4 convention) / I 5 / A 3 / Ld 9 / LiS 1 / US 2. Identical Hero-tier baseline; the Bretonnian-specific layers (Vow, Blessing, mount variety, Champion of the Realm) are the differentiators. Note the §17 calibration note's original "Paladin W 2 → 3" is now superseded by W 2 → 4 (Hero-tier consistency across factions, per Captain).
+> **Lore notes:** **Stats match Captain of the Empire** — WS 5 / BS 5 / S 4 / T 4 / **W 4** (Hero-tier wound bump — matches Captain post-bump, per the cross-faction Hero W 2 → 4 convention) / I 5 / A 3 / Res 9 / LiS 1 / US 2. Identical Hero-tier baseline; the Bretonnian-specific layers (Vow, Blessing, mount variety, Champion of the Realm) are the differentiators. Note the §17 calibration note's original "Paladin W 2 → 3" is now superseded by W 2 → 4 (Hero-tier consistency across factions, per Captain).
 >
 > **Pricing 95 pts base** — +10 over Captain's 85. Premium covers: **Blessing of the Lady intrinsic** (~5 pts), and **always-on Champion of the Realm reroll-to-Hit vs Characters** (~5 pts — modest reliable buff vs one matchup type). Vow upgrades follow the WAP-canonical scaling (+10 / +10 / +20 for Crusader's / Questing / Grail) — half the Lord's vow upgrade cost (which is +15 / +15 / +30) reflecting Hero-tier scale. Mount option costs (+12 Warhorse / +20 Pegasus / +30 Royal Pegasus) likewise scaled below the Lord's (+18 / +30 / +45). No Royal Hippogryph option — flying monster mounts are reserved for Lord-tier characters only (lore-thematic: only the duke himself rides a Hippogryph).
 >
@@ -66,6 +66,6 @@
 > - Paladin with Knight's Vow + Heavy Lance + shield + Warhorse + 50 pt magic items: 95 + 6 + 2 + 12 + 50 = **165 pts** (item-loaded standard Paladin)
 >
 > **Compare:**
-> - **Captain of the Empire (85 pts)** — same stat baseline (W 4, WS 5, BS 5, S 4, T 4, I 5, A 3, Ld 9). Captain has Hold the Line identity (Stubborn-loan to attached Formed Empire Infantry), no Blessing, no Vow ladder, no aerial mounts. Paladin is +10 pts for Blessing intrinsic and the always-on Champion of the Realm reroll-to-Hit vs Characters (vs Hold the Line)
+> - **Captain of the Empire (85 pts)** — same stat baseline (W 4, WS 5, BS 5, S 4, T 4, I 5, A 3, Res 9). Captain has Hold the Line identity (Stubborn-loan to attached Formed Empire Infantry), no Blessing, no Vow ladder, no aerial mounts. Paladin is +10 pts for Blessing intrinsic and the always-on Champion of the Realm reroll-to-Hit vs Characters (vs Hold the Line)
 > - **Bretonnian Lord (170 pts)** — Lord-tier (W 5 vs Paladin's W 4, WS 6 vs WS 5, A 4 vs A 3), Inspiring Charge identity (army-radius charge reroll), Royal Hippogryph mount option, larger Vow upgrade premiums, 100 pt magic items. The Paladin is the scaled-down version: same chivalric framework, smaller stats, smaller cost, smaller magic-item budget, no Hippogryph
 > - **Saurus Scar-Veteran (170 pts)** — Lizardmen Hero-tier combat; W 5 / NA 3+ / Battlefield Growl identity. Substantially more durable and with stat profile geared for pure combat. The Paladin trades raw combat output for Vow flexibility, mount variety, and the Lord-army synergy

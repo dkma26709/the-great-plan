@@ -5,9 +5,9 @@ The duke's personal stable selects only the finest pegasi from the Forest of Lor
 
 **Royal Pegasus (barded):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 6 | 4  | 0  | 5 | 4 | 3 | 4 | 6  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 6 | 4 | 4 | 0 | 5 | 4 | 3 | 4 | 6 |
 
 *(Royal Pegasus baseline ground M 8, reduced to M 6 by barding per §8 Barding rule. Not a Bretonnian destrier — Pegasus is a winged magical creature, not a warhorse, and does not have Purebred Warhorse.* **Fly 14"** *— see special rules below.)*
 
@@ -21,6 +21,6 @@ The duke's personal stable selects only the finest pegasi from the Forest of Lor
 
 **Mount weapon profile:**
 
-- **Royal Pegasus's Hooves and Bite** *(mount natural)* — 1" reach | **A 3** | S 5 | AP 0 | D 1 — three attacks per Royal Pegasus at S 5 (Iron-hard Hooves baseline). Compare to regular Pegasus's A 2 / S 4 — the Royal Pegasus is meaningfully more dangerous in close combat
+- **Royal Pegasus's Hooves and Bite** *(mount natural)* — 1" reach | **A 3** | S 5 | AP 0 | D 1 — three attacks per Royal Pegasus at S 5 (Iron-hard Hooves baseline). Compare to regular Pegasus's A 2 / S 4 — the Royal Pegasus is meaningfully more dangerous in close combat `[Natural]`
 
 > **Stat upgrade summary vs regular Pegasus:** W 2 → 3 (+50% durability), A 2 → 3 (+50% mount attacks), Hooves S 4 → 5 (+1 wounding tier), Fly 12 → 14 (+2" reach per Movement phase). The Royal Pegasus is a meaningful step up — +15 pt premium for the Lord (+30 vs +45) buys real durability and attack-output gains. Combined with a Lord (W 5) for unit W 8, or with a Paladin (W 4) for unit W 7 — substantial flying-platform durability.

@@ -5,15 +5,15 @@
 
 **Rider (Skink Hunter):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 6 | 2  | 3  | 3 | 2 | 1 | 4 | 6  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 6 | 2 | 2 | 3 | 3 | 2 | 1 | 4 | 6 |
 
 **Mount (Raptadon):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 12| 3  | 0  | 3 | 3 | 1 | 3 | 3  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 12 | 3 | 3 | 0 | 3 | 3 | 1 | 3 | 3 |
 
 - **Keywords:** Lizardmen, Skink, Cavalry, Core
 - **Unit type:** Cavalry (Fast Cavalry — see §8)
@@ -36,9 +36,9 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Hand weapon** *(rider, implicit melee fallback)* — 1" reach | **A 1** | S 3 | AP 0 | D 1
+- **Hand weapon** *(rider, implicit melee fallback)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
 - **Tepok Lance** *(rider, default)* — 2" reach | **A 1** | see Armoury for charge/post-charge profile (+1 S / AP -2 / D 2 on charge first round; AP 0 D 1 thereafter)
 - **Moonstone Javelin** *(rider, free-swap option)* — 8" range | S 3 | AP -1 | D 1 | Quick to Fire | Poisoned Attacks
-- **Raptadon's Serrated Fangs** *(Raptadon mount, each model)* — 1" reach | **A 1** | S 3 | AP -1 | D 1 — resolved at mount's WS 3, I 3
+- **Raptadon's Serrated Fangs** *(Raptadon mount, each model)* — 1" reach | **A 1** | S 3 | AP -1 | D 1 — resolved at mount's WS 3, I 3 `[Natural]`
 
 > **Lore notes:** M12 sits at the top of the speed scale — these are predatory sprinters, not human-light-horse fast cavalry. The W2 combined pool is cavalry-durability: a model = rider + mount taking damage together. Merges the AoS **Raptadon Chargers** (lance-focused) and **Raptadon Hunters** (javelin-focused) into one Core unit with equipment choice covering both postures — one hunt-pack, two tactical tools. The Tepok Lance's charge-only damage spike is the Chargers' signature; the Moonstone Javelin swap is the Hunters' kite-and-poison kit. Predator's Scent gives the unit its hunts-the-wounded identity — a scalpel that sharpens as the battle draws blood, filling a role no other Lizardmen unit holds.

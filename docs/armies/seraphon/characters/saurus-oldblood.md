@@ -5,9 +5,9 @@
 
 **Saurus Oldblood:**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 4 | 7  | 0  | 5 | 5 | 7 | 3 | 10 | 2   | 4  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 4 | 7 | 7 | 0 | 5 | 5 | 7 | 3 | 10 | 2 | 4 |
 
 **Points:** **260** base (on foot, with Celestite Blade + shield)
 
@@ -31,14 +31,14 @@
 - **Special rules:**
   - **Predatory Fighter** (see §8) — Saurus natural attacks trigger extra attacks on unmodified 6s to hit
   - **Fear** (see §8)
-  - **Primeval Command** *(identity rule)* — friendly **Saurus** units with any model within **18"** of the Oldblood treat their Ld as **10** (if lower). Additionally, at the start of any friendly turn, the Oldblood nominates one friendly Saurus unit within 18"; that unit immediately removes **2 stress counters**. Represents the latent strategic knowledge of war unlocked across the Oldblood's centuries — his people orient around his unspoken tactical vision
+  - **Primeval Command** *(identity rule)* — friendly **Saurus** units with any model within **18"** of the Oldblood treat their Res as **10** (if lower). Additionally, at the start of any friendly turn, the Oldblood nominates one friendly Saurus unit within 18"; that unit immediately removes **2 stress counters**. Represents the latent strategic knowledge of war unlocked across the Oldblood's centuries — his people orient around his unspoken tactical vision
 
 **Weapon profiles (A on weapons):**
 
-- **Saurus Jaws** *(Oldblood natural, always)* — 1" | **A 2** | S 5 | AP -2 | D D3 — ancestral bite; strength unchanged from Scar-Veteran tier (age does not grow the jaws)
-- **Celestite Blade** *(default, 1H)* — 1" | **A 4** | S+1 (= S 6) | AP -2 | **D 2** — Oldblood tier upgrades weapon **Damage** by +1 over Scar-Veteran (Scar-Vet had D 1 here). Represents precision and placement — each blow dispatches a foe — not greater strength
-- **Celestite Spear** *(option, 1H)* — 2" | A 4 | S+1 | AP -2 | D 2
-- **Celestite Polearm** *(option, 2H)* — 2" | A 4 | S+2 | AP -3 | D 2
-- **Celestite Great Weapon** *(option, 2H)* — 1" | A 3 | S+3 | AP -4 | D 2
+- **Saurus Jaws** *(Oldblood natural, always)* — 1" | **A 2** | S 5 | AP -2 | D D3 — ancestral bite; strength unchanged from Scar-Veteran tier (age does not grow the jaws) `[Natural]`
+- **Celestite Blade** *(default, 1H)* — 1" | **A 4** | S+1 (= S 6) | AP -2 | **D 2** — Oldblood tier upgrades weapon **Damage** by +1 over Scar-Veteran (Scar-Vet had D 1 here). Represents precision and placement — each blow dispatches a foe — not greater strength `[1H Blade]`
+- **Celestite Spear** *(option, 1H)* — 2" | A 4 | S+1 | AP -2 | D 2 `[1H Reach]`
+- **Celestite Polearm** *(option, 2H)* — 2" | A 4 | S+2 | AP -3 | D 2 `[1H Reach]`
+- **Celestite Great Weapon** *(option, 2H)* — 1" | A 3 | S+3 | AP -4 | D 2 `[2H]`
 
-> **Lore notes:** Oldblood's stat line deliberately matches the Scar-Veteran on **S (5), T (5), I (3)** — lore describes Oldbloods as older and wiser, not physically stronger or faster. Differentiation sits on: **NA 2+** (Skink-attendant bronze armour atop thickened scales; the Oldblood is biologically protected to Bastiladon-grade), **W 7** (centuries of survival → larger wound pool), **WS 7** (the absolute top melee skill in the roster), **US 4** (heavier battlefield presence), **weapon D +1** vs Scar-Veteran (precision of strike, not strength). Ld 10 matches Saurus baseline (already at ruleset cap). **Primeval Command** is the identity rule — aura Ld buff + per-turn stress removal captures "latent strategic knowledge unlocked with age." Points **260** on foot with default kit, Lord-tier pricing for the single most expensive non-monster character in the Seraphon roster (first-pass; playtest-tunable).
+> **Lore notes:** Oldblood's stat line deliberately matches the Scar-Veteran on **S (5), T (5), I (3)** — lore describes Oldbloods as older and wiser, not physically stronger or faster. Differentiation sits on: **NA 2+** (Skink-attendant bronze armour atop thickened scales; the Oldblood is biologically protected to Bastiladon-grade), **W 7** (centuries of survival → larger wound pool), **WS 7** (the absolute top melee skill in the roster), **US 4** (heavier battlefield presence), **weapon D +1** vs Scar-Veteran (precision of strike, not strength). Res 10 matches Saurus baseline (already at ruleset cap). **Primeval Command** is the identity rule — aura Res buff + per-turn stress removal captures "latent strategic knowledge unlocked with age." Points **260** on foot with default kit, Lord-tier pricing for the single most expensive non-monster character in the Seraphon roster (first-pass; playtest-tunable).

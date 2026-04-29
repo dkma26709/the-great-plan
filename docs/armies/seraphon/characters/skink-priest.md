@@ -5,9 +5,9 @@
 
 **Skink Priest:**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 8 | 3  | 3  | 3 | 2 | 2 | 4 | 6  | 1   | 2  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 8 | 3 | 3 | 3 | 3 | 2 | 2 | 4 | 6 | 1 | 2 |
 
 **Magic Profile:**
 
@@ -35,7 +35,7 @@
 
 **Weapon profiles:**
 
-- **Hand weapon** — 1" | **A 1** | S 3 | AP 0 | D 1
+- **Hand weapon** — 1" | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
 - **Moonstone Javelin** *(see Armoury)* — 8" range | S 3 | AP -1 | D 1 | Quick to Fire | Poisoned Attacks
 
-> **Lore notes:** Stats deliberately *uninflated* — the Priest is Skink-baseline with only modest Hero-tier bumps (W 2 vs Cohort W 1; Ld 6 same as Cohort). **Ld 6 is LOWER than the Skink Chief's Ld 8** because the Priest is **wise but not brave** — a religious figure, not a battlefield commander. Wounds are not a "caster needs to survive" stat-bump — survival is a listbuilding/movement concern, not a stat inflation. Magic Profile Lore Access 2 = Basic + Intermediate access; Mark of the Old One as a list-build lore pick encodes the lore-accuracy that Priests are *single-lore* specialists (unlike the Slann's Loremaster access). **Arcane Vassal** is the identity rule — Slann spells use the Priest's model for range/LoS, making the Priest a forward deployment anchor for the Slann's magical reach. Lore-perfect "voice of the Mage-Priest" and mechanically distinctive. Points **70** base — below Skink Chief's 85 because non-caster stats are lower and magic stats price flat rather than multiplied.
+> **Lore notes:** Stats deliberately *uninflated* — the Priest is Skink-baseline with only modest Hero-tier bumps (W 2 vs Cohort W 1; Res 6 same as Cohort). **Res 6 is LOWER than the Skink Chief's Res 8** because the Priest is **wise but not brave** — a religious figure, not a battlefield commander. Wounds are not a "caster needs to survive" stat-bump — survival is a listbuilding/movement concern, not a stat inflation. Magic Profile Lore Access 2 = Basic + Intermediate access; Mark of the Old One as a list-build lore pick encodes the lore-accuracy that Priests are *single-lore* specialists (unlike the Slann's Loremaster access). **Arcane Vassal** is the identity rule — Slann spells use the Priest's model for range/LoS, making the Priest a forward deployment anchor for the Slann's magical reach. Lore-perfect "voice of the Mage-Priest" and mechanically distinctive. Points **70** base — below Skink Chief's 85 because non-caster stats are lower and magic stats price flat rather than multiplied.

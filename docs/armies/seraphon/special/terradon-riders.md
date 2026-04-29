@@ -5,15 +5,15 @@
 
 **Rider (Skink):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 6 | 2  | 3  | 3 | 2 | 1 | 4 | 6  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 6 | 2 | 2 | 3 | 3 | 2 | 1 | 4 | 6 |
 
 **Mount (Terradon):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 2 | 3  | 0  | 4 | 3 | 3 | 2 | 3  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 2 | 3 | 3 | 0 | 4 | 3 | 3 | 2 | 3 |
 
 *Terradon ground movement is M2 (flapping, not walking); flying movement is **Fly (14)** per the Fly special rule (see §8). Terradons are wide-winged saurians built for sustained high-altitude flight — the fastest flyer Skinks deploy short of Terrawings' nimble-darting pattern.*
 
@@ -45,9 +45,9 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Hand weapon** *(rider, implicit melee fallback)* — 1" reach | **A 1** | S 3 | AP 0 | D 1
+- **Hand weapon** *(rider, implicit melee fallback)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
 - **Moonstone Javelin** *(rider, default ranged)* — 8" range | S 3 | AP -1 | D 1 | Quick to Fire | Poisoned Attacks
 - **Fireleech Bolas** *(rider, +2 pt swap ranged option)* — 8" range | S 4 | AP 0 | D 1 | Flaming | Quick to Fire (see Armoury)
-- **Terradon's Talons and Beak** *(mount natural, each model)* — 1" reach | **A 2** | S 4 | AP 0 | D 1 — resolved at mount WS 3, I 2
+- **Terradon's Talons and Beak** *(mount natural, each model)* — 1" reach | **A 2** | S 4 | AP 0 | D 1 — resolved at mount WS 3, I 2 `[Natural]`
 
 > **Lore notes:** Fly (14) makes Terradons the fastest non-Terrawing flyer in the roster — wide-winged saurians that cover ground no ground-cavalry can match. W4 pool (rider 1 + mount 3) reflects real mount-scale durability; a Terradon is not a flying Skink, it is a flying saurian that happens to carry a Skink. Javelin-default matches the hunter identity — these are aerial ambushers who kite and drop, not shock cavalry; the Light Lance was a reflex-port from WFB and has been cut. Drop Rocks at **AP -1** puts the bombing run into genuine armour-piercing territory — the stone at terminal velocity is the closest thing Skinks have to siege-grade impact, and it should matter against heavy infantry. Fireleech Bolas swap converts the ranged identity from venom to flame for anti-Regeneration work. Non-Aquatic: Terradons are flying saurians, not water-dwellers — per the **Skink-on-mount rule**, the Skink rider does not bring Aquatic to a mount that isn't. Points at 42 via §13 formula (stat sum ~22 × W4 factor 1.96 = 43) — the formula tracks this unit well without needing a bundle premium; the flying-cavalry role absorbs cost cleanly within the pool-dice-scaled framework.

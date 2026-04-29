@@ -5,9 +5,9 @@
 
 **Great Cannon (platform + crew, unified profile):**
 
-| M | WS | BS | S | T (ranged) | T (melee) | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|---|----|-----|----|
-| 2 | 3  | 3  | 3 | **7**      | **3**     | **5** | 3 | 8  | 2   | 2  |
+| M | WS-A | WS-D | BS | S | T (ranged) | T (melee) | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|---|----|-----|----|
+| 2 | 3 | 3 | 3 | 3 | **7** | **3** | **5** | 3 | 8 | 2 | 2 |
 
 *The platform and its Crew share a single unified profile. The unit has a **W 5 wound pool** — wounds accumulate on the machine as a whole. The crew is **not** individually removed as wounds are taken; the unit fires, fights in melee, and operates at **full output** until W reaches 0, at which point the cannon is destroyed (catastrophic structural collapse, last surviving crew lost with it). The dual Toughness reflects what's being hit: **T 7 when targeted by ranged attacks** (shots hit the bronze barrel and iron carriage), **T 3 when targeted in melee** (attackers reach the Crew past the platform). The War Machine's defining tension: devastating at range, almost unkillable by small arms, but genuinely vulnerable when something gets close — and **all-or-nothing under focused targeting** (a single magic missile or cannon shot doesn't drop it, but two or three coordinated shots will).*
 
@@ -29,7 +29,7 @@
 **Weapon profiles:**
 
 - **Great Cannon** *(ranged, Crew fire once per Shooting phase)* — **48" range | S 10 | AP -5 | D D6** — fired via the **Bounce Line** mechanic (below). One shot per Shooting phase. Crew must be alive (W > 0).
-- **Hand weapon** *(Crew melee)* — 1" reach | **A 3** (or A 4 with Reinforced Crew) | S 3 | AP 0 | D 1 — fixed melee attack count, does not decrement with wounds
+- **Hand weapon** *(Crew melee)* — 1" reach | **A 3** (or A 4 with Reinforced Crew) | S 3 | AP 0 | D 1 — fixed melee attack count, does not decrement with wounds `[1H Blade]`
 
 **Bounce Line mechanic** *(new ranged weapon rule — Great Cannon and similar line-firing war machines)*:
 

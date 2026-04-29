@@ -3,9 +3,9 @@
 
 > The core rank-and-file of a Vampire Count's army. Skeletons raised from battlefield dead or old graveyards by necromantic ritual, given a rusted sword and a cracked buckler, marched into enemy lines to grind them down. Individually weak — a frame of bone held together by dark magic. Collectively, an unrelenting tide. The Skeleton's strength is unit size, the Vampire's spell coverage (Invocation of Nehek raising new bones each turn), and the simple fact that they don't rout — they fight until the necromantic binding fails or the master dies.
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 4 | 2  | 2  | 3 | 3 | 1 | 2 | 5  | 1   | 1  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 4 | 2 | 2 | 2 | 3 | 3 | 1 | 2 | 5 | 1 | 1 |
 
 **Points:** **4** per model
 
@@ -32,10 +32,10 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Hand weapon** *(default, 1H with shield)* — 1" reach | **A 1** | S 3 | AP 0 | D 1
-- **Spear** *(option, 1H with shield)* — 2" reach | A 1 | S 3 | AP 0 | D 1
-- **Polearm** *(option, 1H with shield)* — 2" reach | A 1 | S+1 | AP -1 | D 1
-- **Great weapon** *(option, 2H — no shield)* — 1" reach | A 1 | S+2 | AP -2 | D 1 | Two-Handed
+- **Hand weapon** *(default, 1H with shield)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
+- **Spear** *(option, 1H with shield)* — 2" reach | A 1 | S 3 | AP 0 | D 1 `[1H Reach]`
+- **Polearm** *(option, 1H with shield)* — 2" reach | A 1 | S+1 | AP -1 | D 1 `[1H Reach]`
+- **Great weapon** *(option, 2H — no shield)* — 1" reach | A 1 | S+2 | AP -2 | D 1 | Two-Handed `[2H]`
 - **Skeleton Bow** *(option, ranged)* — 18" range | S 3 | AP 0 | D 1
 
-> **Lore notes:** Stats at WFB reference baseline — WS 2 / BS 2 / S 3 / T 3 / W 1 / I 2 / Ld 5, no +1 heft bump. **Ld 5 is intentionally low** — the stress system reads it as "Crumble triggers easily," which captures the lore "Skeletons dissolve under sustained pressure, kept upright by the master's will." A 30-strong Skeleton block charged into hard enough will Crumble within 2-3 turns of taking real combat damage; the Vampire / Necromancer's Invocation of Nehek is the lifeline. Save 6+ (shield alone) — Skeletons have no torso armour by default; light armour upgrade to 5+ is a modest investment. Equipment menu honours the WFB-classic Skeleton kit (hand weapon, spear, polearm, great weapon, Skeleton Archer variant). **Musician's "+1 Rally" effect is mechanically inert on Undead** (cannot Rally per Undead keyword) — option exists for list-completeness and for non-Undead unit allies via Magic Standard interactions, but the rally bonus itself doesn't apply. Points **4** per model — slight bump over reference 3 to cover our wound-factor and Undead-keyword integration. The cheapest Core unit in the entire ruleset; intentional — Skeletons are *meant* to be cheap chaff that the Vampire raises continuously.
+> **Lore notes:** Stats at WFB reference baseline — WS 2 / BS 2 / S 3 / T 3 / W 1 / I 2 / Res 5, no +1 heft bump. **Res 5 is intentionally low** — the stress system reads it as "Crumble triggers easily," which captures the lore "Skeletons dissolve under sustained pressure, kept upright by the master's will." A 30-strong Skeleton block charged into hard enough will Crumble within 2-3 turns of taking real combat damage; the Vampire / Necromancer's Invocation of Nehek is the lifeline. Save 6+ (shield alone) — Skeletons have no torso armour by default; light armour upgrade to 5+ is a modest investment. Equipment menu honours the WFB-classic Skeleton kit (hand weapon, spear, polearm, great weapon, Skeleton Archer variant). **Musician's "+1 Rally" effect is mechanically inert on Undead** (cannot Rally per Undead keyword) — option exists for list-completeness and for non-Undead unit allies via Magic Standard interactions, but the rally bonus itself doesn't apply. Points **4** per model — slight bump over reference 3 to cover our wound-factor and Undead-keyword integration. The cheapest Core unit in the entire ruleset; intentional — Skeletons are *meant* to be cheap chaff that the Vampire raises continuously.

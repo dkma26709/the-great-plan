@@ -5,15 +5,15 @@
 
 **Rider (Knight Errant):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 4 | 3  | 3  | 3 | 3 | 1 | 3 | 8  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 4 | 3 | 3 | 3 | 3 | 3 | 1 | 3 | 8 |
 
 **Mount (Warhorse — barded, Purebred):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 10| 3  | 0  | 3 | 3 | 1 | 3 | 5  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 10 | 3 | 3 | 0 | 3 | 3 | 1 | 3 | 5 |
 
 *(Bretonnian destrier baseline M 10. Barding's standard -2 M penalty is negated by Purebred Warhorse, §8 — Knights Errant remain at M 10 even with full barding, identical to KotR.)*
 
@@ -51,14 +51,14 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Heavy Lance** *(default, 1H with shield — fixed kit, no swap)* — **2" reach | A 1 | on charge (first round): S+2 (= S 5), AP -2, D 2; subsequent rounds: S+0, AP 0, D 1** — identical profile to KotR's lance. With Lance Formation +2" reach extension on charge, becomes 4" reach + AP -3 in the wedge. The young knights wield the same lance as their seniors — in their hands the weapon is no less deadly, only less disciplined
-- **Warhorse's Hooves and Bite** *(mount natural, each model)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 — standard barded-warhorse profile, same as KotR
+- **Heavy Lance** *(default, 1H with shield — fixed kit, no swap)* — **2" reach | A 1 | on charge (first round): S+2 (= S 5), AP -2, D 2; subsequent rounds: S+0, AP 0, D 1** — identical profile to KotR's lance. With Lance Formation +2" reach extension on charge, becomes 4" reach + AP -3 in the wedge. The young knights wield the same lance as their seniors — in their hands the weapon is no less deadly, only less disciplined `[1H Lance]`
+- **Warhorse's Hooves and Bite** *(mount natural, each model)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 — standard barded-warhorse profile, same as KotR `[Natural]`
 
-> **Lore notes:** **Stat ladder one rung below KotR.** Rider WS 3 (vs KotR's WS 4) and Ld 8 (vs KotR's Ld 9) — the WS drop captures incomplete training (the errant has been a knight for less than a year), and the Ld drop captures the young knight's lesser steadiness under sustained pressure. All other stats unchanged. Mount profile identical to KotR's Bretonnian destrier (M 10 with Purebred Warhorse negating barding penalty).
+> **Lore notes:** **Stat ladder one rung below KotR.** Rider WS 3 (vs KotR's WS 4) and Res 8 (vs KotR's Res 9) — the WS drop captures incomplete training (the errant has been a knight for less than a year), and the Res drop captures the young knight's lesser steadiness under sustained pressure. All other stats unchanged. Mount profile identical to KotR's Bretonnian destrier (M 10 with Purebred Warhorse negating barding penalty).
 >
 > **Equipment fixed at heavy lance + heavy armour + shield + barding** — same as KotR. The Knight's Vow demands the chivalric kit; the young knight wields exactly what his senior brothers do, just with less skill. No weapon swap options (lance is the chivalric weapon, see KotR).
 >
-> **Impetuous is the unit-internal identity rule** — the only Bretonnian Core unit with one (KotR has no internal identity beyond the faction layers). Captures the lore signature: the young knight's eagerness to charge overrides discipline. The mechanic is **dice-driven, not stress-traded**: when an enemy is in charge range of the front arc, the player rolls a D6 — on 4+ the unit *must* charge, on 1-3 it holds. **No restraint mechanic, no stress option, no opt-out.** The player has 50% control of the unit's activation when an enemy is in range — an authentic loss of player agency, not a cosmetic one. (An earlier draft used a "+1 stress to restrain" lever; rejected because Ld 8 makes 1 stress trivially absorbable, turning the rule into a non-rule, and because "they flee from the moral cost of restraint" was off-key lore.)
+> **Impetuous is the unit-internal identity rule** — the only Bretonnian Core unit with one (KotR has no internal identity beyond the faction layers). Captures the lore signature: the young knight's eagerness to charge overrides discipline. The mechanic is **dice-driven, not stress-traded**: when an enemy is in charge range of the front arc, the player rolls a D6 — on 4+ the unit *must* charge, on 1-3 it holds. **No restraint mechanic, no stress option, no opt-out.** The player has 50% control of the unit's activation when an enemy is in range — an authentic loss of player agency, not a cosmetic one. (An earlier draft used a "+1 stress to restrain" lever; rejected because Res 8 makes 1 stress trivially absorbable, turning the rule into a non-rule, and because "they flee from the moral cost of restraint" was off-key lore.)
 >
 > **Impetuous on-charge bonuses** translate WAP's Immunity (Psychology) + reroll-one-charge-die into our system. Both bonuses fire whether the charge was forced by the Impetuous roll or declared voluntarily — a knight charging is a knight charging, regardless of how the decision was made. **Immunity to Fear/Terror stress on charge** captures the young knight's reckless courage — they don't hesitate before a Stegadon or a Vampire as a veteran might. **Reroll one charge distance die** is direct from WAP and remains useful in our system (Formed rerolls the D6; Loose rerolls one of two D6 picks).
 >
@@ -66,10 +66,10 @@
 >
 > **Class Barrier applies normally** — Knights Errant are vow-bearers (Knight's Vow), can attach to other vow units, cannot effectively attach to peasant units (lose Character Attachment shielding per §6).
 >
-> **Points 32 per model** — -3 from KotR's 35. Premium covers: identical Bretonnian layers (Blessing + Lance Formation + Purebred Warhorse) and the Impetuous *bonuses* (charge die reroll + Fear immunity on any charge, ~+3 pts), offset by the WS drop (-2 pts), Ld drop (-1 pt), and Impetuous *downside* (50%-chance forced charge, ~-3 pts — a real loss of player control 50% of activations when an enemy is in range). Net: -3 from KotR. Vs WAP 21: +11 — same calibration pattern as KotR (+10 over WAP) plus a small premium for our system's fuller pricing of the Impetuous on-charge bonuses. Vs Imperial Knight 24 (M 8 barded, no Bretonnian layers): +8 covers Blessing + Lance Formation + Purebred + Impetuous, minus -1 WS / -1 Ld / no Breakthrough Charge.
+> **Points 32 per model** — -3 from KotR's 35. Premium covers: identical Bretonnian layers (Blessing + Lance Formation + Purebred Warhorse) and the Impetuous *bonuses* (charge die reroll + Fear immunity on any charge, ~+3 pts), offset by the WS drop (-2 pts), Res drop (-1 pt), and Impetuous *downside* (50%-chance forced charge, ~-3 pts — a real loss of player control 50% of activations when an enemy is in range). Net: -3 from KotR. Vs WAP 21: +11 — same calibration pattern as KotR (+10 over WAP) plus a small premium for our system's fuller pricing of the Impetuous on-charge bonuses. Vs Imperial Knight 24 (M 8 barded, no Bretonnian layers): +8 covers Blessing + Lance Formation + Purebred + Impetuous, minus -1 WS / -1 Res / no Breakthrough Charge.
 >
 > **Compare:**
-> - **KotR (35 pts)** — same Bretonnian layers, +1 WS, +1 Ld, no internal identity rule. Disciplined; you choose when to charge
+> - **KotR (35 pts)** — same Bretonnian layers, +1 WS, +1 Res, no internal identity rule. Disciplined; you choose when to charge
 > - **Knights Errant (32 pts)** — eager and unreliable; D6 4+ at start of activation forces a charge if any enemy is in range. No restraint mechanic. Cheaper, less skilled, with charge-spike bonuses on any charge
 > - **Questing Knights (40 pts)** — different vow (Stubborn), different weapon (great weapon), different role (anvil grind vs lance charge)
 >

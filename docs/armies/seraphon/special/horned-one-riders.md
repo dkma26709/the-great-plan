@@ -5,15 +5,15 @@
 
 **Rider (Great Crested Skink):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 6 | 3  | 3  | 3 | 2 | 1 | 4 | 6  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 6 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 |
 
 **Mount (Horned One):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 10| 3  | 0  | 4 | 4 | 1 | 3 | 3  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 10 | 3 | 3 | 0 | 4 | 4 | 1 | 3 | 3 |
 
 **Unit-level:**
 
@@ -39,8 +39,8 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Hand weapon** *(rider, implicit melee fallback)* — 1" reach | **A 1** | S 3 | AP 0 | D 1
+- **Hand weapon** *(rider, implicit melee fallback)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
 - **Light Lance** *(rider, default)* — 2" reach | **A 1** | on charge: +1 S, AP -1, D 1; subsequent rounds: AP 0, D 1 (see Armoury)
-- **Horned One's Bite and Horns** *(mount natural, each model)* — 1" reach | **A 2** | S 4 | AP 0 | D 1 — resolved at mount WS 3, I 3; on charge gains Impaling Charge bonus (+1 S, AP -1)
+- **Horned One's Bite and Horns** *(mount natural, each model)* — 1" reach | **A 2** | S 4 | AP 0 | D 1 — resolved at mount WS 3, I 3; on charge gains Impaling Charge bonus (+1 S, AP -1) `[Natural]`
 
-> **Lore notes:** W2 pool like Raptadon Hunters, but T4 (vs Raptadon T3) and 4+ save (vs Raptadon 5+) — Horned One Riders trade slight mobility (M10 vs M12) for durability. Sit mechanically between Raptadon Hunters (17 pts, hunts-the-wounded) and Aggradon Lancers (120 pts, hammer shock cavalry). At 28 pts per model they are the disciplined mid-tier — not the cheapest cavalry, not the most elite, but the most reliable general-purpose Saurian mount. Impaling Charge gives them a second charge-impact vector alongside the Light Lance; combined Rider lance (charge: +1 S, AP -1) and Mount horn (charge: +1 S, AP -1) turns a Horned One Rider on the charge into two simultaneous piercing strikes per model. Non-Aquatic (unlike most Skink units) — Horned Ones are not water-dwelling saurians; these are dry-ground runners and will not cross marshland freely. Great Crested Skinks' Ld 6 matches our Skink Cohort baseline — slightly more disciplined than regular Skinks would be treated at Ld 5 in WFB reference, but still Skink-scale morale.
+> **Lore notes:** W2 pool like Raptadon Hunters, but T4 (vs Raptadon T3) and 4+ save (vs Raptadon 5+) — Horned One Riders trade slight mobility (M10 vs M12) for durability. Sit mechanically between Raptadon Hunters (17 pts, hunts-the-wounded) and Aggradon Lancers (120 pts, hammer shock cavalry). At 28 pts per model they are the disciplined mid-tier — not the cheapest cavalry, not the most elite, but the most reliable general-purpose Saurian mount. Impaling Charge gives them a second charge-impact vector alongside the Light Lance; combined Rider lance (charge: +1 S, AP -1) and Mount horn (charge: +1 S, AP -1) turns a Horned One Rider on the charge into two simultaneous piercing strikes per model. Non-Aquatic (unlike most Skink units) — Horned Ones are not water-dwelling saurians; these are dry-ground runners and will not cross marshland freely. Great Crested Skinks' Res 6 matches our Skink Cohort baseline — slightly more disciplined than regular Skinks would be treated at Res 5 in WFB reference, but still Skink-scale morale.

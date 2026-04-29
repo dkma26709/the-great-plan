@@ -3,9 +3,9 @@
 
 > Small, quick, cunning. Everything a Saurus isn't. Drilled to fight in disciplined rank-and-file — fragile individually, but packed tight with shields and, if the chief commands, venomed javelins.
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 8 | 3  | 3  | 3 | 2 | 1 | 4 | 6  | 1   | 1  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 8 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 
 - **Keywords:** Lizardmen, Skink, Infantry, Core
 - **Unit type:** Infantry (formed-capable; no Skirmish state)
@@ -29,7 +29,7 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Hand weapon** *(default, 1H)* — 1" | **A 1** | S 3 | AP 0 | D 1
+- **Hand weapon** *(default, 1H)* — 1" | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
 - **Moonstone Javelin** *(option, adds ranged capability)* — 8" range | S 3 | AP -1 | D 1 | Quick to Fire | Poisoned Attacks (baseline, stacks with unit-wide Poisoned Attacks upgrade redundantly — see Armoury)
 
 > **Lore notes:** WS3 is the bump that distinguishes the drilled cohort from the loose-order Skirmishers — a cohort skink, braced in the line with a shield and a handler nearby, can actually trade blows with peasant-grade human infantry. Still loses to elites. The real teeth is Poisoned Attacks (+1 to wound) as a whole-unit upgrade, or the Kroxigor attachment for a literal handful of crushing muscle in the line. A-on-weapons convention applied.

@@ -147,11 +147,11 @@ A Loose unit does not wheel. Individual models are oriented during their own mov
 
 | Benefit | Scope |
 |---------|-------|
-| **+1 Leadership** on all stress tests | Non-directional |
+| **+1 Resolve** on all stress tests | Non-directional |
 | **Absorb 2 points of combat resolution difference** before converting to stress | Non-directional |
 | **Charge resistance:** enemies charging into the front arc do not gain their +1 I charge bonus | Directional — front only |
 
-**When attacked from the flank:** the defender retains non-directional benefits (+1 Ld, CR absorb). Charge resistance does not apply.
+**When attacked from the flank:** the defender retains non-directional benefits (+1 Res, CR absorb). Charge resistance does not apply.
 
 **When attacked from the rear:** no Formed benefits apply. The cluster is treated as Disordered for the purposes of that attack only.
 

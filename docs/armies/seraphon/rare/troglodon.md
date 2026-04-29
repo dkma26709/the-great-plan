@@ -5,17 +5,17 @@
 
 **Troglodon (Beast):**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 8 | 3  | 4  | 5 | 6 | 10| 3 | 5  | 5   | =W |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 8 | 3 | 3 | 4 | 5 | 6 | 10 | 3 | 5 | 5 | =W |
 
 *Troglodon US equals current remaining W per the Monster-US convention. **A is on weapons** (see profiles below) — no Attack stat on the profile line.*
 
 **Skink Oracle (1 fixed support per Troglodon):**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| — | 2  | 3  | 3 | 2 | 1 | 4 | 6  | 1   | 1  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| — | 2 | 2 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 
 *Oracle shares the Troglodon's M (rides the howdah-saddle). A Skink priest-figure, support profile per §1 Mixed Unit rules. Has a light melee capability for self-defence and a thrown javelin — see weapon profiles.*
 
@@ -40,11 +40,11 @@
 
 **Weapon profiles:**
 
-- **Troglodon's Jaws** *(Troglodon natural, melee)* — 1" reach | **A 3** | S 6 | AP -2 | D D3 | Poisoned Attacks — massive venomous bite, delivered from the ambush
-- **Troglodon's Talons** *(Troglodon natural, melee)* — 1" reach | **A 2** | S 5 | AP -1 | D 1 | Poisoned Attacks — slashing forelegs, the venom-coated follow-up after the bite
+- **Troglodon's Jaws** *(Troglodon natural, melee)* — 1" reach | **A 3** | S 6 | AP -2 | D D3 | Poisoned Attacks — massive venomous bite, delivered from the ambush `[Natural]`
+- **Troglodon's Talons** *(Troglodon natural, melee)* — 1" reach | **A 2** | S 5 | AP -1 | D 1 | Poisoned Attacks — slashing forelegs, the venom-coated follow-up after the bite `[Natural]`
 - **Noxious Spittle** *(Troglodon ranged)* — 18" range | S 4 | AP -1 | D 2 | **Multiple Shots (D3)** | Poisoned Attacks | Quick to Fire — venomous saliva-jet fired once per Shooting phase, resolves using the Troglodon's own BS; the dose is heavy enough to cause D2 wounds per hit as the poison races through
 - **Oracle's Moonstone Javelin** *(Oracle ranged)* — see Armoury — 8" range | S 3 | AP -1 | D 1 | Quick to Fire | Poisoned Attacks
-- **Hand weapon** *(Oracle self-defence melee)* — 1" reach | **A 1** | AP 0 | D 1 — the Oracle's ceremonial dagger; just enough to keep an attacker at bay in an emergency
+- **Hand weapon** *(Oracle self-defence melee)* — 1" reach | **A 1** | AP 0 | D 1 — the Oracle's ceremonial dagger; just enough to keep an attacker at bay in an emergency `[1H Blade]`
 
 **Degrading** *(single-tier, per the Monster-scale convention)*:
 - W 6-10 (full strength): all profiles as written

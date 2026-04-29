@@ -5,15 +5,15 @@
 
 **Rider (Pegasus Knight):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 4 | 4  | 3  | 3 | 3 | 1 | 4 | 9  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 4 | 4 | 4 | 3 | 3 | 3 | 1 | 4 | 9 |
 
 **Mount (Pegasus — barded):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 6 | 3  | 0  | 4 | 4 | 2 | 4 | 6  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 6 | 3 | 3 | 0 | 4 | 4 | 2 | 4 | 6 |
 
 *(Pegasus baseline ground M 8, reduced to M 6 by barding per §8 Barding rule. Pegasus is not a Bretonnian destrier and does not have Purebred Warhorse — barding's M penalty applies to ground movement. **Fly is unaffected** — see Fly (12") below.)*
 
@@ -45,10 +45,10 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Heavy Lance** *(default, 1H with shield — fixed kit, no swap)* — **2" reach | A 1 | on charge (first round): S+2 (= S 5), AP -2, D 2; subsequent rounds: S+0, AP 0, D 1** — the chivalric shock weapon, identical profile to KotR's lance. Charge spike on the first round of combat after a successful charge; tails off thereafter
-- **Pegasus's Hooves and Bite** *(mount natural, each model)* — 1" reach | **A 2** | S 4 | AP 0 | D 1 — the mount contributes two attacks per Pegasus at S 4, the unit's *real* sustained damage output. The Pegasus is genuinely dangerous in close combat — bigger, more aggressive, and more bestial than a destrier
+- **Heavy Lance** *(default, 1H with shield — fixed kit, no swap)* — **2" reach | A 1 | on charge (first round): S+2 (= S 5), AP -2, D 2; subsequent rounds: S+0, AP 0, D 1** — the chivalric shock weapon, identical profile to KotR's lance. Charge spike on the first round of combat after a successful charge; tails off thereafter `[1H Lance]`
+- **Pegasus's Hooves and Bite** *(mount natural, each model)* — 1" reach | **A 2** | S 4 | AP 0 | D 1 — the mount contributes two attacks per Pegasus at S 4, the unit's *real* sustained damage output. The Pegasus is genuinely dangerous in close combat — bigger, more aggressive, and more bestial than a destrier `[Natural]`
 
-> **Lore notes:** **Stat ladder above KotR on the rider, dramatically above on the mount.** Rider WS 4 / I 4 / Ld 9 (per §17 chivalric +1 calibration; I 4 vs KotR's I 3 captures the airborne knight's training in fast aerial combat). Mount profile is the headline: **W 2 / T 4 / S 4 / A 2** vs the standard barded Warhorse's W 1 / T 3 / S 3 / A 1. The Pegasus is a real beast — heavier, more vicious, with twice the attacks at higher S. Combined unit T = 4 (mount's T, per §1 highest-T rule), making the unit much more durable against S 3 attacks (wounds on 5+ instead of 4+).
+> **Lore notes:** **Stat ladder above KotR on the rider, dramatically above on the mount.** Rider WS 4 / I 4 / Res 9 (per §17 chivalric +1 calibration; I 4 vs KotR's I 3 captures the airborne knight's training in fast aerial combat). Mount profile is the headline: **W 2 / T 4 / S 4 / A 2** vs the standard barded Warhorse's W 1 / T 3 / S 3 / A 1. The Pegasus is a real beast — heavier, more vicious, with twice the attacks at higher S. Combined unit T = 4 (mount's T, per §1 highest-T rule), making the unit much more durable against S 3 attacks (wounds on 5+ instead of 4+).
 >
 > **Combined W = 3 per model, save 2+, Fly 12".** Three layers of durability stacked: 3 W per model (rider 1 + mount 2), 2+ combined armour save, plus the Blessing of the Lady Ward (6+ vs S ≤ 4, 5+ vs S ≥ 5). A 6-strong unit has 18 wounds at T 4 with 2+ save and a Ward — genuinely tough to bring down. The Fly 12" mobility lets them choose engagements: drop on a war machine crew, harass shooters, charge a flank, retreat behind a building.
 >

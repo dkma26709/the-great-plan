@@ -17,23 +17,79 @@ This unit radiates Terror. Any enemy unit with a model within **(6 + LiS)"** of 
 
 #### Frenzy
 
-This unit is in the grip of animal rage. While Frenzied:
+This unit is in the grip of animal rage. While Frenzied (the **F4 fingerprint**):
 
-- **+1 Attack** in melee
+- **+1 Attack** on a single weapon profile of the model's choice (per the +1-attack convention — single profile, not all profiles)
+- **+1 WS-A** — the rage sharpens the offensive edge; blows land more often
+- **-1 WS-D** — the rage dulls defensive instinct; the unit is easier to strike in return
 - **Must declare a charge** against the nearest visible enemy within charge range during its Movement phase, if able
 - **May not voluntarily disengage** from combat
 - **Immune to Psychology**
-- **Suppresses the state effects of Wavering and Broken** — ignores the -1 to hit, cannot-charge, and fleeing behaviour while Frenzied. Stress still accumulates and thresholds are still crossed, but the rage carries the unit through
+- **Suppresses the state effects of Wavering and Broken** — ignores the -1 to-hit, cannot-charge, and fleeing behaviour while Frenzied. Stress still accumulates and thresholds are still crossed, but the rage carries the unit through
 
-Frenzy is **lost permanently** when the unit loses a combat round (strict loss — ties do not count), or when the unit is actually forced to flee due to being Broken. Once lost, Frenzy does not return except via specific rules that state otherwise.
+Frenzy is **lost permanently** when the unit loses a combat round (strict loss — ties do not count), or when the unit is actually forced to flee due to being Broken. Once lost, Frenzy does not return except via specific rules that state otherwise. The F4 fingerprint (offensive committment + defensive cost) ensures Frenzy is a high-volatility identity rule — the Frenzied unit hits harder *and* gets hit harder, both directions of the lore-true intensity.
 
 #### Stubborn *(Psychology-adjacent)*
 
-This unit ignores the state effects of Shaken and Wavering — the -1 to hit and cannot-charge restriction do not apply. Stress still accumulates normally, and the Broken threshold still applies. A Stubborn unit fights at full effectiveness until it finally shatters.
+This unit ignores the **state effects** of Shaken and Wavering — the WS-A / WS-D / BS penalties and the cannot-charge restriction do not apply. Stress still accumulates normally and the Broken threshold still applies. A Stubborn unit fights at full effectiveness until it finally shatters.
 
 #### Skittish
 
-This unit takes +1 stress per wound lost in a single phase, instead of the default +1 per 2 wounds. Behavioural nervousness — the unit may be physically tough but panics readily under pressure.
+This unit's **stress thresholds are each shifted down by 1** — Shaken triggers at Res − 5 (instead of Res − 4), Wavering at Res − 3 (instead of Res − 2), Broken at Res − 1 (instead of Res). The unit reaches each morale state one stress earlier than its Resolve would normally suggest. Behavioural nervousness — physically tough but panics readily under pressure. Stacks cleanly with Cold-Blooded (which modifies stress *count* on incoming/recovery, not thresholds).
+
+#### Cold-Blooded
+
+A creature trait — applies to Lizardmen (faction-wide), Dark Elves' War Hydra, and any other cold-blooded biology drafted into the ruleset. Two effects:
+
+- **Slow to register.** Incoming stress is **reduced by 1** (minimum 1). Each stress trigger applies one less than it would for warm-blooded creatures.
+- **Slow to fade.** Recovery rolls are **reduced by 1** (minimum 1). Each Recovery sub-phase, the cold-blooded unit sheds one fewer stress than its baseline D3 + modifiers would otherwise produce.
+
+Cold-Blooded captures the reptilian *slowed reaction time in either direction* — not raw resilience (that's Stubborn or high Resolve). A Saurus may still break under sustained pressure; Cold-Blooded just makes each shock take longer to register and longer to forget. Stacks cleanly with Skittish (which modifies thresholds, not stress count) and with Disciplined / Undisciplined (which modify Recovery, applying after Cold-Blooded's -1).
+
+#### Disciplined
+
+A creature/unit trait — applies to drilled veterans, professional soldiery, formation-trained warriors. **+1 to Recovery rolls.** The Disciplined unit recovers from stress slightly faster than baseline through training, command-and-control, and steady morale.
+
+**Typical units:** Saurus Warriors, Saurus Temple Guard, Empire Greatswords, Reiksguard, Bretonnian Knights of all vows, Dwarf Warriors, Chaos Warriors, professionalised elite-Core. Most rank-and-file units carry **neither Disciplined nor Undisciplined** — baseline D3 Recovery is the default; the trait is a flag for genuinely-elite cases, not an exhaustive bin.
+
+#### Undisciplined
+
+A creature/unit trait — applies to rabble, conscripts, peasant levy, feral units. **-1 to Recovery rolls** (floor 1 — Recovery never goes below 1).
+
+**Typical units:** Bretonnian Men-at-Arms, Bretonnian Longbowmen, Goblins (when drafted), Beastmen (when drafted), Orc Boyz, Skeleton Warriors. Most rank-and-file units carry neither — baseline D3 is default; Undisciplined is a flag for genuinely-rabble cases.
+
+**Saurus interaction note:** Saurus Warriors carry both **Disciplined (+1)** AND **Cold-Blooded (-1 Recovery)** → net **0** Recovery modifier. Tracks lore: drilled spawn-brothers offset the cold-blooded slow-fade. Kroxigor carry **Cold-Blooded only** (no Disciplined — dim brute) → net **-1** Recovery, full slow-fade penalty.
+
+#### Trait Reference Table *(faction-wide trait assignments — broad-strokes; refined per-unit in retrofit pass)*
+
+Cross-faction reference for which units carry **Disciplined** / **Undisciplined** / **Cold-Blooded** baseline traits. Used during the structural retrofit pass to assign Recovery modifiers without touching every profile individually. Per-unit refinements (e.g., a specific Skink unit being more nervous than baseline) come in the detailed retrofit pass.
+
+| Faction | Disciplined units | Undisciplined units | Cold-Blooded units |
+|---------|-------------------|----------------------|---------------------|
+| **Lizardmen / Seraphon** | Saurus Warriors, Saurus Temple Guard, Saurus characters (Oldblood, Scar-Veteran), Aggradon Lancers, Horned One Riders | — | **All Lizardmen units** (faction-wide trait — Saurus, Skink, Kroxigor, Saurian beasts, Slann) |
+| **Empire** | Greatswords, Reiksguard, Imperial Knights, Demigryph Knights, Wizard Lord, Imperial General, Empire characters | Empire State Troops Halberdiers / Handgunners (neutral — drilled, but not elite-tier; baseline D3) | — |
+| **Bretonnia** | Knights of the Realm, Knights Errant, Questing Knights, Pegasus Knights, Bretonnian Lord, Paladin, Damsel, Prophetess | Men-at-Arms, Longbowmen, Bidowers, Field Trebuchet crew | — |
+| **Ogre Kingdoms** | Tyrant, Bruiser, Slaughtermaster (commander tier — drilled by violence rather than discipline) | Ogre Bulls (rabble), Gnoblar units (when drafted) | — |
+| **Vampire Counts** | Vampire Lord, Vampire characters, Grave Guard | Skeleton Warriors, Zombies (rabble baseline; Undead-specific morale rules layer on top) | — |
+| **Dark Elves (§18)** | Witch Elves (Khainite-trained — but Frenzy fingerprint suggests neutral baseline; flagged for refinement in detailed pass) | — | — |
+| **High Elves (§18)** | High Elf Spearmen (millennia-trained citizen-soldiers) | — | — |
+| **Dwarfs (§18)** | Dwarf Warriors (every adult is drilled in formation), elite Dwarf units | — | — |
+| **Greenskins (§18)** | — | Orc Boyz, Forest Goblin Crew (and any other Greenskin rank-and-file when drafted) | — |
+| **Warriors of Chaos (§18)** | Chaos Warriors (Will of Chaos already grants reroll-recovery; Disciplined would double-stack — leave neutral baseline; refine in detailed pass) | — | — |
+| **Tomb Kings (§18)** | Tomb Guard Crew (drilled-veteran undead) | — | — |
+
+**Note on net Recovery effects:**
+- **Saurus Warriors** = Disciplined + Cold-Blooded = net 0 (baseline D3 Recovery)
+- **Skink Cohort / Skirmishers** = Cold-Blooded only = net -1 (D3 minus 1, floor 1)
+- **Kroxigor** = Cold-Blooded only = net -1
+- **Slann** = Cold-Blooded only = net -1 (toad-cold metabolism; Recovery -1 on a Lord-tier Resolve floor)
+- **Bretonnian Knights** = Disciplined = net +1 (D3 + 1)
+- **Bretonnian Men-at-Arms** = Undisciplined = net -1
+- **Empire State Troops** = neutral = D3 baseline
+- **Empire Greatswords** = Disciplined + Professional Soldiers (auto-reroll) = effectively very high Recovery floor
+- **Chaos Warriors** = Will of Chaos (reroll recovery) = effective +1 Recovery via reroll, Disciplined would double-up; leaving neutral baseline avoids the stack
+
+This table is the global reference for faction trait assignment. Per-unit overrides (specific Lizardmen unit not Cold-Blooded for some lore reason, etc.) handled in the detailed retrofit pass.
 
 #### Unbreakable
 
@@ -68,7 +124,7 @@ Stupidity without any of the above is a dead rule — the loss of control must b
 
 #### Unstable *(Psychology)*
 
-This unit ignores the state effects of Shaken, Wavering, and Broken — no to-hit penalty, no cannot-charge, no mandatory flee. The unit **cannot be Rallied** (there is no morale to restore). Instead, whenever this unit's current stress would exceed its Ld, each point of excess stress is immediately converted to **1 wound (no save of any kind)** dealt to the unit, and stress is capped at Ld.
+This unit ignores the state effects of Shaken, Wavering, and Broken — no to-hit penalty, no cannot-charge, no mandatory flee. The unit **cannot be Rallied** (there is no morale to restore). Instead, whenever this unit's current stress would exceed its Res, each point of excess stress is immediately converted to **1 wound (no save of any kind)** dealt to the unit, and stress is capped at Res.
 
 The mass does not panic — it bleeds. Pressed hard enough, and fast enough, the unit simply scatters until there is nothing left. Removed from play when its wound pool reaches zero, as any other unit.
 
@@ -76,7 +132,7 @@ The mass does not panic — it bleeds. Pressed hard enough, and fast enough, the
 
 A unit with the **Undead** keyword is animated by necromantic will, not biological will, and operates by a different stress paradigm than living units. The keyword grants the following package:
 
-1. **Has Unstable, with one variant — end-of-Combat-phase resolution.** The Unstable mechanic above applies, except that **stress is not capped at Ld during the turn**. Stress accumulates freely from any source. At the **end of each Combat phase**, if the unit's stress is over Ld, the excess (current stress − Ld) is immediately converted to **wounds** (1 wound per point over, no save of any kind) dealt to the unit, and stress drops to Ld. Wounds are allocated to any models in the unit per the controlling player's choice. The lore name for this is **Crumble** — bones collapse and rotting flesh dissolves where the necromantic binding gives out. *(Tactical consequence: Necromancy spells in the Magic phase that remove stress can intervene before the Crumble resolves; this is a deliberate lever for the Vampire / Necromancer player.)*
+1. **Has Unstable, with one variant — end-of-Combat-phase resolution.** The Unstable mechanic above applies, except that **stress is not capped at Res during the turn**. Stress accumulates freely from any source. At the **end of each Combat phase**, if the unit's stress is over Res, the excess (current stress − Res) is immediately converted to **wounds** (1 wound per point over, no save of any kind) dealt to the unit, and stress drops to Res. Wounds are allocated to any models in the unit per the controlling player's choice. The lore name for this is **Crumble** — bones collapse and rotting flesh dissolves where the necromantic binding gives out. *(Tactical consequence: Necromancy spells in the Magic phase that remove stress can intervene before the Crumble resolves; this is a deliberate lever for the Vampire / Necromancer player.)*
 
 2. **No psychology-source stress.** Undead do not accumulate stress from **Fear, Terror, friendly-unit-destroyed-within-6"**, or other psychology triggers — the dead do not fear, do not grieve. **However, Undead still accumulate stress from being a shooting target** (+1 per Shooting phase per §5) — this represents strain on the necromantic binding rather than psychological reaction. Stress from own-unit casualties and lost combat differentials accumulates normally per §5/§6.
 
@@ -292,12 +348,28 @@ A model's Armour Save combines contributions from its worn armour, shields, bard
 
 Additional modifier sources improve the save by one step:
 
-- **Shield:** +1 step
+- **Shield (Light):** +0 step (no save bonus, but +1 Parry — see Shield Class below)
+- **Shield (Medium):** +1 step (and +1 Parry)
+- **Shield (Heavy):** +1 step (no Parry contribution; +1 to incoming-ranged save)
 - **Barding** (mounts): +1 step
 
 The best base armour source (worn armour or Natural Armour, whichever is better) determines the starting value. Each additional armour source — base or modifier — improves the save by one step. The final Armour Save is capped at **2+** — there is always a chance of rolling a 1 as a failure.
 
-Examples: Heavy armour alone = 4+; Heavy + shield = 3+; Heavy + shield + Natural Armour 6+ = 2+ (cap); Light alone = 6+; Light + Natural Armour 6+ = 5+.
+Examples: Heavy armour + Medium Shield = 3+; Heavy armour + Medium Shield + Natural Armour 6+ = 2+ (cap); Light armour alone = 6+; Light armour + Medium Shield = 5+; Light armour + Light Shield = 6+ (no save bonus from Light Shield, but the wielder gains +1 Parry); Light armour + Heavy Shield = 5+ (also +1 vs incoming ranged attacks).
+
+#### Shield Class
+
+Shields come in three classes, each with a different defensive role across save / Parry / ranged-protection:
+
+| Shield Class | Armour Save contribution | Parry contribution | Vs Ranged |
+|--------------|--------------------------|---------------------|-----------|
+| **Light Shield** | +0 step | +1 (to Parry computation, see Parry rule) | — |
+| **Medium Shield** | +1 step | +1 (to Parry computation) | — |
+| **Heavy Shield** | +1 step | +0 | +1 to save vs ranged attacks |
+
+**Class assignment** is per-unit per-equipment-line — a unit's "Shield" reference in its profile or equipment options must specify Light / Medium / Heavy. Default unspecified is **Medium** (workhorse infantry shield). Light shields are typically bucklers / off-hand small shields; Medium shields are standard infantry round/square shields; Heavy shields are kite/tower/full-coverage shields used by heavy cavalry and dedicated shield-bearer infantry.
+
+**Roster baseline reference** (for retrofit / drafting): Ogre bucklers = Light. Saurus / Skink / Empire State Troops / Bretonnian Men-at-Arms / most rank-and-file infantry = Medium. Imperial Knights / Demigryph Knights / Bretonnian Knights all vows / heavy cavalry generally = Heavy. Skeleton Warriors (rusted bucklers) = Light. Witch Elves (no shield baseline; if added, Cauldron-style buckler = Light).
 
 #### Natural Armour (X+)
 
@@ -321,25 +393,41 @@ Enemy spells that **target or affect** this unit suffer **-X to the casting roll
 
 This unit has an X+ ward save against wounds caused by spells. Stacks with other wards under the normal ward stacking rules.
 
-#### Parry (X+)
+#### Parry (X)
 
-This model has an X+ ward save against melee attacks only, representing active defence with a blade, buckler, or shield. Parry does **not** apply to:
+A model-level rule, **equipment-conditional**. Parry grants **+X to the model's WS-D** in melee combat (no effect on ranged attacks — you can't parry an arrow in flight).
 
-- Ranged attacks (you can't parry an arrow in flight)
-- Attacks from the model's flank or rear (you can't parry what you can't see)
-- Attacks whose **Strength** exceeds the model's own Strength by 3 or more (the blow is too heavy to deflect)
+**Parry value computation:** the final Parry(X) is the sum of the model's **weapon-type baseline** plus its **shield contribution**:
 
-Parry follows Ward Save Stacking rules. Typical values: 6+ for basic sword-and-shield, 5+ for a dueling blade, 4+ for an exceptional swordmaster.
+| Weapon-type keyword | Baseline Parry |
+|---------------------|----------------|
+| **1H Blade** | 1 |
+| **1H Reach** | 0 |
+| **1H Lance** | 0 |
+| **2H** | 0 |
+| **Paired** | 1 (each blade defends with the other) |
+| **Natural** | 0 |
 
-#### Dodge (X+)
+Plus the wielded shield's contribution (per Shield Class table above):
+- **Light Shield:** +1 Parry
+- **Medium Shield:** +1 Parry
+- **Heavy Shield:** +0 Parry
 
-This model has an X+ ward save against attacks that resolve in reach and originate from its front arc — that is, **melee attacks and Impact attacks**. Dodge represents agile evasion at close quarters: slipping aside from a sword swing, leaping clear of a charging Stegadon's horns. The underlying principle is "if you are in the attacker's physical space, a quick reflex can save you."
+**Examples:** Empire Halberdier (1H Reach + Medium Shield) → Parry baseline 0 + 1 = **Parry(1)**, gaining +1 WS-D in melee. Saurus Warrior (1H Blade + Medium Shield) → Parry 1 + 1 = **Parry(2)**, +2 WS-D. Imperial Knight (1H Lance + Heavy Shield) → Parry 0 + 0 = **Parry(0)**, no melee defensive bonus from kit (relies on heavy armour and W). Witch Elf (Paired hand weapons) → Parry 1, no shield contribution = **Parry(1)**, +1 WS-D from the second blade.
 
-Dodge does **not** apply to:
+**Multi-weapon resolution:** the model's currently-wielded melee weapon determines the weapon-type baseline. Natural attacks (Saurus Jaws, Vampire Bite, Demigryph Claws-and-Beak) **do not override or modify** the weapon-derived value — they're additional attack profiles, not replacement weapons. Riders with mount attacks: the rider's loadout determines Parry; the mount has no Parry of its own. Combined-W pool means the +X WS-D bonus applies to all incoming melee hits regardless of which "side" of the model would logically take them.
 
-- **Ranged attacks** — arrows, bolts, and darts travel too fast to physically evade once fired
-- Attacks from the model's flank or rear (no warning, no time to move)
-- Attacks whose **Initiative** exceeds the model's own Initiative by 3 or more (the strike is too quick to see coming). For attacks without an attacker model (auto-hits from environmental effects), treat the attacker's Initiative as 10
+**Front-arc only.** Parry does not apply against melee attacks from the model's flank or rear (you can't parry what you can't see). The attacker resolves at +0 WS-D modifier from this rule when attacking from a flank or rear arc.
+
+#### Dodge (X)
+
+A model-level rule that grants **+X to the model's WS-D** in melee combat. Dodge represents agile evasion at close quarters: slipping aside from a sword swing rather than parrying it. **Melee only** — arrows and bolts travel too fast to physically evade once fired; ranged protection lives in Skirmisher / cover / camouflage rules, not Dodge.
+
+**Front-arc only.** Dodge does not apply against melee attacks from the model's flank or rear (no warning, no time to move).
+
+**Stacks with Parry.** A model with both Parry(X) and Dodge(Y) applies **+X+Y total to WS-D** in melee. Independent contributions — one is weapon-and-shield work, the other is reflex.
+
+**Typical values:** Dodge(1) for naturally agile units (Skink Skirmishers, Witch Elves' bare-flesh acrobatics if granted by identity rule); Dodge(2) for elite-tier evasion specialists. Most units have no Dodge.
 
 Dodge follows Ward Save Stacking rules. Parry and Dodge are distinct — Parry fails against overwhelming Strength, Dodge against overwhelming Initiative. A model may have both if thematic (a duelist with both blade-work and agility).
 
@@ -352,7 +440,7 @@ Represents dispersed, loose-order troops trained to fight independently rather t
 - **Coherency 2"** instead of the default 1"
 - **Fire on the move** — may shoot in the same turn it has marched, ignoring the normal prohibition on shooting after marching. No to-hit bonus or penalty; simply the action is permitted
 - **Free pivots** — models may pivot freely at any point during their move, not only at the end. Not subject to the base-contact-prevents-pivot rule
-- **Cannot gain Formed benefits** — even if the arrangement satisfies Formed requirements, the unit gains no +1 Ld, CR absorption, or charge resistance. Loose and Disordered states apply normally
+- **Cannot gain Formed benefits** — even if the arrangement satisfies Formed requirements, the unit gains no +1 Res, CR absorption, or charge resistance. Loose and Disordered states apply normally
 
 #### Aquatic
 
@@ -465,13 +553,13 @@ When arriving, the unit is placed in base contact with any board edge (including
 
 If the roll succeeds but no legal space exists at the chosen edge (blocked by enemies, terrain, or other units), the attempt is wasted — the unit does not arrive this turn. It rolls again next turn under the same schedule (Turn 4+ still auto-succeeds, subject to space availability).
 
-### Leadership and Command
+### Resolve and Command
 
 #### Inspiring Presence (X")
 
 Where X is the range in inches. Friendly units with any model within X" of this character gain all of the following:
 
-- **+1 Ld** for threshold purposes — Shaken, Wavering, and Broken thresholds each shift up by 1
+- **+1 Res** for threshold purposes — Shaken, Wavering, and Broken thresholds each shift up by 1
 - **Enables rally** — units that lack a living Leader may still rally if within range (this character acts as the Leader for rally purposes)
 - **Rally in combat** — units within range may rally even while engaged in melee
 - **Reroll recovery and rally rolls** — units within range may reroll their D3 recovery or rally roll and take the second result

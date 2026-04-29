@@ -5,9 +5,9 @@ A horse-form spirit of the Lady's wilderness, white-coated and silver-horned. Un
 
 **Unicorn:**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 12| 5  | 0  | 4 | 4 | 2 | 5 | 8  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 12 | 5 | 5 | 0 | 4 | 4 | 2 | 5 | 8 |
 
 *(Unicorn baseline M 12 — fast cavalry tier, faster than a Warhorse's M 10. The Unicorn is a ground-bound mount, not flying; barding is not standard kit and the M 12 stat is the Unicorn's natural pace, no penalty applied.)*
 
@@ -22,6 +22,6 @@ A horse-form spirit of the Lady's wilderness, white-coated and silver-horned. Un
 
 **Mount weapon profile:**
 
-- **Horn and Hooves** *(mount natural)* — 1" reach | **A 2** | S 4 | AP -1 | D 1 | **Magical Attacks** — two attacks per round, S 4 (matching the Unicorn's S), AP -1 from the focused horn-strike. Magical Attacks always
+- **Horn and Hooves** *(mount natural)* — 1" reach | **A 2** | S 4 | AP -1 | D 1 | **Magical Attacks** — two attacks per round, S 4 (matching the Unicorn's S), AP -1 from the focused horn-strike. Magical Attacks always `[Natural]`
 
 > **Stat upgrade summary vs Pegasus.** The Unicorn is W 2 (parity with Pegasus W 2), but trades flight (no Fly) for ground speed (M 12 vs Pegasus's M 8 ground / 12 Fly), Magical Attacks always-on, MR(2), and Impale charge-spike. Net: a *faster ground mount with stronger magic-defensive profile* and a charge-impact rule, vs a Pegasus's flying mobility. Tactical pick: Pegasus when the Prophetess needs aerial repositioning; Unicorn when she'll stay near the chivalric line and wants raw magic-resistance + charge-supplementary damage. The +12 pts over Pegasus (+42 vs +30) is the Magical Attacks + MR(2) + Impale + speed package premium.

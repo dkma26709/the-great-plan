@@ -5,15 +5,15 @@
 
 **Rider (Questing Knight):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 4 | 4  | 3  | 4 | 3 | 1 | 4 | 9  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 4 | 4 | 4 | 3 | 4 | 3 | 1 | 4 | 9 |
 
 **Mount (Warhorse — barded, Purebred):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 10| 3  | 0  | 3 | 3 | 1 | 3 | 5  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 10 | 3 | 3 | 0 | 3 | 3 | 1 | 3 | 5 |
 
 *(Bretonnian destrier baseline M 10. Barding's standard -2 M penalty is negated by Purebred Warhorse, §8.)*
 
@@ -44,16 +44,16 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Great Weapon** *(default, 2H — no shield)* — **1" reach | A 1 | S+2 (= S 6) | AP -2 | D 1 | Two-Handed | Magical Attacks** (per Anointed Steel) — the questing knight's ancestral two-handed sword, axe, or war-hammer, blessed by a Damsel of the Lady at the start of the Quest. Strikes at S 6 (S 4 rider +2 from great weapon), AP -2, D 1 every round of combat. With the Lance Formation +2" reach extension, becomes 3" reach + AP -3 on the charge round, allowing the wedge to bring rear-rank attacks into base contact alongside the wedge tip
-- **Warhorse's Hooves and Bite** *(mount natural, each model)* — 1" reach | **A 1** | S 3 | AP 0 | D 1
+- **Great Weapon** *(default, 2H — no shield)* — **1" reach | A 1 | S+2 (= S 6) | AP -2 | D 1 | Two-Handed | Magical Attacks** (per Anointed Steel) — the questing knight's ancestral two-handed sword, axe, or war-hammer, blessed by a Damsel of the Lady at the start of the Quest. Strikes at S 6 (S 4 rider +2 from great weapon), AP -2, D 1 every round of combat. With the Lance Formation +2" reach extension, becomes 3" reach + AP -3 on the charge round, allowing the wedge to bring rear-rank attacks into base contact alongside the wedge tip `[2H]`
+- **Warhorse's Hooves and Bite** *(mount natural, each model)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 `[Natural]`
 
-> **Lore notes:** **Stat ladder above KotR.** Per WAP, Questing Knights gain WS 4 / S 4 / I 4 (one-step bumps for the questing experience — years of wandering combat shape sharper warriors). Ld 8 → **9** per the §17 chivalric calibration, same as KotR. Stubborn from the Questing Vow makes Ld 9 functionally even more reliable — the unit ignores Shaken and Wavering state effects entirely; only Broken state fully degrades them. **S 4 over KotR's S 3 is the headline stat bump** — wounds T 3 on 3+ (vs KotR's 4+), wounds T 4 on 4+ (vs KotR's 5+), wounds T 5 on 5+ (vs KotR's 6+). Genuinely better at hurting things, especially T 4-5 cavalry / Monstrous Infantry / Ogres.
+> **Lore notes:** **Stat ladder above KotR.** Per WAP, Questing Knights gain WS 4 / S 4 / I 4 (one-step bumps for the questing experience — years of wandering combat shape sharper warriors). Res 8 → **9** per the §17 chivalric calibration, same as KotR. Stubborn from the Questing Vow makes Res 9 functionally even more reliable — the unit ignores Shaken and Wavering state effects entirely; only Broken state fully degrades them. **S 4 over KotR's S 3 is the headline stat bump** — wounds T 3 on 3+ (vs KotR's 4+), wounds T 4 on 4+ (vs KotR's 5+), wounds T 5 on 5+ (vs KotR's 6+). Genuinely better at hurting things, especially T 4-5 cavalry / Monstrous Infantry / Ogres.
 >
 > **Equipment is fixed at great weapon + heavy armour + barding (no shield).** The Questing Vow forbids the heavy lance (per §17 — "set aside as a renunciation of mortal vanity"), so Questing Knights cannot take a lance. The great weapon is two-handed in our system, so they cannot take a shield either. Combined save **3+** (heavy armour 4+ → barding 3+) — one step worse than KotR's 2+. Trade-off: more offensive output (consistent S 6 every round), less defensive durability.
 >
 > **Lance Formation works with great weapons** in our system. The §17 Lance rule grants +2" reach + +1 AP to **all melee weapons in the unit** during the charge round — not lance-specific. So a 6-model Questing Knight wedge under Lance Formation on the charge round gets: 6 × Great Weapon at S 6 AP -3 D 1 (1" → 3" reach, AP -2 → -3) plus 6 × Warhorse hooves at S 3 AP 0 D 1. Subsequent rounds: great weapons still strike at S 6 AP -2 D 1 every round (Lance bonus only on charge first round). Compare to KotR Heavy Lance, which is brutal first round (S 5 AP -3 D 2) but tails off (post-charge S 3 AP 0 D 1). Questing Knights are *consistent*; KotR are *spiky*.
 >
-> **Stubborn is the morale anchor.** Questing Knights at Ld 9 + Stubborn ignore the -1 to-hit Shaken penalty and the no-charge Wavering penalty entirely. They functionally only degrade at the Broken threshold (Ld 9 — they Broke at 9 stress). This makes them genuinely hard to remove from a position once committed. Pairs with the great weapon's consistent-damage profile: they're an anvil that punches back.
+> **Stubborn is the morale anchor.** Questing Knights at Res 9 + Stubborn ignore the -1 to-hit Shaken penalty and the no-charge Wavering penalty entirely. They functionally only degrade at the Broken threshold (Res 9 — they Broke at 9 stress). This makes them genuinely hard to remove from a position once committed. Pairs with the great weapon's consistent-damage profile: they're an anvil that punches back.
 >
 > **Class Barrier does NOT apply** — Questing Knights are vow-bearers, attach normally to other vow units (Knights of the Realm, other Questing Knight units, Bretonnian Lord, Paladin, Damsel, Prophetess via the Character Attachment Exception, §6). They cannot attach to peasant units (a Questing Knight character standing within a Men-at-Arms or Longbowmen unit's coherency loses Character Attachment shielding — same as any vow-bearer per the Peasant's Duty Class Barrier clause).
 >
@@ -62,6 +62,6 @@
 > **Compare:**
 > - **KotR (35 pts)** — same Bretonnian layers, but with shield (2+ save), Heavy Lance charge-spike, and standard knight stats (S 3 / I 3, no Stubborn). Offensively spikier on the charge, defensively rugged, no innate morale anchor
 > - **Imperial Knight (24 pts)** — base human cavalry; no Bretonnian layers, no Stubborn, M 8 barded (slower)
-> - **Saurus Oldblood / Saurus Warriors comparison** — Saurus Warriors are W 2 / T 4 / Ld 10 / Predatory Fighter / Stubborn at 22 pts (infantry baseline). Questing Knight at 40 brings cavalry mobility (M 10), 3+ save, Blessing Ward, and consistent S 6 strikes — but pays double the points for the cavalry premium and the equivalent Stubborn baseline.
+> - **Saurus Oldblood / Saurus Warriors comparison** — Saurus Warriors are W 2 / T 4 / Res 10 / Predatory Fighter / Stubborn at 22 pts (infantry baseline). Questing Knight at 40 brings cavalry mobility (M 10), 3+ save, Blessing Ward, and consistent S 6 strikes — but pays double the points for the cavalry premium and the equivalent Stubborn baseline.
 >
 > **Anointed Steel** is the unit-internal identity rule — great weapons count as Magical Attacks at all times. Lore: each questing knight's blade is blessed by a Damsel of the Lady at the start of the Quest, hallowed for the work ahead. Mechanically: niche but distinct utility. Useful against Ethereal enemies (Vampire Counts banshees, certain ghosts, ethereal spell summons) where non-magical attacks cannot wound. Also satisfies any rule that triggers on "magical attack source" (some wards, some keyword interactions). Doesn't materially change the unit's normal damage output against ordinary enemies, but provides a clean answer to specific matchup problems and reinforces the questing knight's *holy* identity. Differentiates from KotR (whose lances have no Magical Attacks), and from the future Grail Knights (who will likely have Magical Attacks and more). The Vow ladder (Knight's Vow → Questing Vow → Grail Vow when added) thus also becomes a quality ladder of weapon-blessing: KotR mortal steel, Questing knight Damsel-blessed steel, Grail knight Lady-touched steel.

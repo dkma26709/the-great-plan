@@ -5,9 +5,9 @@
 
 **Skink High Priest:**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 8 | 3  | 3  | 3 | 3 | 3 | 5 | 8  | 1   | 2  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 8 | 3 | 3 | 3 | 3 | 3 | 3 | 5 | 8 | 1 | 2 |
 
 **Magic Profile:**
 
@@ -37,7 +37,7 @@
 
 **Weapon profiles:**
 
-- **Hand weapon** *(1" melee)* — 1" | A 1 | S 3 | AP 0 | D 1
+- **Hand weapon** *(1" melee)* — 1" | A 1 | S 3 | AP 0 | D 1 `[1H Blade]`
 - **Moonstone Javelin** *(8" ranged, see Armoury)* — 8" range | S 3 | AP -1 | D 1 | Quick to Fire | Poisoned Attacks
 
-> **Lore notes:** Stats moderately inflated from the basic Skink Priest (W 2 → 3; I 4 → 5; Ld 6 → 8). **Ld 8 is still lower than Skink High Chief's Ld 10** — the wisdom/bravery split we established for the basic Priest/Chief pair continues at Lord tier. Magic Profile is the real upgrade: Lore Access 3 vs basic Lore Access 2 (full Advanced tier reached within the one chosen lore), Cast Base 3 / Dispel Base 2 / Channelling 3 / Cast Bonus +2 / Dispel Bonus +1 / Dispel Range 24" — all above the basic Priest, all below Slann. **Lore access is unchanged from the basic Priest** (single lore picked at list-build, Signature + 1 additional spell) — the High Priest's promotion is a *tier-depth* increase (Basic+Intermediate+Advanced reachable in the chosen lore instead of Basic+Intermediate), not a breadth-of-lores widening. Identity rule is **Arcane Vassal only**, matching the basic Skink Priest's identity rule — the High Priest does not gain additional identity mechanics at Lord tier; the tier difference expresses entirely through magic-stat heft and Lore Access reach. Points **120** — between Skink Chief (85) and Slann (400); matches a Lord-caster whose flavour is "more potent basic Priest" rather than "new capabilities."
+> **Lore notes:** Stats moderately inflated from the basic Skink Priest (W 2 → 3; I 4 → 5; Res 6 → 8). **Res 8 is still lower than Skink High Chief's Res 10** — the wisdom/bravery split we established for the basic Priest/Chief pair continues at Lord tier. Magic Profile is the real upgrade: Lore Access 3 vs basic Lore Access 2 (full Advanced tier reached within the one chosen lore), Cast Base 3 / Dispel Base 2 / Channelling 3 / Cast Bonus +2 / Dispel Bonus +1 / Dispel Range 24" — all above the basic Priest, all below Slann. **Lore access is unchanged from the basic Priest** (single lore picked at list-build, Signature + 1 additional spell) — the High Priest's promotion is a *tier-depth* increase (Basic+Intermediate+Advanced reachable in the chosen lore instead of Basic+Intermediate), not a breadth-of-lores widening. Identity rule is **Arcane Vassal only**, matching the basic Skink Priest's identity rule — the High Priest does not gain additional identity mechanics at Lord tier; the tier difference expresses entirely through magic-stat heft and Lore Access reach. Points **120** — between Skink Chief (85) and Slann (400); matches a Lord-caster whose flavour is "more potent basic Priest" rather than "new capabilities."

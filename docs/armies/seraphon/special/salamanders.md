@@ -5,15 +5,15 @@
 
 **Salamander (Beast):**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 8 | 3  | 0  | 4 | 4 | 5 | 3 | 4  | 2   | 3  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 8 | 3 | 3 | 0 | 4 | 4 | 5 | 3 | 4 | 2 | 3 |
 
 **Skink Handler (×3 per Salamander, fixed):**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 8 | 3  | 3  | 3 | 2 | 1 | 4 | 6  | 1   | 1  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 8 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 
 **Points:** **80** per beast-bundle (1 Salamander + 3 Handlers)
 
@@ -40,7 +40,7 @@
 **Weapon profiles (A on weapons):**
 
 - **Spout Flames** *(Salamander ranged, each beast)* — Flame Template | S 4 | AP 0 | D 1 | Flaming | Slow to Fire | Scatter (Artillery Die) (see Armoury). Each Salamander in the unit fires its own template independently per §7.4 Multi-model templates. A = 1 template per beast per Shooting phase.
-- **Claws and Bite** *(Salamander natural)* — 1" reach | **A 3** | S 4 | AP 0 | D 1
-- **Hand weapon** *(Handler)* — 1" reach | **A 1** | S 3 | AP 0 | D 1
+- **Claws and Bite** *(Salamander natural)* — 1" reach | **A 3** | S 4 | AP 0 | D 1 `[Natural]`
+- **Hand weapon** *(Handler)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
 
 > **Lore notes:** W5 beast gives real durability — a Salamander pool scales through the quadratic wound factor to a Monstrous-Infantry-class survivability. Spout Flames with Artillery Die scatter and Misfire reflects the WFB flavour of "things can go wrong on the breath" rather than a clean AoS-style template attack; when the misfire face comes up the handler pool suffers, which feeds directly into Unleashed Flame — the unit has a self-amplifying failure mode. Running a Salamander unit well means choosing *when* to breathe flame, accepting that each shot is a dice-drama and that exhausted handler pools mean a berserk beast that may turn on your own flanks. Points at 80 per beast-bundle (beast + 3 Handlers) — bundle premium over raw formula output (formula lands ~65) reflects the template weapon being under-priced by §13's current Equipment Contribution table; a Flame Template with Artillery Die scatter + Flaming + Misfire-as-drama is worth more than its nominal +4 framework value when wielded by a Monstrous creature with M 8 / A 3 / S 4 / WS 3 as a fallback melee threat.

@@ -5,9 +5,9 @@
 
 **Wizard Lord:**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 4 | 3  | 3  | 3 | 4 | 4 | 3 | 9  | 1   | 2  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 4 | 3 | 3 | 3 | 3 | 4 | 4 | 3 | 9 | 1 | 2 |
 
 **Magic Profile (level-dependent):**
 
@@ -35,6 +35,6 @@
 
 **Weapon profiles:**
 
-- **Hand weapon** — 1" | A 1 | S 3 | AP 0 | D 1
+- **Hand weapon** — 1" | A 1 | S 3 | AP 0 | D 1 `[1H Blade]`
 
-> **Lore notes:** Stats per heft calibration — WS / BS / S 3 unchanged (wizards don't fight); T 4 / W 4 / Ld 9 (Lord-tier bump from Battle Wizard's 3/2/8). I 3 stays at human baseline. Magic Profile is the upgrade ladder — Lvl 3 (Lore Access 3) baseline at Cast Base 3 / Dispel Base 2 / Channelling 3 / Cast Bonus +2 / Dispel Bonus +1 / Dispel Range 24" (matches Skink High Priest exactly — the two are peer Lord-tier non-Slann casters). **Lvl 4 upgrade (+35 pts)** bumps to Cast Base 4 / Dispel Base 3 / Channelling 3 / Cast Bonus +3 / Dispel Bonus +2 / Dispel Range 24" / Lore Access 4 — first non-Slann caster reaching Lore Access 4 (Master-tier access); but stats remain a clear notch below Slann's Cast Base / Dispel Base / Channelling 5 / Cast Bonus / Dispel Bonus +4 / Dispel Range 36" / Lore Access 4. Tier hierarchy preserved: **Slann > Wizard Lord Lvl 4 > Wizard Lord Lvl 3 ≈ Skink High Priest > Coatl ≈ Skink Priest > Battle Wizard Lvl 2 > Battle Wizard Lvl 1**. **Mark of the Wind** = full eight-Wind list-build pick (vs Skink-caste's seven, Life-excluded) — the Empire's structural advantage in magic breadth, balanced by per-character single-Wind restriction. Points **160** base / **195** upgraded — sits between Skink High Priest (120) and Slann (400); upgrade premium of +35 pts buys Lore Access 4 reach plus the magic-stat bumps. No BSB option per fighter/caster convention.
+> **Lore notes:** Stats per heft calibration — WS / BS / S 3 unchanged (wizards don't fight); T 4 / W 4 / Res 9 (Lord-tier bump from Battle Wizard's 3/2/8). I 3 stays at human baseline. Magic Profile is the upgrade ladder — Lvl 3 (Lore Access 3) baseline at Cast Base 3 / Dispel Base 2 / Channelling 3 / Cast Bonus +2 / Dispel Bonus +1 / Dispel Range 24" (matches Skink High Priest exactly — the two are peer Lord-tier non-Slann casters). **Lvl 4 upgrade (+35 pts)** bumps to Cast Base 4 / Dispel Base 3 / Channelling 3 / Cast Bonus +3 / Dispel Bonus +2 / Dispel Range 24" / Lore Access 4 — first non-Slann caster reaching Lore Access 4 (Master-tier access); but stats remain a clear notch below Slann's Cast Base / Dispel Base / Channelling 5 / Cast Bonus / Dispel Bonus +4 / Dispel Range 36" / Lore Access 4. Tier hierarchy preserved: **Slann > Wizard Lord Lvl 4 > Wizard Lord Lvl 3 ≈ Skink High Priest > Coatl ≈ Skink Priest > Battle Wizard Lvl 2 > Battle Wizard Lvl 1**. **Mark of the Wind** = full eight-Wind list-build pick (vs Skink-caste's seven, Life-excluded) — the Empire's structural advantage in magic breadth, balanced by per-character single-Wind restriction. Points **160** base / **195** upgraded — sits between Skink High Priest (120) and Slann (400); upgrade premium of +35 pts buys Lore Access 4 reach plus the magic-stat bumps. No BSB option per fighter/caster convention.

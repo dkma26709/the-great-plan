@@ -1,13 +1,13 @@
 # Coatl
 
 
-> A giant flying serpent — an Ophidian — sacred to the Seraphon. Ancient, intelligent, born-wise (Ld 8, highest in the Seraphon roster), a natural wizard of the Heavens lore. Not a line fighter: a mobile Heavens-caster that drops onto objectives, casts from above, and coils anything that strays into strike range. The only flying non-character wizard in the roster.
+> A giant flying serpent — an Ophidian — sacred to the Seraphon. Ancient, intelligent, born-wise (Res 8, highest in the Seraphon roster), a natural wizard of the Heavens lore. Not a line fighter: a mobile Heavens-caster that drops onto objectives, casts from above, and coils anything that strays into strike range. The only flying non-character wizard in the roster.
 
 **Coatl (Beast):**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 5 | 4  | 0  | 5 | 5 | 8 | 2 | 8  | 4   | =W |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 5 | 4 | 4 | 0 | 5 | 5 | 8 | 2 | 8 | 4 | =W |
 
 *Coatl US equals current remaining W per the Monster-US convention. **A is on weapons** (see profiles below). Ground M 5 — a giant serpent barely moves on the ground; real mobility is Fly (8) (see Special Rules).*
 
@@ -38,10 +38,10 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Coils and Bite** *(Coatl natural, melee)* — 1" reach | **A 4** | S 5 | AP -1 | D 1 | **Poisoned Attacks** (see §8) — venomous strike combined with constricting coil; the single melee profile
+- **Coils and Bite** *(Coatl natural, melee)* — 1" reach | **A 4** | S 5 | AP -1 | D 1 | **Poisoned Attacks** (see §8) — venomous strike combined with constricting coil; the single melee profile `[Natural]`
 
 **Degrading** *(single-tier, per the Monster-scale convention):*
 - W 4–8 (full strength): all profiles as written
 - W 1–3 (wounded): **Coils and Bite reduced to A 3** — the serpent strikes fewer, slower times as it bleeds out
 
-> **Lore notes:** W 8 bumps the Coatl above its WFB W 5 reference to proper Monster-scale durability (factor 5.48). Ground M 5 reflects serpent locomotion — slithering, not walking — matching Jungle Swarm ground speed; real mobility is Fly (8), kept at the reference value per design call. LiS 4 despite the slim silhouette — a Coatl airborne obstructs sightlines more than its narrow body suggests; flight posture with wings extended is substantial. Ld 8 is the highest non-character Ld in the Seraphon roster, encoding the sage-class intelligence of this creature. Magic Profile at Lore Access 3 / Cast Base 2 / Dispel Base 2 / Channelling 2 / Cast Bonus +1 puts the Coatl between Skink Priest (basic caster, Lore Access 2) and Slann (Grand Wizard, Lore Access 4 pending), giving it a real mid-tier casting presence without overlapping the Slann's role. Guardian of the Sacred Places ported from reference as a once-per-battle free-action terrain-shuffle rather than a bound spell (simpler, untied from cast-pool budget). Magical Storm encoded as a flat -1 to hit against ranged — not a Ward save, consistent with our Ward/hit-penalty distinction. Points **225**: stat + rule contributions ~30 × W8 factor 5.48 ≈ 166 beast + ~50 flat Wizard package (Cast Base 2 / Dispel Base 2 / Channelling 2 / Cast Bonus +1 / Lore Access 3 / Dispel Range 18" — convention TBD in §13 whether magic package is W-factor-multiplied or flat; current draft sits flat, see §13.6 caveat). Playtest-tunable.
+> **Lore notes:** W 8 bumps the Coatl above its WFB W 5 reference to proper Monster-scale durability (factor 5.48). Ground M 5 reflects serpent locomotion — slithering, not walking — matching Jungle Swarm ground speed; real mobility is Fly (8), kept at the reference value per design call. LiS 4 despite the slim silhouette — a Coatl airborne obstructs sightlines more than its narrow body suggests; flight posture with wings extended is substantial. Res 8 is the highest non-character Res in the Seraphon roster, encoding the sage-class intelligence of this creature. Magic Profile at Lore Access 3 / Cast Base 2 / Dispel Base 2 / Channelling 2 / Cast Bonus +1 puts the Coatl between Skink Priest (basic caster, Lore Access 2) and Slann (Grand Wizard, Lore Access 4 pending), giving it a real mid-tier casting presence without overlapping the Slann's role. Guardian of the Sacred Places ported from reference as a once-per-battle free-action terrain-shuffle rather than a bound spell (simpler, untied from cast-pool budget). Magical Storm encoded as a flat -1 to hit against ranged — not a Ward save, consistent with our Ward/hit-penalty distinction. Points **225**: stat + rule contributions ~30 × W8 factor 5.48 ≈ 166 beast + ~50 flat Wizard package (Cast Base 2 / Dispel Base 2 / Channelling 2 / Cast Bonus +1 / Lore Access 3 / Dispel Range 18" — convention TBD in §13 whether magic package is W-factor-multiplied or flat; current draft sits flat, see §13.6 caveat). Playtest-tunable.

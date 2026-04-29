@@ -5,9 +5,9 @@
 
 **Dread Saurian (Beast):**
 
-| M | WS | BS | S | T | W | I | Ld | LiS | US |
-|---|----|----|---|---|---|---|----|-----|----|
-| 7 | 4  | 0  | 8 | 7 | 25| 1 | 6  | 6   | =W |
+| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+|---|----|----|----|---|---|---|---|----|-----|----|
+| 7 | 4 | 4 | 0 | 8 | 7 | 25 | 1 | 6 | 6 | =W |
 
 *Dread Saurian US equals current remaining W per the Monster-US convention. **A is on weapons** (see profiles below). LiS 6 is a new tier established by this unit — the Dread Saurian's canopy-brushing silhouette is meaningfully taller than any other profile (Troglodon/Arcanadon sit at LiS 5).*
 
@@ -31,12 +31,12 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Rending Jaws** *(natural, front)* — **2" reach | A 4 | S 8 | AP -4 | D D3** — the apex bite; armour-piercing at AP -4, damage D D3 per hit, enough on raw numbers to tear apart a Stegadon without needing a dedicated armour-ignoring rule
-- **Crushing Claws** *(natural, always-available)* — 1" reach | **A 4** | S 7 | AP -2 | D 1 — massive slashing forelegs, tearing through ranks alongside the bite
-- **Trampling Mass** *(natural, always-available)* — 1" reach | **A D6** | S 6 | AP -1 | D 1 — anything small enough gets underfoot; the apex doesn't step around things, it steps through them
-- **Thunder Tail** *(natural, rear arc only)* — 3" reach | **A 3** | S 7 | AP -2 | D D3 — sweeping tail strike; keeps flankers honest at substantial damage
+- **Rending Jaws** *(natural, front)* — **2" reach | A 4 | S 8 | AP -4 | D D3** — the apex bite; armour-piercing at AP -4, damage D D3 per hit, enough on raw numbers to tear apart a Stegadon without needing a dedicated armour-ignoring rule `[Natural]`
+- **Crushing Claws** *(natural, always-available)* — 1" reach | **A 4** | S 7 | AP -2 | D 1 — massive slashing forelegs, tearing through ranks alongside the bite `[Natural]`
+- **Trampling Mass** *(natural, always-available)* — 1" reach | **A D6** | S 6 | AP -1 | D 1 — anything small enough gets underfoot; the apex doesn't step around things, it steps through them `[Natural]`
+- **Thunder Tail** *(natural, rear arc only)* — 3" reach | **A 3** | S 7 | AP -2 | D D3 — sweeping tail strike; keeps flankers honest at substantial damage `[Natural]`
 - **Giant Blowpipes** *(Howdah option — Skink Crew fire)* — see Stegadon weapon profile; identical mechanics (12" range, S 3, AP 0, D 1, Multiple Shots (4D6), Poisoned Attacks, Slow to Fire, Rapid Fire)
-- **Hand weapon** *(Howdah Skink Crew self-defence)* — 1" reach | **A 1** | AP 0 | D 1
+- **Hand weapon** *(Howdah Skink Crew self-defence)* — 1" reach | **A 1** | AP 0 | D 1 `[1H Blade]`
 
 **Damage Table (Degrading):**
 
@@ -59,6 +59,3 @@
 | **Tepok's Crystalline Eye** | +50 | This unit gains **Ward Save (5+)**, reduced to **Ward Save (6+) against Magical Attacks**. Crystalline lenses set into the beast's hide refract incoming blows into nothing |
 
 > **Lore notes:** W 25 is the single largest wound pool in the ruleset by a wide margin — factor 13.98 per §13 linear extension (0.5/W past W8) — priced at **550 base** as THE apex Monster ("worth 500 points" by design call, landed at 550 per formula). LiS 6 establishes a new tier above Troglodon/Arcanadon (LiS 5), encoding "fins brush the canopy" lore literally into the line-of-sight ladder. Weapons deliberately inflated: A 4 Rending Jaws at AP -4 (one step harder than Stegadon's -3, no Sundering-style ignore rule — pure numbers), A 4 Crushing Claws, A D6 Trampling Mass (new weapon — "anything small will be trampled" per design call), A 3 Thunder Tail. Total attack volume 12–17 per round. **Earth-Shaking Roar** is the identity rule — once-per-battle +2 stress to all enemies within 18", matching the lore detail about roars heard across cities and jungles (sourced from GW Lustria campaign-book lore). Deliberately NOT a healing / regenerative rule (the Dread Saurian is "flesh and blood, not a vampire" per design call); Devour was rejected in favour of a presence-projection ability. Five Glyph-Relic options ported from reference with our-system mechanics — Heartstone upgrades Stubborn → Unbreakable rather than flat-granting an already-possessed rule. Howdah option (+60 pts, 6 Skink Crew with Giant Blowpipes) kept as per reference, mirroring Stegadon's crew package. The Dread Saurian is intentionally the single costliest unit in the Seraphon list — most armies will never field one; the ones that do do not need to field much else.
-
-
-> Generic Lizardmen characters. Named characters (Mazdamundi, Kroq-Gar, Tehenhauin, Oxyotl, Nakai, Lord Huinitenuchli, etc.) are a separate pass pending completion of the generics. See `characters-lore-notes.md` at the project root for the lore research underpinning these drafts. All character entries use the **A-on-weapons** convention and apply our heft-calibration pattern (inflate beyond WFB reference to match the inflated unit baselines — see Saurus Warriors W 2 / Stegadon W 12 / etc. for the precedent).

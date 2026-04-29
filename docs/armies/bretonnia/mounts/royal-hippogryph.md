@@ -5,9 +5,9 @@ The apex flying mount of the Bretonnian noble — a hippogryph, the great fae-to
 
 **Royal Hippogryph (barded):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 6 | 5  | 0  | 5 | 5 | 5 | 5 | 7  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 6 | 5 | 5 | 0 | 5 | 5 | 5 | 5 | 7 |
 
 *(Royal Hippogryph baseline ground M 8, reduced to M 6 by barding per §8.* **Fly 12"** *— see special rules.)*
 
@@ -21,7 +21,7 @@ The apex flying mount of the Bretonnian noble — a hippogryph, the great fae-to
 
 **Mount weapon profiles:**
 
-- **Hippogryph's Talons** *(mount natural, primary)* — 1" reach | **A 3** | S 5 | AP -2 | D 1 — rending claws that strip armour and shred flesh. The hippogryph's primary weapon, three slashing strikes per round
-- **Hippogryph's Maw** *(mount natural, secondary)* — 1" reach | **A 1** | S 5 | AP -1 | D D3 — a single crushing bite, capable of biting through plate. D D3 (D6 / 3, rounded up) means the bite can do 1-3 wounds per unsaved hit — appropriate against Heroes and Monsters
+- **Hippogryph's Talons** *(mount natural, primary)* — 1" reach | **A 3** | S 5 | AP -2 | D 1 — rending claws that strip armour and shred flesh. The hippogryph's primary weapon, three slashing strikes per round `[Natural]`
+- **Hippogryph's Maw** *(mount natural, secondary)* — 1" reach | **A 1** | S 5 | AP -1 | D D3 — a single crushing bite, capable of biting through plate. D D3 (D6 / 3, rounded up) means the bite can do 1-3 wounds per unsaved hit — appropriate against Heroes and Monsters `[Natural]`
 
 > **Stat profile summary.** The Royal Hippogryph is a Monster-tier flying mount disguised as cavalry: W 5 / T 5 / A 4 (3 Talons + 1 Maw) / Fly 12 / Fear keyword. Combined with the Bretonnian Lord (W 5 + Hippogryph W 5 = unit W 10, T 5, WS 5, attacker uses highest), this is the durable apex mount-character combo in the Bretonnian roster — comparable to Saurus Oldblood + Carnosaur (W 7 + 10 = 17 / T 5) on a smaller scale, but with Fly mobility. **+150 pts** matches WAP. With Grail Vow + Royal Hippogryph + 100 pt magic items + BSB, the Lord lands at **475 pts** (per the Bretonnian Lord pricing examples) — the duchy's grand champion, fully kitted.

@@ -5,15 +5,15 @@
 
 **Rider (Skink Brave):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 6 | 3  | 3  | 3 | 2 | 1 | 4 | 6  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 6 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 |
 
 **Mount (Ripperdactyl):**
 
-| M | WS | BS | S | T | W | I | Ld |
-|---|----|----|---|---|---|---|----|
-| 2 | 3  | 0  | 4 | 3 | 3 | 3 | 3  |
+| M | WS-A | WS-D | BS | S | T | W | I | Res |
+|---|----|----|----|---|---|---|---|----|
+| 2 | 3 | 3 | 0 | 4 | 3 | 3 | 3 | 3 |
 
 *Mount A on its natural weapons reflects Ripperdactyl's innate predatory aggression — always-on fighting instinct; see weapon profiles below. Ground movement M 2 (flapping); flying movement **Fly (12)** per the Fly rule (see §8).*
 
@@ -45,8 +45,8 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Hand weapon** *(rider, implicit melee fallback)* — 1" reach | **A 1** | S 3 | AP 0 | D 1
+- **Hand weapon** *(rider, implicit melee fallback)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
 - **Light Lance** *(rider, default)* — 2" reach | **A 1** | on charge: +1 S, AP -1, D 1; subsequent rounds: AP 0, D 1 (see Armoury)
-- **Ripperdactyl's Jaws and Claws** *(mount natural, each model)* — 1" reach | **A 3** | S 4 | AP -2 | D 1 | Killing Blow (W ≤ 2, D 3) (see §8) — resolved at mount WS 3, I 3; A 3 reflects the innate predatory aggression baked into the base stat
+- **Ripperdactyl's Jaws and Claws** *(mount natural, each model)* — 1" reach | **A 3** | S 4 | AP -2 | D 1 | Killing Blow (W ≤ 2, D 3) (see §8) — resolved at mount WS 3, I 3; A 3 reflects the innate predatory aggression baked into the base stat `[Natural]`
 
 > **Lore notes:** Higher per-model cost (46 pts vs Terradon 42 pts) reflects the mount's offensive ceiling — Ripperdactyl Jaws and Claws pack Killing Blow vs W1–2 prey, mount A3 (innate aggression baked in), **AP -2** on mount attacks (bumped from -1 — these are properly shredding beaks and claws, not just nicking teeth), and Toad Rage's focused reroll mechanic against a named target. Predatory Instinct is the downside — no tactical restraint, the unit commits to the nearest visible enemy whether that is optimal or not. Pairs naturally with Toad Rage positioning: the controlling player should try to place the Toad marker on a unit the Ripperdactyls will naturally reach, so Predatory Instinct drives them into the marked prey rather than away from it. **Fly (12)** vs Terradons' Fly (14): Ripperdactyls are smaller, angrier flyers that dart rather than sail; slightly slower than Terradon transport-flyers, but much more dangerous in the strike. W4 pool (rider 1 + mount 3) matches Terradon durability — these are both saurian flyers that happen to carry Skinks, not Skinks with wings. Light Lance kept in the default kit per lore — Ripperdactyl Riders did carry lances in the classical Lizardmen roster; the weapon stays the cavalry charge-impact vector atop the mount's Jaws and Claws for double damage on the charge turn. Non-Aquatic per the Skink-on-mount rule. Points 46 via §13 formula (stat sum 23.5 × W4 factor 1.96 = 46).
