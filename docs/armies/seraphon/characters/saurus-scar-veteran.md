@@ -25,6 +25,8 @@
 - **Mount options:** Horned One, Aggradon, Carnosaur
 - **Battle Standard option:** +25 pts — one Saurus Scar-Veteran in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the Scar-Veteran's other magic item allowance remains intact (taking a magic banner does **not** reduce the Scar-Veteran's magic-item budget)
 - **Special rules:**
+  - Disciplined (see §8)
+  - Cold-Blooded (see §8)
   - **Predatory Fighter** (see §8)
   - **Fear** (see §8)
   - **Battlefield Growl** *(identity rule)* — once per battle, at the start of any friendly turn, the Scar-Veteran may issue a bellow. All friendly **Saurus** units with any model within **12"** of the Scar-Veteran immediately **remove D3 stress counters each**. Represents the lore "sets an entire battle line in order with only a low, grumbling growl and a final bellow" — the veteran's presence cuts through the accumulated psychological pressure of the battle and steadies the Saurus line in a single moment. Complements the Saurus Oldblood's Primeval Command (per-turn 2-stress removal on one unit) by burst-removing stress across multiple units once per game

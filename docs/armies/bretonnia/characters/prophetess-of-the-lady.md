@@ -35,6 +35,7 @@
   - *(No Royal Pegasus, Royal Hippogryph — those are Lord-combat mounts. Sacrosanctum of the Lady, the WAP-canonical wagon-platform Prophetess mount, is deferred to a future expansion pass — it's an unusual mount-as-vehicle that needs dedicated mechanical drafting.)*
 - **Battle Standard option:** — *(Prophetesses do not take BSB; the Battle Standard is a fighter-tier role, carried by the Lord or Paladin)*
 - **Special rules:**
+  - Disciplined (see §8)
   - **Lady's Chosen** (intrinsic — see §17 Faction Mechanics) — counts as a vow-keyword for all rule interactions
   - **Blessing of the Lady** (intrinsic via Lady's Chosen — see §17) — Ward Save 6+ vs S ≤ 4, 5+ vs S ≥ 5. Lost on flee from combat
   - **Wizard (Lore Access 3 / 4 by level)** — see Magic Profile

@@ -27,6 +27,7 @@
 - **Mount options:** *(Stonehorn — pending Character Mounts write-up)*
 - **Battle Standard option:** +25 pts — one Bruiser in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the Bruiser's other magic item allowance remains intact. **The traditional BSB carrier in Ogre warbands** — Bruisers serve as the Tyrant's enforcers and carry the tribe's standard by tribal convention
 - **Special rules:**
+  - Disciplined (see §8)
   - **Bully** *(identity rule)* — while the Bruiser is alive and attached to a friendly Ogre Infantry unit (per the §6 Character Attachment exception), and that unit completes a charge, each model in the unit gains **+1 attack on a single melee weapon profile of its choice** (e.g., a Bull with a hand weapon and Ironfists chooses one of the two profiles for the +1 attack — *not* both) during the **first round of combat after the charge**. Represents the Bruiser physically muscling the unit forward — "you charge, or I crush you myself." Pure combat-axis effect, charge-phase only, single-profile-only by general convention (per "+1 attack buffs limited to one weapon profile" design call)
 
 **Weapon profiles (A on weapons):**

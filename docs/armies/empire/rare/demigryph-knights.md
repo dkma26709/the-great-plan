@@ -28,11 +28,11 @@
 - **Unit size:** 3-6
 - **Combined pool per model:** W 4 (rider 1 + mount 3). Attackers use highest WS (4) and highest T (4) per §1 *Rider and Mount Profiles*
 - **Natural Armour:** —
-- **Worn armour (default):** Full plate + shield + barding (per §8 Armour Save Stacking, one step per source; cap 2+)
-- **Combined save: 2+** (full plate 3+ → shield 2+ → barding at cap 2+)
-- **Equipment (default):** Polearm *(Empire Halberd profile — 1H with shield)* + full plate + shield + barding
+- **Worn armour (default):** Full plate + Heavy Shield + barding (per §8 Armour Save Stacking, one step per source; cap 2+)
+- **Combined save: 2+** (full plate 3+ → Heavy Shield 2+ → barding at cap 2+)
+- **Equipment (default):** Polearm *(Empire Halberd profile — 1H with Heavy Shield)* + full plate + Heavy Shield + barding
 - **Equipment options:**
-  - **Heavy Lance** (+6 pts/model — replaces Polearm; shield retained) — charge-focused shock weapon; trades the polearm's consistent damage for a charge-only damage spike
+  - **Heavy Lance** (+6 pts/model — replaces Polearm; Heavy Shield retained) — charge-focused shock weapon; trades the polearm's consistent damage for a charge-only damage spike
 - **Upgrade option:**
   - **Knightly Order designation** (whole unit, flat cost per Order — see Imperial Knights for the 5-option menu: Reiksguard / White Wolf / Panther / Blazing Sun / Everlasting Light). Orders interact with Demigryph Knights identically; same per-unit costs
 - **Command options:**
@@ -40,6 +40,7 @@
   - **Standard bearer** (+10 pts — Magic Standard up to 50 pts)
   - **Musician** (+5 pts)
 - **Special rules:**
+  - Disciplined (see §8)
   - **Fear** (see §8) — Demigryphs are griffon-kin; their scent and predatory motion unsettle lesser creatures
   - **Griffon-kin Instinct** *(identity rule)* — mount's **Demigryph Claws** and **Rending Beak** attacks both gain **+1 to wound** when targeting any model with the **Monstrous Infantry, Monstrous Cavalry, Monster**, or **Warbeast** keyword. Lore: Demigryphs hunt larger prey than Warhorses would dare — the beast's instinct sharpens against worthy quarry
 

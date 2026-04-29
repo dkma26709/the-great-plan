@@ -29,6 +29,8 @@
 - **Battle Standard option:** +25 pts — one Saurus Oldblood in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the Oldblood's other magic item allowance remains intact (taking a magic banner does **not** reduce the Oldblood's magic-item budget)
 - **Command options:** none (single-model character)
 - **Special rules:**
+  - Disciplined (see §8)
+  - Cold-Blooded (see §8)
   - **Predatory Fighter** (see §8) — Saurus natural attacks trigger extra attacks on unmodified 6s to hit
   - **Fear** (see §8)
   - **Primeval Command** *(identity rule)* — friendly **Saurus** units with any model within **18"** of the Oldblood treat their Res as **10** (if lower). Additionally, at the start of any friendly turn, the Oldblood nominates one friendly Saurus unit within 18"; that unit immediately removes **2 stress counters**. Represents the latent strategic knowledge of war unlocked across the Oldblood's centuries — his people orient around his unspoken tactical vision

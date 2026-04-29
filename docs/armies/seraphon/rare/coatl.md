@@ -29,6 +29,7 @@
 - **Equipment:** Coils and Bite (natural); no other kit
 - **Command options:** none
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - **Fly (8)** (see §8) — slower than a Terradon (Fly 14) or Ripperdactyl (Fly 12); the Coatl is a large-bodied serpent, not a nimble darter
   - **Magic Resistance (3)** (see §8) — enemy spells targeting this unit suffer -3 to their casting roll; the Coatl's innate magical nature partially shrugs off hostile magic
   - **Wizard (Heavens, Lore Access 3)** — see Magic Profile above

@@ -40,6 +40,7 @@
   - **Royal Hippogryph** (flying monster mount — *profile deferred to a Character Mounts pass; expected Fly 12", W 4-5, T 5, S 5, A 4 with Talons and Maw weapon profile, Terror keyword*) — +150 pts
 - **Battle Standard option:** +25 pts — one Bretonnian Lord (or Paladin) in the army may carry the Army Battle Standard. The banner may be a magic banner with no points limit; the Lord's other magic-item allowance remains intact (taking a magic banner does **not** reduce the Lord's magic-item budget). This character also gains the Battle Standard Bearer aura per §8 (12" radius, +1 CR + +1 to recovery / rally rolls for friendly Bretonnia units)
 - **Special rules:**
+  - Disciplined (see §8)
   - **Knight's Vow** (default — see §17 Faction Mechanics) — Blessing-eligibility marker. Replace with Crusader's / Questing / Grail Vow at list-build (see Vow upgrade options above)
   - **Blessing of the Lady** (intrinsic via the Vow — see §17) — Ward Save 6+ vs S ≤ 4, 5+ vs S ≥ 5, applying to rider and mount alike. Lost on flee from combat
   - **Inspiring Presence (12")** *(intrinsic — see §8)* — the Bretonnian Lord is the army's nominated General by default; baseline §8 rule applies. Friendly Bretonnia units within 12" treat their Res as the Lord's (10), enables rally without Leader, allows rally in combat, may reroll recovery / rally rolls

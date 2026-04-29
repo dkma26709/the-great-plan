@@ -34,6 +34,7 @@
   - Patrol Leader (champion, +5 pts, no stat buff)
   - No Musician, no Standard — Ripperdactyls are too aggressive for formation coordination; the rider hangs on and points
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - Fast Cavalry (see §8)
   - **Fly (12)** (see §8)
   - Fear (Ripperdactyls are Fear-causing)

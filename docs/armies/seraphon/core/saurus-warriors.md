@@ -21,6 +21,8 @@
   - **Standard bearer** (+10 pts)
   - **Musician** (+10 pts) — +1 to recovery and Rally rolls
 - **Special rules:**
+  - Disciplined (see §8)
+  - Cold-Blooded (see §8)
   - Stubborn (see §8)
   - Predatory Fighter (see §8)
   - **Pack Cohesion** — while this unit is in Formed formation and has 10 or more models, coherency checks triggered by casualties during the Combat phase are **deferred**. Coherency is checked and resolved only at the end of the Combat phase — until then, models may be removed and the remaining models continue fighting without penalty. If coherency is still broken at phase end, normal coherency-break consequences apply and the unit must rectify on its next activation. The spawn-brothers instinctively tighten their formation as casualties fall.

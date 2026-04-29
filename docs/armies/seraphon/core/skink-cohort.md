@@ -23,6 +23,7 @@
   - **Standard bearer** (+5 pts)
   - **Musician** (+5 pts) — +1 to recovery and Rally rolls
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - Aquatic (see §8)
   - Skittish (see §8)
   - **Kroxigor Handlers** — when the unit includes one or more Kroxigor models, each Kroxigor is a full member of the unit. In combat and when taking hits, each model uses its own profile, stats, and save (Skinks as Skinks, Kroxigor as Kroxigor). The unit's base movement uses the slowest model's M (so the Skinks effectively pace themselves to the Kroxigor's M7 — they scamper around the handlers to keep coherency). The unit retains the **Infantry** unit type and gains the **Monstrous Infantry** keyword for targeting purposes. *Paired with Skinks* is automatically in effect on any embedded Kroxigor (they are always within 6" of a Skink unit — this one).

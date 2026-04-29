@@ -37,6 +37,7 @@
   - Musician (+5 pts)
   - No Standard bearer — flying skirmishers; banners don't serve at altitude
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - Fast Cavalry (see §8)
   - **Fly (14)** (see §8)
   - Strider (Forest) (see §8)

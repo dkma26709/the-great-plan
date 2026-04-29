@@ -14,19 +14,20 @@
 - **Unit size:** 10-30
 - **Natural Armour:** —
 - **Worn armour (default):** — (rusted bucklers and rags; no torso armour)
-- **Combined save (default):** **6+** (shield alone, no NA, no worn armour)
-- **Worn armour options:** Light armour (+1 pt/model) → 5+ save (light armour 6+ → shield 5+)
-- **Equipment (default):** Hand weapon + shield
+- **Combined save (default):** **—** (Light Shield rusted-buckler grants no save bonus per §8 Shield Class — only +1 Parry. Without worn armour, the Skeleton has no save).
+- **Worn armour options:** Light armour (+1 pt/model) → **6+** save (Light armour 6+; Light Shield contributes no save step but +1 Parry holds)
+- **Equipment (default):** Hand weapon + Light Shield (rusted buckler — see §8 Shield Class baseline reference)
 - **Equipment options** (pick one):
   - **Spear** (+1 pt/model — replaces hand weapon) — 2" reach, S 3, AP 0
   - **Polearm** (+2 pt/model — replaces hand weapon) — 2" reach, S+1 (= S 4), AP -1
-  - **Great weapon** (+2 pt/model — replaces hand weapon, Two-Handed; loses shield, save drops to —) — 1" reach, S+2 (= S 5), AP -2
-  - **Skeleton Bow** (+2 pt/model — Skeleton Archer variant; replaces shield, no melee weapon swap) — 18" range, S 3, AP 0
+  - **Great weapon** (+2 pt/model — replaces hand weapon, Two-Handed; loses Light Shield, no Parry buckler) — 1" reach, S+2 (= S 5), AP -2
+  - **Skeleton Bow** (+2 pt/model — Skeleton Archer variant; replaces Light Shield, no melee weapon swap) — 18" range, S 3, AP 0
 - **Command options:**
   - **Leader** (+5 pts) — champion (a tougher-bound skeleton, often the buried corpse of an officer)
   - **Standard bearer** (+10 pts — Magic Standard up to 25 pts)
   - **Musician** (+5 pts) — a skeleton with a war-horn or rattling drum; +1 to recovery and Rally rolls (no effect on Undead since they cannot Rally — Musician option exists but is mechanically inert; provided for list-completeness)
 - **Special rules:**
+  - Undisciplined (see §8)
   - **Undead** (see §8) — Crumble at end of Combat phase, no psychology-source stress, immune to Psychology, cannot voluntarily Fall Back, cannot Rally
   - **Bone Tide** *(identity rule)* — when **Invocation of Nehek** (or any Necromancy spell that restores Undead models) targets a Skeleton Warriors unit, the **spell's Casting Value is reduced by 1** (e.g., Invocation's CV 5 becomes CV 4 when targeting Skeletons). Represents Skeletons as the canonical resurrection target — battlefield dead are abundant, and binding bones into a marching frame is the simplest form of necromancy
 

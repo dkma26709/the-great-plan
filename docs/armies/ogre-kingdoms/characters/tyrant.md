@@ -27,6 +27,7 @@
 - **Mount options:** *(Stonehorn / Thundertusk — pending separate Character Mounts write-up; Tyrant on foot for this pass)*
 - **Battle Standard option:** +25 pts — one Tyrant in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the Tyrant's other magic item allowance remains intact (taking a magic banner does **not** reduce the magic-item budget)
 - **Special rules:**
+  - Disciplined (see §8)
   - **Apex Tyrant** *(identity rule, two-part)* — (a) **Crushing strikes:** the Tyrant's melee weapon attacks gain **Mighty Blow (1)** (see §8) — +1 Strength in the first round of each melee combat engagement. Captures the Tyrant's lore as the strongest Ogre alive: when his swing lands in the opening exchange, it crushes through anything. Hand weapon strikes at S 6 in round one (great weapon S 8). (b) **Brutal authority:** while the Tyrant is alive, friendly Ogre units that have any model within **12"** of the Tyrant **may not Fall Back** from a lost combat — they must hold the line and take **+1 stress** instead. Represents tribal might-makes-right: the Tyrant's presence physically threatens any Ogre considering retreat. Note: not an Res bump; not Inspiring Presence; pure positional / behavioural enforcement via threat. **Predatory Fighter is reserved to Lizardmen units** per design call — Mighty Blow is the Ogre apex's combat-dominance signature instead
 
 **Weapon profiles (A on weapons):**

@@ -31,6 +31,7 @@
 - **Mount options:** Skeletal Steed, Corpse Cart *(pending Character Mounts / Special-unit write-up)*
 - **Battle Standard option:** — *(wizards do not take BSB by convention)*
 - **Special rules:**
+  - Disciplined (see §8)
   - **Wizard (Lore Access 1 / 2 by level)** — see Magic Profile. Lore: Necromancy intrinsic
   - **No Undead keyword** — Necromancer is a *living human* mage; takes normal stress, can be Broken, can Rally, takes normal Fear / Terror tests. This is mechanically meaningful — a Necromancer alone in front of an enemy unit *can* break and flee; the Vampire's Undead chassis does not
   - **No Vampiric Hunger** — Necromancer does not feed on the slain (he is mortal)

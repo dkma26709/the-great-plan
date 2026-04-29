@@ -34,6 +34,7 @@
   - *(No Royal Hippogryph option — Lord-tier mount only; Heroes do not field Hippogryphs)*
 - **Battle Standard option:** +25 pts — one Paladin (or Bretonnian Lord) in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the Paladin's other magic-item allowance is reduced to 25 pts when carrying a magic banner (per WAP convention — the Paladin's banner load competes with his personal kit, distinct from the Lord's full-100-pt-budget BSB option). Battle Standard Bearer aura (12") per §8 — +1 CR + +1 to recovery / rally rolls for friendly Bretonnia units. **The Paladin is the Bretonnian army's traditional BSB carrier** in most lists — the Lord rides forward to charge, the Paladin holds the centre with the banner high
 - **Special rules:**
+  - Disciplined (see §8)
   - **Knight's Vow** (default — see §17 Faction Mechanics) — Blessing-eligibility marker
   - **Blessing of the Lady** (intrinsic via the Vow — see §17) — Ward Save 6+ vs S ≤ 4, 5+ vs S ≥ 5 (or improved 5+/4+ with Grail Vow). Lost on flee from combat
   - **Lance Formation eligible** (when mounted on Warhorse and attached to a KotR or Knights Errant unit per §1 Character Attachment Exception, §6) — counts as Lance per §17 Faction Mechanics

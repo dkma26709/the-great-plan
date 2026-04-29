@@ -22,6 +22,8 @@
   - **Standard bearer** (+15 pts)
   - **Musician** (+15 pts) — +1 to recovery and Rally rolls
 - **Special rules:**
+  - Disciplined (see §8)
+  - Cold-Blooded (see §8)
   - Stubborn (see §8)
   - Predatory Fighter (see §8)
   - **Sworn Protectors** — see below

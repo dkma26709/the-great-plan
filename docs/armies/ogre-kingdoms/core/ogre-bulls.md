@@ -28,6 +28,7 @@
   - **Standard bearer** (+15 pts — may carry a Magic Standard up to 40 pts)
   - **Musician** (+10 pts) — +1 to recovery and Rally rolls
 - **Special rules:**
+  - Undisciplined (see §8)
   - **Bull Charge** *(identity rule)* — when this unit completes a charge, each model in base contact with an enemy generates **D3 Impact Hits** at **S 5 | AP -1 | D 1**, resolved per the **Impact** keyword (see §8 — Impact Hits land before the strike step, but no specific I value is fixed). Represents the irresistible mass of a charging Ogre — bones break and lines part before the swords come out
 
 **Weapon profiles (A on weapons):**

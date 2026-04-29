@@ -26,6 +26,7 @@
 - **Mount options:** Warhorse (per Imperial Knights mount profile), **Pegasus** *(pending Character Mounts write-up)*
 - **Battle Standard option:** +25 pts — one Captain in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the Captain's other magic item allowance remains intact (taking a magic banner does **not** reduce the Captain's magic-item budget). **The traditional BSB carrier in Imperial regiments**
 - **Special rules:**
+  - Disciplined (see §8)
   - **Hold the Line** *(identity rule)* — while the Captain is alive, attached to a friendly Empire **Infantry** unit (per the §6 Character Attachment exception), and that unit is **Formed**, the unit gains the **Stubborn** special rule (see §8). Represents the Captain's voice carrying through the regimental block — the line holds because the Captain says it holds, where lesser officers would let it crack
 
 **Weapon profiles (A on weapons):**

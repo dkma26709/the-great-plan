@@ -33,6 +33,8 @@
   - Standard bearer (+10 pts — may carry Magic Standard up to 25 pts)
   - Musician (+5 pts)
 - **Special rules:**
+  - Disciplined (see §8)
+  - Cold-Blooded (see §8)
   - Fast Cavalry (see §8)
   - Fear (Horned Ones are Fear-causing beasts)
   - **Impaling Charge** — when this unit charges an enemy, each **Horned One mount's attacks gain +1 S and AP -1** for the first round of that combat. The Horned Ones drive their horns forward at impact, skewering through lighter armour before the rider's lance even comes down. Mount attacks only — rider's Light Lance has its own separate charge bonus.

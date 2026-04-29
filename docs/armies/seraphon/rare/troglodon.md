@@ -30,6 +30,7 @@
   - Oracle: Moonstone Javelin + hand weapon
 - **Command options:** none (single-beast unit)
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - **Terror** (see §8)
   - **Predatory Fighter** (see §8) — Troglodon natural attacks trigger extra attacks on unmodified 6s to hit
   - **Poisoned Attacks** (see §8) — baked into Troglodon's Jaws, Talons, and Noxious Spittle (not into Oracle weapons; the Oracle's Moonstone Javelin carries its own Poisoned Attacks per Armoury)

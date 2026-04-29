@@ -28,9 +28,9 @@
 - **Unit size:** 5-12 (wider upper bound than Imperial Knights' 5-10 to accommodate Lance Formation depth — a 10-model wedge fills 4 rows; 12 models spill into a partial row 5)
 - **Combined pool per model:** W 2 (rider 1 + mount 1). Attackers use highest WS (4) and highest T (3) per §1 *Rider and Mount Profiles*
 - **Natural Armour:** —
-- **Worn armour (default, fixed kit):** Heavy armour + shield + barding (per §8 Armour Save Stacking, one step per source)
-- **Combined save: 2+** (heavy armour 4+ → shield 3+ → barding 2+)
-- **Equipment (fixed kit, no swap options):** Heavy Lance + shield + heavy armour + barding
+- **Worn armour (default, fixed kit):** Heavy armour + Heavy Shield + barding (per §8 Armour Save Stacking, one step per source)
+- **Combined save: 2+** (heavy armour 4+ → Heavy Shield 3+ → barding 2+)
+- **Equipment (fixed kit, no swap options):** Heavy Lance + Heavy Shield + heavy armour + barding
 - **Vow upgrade options (replace Knight's Vow at list-build):**
   - **Crusader's Vow** (+1 pt/model, whole-unit upgrade) — replaces Knight's Vow keyword. See §17 Faction Mechanics for full definition. Grants Immunity to Panic-source stress, reroll failed psychology-source recovery rolls, and +1D6 charge distance roll (discard lowest). Useful for KotR units committed to anti-Chaos / anti-Undead / anti-Greenskin crusade campaigns
   - *(Questing Vow not available — Questing Vow forbids Heavy Lance per §17, and KotR are lance-specialist units; a unit of knights who give up the lance becomes Questing Knights, drafted as a separate unit in §17 Special)*
@@ -40,6 +40,7 @@
   - **Standard bearer** (+10 pts — Magic Standard up to 50 pts; Bretonnian Knights get the elite cavalry banner budget, matching Imperial Knights)
   - **Musician** (+5 pts) — +1 to recovery and Rally rolls (the unit's herald, signalling charges and rallies on horn)
 - **Special rules:**
+  - Disciplined (see §8)
   - **Knight's Vow** (see §17 Faction Mechanics) — Blessing-eligibility marker. No additional effect at this vow tier. Replace with Crusader's Vow at list-build (see Vow upgrade options above)
   - **Blessing of the Lady** (see §17 Faction Mechanics) — intrinsic via the Knight's Vow. Ward Save 6+ vs S ≤ 4, 5+ vs S ≥ 5, applying to rider and mount alike. Lost on flee from combat
   - **Lance Formation eligible** (see §17 Faction Mechanics) — counts as Lance whenever the unit's geometry forms a triangular wedge of 6+ models in 3+ rows; +2" reach + +1 AP on melee weapons during the charge round

@@ -33,6 +33,7 @@
   - No shields
 - **Command options:** none (single-beast unit)
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - **Terror** (see §8) — causes Terror, not just Fear
   - Mixed Unit (see §1)
   - **Unstoppable Momentum** — this unit's Goring Horns charge strike resolves as **D3 hits per enemy model in melee reach**, instead of a normal single hit per attack. Not swinging — ploughing. The bow wave of a massive body hitting a formation at speed.

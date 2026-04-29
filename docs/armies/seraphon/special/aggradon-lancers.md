@@ -36,6 +36,8 @@
   - **Standard bearer** (+15 pts — may carry a **Magic Standard up to 50 pts**, per Saurus elite-cavalry convention)
   - **Musician** (+10 pts) — +1 to recovery and Rally rolls
 - **Special rules:**
+  - Disciplined (see §8)
+  - Cold-Blooded (see §8)
   - Stubborn (see §8)
   - Predatory Fighter (see §8)
   - **Blood Frenzy** — once this unit's Aggradon mount attacks inflict one or more unsaved wounds in a combat phase, the unit gains the **Frenzy** special rule (see §8) for the rest of the battle. This Frenzy **cannot be lost** — not by losing a combat round, nor by any other means that would ordinarily strip Frenzy. The mount has tasted blood and will never stop chasing it. A guided missile, armed.

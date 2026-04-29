@@ -35,6 +35,7 @@
 - **Mount options:** Skeletal Steed, Nightmare, Zombie Dragon *(pending separate Character Mounts write-up; Vampire Lord on foot for this initial pass)*
 - **Battle Standard option:** +25 pts — one Vampire Lord in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the Vampire Lord's other magic item allowance remains intact
 - **Special rules:**
+  - Disciplined (see §8)
   - **Undead** (see §8)
   - **Wizard (Lore Access 2 / 3 / 4 by level, intrinsic dual-lore — Death + Necromancy + Shadow)** — see Magic Profile. Lores Known: Death + Necromancy + Shadow (all three intrinsic; no list-build choice). Sig + 1 additional from any of the three lores = 4 spells known total. *(With Forbidden Lore Bloodline Power: lore access expands to all 8 generic lores + Necromancy.)*
   - **Vampiric Hunger** *(intrinsic universal vampire trait)* — see Faction Mechanics. Causing a wound in melee → regen 1 W (capped 1 W/turn)

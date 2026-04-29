@@ -31,6 +31,7 @@
   - **Musician** (+5 pts)
   - No Standard bearer — beast-handler unit; banners do not steer a fire-lizard
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - Aquatic (see §8)
   - Skirmishers (see §8)
   - Fear (Salamanders only — Handlers are not individually Fear-causing)

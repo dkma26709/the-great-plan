@@ -15,6 +15,7 @@
 - **Command:** none — no leader, no standard, no musician; just the tide
 - **Dynamic stats:** both **A (on the weapon, see profile below)** and **US** equal this base's **current remaining Wounds**. A base at W 7 contributes 7 attacks and US 7 to the unit; a base at W 3 contributes 3 attacks and US 3. Offensive output and board-presence scale with wounds together — the mass *is* the unit.
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - Aquatic (see §8)
   - Poisoned Attacks (see §8)
   - Expendable (see §8)

@@ -30,6 +30,7 @@
   - **Standard bearer** (+10 pts — may carry a Magic Standard worth up to 25 pts)
   - **Musician** (+5 pts)
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - Fast Cavalry (see §8)
   - Skittish (see §8)
   - **Predator's Scent** — when this unit **charges** into combat and the target unit is **limping** — defined as Shaken, Wavering, Broken, or having suffered one or more unsaved wounds earlier in the battle — each Raptadon's **Serrated Fangs attacks may reroll failed wound rolls** in the first round of that combat. The rider's Tepok Lance is the moment of impact; the mount's fangs are the finish. Raptadons pick up the scent of the limp — the stumble, the favoured leg, the blood-slick flank — and commit the full savagery of the pack to the kill.

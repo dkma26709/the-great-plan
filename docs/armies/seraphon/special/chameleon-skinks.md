@@ -19,6 +19,7 @@
   - **Musician** (+5 pts)
   - No standard bearer — stealth unit; banners defeat the purpose
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - Aquatic (see §8)
   - Skirmishers (see §8)
   - Scouts (see §8)

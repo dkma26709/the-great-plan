@@ -21,6 +21,7 @@
   - **Standard bearer** (+5 pts)
   - **Musician** (+5 pts) — +1 to recovery and Rally rolls
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - Skirmishers (see §8)
   - Aquatic (see §8)
   - Elusive (see §8)

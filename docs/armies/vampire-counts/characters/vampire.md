@@ -34,6 +34,7 @@
 - **Mount options:** Skeletal Steed, Nightmare *(pending Character Mounts write-up)*
 - **Battle Standard option:** +25 pts — one Vampire Hero in the army may carry the Army Battle Standard
 - **Special rules:**
+  - Disciplined (see §8)
   - **Undead** (see §8)
   - **Wizard (Lore Access 1 / 2 by level)** — see Magic Profile. Lore: Necromancy intrinsic
   - **Vampiric Hunger** *(intrinsic universal vampire trait)* — see Faction Mechanics

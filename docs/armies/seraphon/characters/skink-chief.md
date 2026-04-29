@@ -23,6 +23,7 @@
 - **Mount options:** Raptadon, Horned One, Terradon, Ripperdactyl
 - **Battle Standard option:** +25 pts — one Skink Chief in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the Chief's other magic item allowance remains intact (taking a magic banner does **not** reduce the Chief's magic-item budget)
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - **Aquatic** (see §8)
   - **Target Designation** *(identity rule)* — at the start of each friendly Shooting phase, the Skink Chief nominates one visible enemy unit within **24"** and line-of-sight. Until end of phase, all friendly **Skink** units shooting that nominated unit gain **+1 to hit**. Represents "spot, alert, guide" as a passive intel buff — fires every turn, stacks with Jungle Poisons for a devastating combined +1 hit / +1 wound on the marked unit
   - **Scout** *(secondary)* — the Skink Chief (and any friendly **Skink Skirmishers** or **Chameleon Skinks** unit he is attached to at list-building) deploys as Scouts: after both sides have finished normal deployment, this Scout group places anywhere on the board outside **12"** of enemy units. Captures the scout-coordinator role mechanically

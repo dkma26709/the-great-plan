@@ -33,6 +33,7 @@
   - No shields
 - **Command options:** none (single-beast unit)
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - **Terror** (see §8) — sauropod scale
   - **Stubborn** (see §8) — once the Arcanadon commits, it does not easily break
   - Mixed Unit (see §1)

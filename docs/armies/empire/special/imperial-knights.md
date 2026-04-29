@@ -28,12 +28,12 @@
 - **Unit size:** 5-10
 - **Combined pool per model:** W 2 (rider 1 + mount 1). Attackers use highest WS (4) and highest T (3) per §1 *Rider and Mount Profiles*
 - **Natural Armour:** —
-- **Worn armour (default):** Heavy armour + shield + barding (applied per §8 Armour Save Stacking, one step per source)
-- **Combined save: 2+** (heavy armour 4+ → shield 3+ → barding 2+ — cap at 2+)
-- **Equipment (default):** Heavy Lance + shield + heavy armour + barding
+- **Worn armour (default):** Heavy armour + Heavy Shield + barding (applied per §8 Armour Save Stacking, one step per source)
+- **Combined save: 2+** (heavy armour 4+ → Heavy Shield 3+ → barding 2+ — cap at 2+)
+- **Equipment (default):** Heavy Lance + Heavy Shield + heavy armour + barding
 - **Equipment options (pick one melee swap):**
   - **Great Weapon** (free swap — replaces Heavy Lance, no shield; save drops to 3+ with barding) — 1" | **A 1** | S+2 | AP -2 | D 1 | Two-Handed
-  - **Cavalry Hammers** (+1 pt/model — replaces Heavy Lance, shield retained) — 1" | **A 1** | S+1 | AP -1 | D 1 | one-handed; effective every round, not just on the charge
+  - **Cavalry Hammers** (+1 pt/model — replaces Heavy Lance, Heavy Shield retained) — 1" | **A 1** | S+1 | AP -1 | D 1 | one-handed; effective every round, not just on the charge
 - **Inner Circle upgrade** (+3 pts/model, whole unit): each rider gains **+1 S and +1 I** (S 4 / I 4). Sworn veterans of a specific Imperial order. Stacks with any Knightly Order upgrade (see below).
 - **Knightly Order designation** (pick one at list-build, whole-unit flat cost — mechanical upgrade specific to the named order):
 
@@ -52,6 +52,7 @@ Only one Order per unit; multiple units may each take different orders. Stacks w
   - **Standard bearer** (+10 pts — Magic Standard up to 50 pts; Knight units get a bigger banner budget than State Troops, reflecting elite-cavalry convention)
   - **Musician** (+5 pts) — +1 to recovery and Rally rolls
 - **Special rules:**
+  - Disciplined (see §8)
   - **Breakthrough Charge** *(identity rule)* — on any turn this unit declared a charge, if it **wins the combat round**, the normal "follow up or hold" choice (see §4 Losing Combat — Fall Back) is extended with a third option: **Breakthrough**. The Knights disengage from the defeated enemy and move **D6" toward the nearest enemy unit** (or in a direction of the controlling player's choice if no enemy is within 12" of the unit's end-of-move position). The move ignores normal disengagement constraints. Represents Imperial Knights riding through the broken enemy line and repositioning for the next charge
 
 **Weapon profiles (A on weapons):**

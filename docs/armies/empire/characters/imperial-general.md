@@ -26,6 +26,7 @@
 - **Mount options:** Warhorse (per Imperial Knights mount profile), **Pegasus**, **Imperial Griffon** *(Pegasus and Imperial Griffon — pending Character Mounts write-up)*
 - **Battle Standard option:** +25 pts — one Imperial General in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the General's other magic item allowance remains intact (taking a magic banner does **not** reduce the General's magic-item budget)
 - **Special rules:**
+  - Disciplined (see §8)
   - **Inspiring Presence (12")** *(intrinsic — see §8)* — friendly Empire units within 12" of the General treat their Res as the General's (10). The army's command anchor; the rule fires by his mere presence on the field
   - **Tactical Master** *(identity rule)* — at the start of each friendly turn, the General nominates one friendly Empire unit within **18"**. Until end of that turn: (a) the nominated unit may **reroll its charge-distance roll** (rerolls the dice once, takes the new result); (b) the nominated unit treats its **Res as 10** (if lower) for stress thresholds. Represents the General's tactical voice cutting through the noise of battle — a single regiment redirected at the right moment
 

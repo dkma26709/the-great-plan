@@ -31,6 +31,7 @@
   - **Musician** (+5 pts)
 
 **Special rules:**
+- Undisciplined (see §8)
 - **Animosity** *(Greenskin-wide identity rule)* — at the start of each Movement phase, roll a **D6** for the unit. On a **1**, the unit's natural aggression breaks discipline:
   - If any enemy unit is within charge range (per §6 Charges) and visible, the unit **must declare a charge against the nearest such enemy** this Movement phase
   - If no charge is possible (no visible enemy within charge range), the unit instead gains **+1 stress** and may not Advance or March this Movement phase (squabbling among themselves)
@@ -74,6 +75,7 @@
   - **Musician** (+5 pts)
 
 **Special rules:**
+- Disciplined (see §8)
 - **Elven Grace** *(High Elf faction-wide identity rule)* — High Elf models gain **Ward (6+) in melee** against attacks made at the elf's Initiative value **or lower**. Against attacks made by models with **higher Initiative than the elf**, Elven Grace does not apply — the strike lands faster than the elf can react. With High Elf Spearmen at I 5, most opponents (humans I 3, Orcs I 2, Saurus I 1, dwarfs I 2) trigger the Ward; only high-I attackers (some elf-tier characters, fast monsters, Witch Elves at I 6) bypass it. Iconic elven trait — they *are* harder to hit, but only as long as nothing strikes faster.
 - **Martial Prowess** *(High Elf faction-wide identity rule)* — High Elf models may **reroll all to-Hit rolls of 1** in melee. The millennium-of-training reflex — every blow finds its target unless the elf himself fumbles.
 - **Defensive Formation** *(High Elf Spearmen unit identity rule)* — when defending against a Charge declared by an enemy unit, this unit gains **+1 to-Hit** in the resulting Combat phase against the charging unit (and only against that unit, for the round of combat resulting from that charge). The drilled phalanx of Lothern: spears braced, shields locked, every charging enemy meets a wall of points held at exactly the right height. Captures "elf phalanx is harder to charge than to charge at" — a player who wants Spearmen to be effective should hold them in defensive formation, not push them forward to make the first strike.
@@ -112,6 +114,7 @@
   - **Musician** (+5 pts)
 
 **Special rules:**
+- Disciplined (see §8)
 - **Stubborn** *(Dwarf faction-wide identity rule — see §8)* — Dwarf units ignore the state effects of **Shaken** (-1 to-hit) and **Wavering** (cannot-charge). Stress still accumulates normally and the **Broken** threshold still applies; the unit fights at full effectiveness until it finally shatters. Iconic dwarf stoicism — the underground city's iron resolve made manifest in every clan-warrior. Faction-wide for Dwarfs (vs Empire's Greatswords-only application) reflects WFB lore: every dwarf is stoic at heart, and Hammerers / Ironbreakers / Longbeards differentiate above this baseline via *other* rules (Killing Blow, heavy plate, etc.) rather than via Stubborn itself.
 - **Ancestral Grudge** *(Dwarf faction-wide identity rule)* — Dwarf models gain **Hatred** (see §8) against units with the **Greenskin**, **Skaven**, **Troll**, or **Beastmen** keyword. Hatred lets the unit reroll failed to-Hit rolls in the first round of combat against Hated targets. The Book of Grudges made manifest as a faction-wide background — dwarfs strike harder against the races that have wronged them across millennia.
 - **Resolute** *(Dwarf faction-wide identity rule)* — when this unit would convert **combat resolution loss to stress** (per §5 — losing combat causes the loser to take stress equal to the CR difference), the unit **subtracts 1** from the converted total (minimum 0). The dwarf phalanx absorbs the indignity of losing slightly better than other races. Translates the WAP "lose by 1 less" Break-test mechanic to our stress-based combat-resolution system.
@@ -245,6 +248,7 @@
 - **No command options** — single-model unit; the Tomb Guard Crew are not separately upgradable
 
 **Special rules:**
+- Disciplined (see §8)
 - **Undead** *(Tomb Kings faction-wide identity rule — abbreviated stress-test definition)* — Tomb Kings undead are **Immune to Psychology** (per §8), do not take stress from any morale source, cannot Fall Back from combat (they advance until destroyed), and are subject to a **Crumble** mechanic similar to Vampire Counts (when a Liche Priest or Tomb King anchor character within 12" is killed, Undead units in range take +1 stress per turn until restored — full Tomb Kings drafting would specify the anchor mechanic). Stress from combat wounds and direct spell damage still applies normally.
 - **Terror** *(per §8)* — units charged by the Warsphinx, or that charge the Warsphinx, gain **+2 stress** on the turn the engagement happens (per standard Terror rule).
 - **Magical Attacks (Tomb Guard Crew only)** *(per §8)* — the crew's weapon profile attacks count as Magical Attacks; the Warsphinx's body attacks are *not* Magical (the construct is animated, not enchanted-edge). Useful against Ethereal targets.
@@ -298,6 +302,7 @@
 - **No command options** — single-model unit; the Forest Goblin Crew are not separately upgradable
 
 **Special rules:**
+- Undisciplined (see §8)
 - **Animosity** *(Greenskin faction-wide identity rule — applies to Forest Goblin Crew only)* — at the start of each Movement phase, roll a D6 for the Arachnarok unit (treating the goblin crew's bickering as the trigger). On a **1**, the unit must declare a charge against the nearest visible enemy if able; if no charge possible, the unit instead gains **+1 stress** and may not Advance or March this Movement phase. The goblins poke each other with spears and lose grip on the spider's reins; the spider — Imm Psych — doesn't *care*, but the goblins panic and the unit's coordination breaks. Note: the Arachnarok itself is Imm Psych and unaffected by the stress; only the unit's *positional control* is disrupted by Animosity.
 - **Immune to Psychology** *(per §8, Arachnarok-specific)* — the spider's animal mind ignores Fear, Terror, friendly-unit-fleeing stress triggers. Combat-wound stress still applies; the spider isn't unkillable, just fearless. **No Stubborn** — the Arachnarok doesn't *resist* in the disciplined sense; Imm Psych alone captures the animal-mind that doesn't break because it doesn't think to.
 - **Poisoned Attacks** *(per §8, both spider AND crew)* — Arachnarok and Forest Goblin Crew melee + ranged attacks gain **+1 to-Wound**. The spider's venom drips from fangs and legs; the goblins coat their weapons (spear and shortbow) in milked spider-venom from the Arachnarok's own glands. Faction-flavour: Forest Goblins are the *poison-everything* sub-tribe of Greenskins.

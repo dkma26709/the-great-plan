@@ -26,6 +26,7 @@
   - **Standard bearer** (+10 pts — Magic Standard up to 50 pts; Grave Guard's banner budget matches Empire elite tier)
   - **Musician** (+5 pts — mechanically inert per Undead, list-complete only)
 - **Special rules:**
+  - Disciplined (see §8)
   - **Undead** (see §8)
   - **Lingering Souls** *(identity rule)* — when **Invocation of Nehek** (or any Necromancy spell that restores Undead models) targets a Grave Guard unit, the **spell's Casting Value is increased by 1** (e.g., Invocation's CV 5 becomes CV 6 when targeting Grave Guard). The Wights' souls cling to their barrows and their grave-bound armaments; binding them back into a marching frame requires more arcane effort than raising simple Skeletons or shambling Zombies — the souls resist, yielding only to a more powerful invocation. Pattern note: this is the **opposite of Skeleton Warriors' Bone Tide** — across the rank-and-file roster, the resurrection-economy slopes from easy (Skeletons CV -1) through standard (Zombies CV unchanged but +2 wounds restored) to hard (Grave Guard CV +1), reflecting the difficulty-of-binding ladder
 

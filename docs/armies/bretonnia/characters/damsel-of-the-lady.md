@@ -34,6 +34,7 @@
   - *(No Royal Pegasus, Royal Hippogryph — Hero-tier mount limit, same as Paladin)*
 - **Battle Standard option:** — *(Damsels do not take BSB; the Battle Standard is a fighter-tier role, carried by the Lord or Paladin)*
 - **Special rules:**
+  - Disciplined (see §8)
   - **Lady's Chosen** (intrinsic — see §17 Faction Mechanics) — the Damsel was chosen directly by the Lady, not bound by a Vow. The keyword counts as a Vow keyword for all rule interactions (Peasant's Duty / Class Barrier / spell restrictions that key off Vow-bearing characters)
   - **Blessing of the Lady** (intrinsic via Lady's Chosen — see §17) — Ward Save 6+ vs S ≤ 4, 5+ vs S ≥ 5. Lost on flee from combat (same loss conditions as vow-bearing characters)
   - **Wizard (Lore Access 1 / 2 by level)** — see Magic Profile

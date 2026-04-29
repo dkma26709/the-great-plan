@@ -25,6 +25,7 @@
   - **Standard bearer** (+10 pts — Magic Standard up to 50 pts; Greatswords get the elite banner budget, matching Knights)
   - **Musician** (+5 pts)
 - **Special rules:**
+  - Disciplined (see §8)
   - **Stubborn** (see §8) — ignores Shaken / Wavering state penalties; only Broken fully degrades them
   - **Professional Soldiers** *(identity rule)* — this unit **automatically rerolls failed recovery and rally rolls**, regardless of proximity to a friendly General or Battle Standard Bearer. Paid professionals who know how to regroup without command handholding. Supersedes the conditional State Troops rule on baseline Halberdiers / Handgunners — Greatswords have the trigger built in
   - **State Troops** — keyword only (for rule references that target the State Troops keyword); mechanical effect replaced by Professional Soldiers above

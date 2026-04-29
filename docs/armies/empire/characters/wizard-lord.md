@@ -30,6 +30,7 @@
 - **Mount options:** Warhorse (per Imperial Knights mount profile), **Pegasus**, **Luminark of Hysh** *(Light-only)*, **Celestial Hurricanum** *(Heavens-only)* *(Pegasus and the specialist wizard-platforms — pending separate Character Mounts / Rare-slot write-up)*
 - **Battle Standard option:** — *(wizards do not take BSB by convention; the BSB is a fighter-tier role)*
 - **Special rules:**
+  - Disciplined (see §8)
   - **Wizard (Lore Access 3 / 4 by level)** — see Magic Profile
   - **Mark of the Wind** *(intrinsic lore-pick)* — at list-building, choose one of: **Heavens, Beasts, Fire, Light, Death, Shadow, Metal, Life**. The Wizard Lord casts exclusively from that Wind. (All eight general lores accessible — including **Life**, which the Skink-caste convention restricts.) Mirrors the Skink Priest / High Priest's Mark of the Old One mechanic, but with the full eight-Wind palette of the Empire's Colleges of Magic
 

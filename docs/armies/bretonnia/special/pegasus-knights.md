@@ -28,14 +28,15 @@
 - **Unit size:** 3-10 (rarer than ground cavalry — pegasi are scarce magical beasts; few duchies maintain enough stables for full units)
 - **Combined pool per model:** W 3 (rider 1 + mount 2). Attackers use highest WS (4) and highest T (4) per §1 *Rider and Mount Profiles*
 - **Natural Armour:** —
-- **Worn armour (default, fixed kit):** Heavy armour + shield + barding (per §8 Armour Save Stacking, one step per source)
-- **Combined save: 2+** (heavy armour 4+ → shield 3+ → barding 2+)
-- **Equipment (fixed kit, no swap options):** Heavy Lance + shield + heavy armour + barding
+- **Worn armour (default, fixed kit):** Heavy armour + Heavy Shield + barding (per §8 Armour Save Stacking, one step per source)
+- **Combined save: 2+** (heavy armour 4+ → Heavy Shield 3+ → barding 2+)
+- **Equipment (fixed kit, no swap options):** Heavy Lance + Heavy Shield + heavy armour + barding
 - **Command options:**
   - **Leader** (+5 pts) — *Pegasus Lord*; the senior knight of the Pegasus stable, often the duke's airborne herald
   - **Standard bearer** (+10 pts — Magic Standard up to 50 pts; the duke's heraldic banner mounted on a Pegasus-borne pole)
   - **Musician** (+5 pts) — +1 to recovery and Rally rolls (the unit's herald, signalling charges and rallies on a sky-horn audible across the battlefield)
 - **Special rules:**
+  - Disciplined (see §8)
   - **Knight's Vow** (see §17 Faction Mechanics) — Blessing-eligibility marker. No additional effect at this vow tier
   - **Blessing of the Lady** (see §17 Faction Mechanics) — intrinsic via the Knight's Vow. Ward Save 6+ vs S ≤ 4, 5+ vs S ≥ 5, applying to rider and mount alike. Lost on flee from combat
   - **Fly (12")** (see §8) — applies to the mount profile. The unit may move 12" in fly mode each Movement phase, ignoring all terrain, intervening models (friendly or enemy), and elevation. Ground M (with barding penalty) is the alternate ground-mode movement value, used only if Fly is suspended for some reason. May Fly-charge: charge distance = 12" + D6 (Formed) or 12" + 2D6 (Loose). Impact attacks still trigger on a successful Fly-charge — velocity and mass are undiminished by lift

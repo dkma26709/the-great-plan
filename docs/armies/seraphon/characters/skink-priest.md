@@ -28,6 +28,7 @@
   - Magic items up to 50 pts (including Blessed Spawnings)
 - **Mount options:** Raptadon, Terradon, Ancient Stegadon (character-mount write-ups pending)
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - **Aquatic** (see §8)
   - **Wizard (Lore Access 2)** — see Magic Profile above
   - **Mark of the Old One** *(intrinsic lore-pick)* — at list-building, choose one of: Heavens, Beasts, Fire, Light, Death, Shadow, Metal. The Priest casts exclusively from the chosen lore. (Lore of Life remains inaccessible per lore convention — "all Winds of Magic except Ghyran")

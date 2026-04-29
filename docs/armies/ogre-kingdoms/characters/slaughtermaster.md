@@ -33,6 +33,7 @@
 - **Mount options:** *(Stonehorn — pending Character Mounts write-up)*
 - **Battle Standard option:** — *(wizards do not take BSB by convention)*
 - **Special rules:**
+  - Disciplined (see §8)
   - **Wizard (Lore Access 3 / 4 by level, dual-lore intrinsic — Great Maw + Beasts)** — see Magic Profile. Slaughtermaster casts from both Lore of the Great Maw (faction-exclusive, food-themed Gut Magic) and Lore of Beasts (the savage / bestial Wind, lore-faithful affinity for Ogre wizards) intrinsically — no list-build choice. Each lore: Signature spell free + 1 additional spell from that lore = 4 spells known total. *(Pattern note: dual-lore intrinsic access, **not** a Mark-of-X list-build pick. Differs from Empire's Mark of the Wind and Skink Priest's Mark of the Old One — Slaughtermaster's lore access is fixed at character creation, not configured at list-build.)*
   - **Bloodgreed** *(identity rule)* — when the Slaughtermaster slays an enemy model in melee (and only via his own melee attacks — not allies' kills, not magic, not ranged), he immediately regenerates **1 W** (capped at his starting maximum). Captures the Butcher consuming the blood, meat, and fat of his fallen victims and channelling it into his own bulk
 

@@ -17,6 +17,7 @@
   - **Ancient Weapons** (free swap) — replaces the Moonstone Club. See Armoury.
 - **Command options:** none (traditional for Monstrous Infantry)
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - **Emboldened Handlers** — while this unit has at least one model within **6" of a friendly Skink unit**, that Skink unit gains **+1 Res** for all purposes. The massive handlers are a comforting bulwark — nearby Skinks think faster, hold firmer, and panic less.
   - **Stupidity** (conditional) (see §8) — if no friendly Skink unit has a model within 6" of this unit at the start of its Movement-phase activation, this unit suffers **Stupidity** for that turn. Without the handlers to focus them, the Kroxigor lumber aimlessly toward the nearest perceived threat.
 

@@ -30,6 +30,7 @@
 - **Mount options:** Warhorse (per Imperial Knights mount profile)
 - **Battle Standard option:** — *(wizards do not take BSB by convention)*
 - **Special rules:**
+  - Disciplined (see §8)
   - **Wizard (Lore Access 1 / 2 by level)** — see Magic Profile
   - **Mark of the Wind** *(intrinsic lore-pick)* — at list-building, choose one of: **Heavens, Beasts, Fire, Light, Death, Shadow, Metal, Life**. The Battle Wizard casts exclusively from that Wind — the College that trained him
 

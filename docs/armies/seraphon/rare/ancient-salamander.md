@@ -30,6 +30,7 @@
   - **Musician** (+5 pts) — replaces a Handler model
   - No Standard bearer
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - Aquatic (see §8)
   - Skirmishers (see §8)
   - **Fear** (not Terror — Ancient Salamanders are big but not city-block big; LiS 2 keeps them at Warbeast scale)

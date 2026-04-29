@@ -21,6 +21,7 @@
 - **Ward Save:** — (none baseline)
 - **Eligible riders:** Saurus Oldblood, Saurus Scar-Veteran, and eligible named characters (pending)
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - **Terror** (see §8)
   - **Apex Predator** *(identity rule)* — the Carnosaur's Massive Jaws gain **+1 to hit and +1 to wound** when targeting any model with the **Monster**, **Monstrous Infantry**, **Monstrous Cavalry**, or **Warbeast** keyword. Represents the Carnosaur's lore-canonical instinct to go for the biggest prey: devastating against peers and large beasts, no bonus against rank-and-file infantry or cavalry
   - **Bloodroar** — in addition to the Terror aura, at the start of each Combat phase every enemy unit with any model within **12"** of the Carnosaur immediately gains **+1 stress**. The roar carries the weight of a tyrannosaur's lungs — the sound alone has broken formations

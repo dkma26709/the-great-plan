@@ -23,6 +23,7 @@
   - **Musician** (+5 pts) — +1 to recovery and Rally rolls (a peasant horn-blower or runner who relays signals across the dispersed unit)
   - *(No Standard Bearer — skirmishers carry no banner. The Bidower lives by speed and scattered movement, not by the standard's anchor.)*
 - **Special rules:**
+  - Undisciplined (see §8)
   - **Skirmishers** (see §8) — coherency 2" instead of 1"; may shoot in the same turn it has marched (fire-on-the-move, no penalty); free pivots at any point during movement; cannot gain Formed benefits (Loose / Disordered states only)
   - **Peasant's Duty** *(identity rule)* — as Men-at-Arms; while any model is within **6"** of a friendly Bretonnia character with the **Knight's Vow**, **Crusader's Vow**, **Questing Vow**, **Grail Vow**, or **Lady's Chosen** keyword, that character grants this unit the effects of **Inspiring Presence (6")** (see §8 Resolve and Command). Aura passes from outside the unit only
   - **Class Barrier** *(clause of Peasant's Duty)* — a Bretonnian character with the **Knight's Vow / Questing Vow / Lady's Chosen / Crusader's Vow / Grail Vow** keyword standing within the coherency of this unit does **not** gain the Character Attachment Exception's shielding (§6) — same restriction as Men-at-Arms / Longbowmen

@@ -40,6 +40,7 @@
     - **Beam of Chotec** — shooting attack fired from the engine by the Skink Crew. See weapon profile below
 - **Command options:** none
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - **Terror** (see §8)
   - **Stubborn** (see §8)
   - Mixed Unit (see §1)

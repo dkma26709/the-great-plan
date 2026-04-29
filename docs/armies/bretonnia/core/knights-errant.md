@@ -28,9 +28,9 @@
 - **Unit size:** 5-12 (matches KotR for Lance Formation wedge depth)
 - **Combined pool per model:** W 2 (rider 1 + mount 1). Attackers use highest WS (3) and highest T (3) per §1 *Rider and Mount Profiles*
 - **Natural Armour:** —
-- **Worn armour (default, fixed kit):** Heavy armour + shield + barding (per §8 Armour Save Stacking, one step per source)
-- **Combined save: 2+** (heavy armour 4+ → shield 3+ → barding 2+)
-- **Equipment (fixed kit, no swap options):** Heavy Lance + shield + heavy armour + barding
+- **Worn armour (default, fixed kit):** Heavy armour + Heavy Shield + barding (per §8 Armour Save Stacking, one step per source)
+- **Combined save: 2+** (heavy armour 4+ → Heavy Shield 3+ → barding 2+)
+- **Equipment (fixed kit, no swap options):** Heavy Lance + Heavy Shield + heavy armour + barding
 - **Vow upgrade options (replace Knight's Vow at list-build):**
   - **Crusader's Vow** (+1 pt/model, whole-unit upgrade) — replaces Knight's Vow keyword. See §17 Faction Mechanics. Same Crusader's Vow effects as KotR (Immunity Panic-source stress + reroll psychology recovery + +1D6 charge distance roll discard lowest). Knights Errant under Crusader's Vow are particularly thematic — young knights on their first holy crusade, eager and now psychology-immune
 - **Command options:**
@@ -38,6 +38,7 @@
   - **Standard bearer** (+10 pts — Magic Standard up to 25 pts; the family's heraldic banner, often that of the young knight's father or sponsor)
   - **Musician** (+5 pts) — +1 to recovery and Rally rolls
 - **Special rules:**
+  - Disciplined (see §8)
   - **Knight's Vow** (see §17 Faction Mechanics) — Blessing-eligibility marker. No additional effect at this vow tier. Replace with Crusader's Vow at list-build (see Vow upgrade options above)
   - **Blessing of the Lady** (see §17 Faction Mechanics) — intrinsic via the Knight's Vow. Ward Save 6+ vs S ≤ 4, 5+ vs S ≥ 5, applying to rider and mount alike. Lost on flee from combat
   - **Lance Formation eligible** (see §17 Faction Mechanics) — counts as Lance whenever the unit's geometry forms a triangular wedge of 6+ models in 3+ rows; +2" reach + +1 AP on melee weapons during the charge round

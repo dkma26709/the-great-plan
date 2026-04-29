@@ -18,6 +18,7 @@
 - **Equipment options:**
   - Magic items up to 50 pts (including Blessed Spawnings)
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - **Skirmishers** (see §8)
   - **Scouts** (see §8) — deploys after all normal units, outside **12"** of enemy units
   - **Chameleon** (see §8) — attackers shooting this unit at ranges greater than **12"** suffer **-1 to hit**; melee attackers also suffer -1 on the charge

@@ -36,6 +36,7 @@
   - **Standard bearer** (+10 pts — Magic Standard up to 50 pts; the questing brotherhood's banner, often bearing the heraldry of a fallen knight whose Quest the unit continues)
   - **Musician** (+5 pts) — +1 to recovery and Rally rolls
 - **Special rules:**
+  - Disciplined (see §8)
   - **Questing Vow** (see §17 Faction Mechanics) — confers **Blessing of the Lady** AND **Stubborn** (see §8 Stubborn — ignores Shaken / Wavering state effects)
   - **Blessing of the Lady** (see §17 Faction Mechanics) — intrinsic via the Questing Vow. Ward Save 6+ vs S ≤ 4, 5+ vs S ≥ 5, applying to rider and mount alike. Lost on flee from combat
   - **Lance Formation eligible** (see §17 Faction Mechanics) — counts as Lance whenever the unit's geometry forms a triangular wedge of 6+ models in 3+ rows; +2" reach + +1 AP on melee weapons during the charge round. Applies to great weapons in our system — the wedge geometry, not the lance weapon, is what triggers the bonus

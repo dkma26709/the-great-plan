@@ -24,6 +24,7 @@
 - **Mount options:** Raptadon, Horned One, Terradon, Ripperdactyl, **Stegadon** *(Lord-tier only — the Skink High Chief is the single character type in the roster who may ride a standard Stegadon as a mount; see Character Mounts. Adds ~100 pts — Stegadon mount profile pending write-up)*
 - **Battle Standard option:** +25 pts — one Skink High Chief in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the High Chief's other magic item allowance remains intact
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - **Aquatic** (see §8)
   - **Strategist of the Skink-caste** *(identity rule — replaces Target Designation of the basic Skink Chief with a stronger Lord-tier version)* — at the start of each friendly Shooting phase, the High Chief nominates one visible enemy unit within **36"** (double the Chief's 24" range). Until end of phase, all friendly **Skink** units shooting the nominated unit gain **+1 to hit AND +1 to wound**. Additionally, while the High Chief is alive and not Broken, all friendly **Skink** units with any model within **12"** of the High Chief treat their Res as **8** (if lower). Represents the Lord-tier tactical authority — the High Chief sees the whole Skink battle line and directs it to decisive effect
   - **Scout** *(inherited from the Skink Chief tradition)* — the High Chief (and any friendly Skink Skirmishers or Chameleon Skinks unit attached at list-building) deploys as Scouts after normal deployment, outside 12" of enemy units

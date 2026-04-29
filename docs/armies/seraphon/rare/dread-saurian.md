@@ -23,6 +23,7 @@
 - **Optional Glyph-Relic** (pick one at list-building): see Glyph-Relic table below
 - **Command options:** none (single-beast unit; Howdah adds Crew but not command models)
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - **Terror** (see §8) — apex scale
   - **Stubborn** (see §8) — maps Immunity (Psychology) from reference; the Dread Saurian does not panic
   - **Earth-Shaking Roar** *(identity rule)* — once per battle, at the start of any friendly Combat or Magic phase, the Dread Saurian unleashes its roar. All enemy units with any model within **18"** immediately gain **+2 stress**. The roar is heard for kilometres — in reference lore, across city plazas and through the jungle canopy. Represents the psychological mass-effect of the apex announcing itself

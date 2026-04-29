@@ -30,6 +30,7 @@
 - **Mount options:** Raptadon, Terradon, Ripperdactyl, **Ancient Stegadon with EotG-variant engine** *(Lord-tier mount — pending Character Mounts write-up; a Stegadon modified to carry the High Priest and a magical engine, similar to the Arcanadon lineage)*
 - **Battle Standard option:** +25 pts (no BSB restriction on magic item budget — see Slann convention)
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - **Aquatic** (see §8)
   - **Wizard (Lore Access 3)** — see Magic Profile above
   - **Mark of the Old One** *(intrinsic lore-pick)* — at list-building, choose one of: Heavens, Beasts, Fire, Light, Death, Shadow, Metal. The High Priest casts exclusively from that lore. (Life remains inaccessible per Skink-caste convention.) Same access shape as the basic Skink Priest; the High Priest's promotion is the **tier reached** within the lore (Lore Access 3 Advanced vs basic Lore Access 2 Intermediate), not a wider lore pool.

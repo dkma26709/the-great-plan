@@ -18,6 +18,7 @@
 - **Equipment:** Rotting fists / improvised debris (no weapon options — Zombies are not given weapons)
 - **Command options:** none (Zombies have no internal coordination — no leaders, no standards, no musicians)
 - **Special rules:**
+  - Undisciplined (see §8)
   - **Undead** (see §8)
   - **Numberless** *(identity rule)* — when **Invocation of Nehek** (or any Necromancy spell that restores Undead models) targets a Zombies unit, the spell restores **+2 wounds beyond the listed amount** (e.g., D6+2 wounds for Invocation of Nehek's D6 baseline). Represents zombies as the cheapest resurrection target — any corpse will do, and the necromancer can flood the table with shambling dead by a fraction of the effort required for a Skeleton
   - **Tide of the Restless Dead** *(identity rule)* —

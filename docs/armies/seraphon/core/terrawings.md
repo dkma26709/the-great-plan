@@ -14,6 +14,7 @@
 - **Equipment:** none (natural weapons)
 - **Command:** none
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - **Fly (12)** (see §8)
   - **Strider (Forest)** (see §8)
   - Skittish (see §8)

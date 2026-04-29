@@ -19,6 +19,7 @@
 - **Equipment options:**
   - Magic items up to 50 pts (including Blessed Spawnings)
 - **Special rules:**
+  - Cold-Blooded (see §8)
   - **Emboldened Handlers** — **does NOT apply** to the Ancient; the Ancient is too old to need Skink handlers
   - **Fear** (see §8)
   - **Eleventh Hour** *(identity rule)* — while any friendly Seraphon unit within **12"** of the Ancient meets the **crisis criteria** (Monster / Warbeast / Character at half or fewer Wounds; or formation unit in Disordered / Broken state), the Kroxigor Ancient gains **+1 Attack on every weapon profile** and **cannot accumulate stress counters** (existing stress persists; no new stress). Trigger is continuous — bonus lapses the moment no nearby friendly unit meets the criteria, and resumes when criteria re-trigger. Represents "always in the right place at the right time, often at the eleventh hour" — the Ancient fights hardest when the line is crumbling, steadying it
