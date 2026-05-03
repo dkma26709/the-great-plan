@@ -7,9 +7,9 @@
 
 | M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 4 | 6 | 6 | 0 | 5 | 5 | 5 | 3 | 10 | 2 | 3 |
+| 4 | 6 | 6 | 0 | 5 | 5 | **6** | 3 | 10 | 2 | 3 |
 
-**Points:** **170** base (on foot, with Celestite Blade + shield)
+**Points:** **180** base (on foot, with Celestite Blade + shield)
 
 - **Keywords:** Lizardmen, Saurian, Character, Hero
 - **Unit type:** Infantry (Character); may take a mount
@@ -21,7 +21,8 @@
   - Celestite Spear (2" reach, AP -1)
   - Celestite Polearm (2" reach, Two-Handed, S+2, AP -3)
   - Celestite Great Weapon (1" reach, Two-Handed, S+3, AP -4, D 2) — no shield
-  - Magic items up to 50 pts (including Blessed Spawnings)
+  - Magic items up to 50 pts
+  - Blessed Spawnings — up to 3, per-character costs from §10 menu (Mark of the Old Ones counts as one slot)
 - **Mount options:** Horned One, Aggradon, Carnosaur
 - **Battle Standard option:** +25 pts — one Saurus Scar-Veteran in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the Scar-Veteran's other magic item allowance remains intact (taking a magic banner does **not** reduce the Scar-Veteran's magic-item budget)
 - **Special rules:**
@@ -39,4 +40,4 @@
 - **Celestite Polearm** *(option, 2H)* — 2" | A 4 | S+2 | AP -3 | D 1 `[1H Reach]`
 - **Celestite Great Weapon** *(option, 2H)* — 1" | A 3 | S+3 | AP -4 | D 2 `[2H]`
 
-> **Lore notes:** WS 6 genuinely apex among Saurus (vs Warrior WS 4). W 5 is the major heft — the Scar-Vet survives direct attention in a way rank-and-file cannot. I 3 is deliberately low — lore says "slow to react, not dull-witted"; one notch above Warrior I 2 honours veteran reflexes without contradicting the lore pillar. Res 10 matches Saurus baseline (already capped). Weapon-tier AP +1 over Warriors captures skill, not strength (Scar-Vet's S is unchanged). Saurus Jaws D D3 literalises the "torn limb from limb" lore as weapon-level variance. **Battlefield Growl** is the identity rule — once-per-battle burst stress removal across nearby Saurus units. The bellow encodes as a morale effect rather than a geometry effect, fitting our stress-first system; complements Saurus Oldblood's Primeval Command (continuous aura on one unit) by delivering a multi-unit burst of relief once per game. Points **170** base (Hero-tier pricing; Scar-Vet sits in the middle of the character cost ladder — above Skink Chief 85, below Oldblood 260).
+> **Lore notes:** Apex sub-Oldblood warrior — the Saurus Hero whose mind is on the personal-combat axis. WS 6 is genuinely apex among Saurus (vs Warrior WS 4). I 3 is deliberately one notch above Warrior I 2 — lore says "slow to react, not dull-witted." Weapon-tier AP +1 over Warriors captures *skill* (the veteran lands strikes that an unranked Saurus glances off), not strength (S is unchanged). Saurus Jaws D D3 literalises the "torn limb from limb" lore as weapon-level variance. **Battlefield Growl** is the identity rule — a once-per-battle bellow that strips D3 stress from each nearby Saurus unit. The growl encodes as a morale effect (lore: "sets an entire battle line in order with only a low, grumbling growl and a final bellow"), complementing the Oldblood's Primeval Command (continuous aura on one unit) with a multi-unit burst once per game.

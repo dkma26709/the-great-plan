@@ -5,7 +5,7 @@ import re
 import shutil
 from pathlib import Path
 
-SOURCE_FILE = Path("C:/PersonalRepos/Warhammer Hybrid Ruleset/core-rules-draft.md")
+SOURCE_FILE = Path("C:/PersonalRepos/warhammer-hybrid-ruleset/core-rules-draft.md")
 TARGET_DIR = Path("C:/PersonalRepos/the-great-plan/docs")
 
 RULES_FILES = {
@@ -107,6 +107,7 @@ def main():
     section: str | None = None
     subsection: str | None = None
     current_path: str | None = None
+    skipping_diary = False
 
     def open_page(path: str, title: str | None = None):
         nonlocal current_path
@@ -122,6 +123,23 @@ def main():
             pages[current_path].append(line)
 
     for line in lines:
+        # Strip private "Design diary" blockquotes — staging-only design rationale,
+        # not for the public site. Skip the marker line, all contiguous blockquote
+        # lines, and the single trailing blank that separates the block from
+        # whatever follows.
+        if skipping_diary:
+            if line.startswith(">"):
+                continue
+            if line.strip() == "":
+                skipping_diary = False
+                continue
+            skipping_diary = False
+            # fall through to process this non-blockquote line normally
+
+        if line.startswith("> **Design diary:**"):
+            skipping_diary = True
+            continue
+
         # ## numbered top-level
         m = re.match(r"^## (\d+)\. (.+?)\s*$", line)
         if m:

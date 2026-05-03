@@ -7,7 +7,7 @@
 
 | M | WS-A | WS-D | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
-| 6 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 |
+| 6 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 7 |
 
 **Mount (Ripperdactyl):**
 
@@ -21,15 +21,16 @@
 
 | LiS | US |   | Points |
 |-----|----|---|--------|
-| 2   | 2  |   | **46** |
+| 2   | 2  |   | **36** |
 
 - **Keywords:** Lizardmen, Skink, Cavalry, Special
 - **Unit type:** Cavalry (Fast Cavalry — see §8)
 - **Unit size:** 3-6
-- **Combined pool per model:** W4 (rider 1 + mount 3). Attackers use highest WS (3) and highest T (3) per §1 *Rider and Mount Profiles*
+- **Wounds per model:** **W3** — Ripperdactyl mount W3 + rider conversion (Skink Brave W1 → +0 step), per §1 *Combined Wounds*. Attackers use highest WS-D (3) and highest T (3)
 - **Natural Armour:** 6+ (Ripperdactyl hide); 5+ combined with shield
 - **Equipment (default):** Light Lance + shield
 - **Equipment options:** none baseline
+- **Blessed Spawnings:** up to 3 per unit, per-model costs from §10 menu. Each spawning beyond the first promotes the unit one FoC tier (Special → Rare; max Rare). Spawning effects apply to the Skink Brave rider only — the Ripperdactyl mount profile is untouched (Itzl exception aside).
 - **Command options:**
   - Patrol Leader (champion, +5 pts, no stat buff)
   - No Musician, no Standard — Ripperdactyls are too aggressive for formation coordination; the rider hangs on and points
@@ -50,4 +51,4 @@
 - **Light Lance** *(rider, default)* — 2" reach | **A 1** | on charge: +1 S, AP -1, D 1; subsequent rounds: AP 0, D 1 (see Armoury)
 - **Ripperdactyl's Jaws and Claws** *(mount natural, each model)* — 1" reach | **A 3** | S 4 | AP -2 | D 1 | Killing Blow (W ≤ 2, D 3) (see §8) — resolved at mount WS 3, I 3; A 3 reflects the innate predatory aggression baked into the base stat `[Natural]`
 
-> **Lore notes:** Higher per-model cost (46 pts vs Terradon 42 pts) reflects the mount's offensive ceiling — Ripperdactyl Jaws and Claws pack Killing Blow vs W1–2 prey, mount A3 (innate aggression baked in), **AP -2** on mount attacks (bumped from -1 — these are properly shredding beaks and claws, not just nicking teeth), and Toad Rage's focused reroll mechanic against a named target. Predatory Instinct is the downside — no tactical restraint, the unit commits to the nearest visible enemy whether that is optimal or not. Pairs naturally with Toad Rage positioning: the controlling player should try to place the Toad marker on a unit the Ripperdactyls will naturally reach, so Predatory Instinct drives them into the marked prey rather than away from it. **Fly (12)** vs Terradons' Fly (14): Ripperdactyls are smaller, angrier flyers that dart rather than sail; slightly slower than Terradon transport-flyers, but much more dangerous in the strike. W4 pool (rider 1 + mount 3) matches Terradon durability — these are both saurian flyers that happen to carry Skinks, not Skinks with wings. Light Lance kept in the default kit per lore — Ripperdactyl Riders did carry lances in the classical Lizardmen roster; the weapon stays the cavalry charge-impact vector atop the mount's Jaws and Claws for double damage on the charge turn. Non-Aquatic per the Skink-on-mount rule. Points 46 via §13 formula (stat sum 23.5 × W4 factor 1.96 = 46).
+> **Lore notes:** Aggressive single-target predator-flyers — where Terradons carry bombs and volleys, Ripperdactyls *commit*: jaw-first into the chosen prey, beak and claw until the quarry is dead. **Toad Rage** is the identity rule — before the battle, place a Blot Toad Marker on one enemy unit; against that unit the riders gain +1 to hit and the mount rerolls failed wounds. The Lustrian Blot Toad's gland-secretion is rubbed on the Ripperdactyl's beak before battle, fixating the mount on whatever the marker named. **Predatory Instinct** is the downside: no tactical restraint, the unit must charge the nearest visible enemy. Place the Toad marker where the unit will naturally reach. Mount Jaws and Claws carry Killing Blow against W1–2 prey, AP -2, and innate-aggression A 3 — properly shredding beaks, not nicking teeth.

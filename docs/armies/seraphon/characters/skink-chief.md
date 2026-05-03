@@ -7,9 +7,9 @@
 
 | M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 8 | 4 | 4 | 5 | 4 | 3 | 3 | 6 | 8 | 1 | 2 |
+| 6 | **3** | **5** | 5 | 4 | 3 | **2** | 6 | 8 | 1 | 2 |
 
-**Points:** **85** base (on foot, with Blowpipe + hand weapon + shield)
+**Points:** **80** base (on foot, with Blowpipe + hand weapon + shield)
 
 - **Keywords:** Lizardmen, Skink, Character, Hero
 - **Unit type:** Infantry (Character); may take a mount
@@ -19,8 +19,9 @@
   - Melee swap: Celestite Spear (2" reach, AP -1) OR Additional Hand Weapon (+1 A)
   - Ranged swap: Moonstone Javelin / Skink Sling / Shortbow (see Armoury)
   - **Jungle Poisons upgrade** (+5 pts) — all Skink Chief weapons gain Poisoned Attacks (see §8)
-  - Magic items up to 50 pts (including Blessed Spawnings)
-- **Mount options:** Raptadon, Horned One, Terradon, Ripperdactyl
+  - Magic items up to 50 pts
+  - Blessed Spawnings — up to 3, per-character costs from §10 menu (Mark of the Old Ones counts as one slot)
+- **Mount options:** Raptadon, Horned One, Terradon, Ripperdactyl, **Stegadon** *(adds ~100 pts; see Character Mounts — Stegadon mount profile pending write-up)*
 - **Battle Standard option:** +25 pts — one Skink Chief in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the Chief's other magic item allowance remains intact (taking a magic banner does **not** reduce the Chief's magic-item budget)
 - **Special rules:**
   - Cold-Blooded (see §8)
@@ -38,4 +39,4 @@
 - **Skink Sling** *(option)* — 18" range | S 4 | AP -1 | D 1
 - **Shortbow** *(option)* — 18" range | S 3 | AP 0 | D 1
 
-> **Lore notes:** WS 4 (vs Skink Cohort 3) marks "aggressive by Skink standards" without overstepping into brawler tier. **BS 5 is the signature upgrade** — the Chief is the best-shot Skink in the army, literalising the scout-coordinator identity. S 4 / T 3 / I 6 stepped up moderately from Cohort baselines; W 3 tripled from Cohort W 1 for Hero durability. Res 8 (vs Cohort 6) for Hero-tier Skink resolve. **Target Designation** is the everyday identity rule (fires every Shooting phase); **Scout** is the deployment-level expression. Both capture the "spot, alert, guide" lore mechanically. Points **85** base — a reliable command-and-coordination Hero at ~1/3 the cost of the Oldblood.
+> **Lore notes:** Operational commander of the Skink caste — scout-coordinator, intelligence officer, order-relay. Not a fighter: lore-direct "not their role to sacrifice themselves in battle." Asymmetric **WS-A 3 / WS-D 5** captures the slippery-defensive Skink ethos — markedly harder to hit than to land hits with — mirroring the High Chief's split one tier higher. **BS 5** is the signature upgrade, literalising the scout-coordinator identity (the best-shot Skink in the army at Hero tier). **Target Designation** is the everyday identity: nominate a visible enemy each Shooting phase and friendly Skinks shoot it at +1 to hit. **Scout** is the deployment-level expression — the Chief and any attached Skirmisher / Chameleon Skink unit deploy after both armies, outside 12" of enemy.

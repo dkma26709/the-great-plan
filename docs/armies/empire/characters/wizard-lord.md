@@ -11,12 +11,12 @@
 
 **Magic Profile (level-dependent):**
 
-| Level | Lore Access | Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range |
-|-------|----|-----|-----|----|----|----|-----|
-| **Lvl 3** *(base)* | 3 | 3 | 2 | 3 | +2 | +1 | 24" |
-| **Lvl 4** *(+35 pts)* | 4 | 4 | 3 | 3 | +3 | +2 | 24" |
+| Level | Lore Access | Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | SK |
+|-------|----|-----|-----|----|----|----|-----|-----|
+| **Lvl 3** *(base)* | 3 | 3 | 2 | 3 | +2 | +1 | 24" | **2** |
+| **Lvl 4** *(+35 pts)* | 4 | 4 | 3 | 3 | +3 | +2 | 24" | **2** |
 
-*Lvl 3 caster (Lore Access 3 — Basic + Intermediate + Advanced spell access within the chosen Wind). May upgrade to **Lvl 4** at list-build for +35 pts: Lore Access 4 reaches Master tier within the chosen Wind (where Master content exists per §11). Mark of the Wind = one general lore picked at list-building. Signature Spell known free + **1 additional spell** from the chosen lore (any tier within Lore Access limits, same "+1" pattern as the Skink High Priest — the level upgrade is a **tier-reached** increase, not a wider spell pick count).*
+*Lvl 3 caster (Lore Access 3 — Basic + Intermediate + Advanced spell access within the chosen Wind). May upgrade to **Lvl 4** at list-build for +35 pts: Lore Access 4 reaches Master tier within the chosen Wind (where Master content exists per §11). Mark of the Wind = one general lore picked at list-building. **SK 2** = total spells known: Signature Spell (free, from chosen lore) + 1 additional spell from the same lore (any tier within Lore Access limits). Same "+1" pattern as the Skink High Priest — the level upgrade is a **tier-reached** increase, not a wider spell pick count.*
 
 **Points:** **160** base (Lvl 3, hand weapon, no armour). **+35** to upgrade to Lvl 4 (= 195 pts).
 
@@ -38,4 +38,4 @@
 
 - **Hand weapon** — 1" | A 1 | S 3 | AP 0 | D 1 `[1H Blade]`
 
-> **Lore notes:** Stats per heft calibration — WS / BS / S 3 unchanged (wizards don't fight); T 4 / W 4 / Res 9 (Lord-tier bump from Battle Wizard's 3/2/8). I 3 stays at human baseline. Magic Profile is the upgrade ladder — Lvl 3 (Lore Access 3) baseline at Cast Base 3 / Dispel Base 2 / Channelling 3 / Cast Bonus +2 / Dispel Bonus +1 / Dispel Range 24" (matches Skink High Priest exactly — the two are peer Lord-tier non-Slann casters). **Lvl 4 upgrade (+35 pts)** bumps to Cast Base 4 / Dispel Base 3 / Channelling 3 / Cast Bonus +3 / Dispel Bonus +2 / Dispel Range 24" / Lore Access 4 — first non-Slann caster reaching Lore Access 4 (Master-tier access); but stats remain a clear notch below Slann's Cast Base / Dispel Base / Channelling 5 / Cast Bonus / Dispel Bonus +4 / Dispel Range 36" / Lore Access 4. Tier hierarchy preserved: **Slann > Wizard Lord Lvl 4 > Wizard Lord Lvl 3 ≈ Skink High Priest > Coatl ≈ Skink Priest > Battle Wizard Lvl 2 > Battle Wizard Lvl 1**. **Mark of the Wind** = full eight-Wind list-build pick (vs Skink-caste's seven, Life-excluded) — the Empire's structural advantage in magic breadth, balanced by per-character single-Wind restriction. Points **160** base / **195** upgraded — sits between Skink High Priest (120) and Slann (400); upgrade premium of +35 pts buys Lore Access 4 reach plus the magic-stat bumps. No BSB option per fighter/caster convention.
+> **Lore notes:** Senior College masters trained at Altdorf — decades of arcane study, locked to one of the eight Imperial Colleges (one Wind only). **Mark of the Wind** is the lore-pick mechanic — full eight-Wind palette including Life (where Skink-caste convention restricts to seven). Lvl 3 baseline reaches Advanced spells; Lvl 4 upgrade reaches Master tier — the first non-Slann caster reaching Lore Access 4, but still a clear notch below Slann's apex casting profile. Tier hierarchy preserved: Slann > Wizard Lord Lvl 4 > Wizard Lord Lvl 3 ≈ Skink High Priest > Coatl ≈ Skink Priest > Battle Wizard Lvl 2 > Battle Wizard Lvl 1. The Empire's structural advantage in magic is *breadth* (eight Winds at list-build); the cost is per-character single-Wind restriction.

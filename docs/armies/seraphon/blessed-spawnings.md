@@ -1,40 +1,124 @@
 # Blessed Spawnings
 
 
-> **Status:** Design-sketch draft. The shape of this mechanic is presented for review; specific effects, costs, and restrictions are a starting point for iteration, not a finalised rule. Flagged as deferred in the project task list since 2026-04-15. Once reviewed and refined, Blessed Spawnings will be referenced by the Magic Items allowance on every character entry (already linked throughout §10).
+> **Lore note.** "Blessed Spawning" in Lustrian lore refers to a favoured sub-caste of Saurus / Skink / Kroxigor born at a specific pyramid under the patronage of a specific Old One. The blessed models are physically marked — colour variations, scale ridges, distinctive head-crests, bony plates, albino tones — and carry an innate behavioural or biological trait from birth. A Spawning is not a transient mid-battle buff; it's a *breed characteristic* hard-coded at hatching. Hence the list-building mechanic: you pay for a unit of the correct sub-caste, not for a temporary blessing.
 
-**Concept.** At list-building, any **Lizardman-race** unit or character — Saurus, Skink, Kroxigor — may select up to one **Blessed Spawning** at a points premium. A Spawning represents the blessing of a specific Old One, granting the unit a thematic mechanical bonus. Each unit may select at most one Spawning; multiple units may share the same Spawning within an army.
+**Concept.** At list-building, eligible Lizardmen units and characters may select one or more **Blessed Spawnings** at a points premium. Each Spawning grants a specific mechanical effect tied to the patron Old One's domain. Fourteen Spawnings are available — eight canonical Old Ones (Chotec, Huanchi, Itzl, Quetzl, Sotek, Tepok, Tlazcotl, Tzunki), five expansion Old Ones (Tlanxla, Tzcatli, Xhotl, Potec, Xapati), and the rarest of all blessings, the **Mark of the Old Ones** (character-only, one per army).
 
-**Scope — Lizardmen only, not their beasts.** Blessed Spawnings apply to the **Lizardman race** (Saurus, Skink, Kroxigor) and do **not** apply to:
-- **Warbeast** units (Salamanders, Razordons, Ancient Salamander)
-- **Monster** units (Stegadon, Bastiladon, Troglodon, Arcanadon, Coatl, Dread Saurian)
-- **Character mounts** (Carnosaur, etc. — mount profiles are untouched)
+#### Eligibility
 
-On **Mixed Units** (e.g., Salamander + Skink Handlers), the Spawning applies to the **Skink Handlers only**, not to the Salamander's profile. On **Cavalry / Monstrous Cavalry** (Skink on Raptadon, Saurus on Aggradon), the Spawning applies to the **rider's profile only** — the mount's profile is untouched. Lore-true: the Spawning is a breed-characteristic of the Lizardman, not of the beast it rides or handles.
+**Eligible units** — Saurus Warriors, Skink Cohort (with or without Kroxigor add-on), Kroxigor (standalone), Temple Guard, Cold One Riders, Aggradon Lancers, Horned One Riders, Chameleon Skinks, Terradon Riders, Ripperdactyl Riders.
 
-**Eligibility among Lizardmen — universal.** Any Lizardman unit can take any Spawning; there are **no keyword-based restrictions within the Lizardman race**. A Chameleon Skink unit taking Huanchi (which grants Chameleon) simply double-grants the keyword; the effect doesn't stack twice but the Spawning is still legally taken.
+**Eligible characters** — Saurus Scar-Veteran, Saurus Oldblood, Skink Chief, Skink High Chief, Skink Priest, Skink High Priest, Kroxigor Ancient, Chameleon Stalker.
 
-**Proposed Spawning menu** (9 Old Ones — the major Lustrian deities; numbers playtest-tunable; costs listed per-unit in each unit's entry — a later pass):
+**Ineligible:**
+- **Slann Mage-Priest** — Slann do not bear spawnings. (A Slann may freely *join* any blessed unit; the joining rule does not transfer the spawning to the Slann.)
+- **All feral beasts** — Stegadon, Bastiladon, wild Carnosaur, Salamander, Razordon, Troglodon, Coatl, Dread Saurian, Arcanadon, Jungle Swarms. Feral beasts are not pool-spawned and cannot be marked.
+- **Named characters** — pre-loaded with their canonical spawning (e.g., Gor-Rok with the Mark of the Old Ones, Kroq-Gar with Xhotl). Not selected at list-building.
 
-| Spawning | Effect |
-|---|---|
-| **Spawning of Chotec** *(the sun)* | All melee attacks made by the unit gain the **Flaming Attacks** keyword (see §8). On the turn the unit charges, Flaming Attacks gain **+1 S** for that Combat phase |
-| **Spawning of Huanchi** *(the shadow jungle)* | The unit gains the **Scouts** deployment rule and the **Chameleon** special rule (-1 to hit against the unit at ranges over 12"). If the unit already has either rule, the already-present rule is not enhanced — the Spawning simply provides the one it lacks |
-| **Spawning of Itzl** *(beast/mount)* | The unit's Movement is increased by **+1** and the unit ignores Difficult Terrain (full-speed through jungle). For Cavalry / Monstrous Cavalry, Itzl modifies the Lizardman rider's M rather than the mount's — effective unit M is unchanged (since movement uses the mount's M); the Spawning's practical value for cavalry is the Difficult Terrain clause and downstream interactions where the rider's M is referenced. Infantry get the full benefit |
-| **Spawning of Quetzl** *(the bulwark)* | Attacks targeting this unit have their **AP reduced by 1 step** (worsened toward 0) — e.g., AP -3 becomes AP -2, AP -1 becomes AP 0, AP 0 remains AP 0 (cannot go positive). Applies to melee and ranged attacks alike. Thick-shell blessing — does not turn bad saves into good saves; dulls the penetration of enemy strikes |
-| **Spawning of Sotek** *(the serpent hunter)* | On the charge, the unit's attacks gain **+1 Attack** per weapon profile (stacks with existing charge bonuses). Additionally, all melee attacks made by this unit gain **+1 to wound against Chaos or Undead keyword targets** |
-| **Spawning of Tepok** *(knowledge)* | The unit gains **Magic Resistance (2)** (-2 to enemy cast rolls targeting this unit). Additionally, the unit ignores the "targeted by an enemy spell" stress trigger (§5) |
-| **Spawning of Tlazcotl** *(resolve)* | The unit gains the **Stubborn** special rule (see §8). If already Stubborn, the unit gains **Unbreakable** instead (cannot become Broken — stress still accumulates; ignores Broken state effects) |
-| **Spawning of Xahutec** *(storm)* | All weapons carried or naturally borne by the unit gain **+1 AP** (improves all weapon AP by one step, including natural, melee, and ranged weapons) |
-| **Spawning of Xhotl** *(death)* | All melee attacks made by the unit (wielded weapons and natural weapons) gain the **Killing Blow** special rule (see §8) — unmodified wound rolls of 6 against W 1-2 models slay outright; against W 3+ models inflict D3 damage. Universal among the Lizardman race, not Saurian-restricted — a Skink Cohort taking Xhotl gets Killing Blow on their hand weapons too |
+**Joining unrestricted.** Spawnings do not restrict character-unit joining in any direction. A character with one spawning may freely join a unit with a different spawning (or no spawning); the profiles each retain their own spawning effects independently. (This is distinct from Marks of Chaos, where alignment is mandatory.)
 
-**Pricing note.** Costs are **not listed in this central menu** — impact varies by unit (a +1 AP bonus is worth more on a 30-Saurus block than on a 5-Skirmisher unit). Each Lizardman unit and character entry will list its eligible Spawnings and the per-unit cost in a future pass. Pricing range: +5-15 pts per unit (small units) up to +50-80 pts (large elite blocks or Lord-tier characters), calibrated per-unit against §13 Points Framework.
+#### Stacking & Cost Structure
 
-**Additional design notes (pending review):**
+**Per-unit:**
+- Maximum **3 spawnings** per unit (hard cap).
+- 1st spawning: unit stays at its original Force Organisation tier.
+- Each additional spawning promotes the unit one tier up the FoC ladder: **Core → Special → Rare**. A unit at Rare with three spawnings remains Rare; the cap doesn't push past Rare.
+- Each spawning costs its listed per-model points value (in addition to any FoC tier promotion).
 
-- **Character Spawnings on mounted characters.** The Spawning applies to the character's profile only (their attacks, their save, their MR). The mount profile is untouched.
-- **Character attaching to a unit with a different Spawning.** Each profile keeps its own Spawning — they do not merge. Character uses its own bonuses; unit uses theirs. Wound allocation and combat math per-profile.
-- **List-building integration.** Each unit/character entry will absorb "may take one Blessed Spawning from the menu (+X pts)" as a standard option once costs are finalised.
-- **Missing Old Ones.** The 9 cover the principal named Lustrian deities. Minor ones (Potec, Caxuatn) could extend later; 9 is a defensible menu size without bloat.
+**Per-character:**
+- Maximum **3 spawnings** per character.
+- Each spawning costs its listed flat points value. No escalation, no tier mechanic — characters are not subject to the FoC promotion rule.
 
-> **Lore note.** "Blessed Spawning" in Lustrian lore refers to a favoured sub-caste of Saurus/Skink/Kroxigor born at a specific pyramid under a specific Old One's patronage. The blessed models are physically marked (colour variations, body scarring, distinctive horn patterns) and carry a specific tactical inclination from birth. A Spawning is not a one-time blessing applied mid-battle; it's a *breed characteristic* hard-coded at hatching. Hence the list-building mechanic: you pay for a unit of the correct sub-caste, not for a mid-battle buff.
+**Mount rules:**
+- Spawnings are a **rider-only** effect by default. The mount's stat profile is untouched.
+- The mount may benefit only via **natural unit-level propagation** — e.g., a unit-level Initiative bonus that applies to all weapon profiles in the unit, or a unit-level Immune to Psychology that applies to the whole model. Spawnings do not directly modify a mount's stats, weapons, or save profile.
+- **Itzl is the sole carve-out.** Its lore-defining rider-mount bond is the entire purpose of the spawning, and explicitly extends bonded effects to the mount. This is a deliberate design exception, not a precedent for other spawnings.
+
+#### The Fourteen Spawnings
+
+##### Canonical Eight
+
+**Chotec** *(Sun-Quickened)* — The unit/character ignores the Recovery −1 component of Cold-Blooded (full Recovery roll, no slow-to-fade penalty) and gains **M +1"**. Fiery red-orange scales.
+
+**Huanchi** *(Jaguar's Stride)* — The unit/character treats all difficult terrain as open ground for movement and charge purposes. The unit/character also **causes Fear**. Dark, near-black scales.
+
+**Itzl** *(Beast-Bond)* — The unit gains **+1 Initiative** on all weapon profiles (rider, mount, attached models — unit-level effect). If the rider is slain, the bond severs and the unit loses this bonus for the remainder of the battle. Elaborate bony head-crests; subtle musk recognised by reptilian beasts.
+
+**Quetzl** *(Thickened Plate)* — All incoming AP against the unit/character's saves is **reduced by 1** (minimum AP 0). AP -3 hits become AP -2, AP -1 becomes AP 0, etc. Applies to melee and ranged. Mortal-wound / no-save effects unaffected. Bony plate growths and ridge-pattern scales. *(Rider-only — mount's hide saves with normal AP.)*
+
+**Sotek** *(Sotek's Fury)* — The unit/character gains **+1 Strength** on all melee attacks made on the turn it charged. Blood-red scales, crests, or warpaint. *(Rider-only — mount's natural weapons unaffected.)*
+
+> *Skaven Hatred (dormant).* When a Skaven faction is added to the ruleset, Sotek-blessed units/characters will additionally re-roll failed melee to-hit rolls against Skaven targets. Currently inactive, flagged for the Skaven draft.
+
+**Tepok** *(Tepok's Aegis)* — The unit/character gains **Magic Resistance (1)** (-1 to enemy cast rolls targeting this unit/character). All melee, ranged, and natural attacks made by the unit/character gain the **Magical Attacks** keyword (see §8). Purple/violet scales and markings. *(MR is unit-level; Magical Attacks is per-weapon and rider-only on mounted profiles.)*
+
+**Tlazcotl** *(Tlazcotl's Calm)* — The unit/character gains **Immune to Psychology** (see §8). Yellow-tinged scales.
+
+**Tzunki** *(Tzunki's Tide)* — The unit/character treats all water terrain (rivers, lakes, swamps, fords, marshes, deep mud) as open ground for movement, charge, and combat purposes. The unit/character may swim across water features unimpeded. Additionally, when at least one enemy model in base contact is in water terrain (or the unit is in water terrain), the unit gains **+1 Initiative** for that combat phase. Mottled sea-green scales, webbed claws, hidden gills.
+
+##### Expansion Five
+
+**Tlanxla** *(Tlanxla's Wrath)* — The unit/character gains **+1 WS-A** on all melee attacks. Earth-toned, red-brown scales. *(Rider-only — mount's natural weapons unaffected.)*
+
+**Tzcatli** *(Tzcatli's Strength)* — All melee attacks made by the unit/character gain **+1 AP** (shifts AP one step toward more negative — e.g., AP 0 → -1, AP -1 → -2, AP -2 → -3). *(Rider-only — mount's natural weapons unaffected.)*
+
+**Xhotl** *(Xhotl's Mark)* — If the unit/character has Predatory Fighter at baseline, the threshold is lowered to **Predatory Fighter (5+)** (unmodified to-hit rolls of 5 or 6 in melee generate an additional attack, resolved at the same Initiative step; the additional attacks cannot themselves cascade). If the unit/character does not have Predatory Fighter at baseline, it gains **Predatory Fighter (6+)**. Deep-blue scales. *(Rider-only — mount's natural weapons unaffected.)*
+
+**Potec** *(Potec's Eye)* — The unit/character has a **6+ Ward Save** against any incoming attack with the **Magical Attacks** keyword. Additionally, if the unit/character is a wizard (has the Wizard tag), they gain **+1 Channelling** (Channeling) for the duration of the battle. Violet eyes. *(Ward is unit-level; Channeling boost is wizard-only.)*
+
+**Xapati** *(Xapati's Wrath)* — When a model in this unit/character suffers an unsaved wound from a ranged attack (Shooting Phase, Magic Phase damage spells, or any other ranged source), the attacking unit immediately suffers an automatic hit: **S 2 / AP 0 / D 1 / auto-hit / one vengeance hit per unsaved wound**. Roll to wound and save normally. Vengeance hits are allocated per standard wound allocation rules. Teal-hued scales.
+
+##### Special
+
+**Blessed Mark of the Old Ones** *(character only, maximum one per army)* — Albino-marked, the character is held in greatest reverence by all Lizardmen, their fate seen as important in the eyes of the Old Ones themselves.
+
+At the start of each battle, the character generates **D3+1 Old Ones' Favour** tokens. Each Favour token allows the character to **reroll one D6** rolled by the character or by a unit the character is currently part of — to-hit, to-wound, save, charge distance, casting roll, channeling, miscast, look-out-sir, any single D6. The reroll's result stands even if worse. Spent tokens do not regenerate during the battle.
+
+#### Pricing Matrix
+
+**Per-unit pricing** (per model, in addition to any FoC tier promotion cost):
+
+| Spawning | Saurus Warriors | Temple Guard | Kroxigor | Saurus Cav¹ | Skink units² | Skink-rider Cav³ | Chameleon Skinks / Terradon Riders |
+|----------|----------------|--------------|----------|-------------|--------------|------------------|------------------------------------|
+| **Chotec** | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
+| **Huanchi** | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
+| **Itzl** | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
+| **Quetzl** | 3 | 4 | 5 | 3 | 1 | 1 | 1 |
+| **Sotek** | 3 | 3 | 3 | **4** | 3 | 3 | 3 |
+| **Tepok** | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
+| **Tlazcotl** | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
+| **Tzunki** | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| **Tlanxla** | **5** | **5** | **5** | 4 | 4 | 4 | **2** |
+| **Tzcatli** | **5** | **5** | **5** | 4 | **3** | **3** | **3** |
+| **Xhotl** | **5** | **5** | **10** | 4 | **2** | **2** | **2** |
+| **Potec** | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
+| **Xapati** | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
+
+¹ Saurus Cav = Cold One Riders, Aggradon Lancers
+² Skink units = Skink Cohort
+³ Skink-rider Cav = Horned One Riders, Ripperdactyl Riders
+
+**Per-character pricing** (flat, in addition to character base cost):
+
+| Spawning | Saurus characters⁴ | Kroxigor Ancient | Skink Priest / High Priest | Other Skink characters⁵ | Chameleon Stalker |
+|----------|---------------------|-------------------|----------------------------|-------------------------|-------------------|
+| **Chotec** | 10 | 10 | 10 | 10 | 10 |
+| **Huanchi** | 10 | 10 | 10 | 10 | 10 |
+| **Itzl** | 10 | 10 | 10 | 10 | 10 |
+| **Quetzl** | 15 | 15 | 15 | 15 | 15 |
+| **Sotek** | 15 | 15 | 15 | 15 | 15 |
+| **Tepok** | 15 | 15 | 15 | 15 | 15 |
+| **Tlazcotl** | 10 | 10 | 10 | 10 | 10 |
+| **Tzunki** | 5 | 5 | 5 | 5 | 5 |
+| **Tlanxla** | 20 | 20 | 20 | 20 | 20 |
+| **Tzcatli** | 20 | 20 | 20 | 20 | 20 |
+| **Xhotl** | **18** | **25** | **12** | **12** | **12** |
+| **Potec** | 10 | 10 | **15** | 10 | 10 |
+| **Xapati** | 10 | 10 | 10 | 10 | 10 |
+| **Mark of the Old Ones** | 35 | 35 | 35 | 35 | 35 |
+
+⁴ Saurus characters = Saurus Scar-Veteran, Saurus Oldblood
+⁵ Other Skink characters = Skink Chief, Skink High Chief
+
+**Bold values** in the matrices indicate per-unit / per-character overrides from the global default. Where a row shows uniform values across all columns, the spawning has flat impact and no override is needed.

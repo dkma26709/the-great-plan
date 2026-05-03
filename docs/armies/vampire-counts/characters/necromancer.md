@@ -11,12 +11,12 @@
 
 **Magic Profile (level-dependent):**
 
-| Level | Lore Access | Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range |
-|-------|----|-----|-----|----|----|----|-----|
-| **Lvl 1** *(base)* | 1 | 2 | 1 | 1 | +0 | +0 | 18" |
-| **Lvl 2** *(+30 pts)* | 2 | 2 | 1 | 2 | +1 | +0 | 18" |
+| Level | Lore Access | Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | SK |
+|-------|----|-----|-----|----|----|----|-----|-----|
+| **Lvl 1** *(base)* | 1 | 2 | 1 | 1 | +0 | +0 | 18" | **2** |
+| **Lvl 2** *(+30 pts)* | 2 | 2 | 1 | 2 | +1 | +0 | 18" | **2** |
 
-*Lvl 1 caster (Lore Access 1). Upgrade to Lvl 2 at list-build for +30 pts. **Lores Known: Necromancy** only (single-lore, no choice — the Necromancer is defined by the dark school he studies). Signature spell + 1 additional from Necromancy.*
+*Lvl 1 caster (Lore Access 1). Upgrade to Lvl 2 at list-build for +30 pts. **Lores Known: Necromancy** only (single-lore, no choice — the Necromancer is defined by the dark school he studies). **SK 2** = total spells known: Signature spell (free, from Necromancy) + 1 additional from Necromancy.*
 
 **Points:** **75** base (Lvl 1, hand weapon, no armour). **+30** to Lvl 2 (= 105 pts).
 
@@ -42,4 +42,4 @@
 
 - **Hand weapon (ritual dagger or staff)** *(default, 1H)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
 
-> **Lore notes:** Stats from reference — WS 3 / BS 3 / S 3 / T 3 / W 2 / I 3 / Res 7. **Res +1 to 8** (heft calibration applies — Necromancer is human, takes the standard +1 Res bump that other mortal humans receive in our system). **W 2 → 3** Hero-tier wound bump (revised 2026-04-25 alongside the Vampire Hero W bump per the "+1 W to all §16 heroes" calibration call). Magic profile mirrors Empire Battle Wizard (Lvl 1: Cast Base 2 / Dispel Base 1 / Channelling 1 / Cast Bonus +0 / Dispel Bonus +0 / Dispel Range 18" / Lore Access 1; Lvl 2: same +1 Channelling +1 Cast Bonus +1 Lore Access) — Necromancer is the **Vampire Counts equivalent of the Battle Wizard**, single-lore Hero caster with the level-up upgrade ladder. Single-lore restriction (Necromancy only) vs Battle Wizard's eight-Wind list-build pick is intentional: the Necromancer's identity is the *dark scholar* who studies one forbidden lore; the Battle Wizard is the *College graduate* who picks his Wind from a curriculum. Two different lore-pick patterns. **No Undead keyword** is the critical mechanical caveat — Necromancer breaks and flees like a normal human, takes Fear / Terror, can be Rallied. He's the *master* of Undead, not one of them. **Tactical lifeline:** without a Necromancer or Vampire on the table, Vampire Counts armies bleed off via Crumble within 2-3 turns; the Necromancer is the cheap-budget caster slot for keeping Undead alive. Points **75** base / **105** at Lvl 2 — exactly matches Empire Battle Wizard pricing (single-lore Hero caster with level upgrade); cross-faction parity at the Hero-caster tier (parity restored 2026-04-25 after Battle Wizard received the same +1 W bump alongside the Necromancer). Both characters at W 3 / Res 8 / 75/105 — same pricing, same level-upgrade ladder; the only structural difference is **lore-pick pattern** (Battle Wizard picks one of eight Winds at list-build, Necromancer is locked to Necromancy intrinsic).
+> **Lore notes:** A mortal mage devoted to the Lore of Necromancy — apprentice or independent practitioner of dark magic. **No Undead keyword** is the critical mechanical caveat: Necromancer breaks and flees like a normal human, takes Fear / Terror, can be Rallied. He's the *master* of Undead, not one of them. The Vampire Counts equivalent of the Empire Battle Wizard — single-lore Hero caster with the same level-up ladder; structural difference is *lore-pick pattern* (Battle Wizard picks one of eight Winds, Necromancer is locked to Necromancy intrinsic). **Master of Death** is the identity rule: when this Necromancer casts Invocation of Nehek, its CV is reduced by 1 — focused devotion to the resurrection lifeline that defines his role; stacks with Bone Tide on Skeletons (effective CV 3, very reliable). **Voice from the Grave** is the once-per-battle forbidden bargain: consume D3 wounds from a friendly Undead unit within 12" to gain +1 to a casting roll — the Necromancer fuels the spell with his own dead. Without a Necromancer or Vampire on the table, a Vampire Counts army bleeds off via Crumble within 2-3 turns; the Necromancer is the cheap-budget caster slot for keeping Undead alive.

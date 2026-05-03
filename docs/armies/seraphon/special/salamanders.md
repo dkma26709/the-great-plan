@@ -7,15 +7,15 @@
 
 | M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 8 | 3 | 3 | 0 | 4 | 4 | 5 | 3 | 4 | 2 | 3 |
+| 6 | 3 | 3 | 0 | 4 | 4 | 5 | 3 | 4 | 2 | 3 |
 
 **Skink Handler (×3 per Salamander, fixed):**
 
 | M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 8 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
+| 6 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 
-**Points:** **80** per beast-bundle (1 Salamander + 3 Handlers)
+**Points:** **85** per beast-bundle (1 Salamander + 3 Handlers)
 
 - **Keywords:** Lizardmen, Warbeast, Special (Salamander); Lizardmen, Skink, Infantry, Special (Handler)
 - **Unit type:** Mixed Unit (Warbeast + Skink Infantry support, per §1)
@@ -33,6 +33,7 @@
 - **Special rules:**
   - Cold-Blooded (see §8)
   - Aquatic (see §8)
+  - **Strider (Forest)** (see §8) — Salamanders move through forest and dense undergrowth without penalty (lore: "moving through underbrush or even submerged under water"). Applies to the unit as a whole; Handlers move with their beast.
   - Skirmishers (see §8)
   - Fear (Salamanders only — Handlers are not individually Fear-causing)
   - Mixed Unit (see §1)
@@ -44,4 +45,4 @@
 - **Claws and Bite** *(Salamander natural)* — 1" reach | **A 3** | S 4 | AP 0 | D 1 `[Natural]`
 - **Hand weapon** *(Handler)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
 
-> **Lore notes:** W5 beast gives real durability — a Salamander pool scales through the quadratic wound factor to a Monstrous-Infantry-class survivability. Spout Flames with Artillery Die scatter and Misfire reflects the WFB flavour of "things can go wrong on the breath" rather than a clean AoS-style template attack; when the misfire face comes up the handler pool suffers, which feeds directly into Unleashed Flame — the unit has a self-amplifying failure mode. Running a Salamander unit well means choosing *when* to breathe flame, accepting that each shot is a dice-drama and that exhausted handler pools mean a berserk beast that may turn on your own flanks. Points at 80 per beast-bundle (beast + 3 Handlers) — bundle premium over raw formula output (formula lands ~65) reflects the template weapon being under-priced by §13's current Equipment Contribution table; a Flame Template with Artillery Die scatter + Flaming + Misfire-as-drama is worth more than its nominal +4 framework value when wielded by a Monstrous creature with M 8 / A 3 / S 4 / WS 3 as a fallback melee threat.
+> **Lore notes:** Living area-denial artillery — fire-breathing saurians tended by three Skink Handlers who feed them, stoke their belly-furnace, and aim the cone of flame. Spout Flames with Artillery Die scatter and Misfire is the WFB-flavour "things can go wrong on the breath" rather than a clean modern template attack — each shot is a dice-drama. When the misfire face comes up the handler pool suffers, which feeds directly into **Unleashed Flame**: lose all three handlers and the remaining beasts gain unstrippable Frenzy for the rest of the battle. A guided missile, armed by your own misfortune. Running a Salamander unit well means choosing *when* to breathe flame.

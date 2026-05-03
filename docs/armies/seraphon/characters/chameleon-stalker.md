@@ -7,31 +7,31 @@
 
 | M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 8 | 4 | 4 | 6 | 3 | 3 | 3 | 7 | 8 | 1 | 1 |
+| 6 | 4 | 4 | 6 | 3 | 3 | 3 | 7 | 8 | 1 | 1 |
 
-**Points:** **95** base (with Chameleon Dartpipe + Celestite Dagger)
+**Points:** **100** base (with Chameleon Dartpipe + Celestite Dagger)
 
 - **Keywords:** Lizardmen, Skink, Chameleon, Character, Hero
 - **Unit type:** Infantry (Character, Skirmishers — coherency 2"); foot only (no mount)
 - **Natural Armour:** 6+ (Chameleon scales)
 - **Equipment (default):** Chameleon Dartpipe + Celestite Dagger
 - **Equipment options:**
-  - Magic items up to 50 pts (including Blessed Spawnings)
+  - Magic items up to 50 pts
+  - Blessed Spawnings — up to 3, per-character costs from §10 menu (Mark of the Old Ones counts as one slot)
 - **Special rules:**
   - Cold-Blooded (see §8)
+  - **Aquatic** (see §8)
   - **Skirmishers** (see §8)
   - **Scouts** (see §8) — deploys after all normal units, outside **12"** of enemy units
+  - **Loner** (see §8) — chameleon-caste hunters do not march with the main army; the Stalker may not attach to or be joined to non-Chameleon-Skink units
   - **Chameleon** (see §8) — attackers shooting this unit at ranges greater than **12"** suffer **-1 to hit**; melee attackers also suffer -1 on the charge
-  - **Perfect Stillness** (see §13.3 Chameleon Skinks entry) — when this unit does not move in its Movement phase, it may not be targeted by ranged attacks until the start of its next Movement phase
-  - **Aquatic** (see §8)
+  - **Telescopic Eyes** *(Sniper baseline — same as Chameleon Skinks unit)* — this Stalker's ranged attacks always have the **Sniper** keyword (see §8). The independently-tracking, telescopic eyes pick out vulnerable joints, helmet slits, command markings; the shot finds the target whether the Stalker is still or moving.
+  - **Perfect Stillness** *(Stalker variant — stronger than the Chameleon Skinks unit version)* — when this Stalker does not move in its Movement phase, it may not be targeted by ranged attacks until the start of its next Movement phase
   - **Ambush Killshot** *(identity rule)* — the **first ranged attack this Stalker makes in the game** (the first Dartpipe shot, any Shooting phase) resolves at **+1 to hit, +1 AP (= AP -2), D D3 damage** (replacing the D 1 baseline). All subsequent shots this game use the standard Chameleon Dartpipe profile. Represents the archetypal Oxyotl opening strike — one catastrophic hit before the Stalker is detected; thereafter, normal-issue dartpipe
 
 **Weapon profiles:**
 
-- **Chameleon Dartpipe** *(default ranged, see Armoury)* — **24" range | S 3 | AP -1 | D 1 | Multiple Shots (2) | Poisoned Attacks | Quick to Fire** — temple-refined venom, precisely measured; longer range than standard Blowpipe. *Ambush Killshot modifies the first shot only: +1 to hit, AP -2, D D3.*
+- **Chameleon Dartpipe** *(default ranged, see Armoury)* — **12" range | S 3 | AP -1 | D 1 | Multiple Shots (2) | Poisoned Attacks | Quick to Fire** — temple-refined venom, precisely measured; same range as a standard Skink Blowpipe but with AP -1 and Multiple Shots (2) baked in. *Ambush Killshot modifies the first shot only: +1 to hit, AP -2, D D3.*
 - **Celestite Dagger** *(default melee)* — 1" | **A 2** | S 3 | AP 0 | D 1 `[1H Blade]`
 
-> **Lore notes:** WS 4 (vs Chameleon Skink unit WS 2) — the Stalker is a competent blade-fighter but still primarily ranged. **BS 6 is the apex shot in the entire Seraphon roster** — literalises the "seven Stalkers killed five thousand Orcs" lore. T 3 thicker scales; W 3 Hero durability; I 7 supernatural reflexes; Res 8 Hero-Skink resolve. LiS 1 and US 1 kept Skink-baseline — the Stalker is compact and slight, not looming. **Ambush Killshot** is a genuinely once-per-game rule — one catastrophic opening shot; afterwards, the Stalker fires as a standard Chameleon Dartpipe wielder. Models the Oxyotl archetype: opening-shot dominance rather than cumulative value across turns. Points **95** base — Hero-tier specialist pricing; high-value assassin, not a workhorse.
-
-
-> Character mounts are available to specific characters as listed in each character entry's Mount options. A character riding a character mount uses the mount's stats for movement, the mount's save, the rider's WS/BS/Res for character-appropriate actions, and combined wound allocation rules per §1 *Rider and Mount Profiles*. Stegadon mount variant is a Rare-tier standalone unit elsewhere in §10; the Carnosaur below is the classic Saurus Oldblood / Scar-Veteran apex-predator mount.
+> **Lore notes:** Apex Chameleon Skink — stealth-hunter from the Pahuax spawning pools, literalised by the lore "seven Stalkers killed five thousand Orcs." **BS 6** is the apex shot in the entire roster. **Telescopic Eyes** gives Sniper baseline (the eyes are biological — always-on, no stillness needed); **Perfect Stillness** in the Stalker variant is the stronger version, completely concealing the unit when it doesn't move. **Loner** keeps the Stalker out of mixed-caste retinues — chameleon-caste hunters don't march with the main army. **Ambush Killshot** is the once-per-game opener: the first ranged attack lands at +1 to hit, AP -2, D D3 — the archetypal Oxyotl strike before anyone knows the Stalker is present; thereafter the Dartpipe reverts to standard. Models opening-shot dominance, not cumulative value across turns.

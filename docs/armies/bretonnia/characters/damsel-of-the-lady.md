@@ -11,12 +11,12 @@
 
 **Magic Profile (level-dependent):**
 
-| Level | Lore Access | Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range |
-|-------|----|-----|-----|----|----|----|-----|
-| **Lvl 1** *(base)* | 1 | 2 | 1 | 1 | +0 | +0 | 18" |
-| **Lvl 2** *(+30 pts)* | 2 | 2 | 1 | 2 | +1 | +0 | 18" |
+| Level | Lore Access | Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | SK |
+|-------|----|-----|-----|----|----|----|-----|-----|
+| **Lvl 1** *(base)* | 1 | 2 | 1 | 1 | +0 | +0 | 18" | **2** |
+| **Lvl 2** *(+30 pts)* | 2 | 2 | 1 | 2 | +1 | +0 | 18" | **2** |
 
-*Lvl 1 caster (Lore Access 1 — Basic spell access only). May upgrade to **Lvl 2** at list-build for +30 pts: Lore Access 2 reaches Intermediate spells within the chosen lore, and bumps Channels and Cast Bonus by +1 each. Mirrors the Empire Battle Wizard's Lvl 1/2 ladder exactly.*
+*Lvl 1 caster (Lore Access 1 — Basic spell access only). May upgrade to **Lvl 2** at list-build for +30 pts: Lore Access 2 reaches Intermediate spells within the chosen lore, and bumps Channels and Cast Bonus by +1 each. **SK 2** = total spells known: Signature Spell (free, from chosen lore) + 1 additional spell from the same lore (any tier within Lore Access limits). Mirrors the Empire Battle Wizard's Lvl 1/2 ladder exactly.*
 
 **Points:** **85** base (Lvl 1, hand weapon, no armour, Lady's Chosen). **+30** to upgrade to Lvl 2 (= 115 pts).
 
@@ -48,25 +48,4 @@
 
 - **Hand weapon** *(default, 1H)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 — a slim ceremonial blade or carved bone-handled knife from the Lady's grove. Functional but unimpressive in melee — the Damsel is not a fighter `[1H Blade]`
 
-> **Lore notes:** **Stats match Empire Battle Wizard at Hero-caster tier** — WS 3 / BS 3 / S 3 / T 3 / **W 3** (Hero caster bump per cross-faction convention; W 3 vs the combat-Hero W 4 of Paladin / Captain — wizards stay fragile by design) / I 3 / A 1 / **Res 8** (per §17 chivalric / Lady's-Chosen +1 calibration from WAP 7). Magic Profile mirrors Battle Wizard's Lvl 1/2 ladder exactly — same Cast Base, Dispel Base, Channelling, Cast Bonus, Dispel Bonus, Dispel Range values; same +30 upgrade cost.
->
-> **Lady's Chosen, not Vow-bound.** The Damsel is the *only* Bretonnian character who is not knight-vow-bound (alongside the Prophetess). Per §17, "the Lady chose them directly as her handmaidens" — the keyword **Lady's Chosen** functions as a vow-keyword for all rule interactions (Class Barrier, Peasant's Duty aura source, spell restrictions on Blessing-keyword targets). Mechanically equivalent to a vow; lore-distinct.
->
-> **Lore Access — four options.** The Damsel picks one of: Lore of Life, Lore of Heavens, Lore of Light, OR Lore of the Lady. These reflect lores thematically compatible with the Lady's nature: **Life** (restoration mirrors the Lady's healing), **Heavens** (celestial order mirrors the Lady's divine framing), **Light** (divine purification mirrors the Lady's anti-Chaos crusade), and **Lore of the Lady** itself (the Bretonnian faction lore). Excluded lores: Death, Shadow, Metal, Fire (darker, destructive aspects forbidden to the Lady's Chosen by consecration), AND **Lore of Beasts** (despite WAP-canonical inclusion — *omitted in our system* on thematic grounds: Bretonnia's primary geographic enemy is Beastmen, who are the human aspect of beast-spirit corruption; a Damsel channelling Beast-magic would be channelling the same Wind that empowers her people's enemies). Narrower palette than Empire's 8-Wind Battle Wizard (4 vs 8), but with the *unique* Lore of the Lady that no other faction's wizards can access.
->
-> **No internal identity rule.** Like Battle Wizard, the Damsel's identity is fully expressed through Wizard + Mark of the Lady + Lady's Chosen + Magic Resistance. Adding more (e.g., once-per-battle Lady-intervention abilities) would over-engineer; the lore-access framework and Blessing intrinsic carry her identity well enough.
->
-> **Pricing 85 pts base** — +10 over Empire Battle Wizard's 75. Premium covers: **Blessing of the Lady intrinsic** (~5 pts of value — the chivalric Ward 6+/5+ applies in melee, ranged, and magic), **Magic Resistance (1)** (~3 pts), and **Lady's Chosen keyword for vow-attachment** (~2 pts — opens her to attaching with KotR / Knights Errant / Questing Knights / Pegasus Knights, picking up Lance Formation when on Warhorse). Magic-item budget 50 pts and Lvl 2 upgrade cost +30 both match Battle Wizard. Compared to Battle Wizard, Damsel trades broader Wind selection (8 → 5) for the Bretonnian-exclusive Lady access, the Blessing's intrinsic Ward, and Magic Resistance's anti-magic layer.
->
-> **Pricing examples:**
-> - Damsel Lvl 1 + standard kit: **85 pts**
-> - Damsel Lvl 2 + standard kit: 85 + 30 = **115 pts**
-> - Damsel Lvl 2 + Warhorse mount + 50 pt magic items: 85 + 30 + 12 + 50 = **177 pts**
-> - Damsel Lvl 2 + Pegasus mount + 50 pt magic items: 85 + 30 + 20 + 50 = **185 pts** (the airborne Damsel — supports Pegasus Knights flank or Lord on Pegasus)
->
-> **Compare:**
-> - **Battle Wizard (75 pts, Lvl 1)** — same stat baseline (W 3, Res 8 post-bump), same Magic Profile ladder. Battle Wizard has 8-Wind palette; Damsel has 4 lores including Lady. Battle Wizard has no Blessing, no Magic Resistance baseline. +10 pts is the Bretonnian premium for Blessing + MR(1) + Lady's Chosen
-> - **Skink Priest (60 pts, Lvl 1)** — Lizardmen Hero-caster; Mark of the Old One narrows to 7 Winds (no Life). Damsel has Blessing + MR + 4-lore palette; Skink Priest has narrower-different lore but Skink-army synergy. +25 pts is the cross-faction gap reflecting our system's pricing of Lady-tier defensive layers
-> - **Paladin (95 pts)** — same Hero tier but combat-focused: W 4 vs W 3, WS 5 vs WS 3, A 3 vs A 1, no Wizard, no Magic Resistance. Different role — Paladin charges forward, Damsel hangs back and casts. Both at 85-95 pts is fair: Paladin pays for combat output, Damsel pays for magical utility
->
-> **Tactical role.** The Damsel is the Bretonnian list's **support caster** — heals battered knight units (Lifebloom, Lake's Embrace), buffs charges (Shield of Combat, Mantle of the Lake), or extends Blessing keywords to peasant units (Lady's Touch lore attribute, plus Aegis at Lvl 2 if accessing Lore of the Lady via that lore choice — wait, Aegis is Advanced Lore Access 3, Damsel can't reach it at Lvl 2; only the Prophetess gets Aegis access). At Lvl 2 Lore Access 2, Damsel reaches Intermediate spells (Silver Mirror / Flickering Fires / Lake's Embrace if Lady-lore picked) but stops short of Advanced. Her role is mid-game support and battlefield cleanup, not headline-spell-of-the-game.
+> **Lore notes:** A young woman of noble birth taken as a child by the Lady's hand, raised in secret groves and lake-side shrines. **Lady's Chosen** is the lore-distinct equivalent of a vow — the Damsel was chosen *directly*, not bound through investiture; mechanically the keyword counts as a vow for all interactions (Class Barrier, Peasant's Duty aura source). **Mark of the Lady** picks one of: Lore of Life, Heavens, Light, OR Lore of the Lady — lores aligned with the Lady's nature. Lore of Beasts deliberately excluded on thematic grounds (Bretonnia's primary geographic enemy is Beastmen — channelling that Wind would empower her people's enemies). Narrower palette than Empire's 8-Wind Battle Wizard (4 vs 8), but with the unique Lore of the Lady access no other faction's wizards can touch. **Magic Resistance (1)** is intrinsic — modest anti-magic layer reflecting the Lady's protection extending to her chosen.

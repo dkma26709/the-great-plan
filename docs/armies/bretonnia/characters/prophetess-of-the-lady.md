@@ -11,12 +11,12 @@
 
 **Magic Profile (level-dependent):**
 
-| Level | Lore Access | Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range |
-|-------|----|-----|-----|----|----|----|-----|
-| **Lvl 3** *(base)* | 3 | 3 | 2 | 3 | +2 | +1 | 24" |
-| **Lvl 4** *(+35 pts)* | 4 | 4 | 3 | 3 | +3 | +2 | 24" |
+| Level | Lore Access | Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | SK |
+|-------|----|-----|-----|----|----|----|-----|-----|
+| **Lvl 3** *(base)* | 3 | 3 | 2 | 3 | +2 | +1 | 24" | **2** |
+| **Lvl 4** *(+35 pts)* | 4 | 4 | 3 | 3 | +3 | +2 | 24" | **2** |
 
-*Lvl 3 caster (Lore Access 3 — Basic + Intermediate + Advanced spell access within the chosen lore). May upgrade to **Lvl 4** at list-build for +35 pts: Lore Access 4 reaches Master tier within the chosen lore. Magic Profile mirrors Empire Wizard Lord's Lvl 3/4 ladder exactly.*
+*Lvl 3 caster (Lore Access 3 — Basic + Intermediate + Advanced spell access within the chosen lore). May upgrade to **Lvl 4** at list-build for +35 pts: Lore Access 4 reaches Master tier within the chosen lore. **SK 2** = total spells known: Signature Spell (free, from chosen lore) + 1 additional spell from the same lore (any tier within Lore Access limits). Magic Profile mirrors Empire Wizard Lord's Lvl 3/4 ladder exactly.*
 
 **Points:** **170** base (Lvl 3, hand weapon, no armour, Lady's Chosen). **+35** to upgrade to Lvl 4 (= 205 pts).
 
@@ -49,34 +49,7 @@
 
 - **Hand weapon** *(default, 1H)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 — a slim ceremonial blade or carved bone-handled knife from the Lady's grove. Even less impressive in melee than the Damsel's, given the Prophetess's age and focus on the magical arts. She is not a fighter `[1H Blade]`
 
-> **Lore notes:** **Stats match Empire Wizard Lord at Lord-caster tier** — WS 3 / BS 3 / S 3 / **T 4** / **W 4** / I 3 / A 1 / **Res 9** (per §17 chivalric / Lady's-Chosen +1 calibration from WAP 8) / LiS 1 / US 2. T 4 and W 4 are the Lord-caster baseline (vs Hero-caster Damsel's T 3 / W 3) — modest durability bumps reflecting decades of life surviving battlefields under the Lady's Blessing. Magic Profile mirrors Wizard Lord's Lvl 3/4 ladder exactly — same Cast Base, Dispel Base, Channelling, Cast Bonus, Dispel Bonus, Dispel Range values; same +35 upgrade cost; same Lore Access progression.
->
-> **Lord-caster role parity with Wizard Lord and Slann.** The Prophetess is the Bretonnian Lord-tier caster equivalent. Compared to:
-> - **Empire Wizard Lord (160 / 195)** — same magic profile, broader Wind selection (8 lores vs Prophetess's 4), no Blessing intrinsic, no Magic Resistance. Wizard Lord is *broader*; Prophetess is *deeper into specific lore* (especially Lore of the Lady)
-> - **Slann Mage-Priest (400)** — apex caster across the ruleset; Mastery of All Winds + Geomancy + Cosmic Architecture + 12 disciplines; magic-throughput unmatched. Prophetess at 170 is a small fraction of Slann's cost and a small fraction of her output — the Slann remains the magical apex, with Prophetess as a Bretonnian-equivalent that emphasises lore-specific depth and faction-defensive layers over raw casting power
->
-> **Mark of the Lady — same four options as Damsel.** The Prophetess gets Life, Heavens, Light, OR Lore of the Lady. The lore-restriction is consistent across both Lady's Chosen tiers — Damsel and Prophetess differ in *casting power* (Lvl 1-2 vs Lvl 3-4), not *lore selection*. A duchy fielding both characters would typically have them pick *different* lores to maximise the army's magical coverage (e.g., Damsel takes Lore of the Lady for healing/buffing, Prophetess takes Lore of Light for anti-Chaos / anti-Undead crusader role; or vice versa).
->
-> **Master-tier access is the Prophetess's defining capability.** At Lvl 4, the Prophetess can attempt Lore of the Lady's Master spells:
-> - **The Lady's Embrace** (CV 18) — full unit restoration, Blessing-only target. The single most powerful healing in the ruleset; turns a near-destroyed knight unit back to full strength in one cast
-> - **Wrath of the Faerie** (CV 18, 18" self-aura) — AOE damage to all enemies within 18", with anti-Daemon/Undead/Chaos uplift. The lore's offensive capstone
-> 
-> Both at CV 18 require committing 4-6 dice for reliable casts (per the §11 magic system's CV/Cast Bonus/dice scaling). A Lvl 4 Prophetess casting one Master spell per turn IS the Bretonnian army's headline magical move — an entire turn's magic budget goes into one cast, with the rest of the lore's spells filling support roles around it. (For Light / Life / Heavens lores, the Master spells would be the equivalent capstone effects of those lores when the broader §11 magic-system audit lands — the Prophetess is the *vehicle* for Master-tier access regardless of which lore she picks.)
->
-> **No internal identity rule.** Same as Wizard Lord and Damsel — the Lord-tier magic profile, faction-restricted lore selection, Blessing intrinsic, and Magic Resistance carry her identity. Adding more would over-engineer.
->
-> **Pricing 170 base** — +10 over Empire Wizard Lord's 160. Premium covers: Blessing of the Lady intrinsic (~5 pts), Magic Resistance (1) (~3 pts), Lady's Chosen vow-keyword for unit-attachment (~2 pts). Magic-item budget 100 pts and Lvl 4 upgrade cost +35 both match Wizard Lord. Same +10 Bretonnian premium as the Damsel applies (the Bretonnian layers — Blessing, MR, Lady's Chosen — are flat-cost across both caster tiers).
->
-> **Pricing examples:**
-> - Prophetess Lvl 3 + standard kit: **170 pts**
-> - Prophetess Lvl 4 + standard kit: 170 + 35 = **205 pts**
-> - Prophetess Lvl 4 + Warhorse mount + 100 pt magic items: 205 + 18 + 100 = **323 pts**
-> - Prophetess Lvl 4 + Pegasus mount + 100 pt magic items: 205 + 30 + 100 = **335 pts**
-> - Prophetess Lvl 4 + Unicorn mount + 100 pt magic items: 205 + 42 + 100 = **347 pts** (the apex Lady-Chosen caster, fully kitted)
->
-> **Compare to Damsel.** The Prophetess is the Damsel's fully-realised tier. Same lore-selection framework, same Blessing intrinsic, same Magic Resistance — different magic profile, different mount options, different price. Where a Damsel handles support and mid-game cleanup, the Prophetess provides Lord-tier sustained magic across a battle: army-wide auras (Aegis of the Lady at Lore Access 3), Master-tier capstones (Lady's Embrace / Wrath of the Faerie at Lore Access 4), reliable single-cast utility per turn. A list with both is unusual but powerful — Damsel covers the support layer, Prophetess swings for the capstone.
->
-> **Tactical role.** The Prophetess is the Bretonnian list's **headline caster** — she IS the army's magical centre. Position her near the chivalric line for Aegis of the Lady's 12" radius, keep her safe (her T 4 / W 4 / no-armour profile is fragile despite the Blessing's Ward), and preserve her until a critical turn for The Lady's Embrace or Wrath of the Faerie. Pegasus mount keeps her mobile and out of melee; Unicorn adds Magical Attacks and Magic Resistance shared with the rider. A Lord-army pairing — Bretonnian Lord (combat anchor) + Prophetess (caster anchor) — gives the army a complete Lord-tier command structure: the Lord rides forward to charge while the Prophetess sustains and rebuilds the line behind him.
+> **Lore notes:** The Damsel grown to her full power — senior priestess, decades into her consecration, calling down the Lady's full power. The Bretonnian Lord-tier caster equivalent of the Empire Wizard Lord. Same Mark of the Lady framework as the Damsel (Life / Heavens / Light / Lore of the Lady), but with **Master-tier access** at Lvl 4 — the Lore of the Lady's capstones (**The Lady's Embrace** for full unit restoration, **Wrath of the Faerie** for AOE) are the army's headline magical moves. Same Lady's Chosen + Magic Resistance (1) + Blessing intrinsic suite as the Damsel; differs in casting power, not lore selection. Where the Damsel handles support and mid-game cleanup, the Prophetess provides Lord-tier sustained magic and the once-per-game capstone swing.
 
 
 Lord-tier and Hero-tier mount options for Bretonnian characters. Warhorse and Pegasus profiles are documented inline in the Knights of the Realm (§17 Core) and Pegasus Knights (§17 Special) entries respectively; this section adds the four Bretonnia-exclusive mounts referenced from the character entries.

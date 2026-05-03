@@ -5,9 +5,9 @@
 
 | M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 6 | 3 | 3 | 2 | 4 | 4 | 6 | 2 | 8 | 2 | 3 |
+| 6 | 3 | 3 | 2 | 4 | 4 | 7 | 2 | 8 | 2 | 3 |
 
-**Points:** **55** per model
+**Points:** **70** per model
 
 - **Keywords:** Ogre Kingdoms, Ogre, Monstrous Infantry, Special
 - **Unit type:** Monstrous Infantry
@@ -31,4 +31,4 @@
 
 - **Great weapon (Ogre-scale)** *(default, 2H)* — 1" reach | **A 3** | S+2 (= S 6) | AP -2 | D 1 | Two-Handed — gut-plate save preserved (hands-free convention) `[2H]`
 
-> **Lore notes:** Stat differentiation from Bulls — **wound count is parity at W 6** (Ironguts and Bulls share the rank-and-file Ogre wound tier; the elite distinction is *not* on wounds but on save, Res, weapons, and identity rule). **Res 7 → 8** intrinsic (one notch above Bulls; this is *unit-intrinsic* Res, not derived from a character aura — Ogre culture values veterans). All other stats unchanged from Bulls. Default kit: gut-plate + light armour = 5+ save (vs Bulls' 6+); no heavy armour swap available (Ogre roster ceiling is 5+ per "fat guys with little armour" design call). Ironguts are great-weapon-only — no hand weapon option, no Ironfists. Their identity in lore is "the great-weapon swing"; equipment menu honours that. **Bone Crackers** is the identity rule — great-weapon attacks on unmodified 6 to wound gain +1 AP cumulative (base AP -2 becomes AP -3). Pure combat-axis effect (no Res interaction); rewards the great-weapon's high wound-roll ceiling with armour-cracking spikes. Differentiation from Bulls is **gear + skill, not bulk** — Ironguts hit harder (great weapons + Bone Crackers), hold longer (Res 8), and survive incoming better (5+ save vs 6+), but they aren't physically larger. Compared to Greatswords (Empire elite Special infantry, Stubborn + Professional Soldiers): Ironguts trade morale-axis identity for raw damage-axis — Bone Crackers vs Stubborn is the Ogre vs Empire elite-infantry contrast. Points **55** — driven by **equipment / kit differential vs Bulls**, not an abstract "elite-tier premium". Concrete add-ons: **light armour intrinsic** (vs Bulls' gut-plate-only — worth a few pts at Ogre wound scale where each save step matters more), **Res 8 intrinsic** (one notch above Bulls' Res 7), and the **Bone Crackers identity rule** (cumulative AP-stacking on great-weapon 6-to-wound rolls). Mandatory great weapon is *not* a true differential — Bulls can take great weapons too as a +4 pts equipment option, so the weapon itself is bundled in either way. Cross-faction sanity-check: Saurus Warrior 22 → Temple Guard 35 is also driven by equipment / kit (halberd, light armour, WS 5, Res 12, Sworn Protectors), not by abstract elite-tier inflation — same principle. **Pricing scales with what's in the kit, not with elite-status as such.**
+> **Lore notes:** Tyrant's chosen — veteran Bulls, scarred survivors, the elite shock unit that cracks enemy elite formations. Differentiation from rank-and-file is **gear + skill, not bulk** — light armour over the gut-plate, higher Res (Ogre culture values veterans), and mandatory great weapons. Identity in lore is "the great-weapon swing" — no hand weapon option, no Ironfists; the equipment menu honours that singular weapon role. **Bone Crackers** is the identity rule: on unmodified 6 to wound, attacks gain +1 AP — the brutal swing finding the perfect angle through plate.

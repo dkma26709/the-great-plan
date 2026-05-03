@@ -7,38 +7,39 @@
 
 | M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 8 | 3 | 3 | 3 | 3 | 3 | 3 | 5 | 8 | 1 | 2 |
+| 6 | 3 | **4** | 3 | 3 | 3 | 3 | 5 | 8 | 1 | 2 |
 
 **Magic Profile:**
 
-| Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | Lore Access |
-|-----|-----|----|----|----|----|----|
-| 3 | 2 | 3 | +2 | +1 | 24" | 3 |
+| Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | Lore Access | SK |
+|-----|-----|----|----|----|----|----|-----|
+| 3 | 2 | 3 | +2 | +1 | 24" | 3 | **3** |
 
-*Advanced-tier caster (Lore Access 3 — Basic + Intermediate + Advanced spell access within the one chosen lore). Mark of the Old One = one general lore picked at list-building. Signature Spell known free + **1 additional spell** from the selected lore (any tier within Lore Access limits, same "+1" pattern as the basic Skink Priest — the High Priest's upgrade is the **tier** reached, not the breadth of pickings).*
+*Advanced-tier caster (Lore Access 3 — Basic + Intermediate + Advanced spell access within the one chosen lore). Mark of the Old One = one general lore picked at list-building. **SK 3** = total spells known: Signature Spell (free, from chosen lore) + 2 additional spells from the same lore (any tier within Lore Access limits). Pass 2 increase from SK 2 — the High Priest's promotion now widens both the **tier** reached (Lore Access 3 Advanced) AND the **breadth** of spells picked from that lore (SK 3 vs basic Priest's SK 2).*
 
-**Points:** **120** base (with Mark of the Old One + hand weapon + Moonstone Javelin)
+**Points:** **130** base (with Mark of the Old One + hand weapon + Moonstone Javelin)
 
-- **Keywords:** Lizardmen, Skink, Wizard, Character, Lord
+- **Keywords:** Lizardmen, Skink, Wizard, Arcane Vassal, Character, Lord
 - **Unit type:** Infantry (Character); may take a mount
 - **Natural Armour:** 6+
 - **Ward Save:** — (none baseline)
 - **Equipment (default):** Hand weapon + Moonstone Javelin
 - **Equipment options:**
   - Cloak of Feathers (magic item — grants Fly (6) to the Priest)
-  - Magic items up to **75 pts** (including Blessed Spawnings)
-- **Mount options:** Raptadon, Terradon, Ripperdactyl, **Ancient Stegadon with EotG-variant engine** *(Lord-tier mount — pending Character Mounts write-up; a Stegadon modified to carry the High Priest and a magical engine, similar to the Arcanadon lineage)*
+  - Magic items up to **75 pts**
+  - Blessed Spawnings — up to 3, per-character costs from §10 menu (Mark of the Old Ones counts as one slot)
+- **Mount options:** Raptadon, Terradon, Ripperdactyl, **Stegadon** *(adds ~100 pts; the High Priest may ride a standard Stegadon, but the Engine of the Gods variant is now a standalone Rare unit, not a High Priest mount option)*
 - **Battle Standard option:** +25 pts (no BSB restriction on magic item budget — see Slann convention)
 - **Special rules:**
   - Cold-Blooded (see §8)
   - **Aquatic** (see §8)
   - **Wizard (Lore Access 3)** — see Magic Profile above
   - **Mark of the Old One** *(intrinsic lore-pick)* — at list-building, choose one of: Heavens, Beasts, Fire, Light, Death, Shadow, Metal. The High Priest casts exclusively from that lore. (Life remains inaccessible per Skink-caste convention.) Same access shape as the basic Skink Priest; the High Priest's promotion is the **tier reached** within the lore (Lore Access 3 Advanced vs basic Lore Access 2 Intermediate), not a wider lore pool.
-  - **Arcane Vassal** *(identity rule — inherited from Skink Priest tradition)* — a friendly Slann may cast its spells through this High Priest. Range measurement and line-of-sight for the Slann's spell resolve as if cast from the High Priest's model position, not the Slann's. The Slann remains the caster for all other purposes (Cast Base, Cast Bonus, Lore Access, lore, dispel resistance, miscast resolution apply to the Slann). Same mechanic as the basic Priest's Arcane Vassal — the promotion to High Priest does not widen the identity-rule palette
+  - **Arcane Vassal** *(keyword — inherited from Skink Priest tradition)* — friendly Slann may cast spells through this High Priest's model position (see Slann's Arcane Vassal rule for full mechanic). The High Priest is a stronger relay-antenna than the basic Priest by virtue of being closer to a Slann's caster-tier presence, but the keyword mechanic is identical.
 
 **Weapon profiles:**
 
 - **Hand weapon** *(1" melee)* — 1" | A 1 | S 3 | AP 0 | D 1 `[1H Blade]`
 - **Moonstone Javelin** *(8" ranged, see Armoury)* — 8" range | S 3 | AP -1 | D 1 | Quick to Fire | Poisoned Attacks
 
-> **Lore notes:** Stats moderately inflated from the basic Skink Priest (W 2 → 3; I 4 → 5; Res 6 → 8). **Res 8 is still lower than Skink High Chief's Res 10** — the wisdom/bravery split we established for the basic Priest/Chief pair continues at Lord tier. Magic Profile is the real upgrade: Lore Access 3 vs basic Lore Access 2 (full Advanced tier reached within the one chosen lore), Cast Base 3 / Dispel Base 2 / Channelling 3 / Cast Bonus +2 / Dispel Bonus +1 / Dispel Range 24" — all above the basic Priest, all below Slann. **Lore access is unchanged from the basic Priest** (single lore picked at list-build, Signature + 1 additional spell) — the High Priest's promotion is a *tier-depth* increase (Basic+Intermediate+Advanced reachable in the chosen lore instead of Basic+Intermediate), not a breadth-of-lores widening. Identity rule is **Arcane Vassal only**, matching the basic Skink Priest's identity rule — the High Priest does not gain additional identity mechanics at Lord tier; the tier difference expresses entirely through magic-stat heft and Lore Access reach. Points **120** — between Skink Chief (85) and Slann (400); matches a Lord-caster whose flavour is "more potent basic Priest" rather than "new capabilities."
+> **Lore notes:** The senior caster of the Skink caste — when the Slann is entranced (which is most of the time), the High Priest is the operational voice of Seraphon command. **Mark of the Old One** locks them to one chosen lore at Lore Access 3 Advanced — the promotion over the basic Priest is *tier reached*, not lore breadth (Slann are the multi-lore generalists; Priests stay focused). **Arcane Vassal** is the identity-rule continuity from the basic Priest — the Slann casts through them; the High Priest is a stronger relay-antenna by virtue of being closer to a Slann's caster-tier presence. Res 8 is lower than the High Chief's Res 10 — the wisdom/bravery split established at basic-Priest/Chief tier continues here. Combat is beneath them but occasionally unavoidable; they rely on magic, mount mobility, and the units around them.

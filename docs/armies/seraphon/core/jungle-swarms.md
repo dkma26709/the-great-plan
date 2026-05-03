@@ -5,7 +5,7 @@
 
 | M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |  | Points |
 |---|----|----|----|---|---|---|---|----|-----|----|---|--------|
-| 5 | 3 | 3 | 0 | 2 | 2 | 7 | 2 | 3 | 0 | =W |  | **32** |
+| 5 | 3 | 3 | 0 | 2 | 2 | 7 | 2 | 3 | 0 | =W |  | **40** |
 
 - **Keywords:** Lizardmen, Swarm, Core
 - **Unit type:** Swarm
@@ -17,7 +17,9 @@
 - **Special rules:**
   - Cold-Blooded (see §8)
   - Aquatic (see §8)
+  - **Strider (Forest)** (see §8) — the swarm flows through dense undergrowth without movement penalty; jungle creatures in their own habitat.
   - Poisoned Attacks (see §8)
+  - **Fear** *(Psychology — see §8)* — radius **6"**. Lore: "only the boldest of foes will dare wade through such a sea of venomous creatures." A living carpet of fang and venom is psychologically intolerable; few warriors stand their ground when the ground itself starts biting back.
   - Expendable (see §8)
   - **Dispersed Mass** (see §8)
   - **Unstable** (see §8)
@@ -25,6 +27,6 @@
 
 **Weapon profiles (A on weapons):**
 
-- **Fang and venom** *(natural attacks, dynamic A)* — 1" reach | **A = current W remaining** | S 2 | AP 0 | D 1 | Poisoned Attacks — each base's attacks equal its own remaining wound count
+- **Fang and venom** *(natural attacks, dynamic A)* — 1" reach | **A = current W remaining** | S 2 | **AP -1** | D 1 | Poisoned Attacks — each base's attacks equal its own remaining wound count. AP -1 captures the lore-canonical "smallest of their kind can slip between even the slightest crack or armoured joint" — the swarm finds gaps in worn armour to deliver mortal stings.
 
-> **Lore notes:** The A=W, US=W dynamic is the Swarm-type convention (see §1): both offensive output and board presence scale with remaining wound count. No damage table needed — one stat carries the information. Expendable eliminates the friendly-stress-spread on loss (nobody panics when the swarm is scoured; it was written off from deployment). Unstable means stress above Res bleeds into wounds rather than panic states — the mass doesn't flee, it dies. Dispersed Mass caps incoming Damage at 1; multi-damage weapons are wasted on a creature with no single body to gut. Smothering Mass is the identity rule: the swarm is a positional anchor, not a damage unit — engaging a swarm is a commitment, not a poke.
+> **Lore notes:** A roiling tide of small reptiles flushed from the canopy — vipers, geckos, frogs, centipedes — directed as a single mass of fang and venom. The A=W, US=W dynamic is the Swarm-type convention: both offensive output and board presence scale with remaining wounds, and one stat carries the information (no damage table needed). **Expendable** eliminates the friendly-stress-spread when the mass is scoured — nobody panics, it was written off from deployment. **Unstable** means stress above Res bleeds into wounds, not panic states — the mass doesn't flee, it dies. **Dispersed Mass** caps incoming Damage at 1; multi-damage weapons are wasted on a creature with no single body to gut. **Smothering Mass** is the identity: a swarm is a positional anchor, not a damage unit — engaging it is a commitment, not a poke. AP -1 on Fang and venom captures the canonical "smallest of their kind slip between cracks and armoured joints."

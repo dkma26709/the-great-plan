@@ -145,25 +145,55 @@ A Loose unit does not wheel. Individual models are oriented during their own mov
 
 #### Formed Benefits
 
+While Formed, a unit gains the following:
+
 | Benefit | Scope |
 |---------|-------|
-| **+1 Resolve** on all stress tests | Non-directional |
-| **Absorb 2 points of combat resolution difference** before converting to stress | Non-directional |
-| **Charge resistance:** enemies charging into the front arc do not gain their +1 I charge bonus | Directional — front only |
+| **Disciplined Depth** — treat Resolve as +1 per full rank beyond the first, for all stress threshold purposes (Shaken, Wavering, Broken). Uncapped. | Non-directional |
+| **Steady Ranks** — during the Combat phase, models killed in the engaged rank are immediately replaced from the rank behind, model-for-model, preserving the unit's engaged frontage and attack count for that round of combat. The replacement uses its own profile and Initiative; the dead model's strike does not transfer. Once no rear-rank models remain to fill, frontage shrinks naturally. | Combat phase only |
+| **Charge Resistance** — enemies charging into this unit's front arc do not gain their +1 Initiative charge bonus. | Front arc only |
+| **Shield Wall** — foot models in this unit equipped with a shield gain **+1 WS-D** against melee attacks resolved into the unit's front arc. | Front arc only; conditional on shield + foot |
+| **Disciplined Volley** — the unit's Stand-and-Shoot reactions are made at the unit's full BS (no -1 BS penalty per §7). | Charge-reaction shooting only |
+| **Command Eligibility** — only Formed units may benefit from `[Command]`-tagged abilities (external aura projections from generals, BSBs, and other authority sources). Unit-internal upgrades — Patrol Leader / Standard Bearer / Musician / Magic Standards borne by the unit's own model — are not `[Command]` and apply to the unit regardless of formation state. See §8 for the keyword definition. | Always while Formed |
 
-**When attacked from the flank:** the defender retains non-directional benefits (+1 Res, CR absorb). Charge resistance does not apply.
+##### Counting ranks for Disciplined Depth
 
-**When attacked from the rear:** no Formed benefits apply. The cluster is treated as Disordered for the purposes of that attack only.
+A **rank** is a transverse line of models, in base contact with the rank ahead, parallel to the unit's front edge. A rank is **full** if it contains 5 or more models, for unit sizes greater than 5; for unit sizes of 5 or fewer, every rank counts as full.
+
+Disciplined Depth grants +1 Resolve per full rank beyond the first. A 5-wide × 2-deep block of 10 models counts 2 ranks → +1 Resolve. A 5-wide × 4-deep block of 20 → +3 Resolve. A 6-wide × 5-deep block of 30 → +4 Resolve. The bonus is **uncapped** — depth is a player choice that pays its costs elsewhere (lost frontage and attack count, wheeling cost, vulnerability to AoE damage and template weapons that hit dense formations harder).
+
+Lost models reduce the rank count dynamically. A 5-deep block taking casualties down to 4 effective ranks loses one step of Resolve immediately; the depth bonus and the rank discipline decay together as the unit is ground down.
+
+##### Directional erosion of Formed benefits
+
+| Attack arc | Effect |
+|------------|--------|
+| **Front** | All Formed benefits apply in full. |
+| **Flank** | Non-directional benefits retained: Disciplined Depth, Steady Ranks, Disciplined Volley, Command Eligibility. **Charge Resistance and Shield Wall do not apply** for attacks resolved into a flank arc. |
+| **Rear** | All Formed benefits drop for that attack. The unit is treated as Disordered for the rear-arc attack only. |
+
+The directional logic is consistent: front-arc benefits assume the unit is *facing the threat* (locked shields, levelled spears, braced footing). Flank attacks bypass the shielded face but the rank-and-file behind is still cohesive. Rear attacks dissolve all formation discipline — the unit is reacting blind, models turning into the strike from a stable footing they no longer have.
 
 #### Loose Benefits
 
+While Loose, a unit gains the following:
+
 | Benefit | Effect |
 |---------|--------|
-| Extended charge | Charge range is M + 2D6 (vs M + D6 for Formed) |
-| Irregular movement | Ignores the movement penalty for difficult terrain |
-| Dispersed | Enemies suffer -1 to hit this unit with ranged attacks (see below) |
+| **Extended Charge** — charge range is **M + 2D6 inches** (vs M + D6 for Formed). | — |
+| **Irregular Movement** — the unit ignores the movement penalty for difficult terrain. | — |
+| **Dispersed** — enemies suffer **-1 to hit** this unit with ranged attacks. Models with **LiS 4 or higher** do not benefit from Dispersed (too large for spacing alone to make them harder targets). | — |
+| **No Facing** — a multi-model Loose unit has no front, flanks, or rear. All attacks against it are resolved without directional modifiers, and it cannot be flanked or struck-from-the-rear in any sense that would normally erode benefits. | — |
 
-**Dispersed and model size.** A model with LiS 4 or higher does not benefit from Dispersed — it is too large for spacing alone to make it a harder target.
+*Sustained-pace mobility (a baseline Movement bonus) lives on the Skirmisher unit-class rule rather than on the Loose state itself — see §8. Generic Loose-state benefits are about charge bursts, terrain freedom, and dispersion, not raw speed; Skirmisher specialists are the units that earn the speed bump as their identity.*
+
+#### Why each state — at a glance
+
+> **Formed = pressure-resistance, depth-discipline, command-integration.** Stress spine that grows with depth. Charge denial at the front. Shielded mutual support. Replaceable casualties. Volleyed fire. Commanded and signalled by the chain of authority.
+>
+> **Loose = burst speed, evasion, independent operation.** Faster charges, terrain freedom, harder to shoot, no flanks to exploit. The cost: no command structure reaches a Loose unit; it fights as it finds. Sustained-pace mobility belongs to Skirmisher specialists, not to the Loose state itself.
+
+The two states model two genuinely different battlefield roles. A unit choosing Formed is **committing to the line** — accepting movement constraints and command dependence in exchange for depth-discipline and shielded mutual support. A unit choosing Loose is **operating independently** — gaining speed and evasion but losing the buff economy of the regimental drum.
 
 #### Single-Model Units
 

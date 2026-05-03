@@ -7,9 +7,9 @@
 
 | M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 6 | 5 | 5 | 3 | 5 | 5 | 8 | 3 | 8 | 2 | 3 |
+| 6 | 5 | 5 | 3 | 5 | 5 | 9 | 3 | 8 | 2 | 3 |
 
-**Points:** **130** base (gut-plate + hand weapon)
+**Points:** **140** base (gut-plate + hand weapon)
 
 - **Keywords:** Ogre Kingdoms, Ogre, Monstrous Infantry, Character, Hero
 - **Unit type:** Monstrous Infantry (Character)
@@ -37,4 +37,4 @@
 - **Ironfists** *(option, paired)* — 1" reach | **A 5** | S 5 | AP -1 | D 1
 - **Great weapon** *(option, 2H — gut-plate save preserved)* — 1" reach | **A 4** | S+2 (= S 7) | AP -2 | D 1 | Two-Handed `[2H]`
 
-> **Lore notes:** Stats per heft calibration — WS 5 / BS 3 / S 5 / T 5 / I 3 / A 4 reference unchanged. **W 4 → 8** (Hero-tier wound bump; **above Saurus Oldblood W 7** — Ogre Hero exceeds the Saurus Lord on raw bulk per "Ogres are fat" identity call; below Tyrant W 10 and matching Slaughtermaster W 8). **Res 8 reference unchanged** (no +1 bump). Combined 6+ save baseline; light armour 5+. No heavy armour option per Ogre roster ceiling. **Bully** is the identity rule — unit-attached charge buff (+1 attack on melee weapons during the round of combat after the charge). Pure combat axis (no Res interaction); charge-phase trigger; conditional on attachment (kill the Bruiser to break the buff). Compare to Captain of the Empire's **Hold the Line** (Stubborn while attached to Formed Empire Infantry) — Captain's effect is defensive (anti-Fall-Back), Bully's is offensive (charge spike). Cross-faction mirror: same character-grants-keyword pattern, opposite tactical valence. **BSB option +25 pts** per universal convention; the Bruiser is the Empire-Captain-equivalent traditional BSB carrier in Ogre warbands. Points **130** base — Hero-tier Ogre command character; sits above Captain of the Empire (80 pts) reflecting Ogre-scale stats (W 8 vs Captain's W 3, Monstrous Infantry chassis vs Infantry) and below Saurus Scar-Veteran (170 pts, Saurus apex Hero with NA 4+, Predatory Fighter, Battlefield Growl). Trades the Captain's drilled-line Stubborn for muscular charge brutality — Empire vs Ogre Hero-command flavour.
+> **Lore notes:** The Tyrant's enforcer — second-strongest in the tribe, a muscle-bound bully whose size and brutality are surpassed only by the Tyrant himself. Maintains order within the tribe by personal threat; in battle, rams subordinate units forward by the same. The traditional BSB carrier in Ogre warbands. **Bully** is the identity rule — while attached to a Formed friendly Ogre Infantry unit on the charge, each model gains +1 attack on a single melee weapon profile in the first round of combat after the charge. Pure combat axis, charge-phase trigger, conditional on attachment (kill the Bruiser to break the buff). Cross-faction mirror to the Empire Captain's **Hold the Line** — same character-grants-keyword pattern, opposite tactical valence (Captain defensive Stubborn, Bruiser offensive charge spike).

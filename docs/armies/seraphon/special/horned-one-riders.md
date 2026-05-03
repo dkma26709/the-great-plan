@@ -19,15 +19,16 @@
 
 | LiS | US |   | Points |
 |-----|----|---|--------|
-| 2   | 2  |   | **28** |
+| 2   | 2  |   | **26** |
 
 - **Keywords:** Lizardmen, Skink, Cavalry, Special
 - **Unit type:** Cavalry (Fast Cavalry — see §8)
 - **Unit size:** 5-10
-- **Combined pool per model:** W2 (rider 1 + mount 1). Attackers use highest WS (3) and highest T (4) per §1 *Rider and Mount Profiles*
+- **Wounds per model:** **W1** — Horned One mount W1 + rider conversion (Great Crested Skink W1 → +0 step), per §1 *Combined Wounds*. Attackers use highest WS-D (3) and highest T (4)
 - **Natural Armour:** 5+ (Horned One's armoured hide); 4+ combined with shield
 - **Equipment (default):** Light Lance + shield
 - **Equipment options:** none baseline
+- **Blessed Spawnings:** up to 3 per unit, per-model costs from §10 menu. Each spawning beyond the first promotes the unit one FoC tier (Special → Rare; max Rare). Spawning effects apply to the rider (Great Crested Skink) only — the Horned One mount profile is untouched (Itzl exception aside).
 - **Command options:**
   - Patrol Leader (champion, +5 pts, no stat buff)
   - Standard bearer (+10 pts — may carry Magic Standard up to 25 pts)
@@ -36,6 +37,7 @@
   - Disciplined (see §8)
   - Cold-Blooded (see §8)
   - Fast Cavalry (see §8)
+  - **Swiftstride** (see §8) — captures the lore-canonical "preternaturally swift" identity of the Horned One subspecies; charge rolls 2D6 keep highest (Formed) or 3D6 keep highest two (Loose).
   - Fear (Horned Ones are Fear-causing beasts)
   - **Impaling Charge** — when this unit charges an enemy, each **Horned One mount's attacks gain +1 S and AP -1** for the first round of that combat. The Horned Ones drive their horns forward at impact, skewering through lighter armour before the rider's lance even comes down. Mount attacks only — rider's Light Lance has its own separate charge bonus.
 
@@ -45,4 +47,4 @@
 - **Light Lance** *(rider, default)* — 2" reach | **A 1** | on charge: +1 S, AP -1, D 1; subsequent rounds: AP 0, D 1 (see Armoury)
 - **Horned One's Bite and Horns** *(mount natural, each model)* — 1" reach | **A 2** | S 4 | AP 0 | D 1 — resolved at mount WS 3, I 3; on charge gains Impaling Charge bonus (+1 S, AP -1) `[Natural]`
 
-> **Lore notes:** W2 pool like Raptadon Hunters, but T4 (vs Raptadon T3) and 4+ save (vs Raptadon 5+) — Horned One Riders trade slight mobility (M10 vs M12) for durability. Sit mechanically between Raptadon Hunters (17 pts, hunts-the-wounded) and Aggradon Lancers (120 pts, hammer shock cavalry). At 28 pts per model they are the disciplined mid-tier — not the cheapest cavalry, not the most elite, but the most reliable general-purpose Saurian mount. Impaling Charge gives them a second charge-impact vector alongside the Light Lance; combined Rider lance (charge: +1 S, AP -1) and Mount horn (charge: +1 S, AP -1) turns a Horned One Rider on the charge into two simultaneous piercing strikes per model. Non-Aquatic (unlike most Skink units) — Horned Ones are not water-dwelling saurians; these are dry-ground runners and will not cross marshland freely. Great Crested Skinks' Res 6 matches our Skink Cohort baseline — slightly more disciplined than regular Skinks would be treated at Res 5 in WFB reference, but still Skink-scale morale.
+> **Lore notes:** Disciplined mid-tier Skink cavalry — Great Crested Skinks (an elite, better-trained Skink sub-caste) on Horned Ones, swift saurians crowned with a bony head-horn. Sits between Raptadon Hunters (hunts-the-wounded skirmishers) and Aggradon Lancers (hammer shock cavalry). **Swiftstride** captures the canonical "preternaturally swift subspecies" — Horned Ones close charge gaps with eerie reliability, beyond what M 10 alone delivers. **Impaling Charge** drives the head-horn through lighter armour at impact, giving the unit two simultaneous piercing strikes on the charge: Light Lance from the rider, horns from the mount. Non-Aquatic (unlike most Skink units) — Horned Ones are dry-ground runners and won't cross marshland freely.

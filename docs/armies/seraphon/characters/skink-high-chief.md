@@ -7,9 +7,9 @@
 
 | M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 8 | 5 | 5 | 6 | 4 | 4 | 5 | 7 | 10 | 1 | 2 |
+| 6 | **4** | **6** | 6 | 4 | 4 | **4** | 7 | 10 | 1 | 2 |
 
-**Points:** **170** base (on foot, with Blowpipe + hand weapon + shield)
+**Points:** **165** base (on foot, with Blowpipe + hand weapon + shield)
 
 - **Keywords:** Lizardmen, Skink, Character, Lord
 - **Unit type:** Infantry (Character); may take a mount
@@ -20,8 +20,9 @@
   - Melee swap: Celestite Spear (2" reach, AP -1), Celestite Blade (1H with shield), Additional Hand Weapon (+1 A), or Celestite Halberd (2" reach, Two-Handed, S+1 AP -1) — no shield
   - Ranged swap: Moonstone Javelin / Skink Sling / Shortbow (see Armoury)
   - **Jungle Poisons** upgrade (+5 pts) — all High Chief weapons gain Poisoned Attacks
-  - Magic items up to **75 pts** (including Blessed Spawnings)
-- **Mount options:** Raptadon, Horned One, Terradon, Ripperdactyl, **Stegadon** *(Lord-tier only — the Skink High Chief is the single character type in the roster who may ride a standard Stegadon as a mount; see Character Mounts. Adds ~100 pts — Stegadon mount profile pending write-up)*
+  - Magic items up to **75 pts**
+  - Blessed Spawnings — up to 3, per-character costs from §10 menu (Mark of the Old Ones counts as one slot)
+- **Mount options:** Raptadon, Horned One, Terradon, Ripperdactyl, **Stegadon** *(adds ~100 pts; see Character Mounts — Stegadon mount profile pending write-up)*
 - **Battle Standard option:** +25 pts — one Skink High Chief in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the High Chief's other magic item allowance remains intact
 - **Special rules:**
   - Cold-Blooded (see §8)
@@ -41,4 +42,4 @@
 - **Skink Sling** *(option)* — 18" range | S 4 | AP -1 | D 1
 - **Shortbow** *(option)* — 18" range | S 3 | AP 0 | D 1
 
-> **Lore notes:** WS 5 (above Chief's WS 4) — veteran combat skill, no longer rear-line only. **BS 6** matches the Chameleon Stalker (the apex shot in the roster); reflects lore "the best-shot Skink in the army" scaled to Lord tier. S 4 / T 4 stepped above Chief for aged frame. W 5 Lord-tier Skink durability (5x Cohort W 1, 1.67x Chief W 3). I 7 / Res 10 match Lord-tier calibration (Res 10 = Saurus Oldblood parity, ruleset cap). **Strategist of the Skink-caste** is the Lord upgrade of Target Designation: double range, stacking +1 hit AND +1 wound buff, plus Res 8 aura to nearby Skinks (Skink Cohort Res 6 → 8 within 12" of High Chief). Scout inherited unchanged. Stegadon mount option is unique to this character — matches lore (the Skink High Chief is the canonical Stegadon-rider among character types; Skink Chiefs without "High" don't typically mount a full Stegadon). Points 170 matches Scar-Veteran tier — the Skink-caste Lord is priced similarly to the Saurian-caste Hero, reflecting that Skink Lord mechanically buffs the army more than it fights the enemy.
+> **Lore notes:** The apex Skink battle-commander — coordinator of an entire battle line, second only to the Skink Priests in the chain of command. Asymmetric **WS-A 4 / WS-D 6** captures the canonical "slippery, agile, jungle-trained" Skink defensive profile and the "not their role to sacrifice themselves in battle" framing — markedly harder to hit than to land hits with (a Lord who buffs the army more than he fights the enemy). **BS 6** matches the Chameleon Stalker as the best shot in the roster, scaled to Lord tier. **Strategist of the Skink-caste** is the Lord upgrade of Target Designation: 36" range, stacking +1 to hit AND +1 to wound on a nominated enemy, plus a 12" Res 8 aura to nearby Skinks. Stegadon mount preserved — canonically the senior Skink rides the senior war-mount.

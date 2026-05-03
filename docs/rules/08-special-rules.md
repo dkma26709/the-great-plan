@@ -142,6 +142,27 @@ A unit with the **Undead** keyword is animated by necromantic will, not biologic
 
 5. **Cannot Rally** (inherited from Unstable; reiterated for clarity). Stress is removed only via end-of-turn Recovery (per §5) or Necromancy spells (e.g., Invocation of Nehek). If the army's necromantic master falls and no spell support remains, an Undead unit can accumulate stress to fatal levels — the death-spiral is on theme: the master provides the drive and the magic; without him, the dead simply unwind.
 
+### Command and Coordination
+
+#### Command *(ability keyword)*
+
+An ability tagged **`[Command]`** represents an order, signal, or rallying effect projected from a chain of authority — a general's voice carrying across a battle line, a banner held high, a horn or drum cadence, a champion calling cadence in a phalanx. `[Command]` abilities only affect **Formed units**. Loose units cannot receive `[Command]` effects: the man pacing alone in skirmish order does not hear his colour-sergeant, does not see the regimental drum-major's cadence, does not stand under the banner. He is on his own.
+
+A `[Command]` ability that projects from a source with an area of effect (e.g., the General's Inspiring Presence within 12") **fails to apply** to any Loose unit in the area. The ability is not "wasted" — it can still affect Formed units in range — but the Loose unit is treated as outside the radius for that ability.
+
+**`[Command]` projects from a source to a recipient.** The keyword applies to abilities where source and recipient are different units (typically a character's aura affecting friendly units within range). Unit-internal upgrades — Patrol Leader, Standard Bearer, Musician, Magic Standards borne by the unit's own model — are **not** `[Command]`. They apply to the unit they belong to regardless of formation state, because they *are* the unit, not orders projected onto it.
+
+**`[Command]` is not magic.** Spells, magical auras, and divinely-projected effects are *not* `[Command]` even when they mimic the same shape (e.g., a "general's aura" cast from a spell lore). Magic operates on a different mechanical layer; Loose units feel magical effects normally.
+
+**`[Command]` is not biology, devotion, or trait.** Faction-wide passive traits (Will of Chaos, Cold-Blooded, Animosity), psychological states (Frenzy, Hatred, Stupidity), and intrinsic identity rules (Pack Cohesion, Loves a Scrap, Elven Grace, Cohort Synchronicity) are *not* `[Command]`. A trait belongs to the unit; an order is projected onto it.
+
+**Identified `[Command]` abilities** *(initial enumeration; new abilities tagged as drafted)*:
+
+- **Inspiring Presence** *(General trait)* — friendly units within 12" treat Resolve as +1 for stress threshold purposes
+- **Banner Discipline** *(BSB trait)* — friendly units within 12" gain +1 to Recovery rolls
+
+Additional `[Command]` candidates surface during faction draft passes; auditing each character / Lord / shrine entry for command-projection effects is part of standard draft review.
+
 ### Combat
 
 #### Hatred (X)
@@ -415,7 +436,7 @@ Plus the wielded shield's contribution (per Shield Class table above):
 
 **Examples:** Empire Halberdier (1H Reach + Medium Shield) → Parry baseline 0 + 1 = **Parry(1)**, gaining +1 WS-D in melee. Saurus Warrior (1H Blade + Medium Shield) → Parry 1 + 1 = **Parry(2)**, +2 WS-D. Imperial Knight (1H Lance + Heavy Shield) → Parry 0 + 0 = **Parry(0)**, no melee defensive bonus from kit (relies on heavy armour and W). Witch Elf (Paired hand weapons) → Parry 1, no shield contribution = **Parry(1)**, +1 WS-D from the second blade.
 
-**Multi-weapon resolution:** the model's currently-wielded melee weapon determines the weapon-type baseline. Natural attacks (Saurus Jaws, Vampire Bite, Demigryph Claws-and-Beak) **do not override or modify** the weapon-derived value — they're additional attack profiles, not replacement weapons. Riders with mount attacks: the rider's loadout determines Parry; the mount has no Parry of its own. Combined-W pool means the +X WS-D bonus applies to all incoming melee hits regardless of which "side" of the model would logically take them.
+**Multi-weapon resolution:** the model's currently-wielded melee weapon determines the weapon-type baseline. Natural attacks (Saurus Jaws, Vampire Bite, Demigryph Claws-and-Beak) **do not override or modify** the weapon-derived value — they're additional attack profiles, not replacement weapons. Riders with mount attacks: the rider's loadout determines Parry; the mount has no Parry of its own. The single combined wound pool (per §1 *Combined Wounds*) means the +X WS-D bonus applies to all incoming melee hits regardless of which "side" of the model would logically take them.
 
 **Front-arc only.** Parry does not apply against melee attacks from the model's flank or rear (you can't parry what you can't see). The attacker resolves at +0 WS-D modifier from this rule when attacking from a flank or rear arc.
 
@@ -435,12 +456,13 @@ Dodge follows Ward Save Stacking rules. Parry and Dodge are distinct — Parry f
 
 #### Skirmishers
 
-Represents dispersed, loose-order troops trained to fight independently rather than in close ranks.
+Represents dispersed, loose-order troops trained to fight independently rather than in close ranks. Skirmishers are *the* specialist mobile unit-class — light infantry, hunting parties, scout-pickets — and the speed bump that used to be granted by the generic Loose state lives here instead, as their unit-class signature.
 
 - **Coherency 2"** instead of the default 1"
+- **+1 Movement** — base Movement is increased by 1 inch for all movement actions (Advance, March, Charge baseline). The skirmishing identity expresses through sustained pace, distinct from generic Loose-state rules; this bonus is what marks the Skirmisher specialist tier
 - **Fire on the move** — may shoot in the same turn it has marched, ignoring the normal prohibition on shooting after marching. No to-hit bonus or penalty; simply the action is permitted
 - **Free pivots** — models may pivot freely at any point during their move, not only at the end. Not subject to the base-contact-prevents-pivot rule
-- **Cannot gain Formed benefits** — even if the arrangement satisfies Formed requirements, the unit gains no +1 Res, CR absorption, or charge resistance. Loose and Disordered states apply normally
+- **Cannot Form** — Skirmisher units never enter the Formed state. Even if the arrangement satisfies Formed requirements geometrically, the unit is treated as Loose (or Disordered if neither state's requirements are met). Skirmishers fundamentally don't fight in close-order discipline; the rule lock matches the lore
 
 #### Aquatic
 
@@ -487,7 +509,7 @@ Swiftstride applies only to charge rolls. Flee and pursuit in this system are de
 
 A package rule representing light horse, swift scouts, and mobile harassers. A unit with Fast Cavalry gains all of the following:
 
-- **Vanguard (6")** by default. Does not stack with a separately granted Vanguard — the unit uses whichever value is better, not both
+- **Vanguard** by default (see §8) — deploys up to its M outside the deployment zone
 - **Free pivots** — models may pivot freely at any point during their move, not only at the end. Not subject to the base-contact-prevents-pivot rule
 - **Flee reaction** — when charged, the unit may declare **Flee** as its charge reaction instead of Stand and Shoot. It immediately makes a free move of **M + D6 directly away** from the charger. If the charger can no longer reach, the charge fails. A unit that Flees this way does not become Broken, takes no stress from the Flee itself, and operates normally on subsequent turns. Coherency must be maintained — if the Flee move cannot end in a legal formation, it is limited to whatever distance is legal
 
@@ -533,9 +555,11 @@ This unit deploys after both armies have completed standard deployment. The scou
 
 Deployment is open — both players see the final positions. *(Deployment rules themselves are not yet formally drafted; Scouts will slot into the standard deployment framework when it exists.)*
 
-#### Vanguard (X")
+#### Vanguard
 
-Where X is the distance in inches. After both armies have completed deployment but before Turn 1 begins, a unit with Vanguard may make a free move of up to X inches. This move follows normal movement rules (coherency, separation, facing constraints). A unit that Vanguards may shoot normally on Turn 1 but may not declare a charge that turn — the pre-game move already put them closer.
+During deployment, a unit with Vanguard may be placed **outside its own deployment zone**, up to a distance equal to its **Movement (M)** from the nearest edge of the deployment zone. Normal coherency, separation, and frontage rules apply during placement. The unit must be placed **at least 12" from any enemy model already deployed**. A Vanguard unit may not declare a charge on Turn 1 — the forward placement is already the advantage.
+
+Vanguard units deploy during normal alternating deployment alongside the rest of the army (not after, like Scouts). The unit's M scales the forward-deploy distance — fast units (cavalry, flyers) reach genuinely advanced positions; M 4 infantry deploys only modestly forward.
 
 A unit with **both Scouts and Vanguard** uses one or the other in any given game; their effects do not stack. The player chooses which rule applies at deployment time.
 

@@ -6,7 +6,7 @@
 
 | M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 8 | 2 | 4 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
+| 6 | 2 | 4 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 
 - **Keywords:** Lizardmen, Skink, Infantry, Core
 - **Unit type:** Infantry (Skirmishers — coherency 2")
@@ -33,4 +33,4 @@
 - **Moonstone Javelin** *(option — replaces Blowpipe + gains shield)* — **8" range | S 3 | AP -1 | D 1 | Quick to Fire | Poisoned Attacks** (see Armoury)
 - **Hand weapon** *(self-defence in melee)* — 1" | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
 
-> **Lore notes:** WS2 kept — these are hunters, not rank-and-file. The premium over Cohort (8 vs 5 pts) reflects Elusive + Skirmishers coherency + the 12" Blowpipe's Multiple Shots (2) + Quick to Fire + Poisoned Attacks + 360° arc as default kit. Skirmishers cannot take the additive Poisoned Attacks upgrade — their default weapon already has it built in. A-on-weapons convention applied.
+> **Lore notes:** Hunters loosed from formation — scattered, mobile, dangerous at range with poisoned blowpipes, and quick to dart away from a charge. WS 2 kept on purpose — these are hunters, not rank-and-file; their teeth is range, evasion, and venom, not the melee line. Skirmishers cannot stack the additive Poisoned Attacks upgrade — their default Blowpipe already has it built in.
