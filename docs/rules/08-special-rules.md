@@ -300,6 +300,10 @@ Dispersed Mass caps only the final Damage value applied per unsaved wound; it do
 
 A weapon with this rule may not be fired in any turn during which any model in the unit moved. Represents heavy, slow-to-emplace, or finicky equipment — artillery, emplaced weapon teams, crew-served missile platforms.
 
+"Moved" includes any physical relocation of models in the unit: Advance, March, Charge, wheel, pivot-reform, fall-back, Broken flee, voluntary Flee reaction, and Elusive's reactive move. It does **not** include Rally (no movement), Stand and Shoot (no movement), or Displacement (a unit being physically pushed by another unit's charge — this is imposed, not undertaken).
+
+Move or Fire attaches to specific weapons; the trigger is unit-level. If any model in the unit moves, every Move-or-Fire weapon in the unit is locked out for that turn. The unit may still use weapons without the rule.
+
 #### Quick to Fire
 
 A weapon with this rule ignores the **-1 to-hit penalty for the unit having moved** this turn (see §7.4 Move-and-shoot). It may be fired after Advance, March, or reform at the weapon's normal to-hit rolls. Additionally, Quick to Fire ignores the **-1 to-hit penalty for Stand and Shoot** reactions. Represents light throwing weapons, breath weapons, short-range pistols, and spellcast-like missiles.
@@ -337,10 +341,6 @@ A parameter applied to weapons and spells that use templates. X specifies the sc
 - **Arrow:** template moves the rolled distance in the indicated direction. Ranged weapons subtract the wielder's BS from the scatter distance (minimum 0); spells do not.
 
 Weapons should use **Scatter (D6)** or larger by default — Scatter (D3) is effectively nullified by BS 3+ and should be reserved for niche precision-template weapons.
-
-"Moved" includes any physical relocation of models in the unit: Advance, March, Charge, wheel, pivot-reform, fall-back, Broken flee, voluntary Flee reaction, and Elusive's reactive move. It does **not** include Rally (no movement), Stand and Shoot (no movement), or Displacement (a unit being physically pushed by another unit's charge — this is imposed, not undertaken).
-
-Move or Fire attaches to specific weapons; the trigger is unit-level. If any model in the unit moves, every Move-or-Fire weapon in the unit is locked out for that turn. The unit may still use weapons without the rule.
 
 #### Random Attacks (XDY)
 
@@ -622,7 +622,7 @@ Expendable combines naturally with Unbreakable (slaves driven forward under the 
 
 This wizard knows all spells in the named lore, up to the tier their Lore Access permits. Loremaster replaces the normal Spells Known count for the named lore — no selection needed at list building. If the wizard has Loremaster in multiple lores, each is counted separately.
 
-Example: A Skink Priest with **Loremaster (Heavens)** and Lore Access 2 in Heavens knows the signature spell plus all Basic and Intermediate spells in the Heavens lore automatically. If the wizard's Heavens Lore Access increased to 3, they would gain all Advanced spells as well.
+Example: A Skink Priest with **Loremaster (Heavens)** and LA 2 in Heavens knows the signature spell plus all Basic and Intermediate spells in the Heavens lore automatically. If the wizard's Heavens LA increased to 3, they would gain all Advanced spells as well.
 
 #### Divination (X/Y)
 

@@ -14,7 +14,7 @@
 - **Keywords:** Lizardmen, Kroxigor, Monstrous Infantry, Rare
 - **Unit type:** Monstrous Infantry
 - **Unit size:** 3-6
-- **Points:** **170** per model
+- **Points:** **136** per model
 - **Natural Armour:** **3+** (lore-canonical "iron-hard scales even thicker than common Kroxigors, almost invulnerable to harm")
 - **Equipment (default):** **Starfang Warpick** (Two-Handed)
 - **Equipment options:**

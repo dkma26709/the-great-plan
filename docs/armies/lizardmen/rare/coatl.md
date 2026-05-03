@@ -13,13 +13,13 @@
 
 **Magic Profile:**
 
-| Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | Lore Access | SK |
+| CaB | DiB | Ch | CB | DB | DR | LA | SK |
 |-----|-----|----|----|----|----|----|-----|
 | 2 | 2 | 2 | +1 | +0 | 18" | Heavens 3 | **2** |
 
-*Mid-tier caster: above Skink Priest (Cast Base 2 / Dispel Base 1 / Channelling 1 / Lore Access 2), well below a Slann. Lore Access 3 (Advanced) grants access to Basic + Intermediate + Advanced Heavens spells. **SK 2** = total spells known: the Heavens Signature Spell (Harmonic Convergence — known free) + 1 additional spell selected at list-building (Basic/Intermediate/Advanced).*
+*Mid-tier caster: above Skink Priest (CaB 2 / DiB 1 / Ch 1 / LA 2), well below a Slann. LA 3 (Advanced) grants access to Basic + Intermediate + Advanced Heavens spells. **SK 2** = total spells known: the Heavens Signature Spell (Harmonic Convergence — known free) + 1 additional spell selected at list-building (Basic/Intermediate/Advanced).*
 
-**Points:** **290** per Coatl
+**Points:** **232** per Coatl
 
 - **Keywords:** Lizardmen, Ophidian, Monster, Rare
 - **Unit type:** Monster (single-model unit; not Mixed — no crew, no rider)
@@ -32,7 +32,7 @@
   - Cold-Blooded (see §8)
   - **Fly (8)** (see §8) — slower than a Terradon (Fly 14) or Ripperdactyl (Fly 12); the Coatl is a large-bodied serpent, not a nimble darter
   - **Magic Resistance (3)** (see §8) — enemy spells targeting this unit suffer -3 to their casting roll; the Coatl's innate magical nature partially shrugs off hostile magic
-  - **Wizard (Heavens, Lore Access 3)** — see Magic Profile above
+  - **Wizard (Heavens, LA 3)** — see Magic Profile above
   - **Terror** (see §8) — giant flying serpent, mystical presence
   - **Shield of the Old Ones** — baseline Ward Save 4+ (already encoded in the profile line above; listed here for reference). Lore-canonical: "adults are protected by a Shield of the Old Ones" — the same primordial magic the Slann bear.
   - **Hatred (Chaos)** *(see §8)* — the Coatl re-rolls failed to-hit rolls in melee against any unit with the **Chaos** keyword. Lore-direct: "natural aversion to anything with the taint of Chaos or Dhar." Activates only against Chaos opponents.

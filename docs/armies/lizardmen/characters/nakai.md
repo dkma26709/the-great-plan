@@ -11,7 +11,7 @@
 
 *Stat differentiation from Kroxigor Ancient (W 10, T 6, WS 4, NA 3+, Res 9): WS-A/WS-D 4 → **5** (apex Kroxigor combat skill), T 6 → **7** (Stegadon-tier vitality, "tougher scaly hide than any other Kroxigor"), W 10 → **12** (eldest still-living Lizardman, "survived heinous wounds that would prove fatal for any other creature"), Res 9 → **10** (Lord-tier divine resolve, possible avatar of Quetzl).*
 
-**Points:** **470** base (intrinsic regalia + Mark of the Old Ones + Blessed Spawning of Quetzl included; no upgrades available)
+**Points:** **376** base (intrinsic regalia + Mark of the Old Ones + Blessed Spawning of Quetzl included; no upgrades available)
 
 - **Keywords:** Lizardmen, Saurian, Kroxigor, Monstrous Infantry, Character, Lord, Named
 - **Unit type:** Monstrous Infantry (Character); foot only (no mount)

@@ -23,7 +23,7 @@
 
 | LiS | US |   | Points |
 |-----|----|---|--------|
-| 2   | 2  |   | **28** |
+| 2   | 2  |   | **22** |
 
 - **Keywords:** Lizardmen, Skink, Cavalry, Special
 - **Unit type:** Cavalry (Fast Cavalry — see §8)
@@ -34,9 +34,9 @@
 - **Equipment options:** none baseline
 - **Blessed Spawnings:** up to 3 per unit, per-model costs from §10 menu (Skink-rider rate). Each spawning beyond the first promotes the unit one FoC tier (Special → Rare; max Rare). Spawning effects apply to the Skink Brave rider only — the Raptadon mount profile is untouched (Itzl exception aside).
 - **Command options:**
-  - Patrol Leader (champion, +5 pts, no stat buff)
-  - Standard bearer (+10 pts — may carry Magic Standard up to 25 pts)
-  - Musician (+5 pts)
+  - Patrol Leader (champion, +4 pts, no stat buff)
+  - Standard bearer (+8 pts — may carry Magic Standard up to 20 pts)
+  - Musician (+4 pts)
 - **Special rules:**
   - Cold-Blooded (see §8)
   - Fast Cavalry (see §8)

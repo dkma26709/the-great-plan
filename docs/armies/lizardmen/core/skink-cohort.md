@@ -10,7 +10,7 @@
 - **Keywords:** Lizardmen, Skink, Infantry, Core
 - **Unit type:** Infantry (formed-capable; no Skirmish state)
 - **Unit size:** 10-30
-- **Points:** 6 per model
+- **Points:** 5 per model
 - **Natural Armour:** 6+ (wet-slick scaly hide)
 - **Equipment (default):** Hand weapon, Medium Shield
 - **With shield:** combined save **5+** (Natural 6+ + Medium Shield +1 step, per §8 Armour Save Stacking)
@@ -20,9 +20,9 @@
   - **Kroxigor attachment** (up to 1 Kroxigor model per 6 Skinks in the unit, at full Kroxigor cost each — see *Kroxigor Handlers* below)
 - **Blessed Spawnings:** up to 3 per unit, per-model costs from §10 menu (Skink rate; Kroxigor models in the unit pay the Kroxigor rate per their own per-model line). Each spawning beyond the first promotes the unit one FoC tier (Core → Special → Rare; max Rare). The whole unit (Skinks + any attached Kroxigor) takes a single shared spawning per slot.
 - **Command options:**
-  - **Patrol Leader** (champion, +5 pts) — acts as unit leader for Rally, challenges, and Leader-snipe purposes (no stat buff)
-  - **Standard bearer** (+5 pts)
-  - **Musician** (+5 pts) — +1 to recovery and Rally rolls
+  - **Patrol Leader** (champion, +4 pts) — acts as unit leader for Rally, challenges, and Leader-snipe purposes (no stat buff)
+  - **Standard bearer** (+4 pts)
+  - **Musician** (+4 pts) — +1 to recovery and Rally rolls
 - **Special rules:**
   - Cold-Blooded (see §8)
   - Aquatic (see §8)

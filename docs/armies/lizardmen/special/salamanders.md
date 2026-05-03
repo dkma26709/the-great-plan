@@ -15,7 +15,7 @@
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 
-**Points:** **85** per beast-bundle (1 Salamander + 3 Handlers)
+**Points:** **68** per beast-bundle (1 Salamander + 3 Handlers)
 
 - **Keywords:** Lizardmen, Warbeast, Special (Salamander); Lizardmen, Skink, Infantry, Special (Handler)
 - **Unit type:** Mixed Unit (Warbeast + Skink Infantry support, per §1)
@@ -27,8 +27,8 @@
   - Handler: hand weapon
   - No shields on either profile
 - **Command options (all upgrades replace one Handler model — not an additional model):**
-  - **Handler Leader** (+5 pts) — designated Skink leader; represents the unit for Rally/challenge/Leader-snipe purposes
-  - **Musician** (+5 pts)
+  - **Handler Leader** (+4 pts) — designated Skink leader; represents the unit for Rally/challenge/Leader-snipe purposes
+  - **Musician** (+4 pts)
   - No Standard bearer — beast-handler unit; banners do not steer a fire-lizard
 - **Special rules:**
   - Cold-Blooded (see §8)

@@ -9,7 +9,7 @@
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 4 | 4 | 6 | 3 | 3 | 3 | 7 | 8 | 1 | 1 |
 
-**Points:** **100** base (with Chameleon Dartpipe + Celestite Dagger)
+**Points:** **80** base (with Chameleon Dartpipe + Celestite Dagger)
 
 - **Keywords:** Lizardmen, Skink, Chameleon, Character, Hero
 - **Unit type:** Infantry (Character, Skirmishers — coherency 2"); foot only (no mount)

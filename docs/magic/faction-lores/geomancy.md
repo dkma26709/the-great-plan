@@ -15,7 +15,7 @@ The caster selects a direction. A narrow line **18"** long extends from the cast
 
 Classic WAP Lore of Geomancy signature, adapted. A sudden fissure opens along the ground — the tougher-bodied cross it, the weaker fall in. Mechanically parallel to Shadow's Pendulum of Shadow but differentiated: Pendulum auto-hits with D3 damage; Earth Line filters via T tests with flat 1 damage.
 
-#### Basic (Tier 1) — Lore Access 1+
+#### Basic (Tier 1) — LA 1+
 
 **Empowered Obsinite**
 
@@ -53,7 +53,7 @@ Stone walls rise and close around them; any movement collapses the fortification
 
 Target enemy unit treats **all terrain as Difficult Terrain** until start of next turn. The ground opens in hairline cracks ahead of them — each step threatens to turn an ankle. Layers with **Earth Tremors** (-1 M from the attribute) for a total mobility shutdown on movement-reliant enemies.
 
-#### Intermediate (Tier 2) — Lore Access 2+
+#### Intermediate (Tier 2) — LA 2+
 
 **Entomb** *(RIP)*
 
@@ -93,7 +93,7 @@ Target enemy unit suffers **D6 hits at S4, AP 0, D1** immediately. Additionally,
 
 Combines modest damage with a meaningful combat debuff at long (24") range.
 
-#### Advanced (Tier 3) — Lore Access 3+
+#### Advanced (Tier 3) — LA 3+
 
 **Cavernous Crevasse**
 
@@ -125,7 +125,7 @@ Target enemy unit. Roll a **D6 for each model** in the unit — each **4+** resu
 
 Gravity doubles on the target zone; models stagger, fall, and are crushed from within. Scales punishingly with unit size — a 20-strong regiment averages ~10 wounds before saves, a 5-strong elite unit averages ~2.5. Short-range (12") means the Slann must push forward to unleash it, creating tactical risk.
 
-#### Master (Tier 4) — Lore Access 4+
+#### Master (Tier 4) — LA 4+
 
 **The Great Leveller**
 
@@ -159,6 +159,6 @@ The caster permanently reshapes a section of the battlefield. Choose **one**:
 
 Per Summoning rules (§7.3), the effect is **permanent** after the cast-turn dispel reaction. The only spell in the game that can permanently split the battlefield in two — a massive terrain-level decision, capstone to the entire geomantic tradition.
 
-> **Design note on Geomancy.** Geomancy is the Slann's *earth* lore — the terrestrial half of their faction identity. Its uniqueness: three terrain manipulation spells (Tectonic Shift, Uproot the Mountains, The Worldshaper), two WAP-faithful mass damage capstones (Great Leveller, Ruination of Cities), and the Earth Tremors attribute that layers -1 M onto any unit the lore touches. The Master tier (Lore Access 4+) pushes Geomancy into spells no general lore can match — indiscriminate area destruction and permanent battlefield reshaping that only a Slann Mage-Priest's foresight can justify wielding. Paired with the Slann's second faction lore (Cosmic Architecture, below), Geomancy gives Lizardmen armies the strongest magic presence in the game when a Slann is on the field.
+> **Design note on Geomancy.** Geomancy is the Slann's *earth* lore — the terrestrial half of their faction identity. Its uniqueness: three terrain manipulation spells (Tectonic Shift, Uproot the Mountains, The Worldshaper), two WAP-faithful mass damage capstones (Great Leveller, Ruination of Cities), and the Earth Tremors attribute that layers -1 M onto any unit the lore touches. The Master tier (LA 4+) pushes Geomancy into spells no general lore can match — indiscriminate area destruction and permanent battlefield reshaping that only a Slann Mage-Priest's foresight can justify wielding. Paired with the Slann's second faction lore (Cosmic Architecture, below), Geomancy gives Lizardmen armies the strongest magic presence in the game when a Slann is on the field.
 >
 > **Calibration pass.** Range identity is **grounded mid-range** — earth magic stays close to the bedrock and doesn't reach into the sky. 18" baseline for spell effects, 24" for hex placements and terrain summoning, 12" for intimate gravity work (Gravitic Redirection) and the Master self-aura (Great Leveller's doomsday catches friend and foe near the caster). CV calibration after this pass: Sig 7 (T-test line, kept reliable). Basic 7-9 with Earthen Ramparts at the top of band as a near-Intermediate-strength defensive RIP. Intermediate 10-12 with Uproot the Mountains' permanent terrain summon at the cap. Advanced 13 across the board (Cavernous Crevasse, Telepathic Summons, Gravitic Redirection all calibrated to the high end of Adv since Geomancy's Adv-tier spells are uniformly strong). Master 17-18: **The Great Leveller** (CV 18, doomsday self-aura), **Ruination of Cities** (CV 17, anti-regiment), **The Worldshaper** (CV 17, permanent terrain split). Three Master spells (vs the general lores' two) reflect Geomancy's faction-lore depth — a Lord-tier Slann ideally takes one or two as situational capstones. Lore Attribute (Earth Tremors) remains unchanged.

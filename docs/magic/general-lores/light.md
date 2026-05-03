@@ -13,7 +13,7 @@
 
 Target friendly unit gains **Ward vs Spells (6+)** until start of next turn. A modest magical shielding — the cornerstone of Light's protective identity.
 
-#### Basic (Tier 1) — Lore Access 1+
+#### Basic (Tier 1) — LA 1+
 
 **Steady the Faithful**
 
@@ -39,7 +39,7 @@ Target friendly unit may reroll failed to-hit rolls of 1 in both melee and range
 
 Target friendly unit gains **+1 to all armour and ward saves** until start of next turn. Walls of brilliance deflect incoming blows. Subject to the normal Armour and Ward stacking caps (2+ armour, 4+ ward from stacking). Strong-for-tier — boosts every save the unit holds simultaneously, so the CV is held at the high end of Basic.
 
-#### Intermediate (Tier 2) — Lore Access 2+
+#### Intermediate (Tier 2) — LA 2+
 
 **Net of Amyntok**
 
@@ -73,7 +73,7 @@ The caster and their unit (if attached to one) may immediately make a free **M +
 
 Target friendly unit suffers **-1 to-Hit against all incoming attacks** (melee and ranged) until start of next turn. A halo of dim radiance distorts sight-lines around the unit — every blow misjudges its mark. Distinct from Pha's Protection (which boosts saves) and Pha's Vigil (which strips stress) — Sanctuary denies the to-Hit roll itself, layering a *third* defensive axis. Stacks with Pha's Protection on the same unit for a turn of near-uncrackable defence (boosted saves *and* attackers missing more often), at the cost of two casts and the wizard standing still to claim Burning Purity on both.
 
-#### Advanced (Tier 3) — Lore Access 3+
+#### Advanced (Tier 3) — LA 3+
 
 **Banishment** *(RIP, template, stationary)*
 
@@ -111,7 +111,7 @@ A pillar of searing light fixed in place. Devastating to anything caught beneath
 
 Target friendly unit immediately **removes all stress**, becomes **Immune to Psychology** (see §8), and gains **Ward vs Spells (5+)** until start of next turn. A total mental and magical cleansing — the light rewinds the damage of fear and magic in one absolute moment. Ideal for a unit about to break, a target under magical pressure, or any desperate save-the-crucial-unit moment. Three-effect emergency reset — strong-for-tier; CV held high in Advanced.
 
-#### Master (Tier 4) — Lore Access 4+
+#### Master (Tier 4) — LA 4+
 
 **Light of Phakth**
 
@@ -127,8 +127,8 @@ Target enemy unit suffers **2D6 hits at S 5, AP -2, D 2, Ward Piercing (3)**. Ag
 |----|-------|------|
 | 16 | 18" (self-radius) | Augment (aura), Remains In Play |
 
-*Remains In Play.* At the start of **every Magic phase** (both the controlling player's and the opposing player's), all friendly units wholly within **18"** of the caster **remove 1 stress** each. The wizard becomes a beacon of holy resolve — every magical pulse from the caster sweeps fear from the army around her, and the steady light keeps allies from breaking under sustained pressure.
+*Remains In Play.* At the start of **each Magic phase**, all friendly units wholly within **18"** of the caster **remove 1 stress** each. The wizard becomes a beacon of holy resolve — every magical pulse from the caster sweeps fear from the army around her, and the steady light keeps allies from breaking under sustained pressure.
 
-Triggers twice per game turn — while held, the bubble nets ~2 stress shed per turn. Powerful counter to stress-stacking armies (Frenzy-heavy Beasts, Terror-causing Vampire Counts, charge-heavy Bretonnia) and to the Light wizard's own buffed troops who would otherwise be accumulating stress from cycled charges. RIP makes the spell dispellable; the caster has to commit to the line to keep the bubble over the army's main body. Mirrors how the Sig (Steady the Faithful, single-target D3 stress remove on cast) scales at Master: army-wide, persistent, smaller per-trigger but compounding across the game.
+Triggers once per game turn — while held, the bubble sheds 1 stress per turn from each friendly unit in range. Powerful counter to stress-stacking armies (Frenzy-heavy Beasts, Terror-causing Vampire Counts, charge-heavy Bretonnia) and to the Light wizard's own buffed troops who would otherwise be accumulating stress from cycled charges. RIP makes the spell dispellable; the caster has to commit to the line to keep the bubble over the army's main body. Mirrors how the Sig (Steady the Faithful, single-target D3 stress remove on cast) scales at Master: army-wide, persistent, smaller per-trigger but compounding across the game.
 
 > **Design note on Lore of Light.** Range identity is **mid-range** anchored by the wizard's stillness — Burning Purity Lore Attribute rewards not moving, so the spell ranges (18-24" throughout) are calibrated around a wizard who plants and channels rather than maneuvers. The single self-aura RIP (Light of Battle, 12" radius) and the two new self-aura concepts (Pha's Vigil, also 12-18") all reinforce this stationary-channeller identity. CV calibration after this pass: Sig 6 (must be reliable). Basic 7-9, with Pha's Protection at the top of band as a near-Intermediate-strength defensive layer. Intermediate 9-11, with Timewarp's dual-stat boost and the new Sanctuary of the Faithful (-1 to-hit incoming) anchoring the band. Advanced 12-13, with Pha's Judgement (anti-unnatural WP3) and Beacon of Absolution (three-effect emergency reset) at the cap. Master 16-18: **Light of Phakth** for apex anti-corruption damage, **Pha's Vigil** for persistent army-wide stress relief. Lore identity remains protective-first, damage-second, anti-corruption when offensive — three of the four main offensive options (Pha's Judgement, Light of Phakth, and to a lesser extent the implicit framing of Banishment) explicitly punish Daemons, Undead, or Chaos. Lore Attribute (Burning Purity) remains unchanged.

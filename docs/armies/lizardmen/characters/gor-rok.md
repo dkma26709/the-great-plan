@@ -11,7 +11,7 @@
 
 *WS-A 7 / WS-D 7 — Saurus Oldblood-tier melee skill ("very skilful, intelligent Saurus, blessed by the Old Ones" + "never takes a step backwards"). W 10 reflects "oversized, mightiest, survived horrendous wounds" — Hero-tier above Sunblood baseline (W 8). LiS 2 / US 3 reflect his "much larger than most Saurus" oversized frame.*
 
-**Points:** **420** base (intrinsic regalia + Mark of the Old Ones included; no upgrades available)
+**Points:** **336** base (intrinsic regalia + Mark of the Old Ones included; no upgrades available)
 
 - **Keywords:** Lizardmen, Saurian, Saurus, Sunblood, Character, Hero, Named
 - **Unit type:** Infantry (Character)

@@ -10,7 +10,7 @@
 - **Keywords:** Bretonnia, Human, Infantry, Core, Peasant
 - **Unit type:** Infantry
 - **Unit size:** 15-40 (peasant-block scale — larger than Empire State Troops to reflect the duchies' tradition of fielding the household guard in numbers)
-- **Points:** 5 per model
+- **Points:** 4 per model
 - **Natural Armour:** —
 - **Worn armour (default, standard kit):** Light armour (chainmail hauberk from the castle armoury) → 6+ save
 - **Worn armour:** No upgrade options. Medium and heavy armour are reserved to the noble caste; Men-at-Arms wear what the duke's armoury issues.
@@ -21,10 +21,10 @@
 - **Additive equipment:**
   - **Shield** (+1 pt/model) — combines with light armour for 5+ save (per §8 Armour Save Stacking)
 - **Command options:**
-  - **Leader** (+5 pts) — *Sergeant-at-Arms*; a senior household soldier, often the duke's veteran armsman or a trusted commoner-officer
-  - **Standard bearer** (+10 pts — Magic Standard up to 25 pts; the duchy's heraldic banner)
-  - **Musician** (+5 pts) — +1 to recovery and Rally rolls (drummer or hornman of the duchy's household)
-  - **Grail Monk** (+20 pts) — single-model upgrade; part of the unit's command group. For **Peasant's Duty** purposes, the Grail Monk himself counts as a friendly Bretonnia character with the **Knight's Vow** keyword — the unit treats Peasant's Duty as **always-on** (Inspiring Presence (6") from the Monk's position within the unit) regardless of nearby knight characters. The aura ends if the Grail Monk is slain (removed as a casualty per normal rules); the unit then reverts to needing an external vow-character within 6" for Peasant's Duty to fire
+  - **Leader** (+4 pts) — *Sergeant-at-Arms*; a senior household soldier, often the duke's veteran armsman or a trusted commoner-officer
+  - **Standard bearer** (+8 pts — Magic Standard up to 20 pts; the duchy's heraldic banner)
+  - **Musician** (+4 pts) — +1 to recovery and Rally rolls (drummer or hornman of the duchy's household)
+  - **Grail Monk** (+16 pts) — single-model upgrade; part of the unit's command group. For **Peasant's Duty** purposes, the Grail Monk himself counts as a friendly Bretonnia character with the **Knight's Vow** keyword — the unit treats Peasant's Duty as **always-on** (Inspiring Presence (6") from the Monk's position within the unit) regardless of nearby knight characters. The aura ends if the Grail Monk is slain (removed as a casualty per normal rules); the unit then reverts to needing an external vow-character within 6" for Peasant's Duty to fire
 - **Special rules:**
   - Undisciplined (see §8)
   - **Peasant's Duty** *(identity rule)* — While any model of this unit is within **6"** of a friendly Bretonnia character with the **Knight's Vow**, **Crusader's Vow**, **Questing Vow**, **Grail Vow**, or **Lady's Chosen** keyword, that character grants this unit the effects of **Inspiring Presence (6")** (see §8 Resolve and Command) — +1 Res for thresholds, can rally without a Leader, can rally in combat, and may reroll recovery / rally rolls. The aura passes *from outside the unit only*.

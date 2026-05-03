@@ -11,14 +11,14 @@
 
 **Magic Profile (level-dependent):**
 
-| Level | Lore Access | Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | SK |
+| Level | LA | CaB | DiB | Ch | CB | DB | DR | SK |
 |-------|----|-----|-----|----|----|----|-----|-----|
 | **Lvl 3** *(base)* | 3 | 3 | 2 | 3 | +2 | +1 | 24" | **2** |
-| **Lvl 4** *(+35 pts)* | 4 | 4 | 3 | 3 | +3 | +2 | 24" | **2** |
+| **Lvl 4** *(+28 pts)* | 4 | 4 | 3 | 3 | +3 | +2 | 24" | **2** |
 
-*Lvl 3 caster (Lore Access 3 — Basic + Intermediate + Advanced spell access within the chosen lore). May upgrade to **Lvl 4** at list-build for +35 pts: Lore Access 4 reaches Master tier within the chosen lore. **SK 2** = total spells known: Signature Spell (free, from chosen lore) + 1 additional spell from the same lore (any tier within Lore Access limits). Magic Profile mirrors Empire Wizard Lord's Lvl 3/4 ladder exactly.*
+*Lvl 3 caster (LA 3 — Basic + Intermediate + Advanced spell access within the chosen lore). May upgrade to **Lvl 4** at list-build for +28 pts: LA 4 reaches Master tier within the chosen lore. **SK 2** = total spells known: Signature Spell (free, from chosen lore) + 1 additional spell from the same lore (any tier within LA limits). Magic Profile mirrors Empire Wizard Lord's Lvl 3/4 ladder exactly.*
 
-**Points:** **170** base (Lvl 3, hand weapon, no armour, Lady's Chosen). **+35** to upgrade to Lvl 4 (= 205 pts).
+**Points:** **136** base (Lvl 3, hand weapon, no armour, Lady's Chosen). **+28** to upgrade to Lvl 4 (= 164 pts).
 
 - **Keywords:** Bretonnia, Human, **Wizard**, Character, Lord, **Lady's Chosen**
 - **Unit type:** Infantry (Character); may take a mount
@@ -29,16 +29,16 @@
 - **Equipment options:**
   - Magic items up to **100 pts** (Lord-tier convention)
 - **Mount options:**
-  - **Warhorse** (+18 pts) — per Knights of the Realm mount profile (Bretonnian destrier with Purebred Warhorse, M 10 with full barding)
-  - **Pegasus** (+30 pts) — per Pegasus Knights mount profile (Fly 12", W 2 / T 4 / S 4 / A 2). Prophetess on Pegasus does NOT inherit Pegasus Knights' Diving Charge identity rule
-  - **Unicorn** (+42 pts) — the Prophetess's unique fae-mount, a horse-form spirit of the Lady's wilderness. *Profile deferred to a Character Mounts pass; expected M 12, S 4, T 4, W 3, A 2, Magical Attacks on its strikes, Magic Resistance (1) shared with rider.*
+  - **Warhorse** (+14 pts) — per Knights of the Realm mount profile (Bretonnian destrier with Purebred Warhorse, M 10 with full barding)
+  - **Pegasus** (+24 pts) — per Pegasus Knights mount profile (Fly 12", W 2 / T 4 / S 4 / A 2). Prophetess on Pegasus does NOT inherit Pegasus Knights' Diving Charge identity rule
+  - **Unicorn** (+34 pts) — the Prophetess's unique fae-mount, a horse-form spirit of the Lady's wilderness. *Profile deferred to a Character Mounts pass; expected M 12, S 4, T 4, W 3, A 2, Magical Attacks on its strikes, Magic Resistance (1) shared with rider.*
   - *(No Royal Pegasus, Royal Hippogryph — those are Lord-combat mounts. Sacrosanctum of the Lady, the WAP-canonical wagon-platform Prophetess mount, is deferred to a future expansion pass — it's an unusual mount-as-vehicle that needs dedicated mechanical drafting.)*
 - **Battle Standard option:** — *(Prophetesses do not take BSB; the Battle Standard is a fighter-tier role, carried by the Lord or Paladin)*
 - **Special rules:**
   - Disciplined (see §8)
   - **Lady's Chosen** (intrinsic — see §17 Faction Mechanics) — counts as a vow-keyword for all rule interactions
   - **Blessing of the Lady** (intrinsic via Lady's Chosen — see §17) — Ward Save 6+ vs S ≤ 4, 5+ vs S ≥ 5. Lost on flee from combat
-  - **Wizard (Lore Access 3 / 4 by level)** — see Magic Profile
+  - **Wizard (LA 3 / 4 by level)** — see Magic Profile
   - **Mark of the Lady** *(intrinsic lore-pick)* — at list-building, choose **one** of: **Lore of Life, Lore of Heavens, Lore of Light**, OR **Lore of the Lady** (see §11). Same four-lore selection as the Damsel; Lore of Beasts excluded on thematic grounds (Bretonnia's primary geographic enemy is Beastmen — channelling Beast-magic would be channelling the Wind that empowers her people's enemies). At Lvl 4, the Prophetess reaches **Master tier** of her chosen lore — for Lore of the Lady, this unlocks **The Lady's Embrace** and **Wrath of the Faerie**, the lore's capstone effects
   - **Magic Resistance (1)** (see §8) — enemy spells targeting or affecting this character suffer **-1 to the casting roll**. Same anti-magic baseline as the Damsel; the Lady's protection extends consistently to her Chosen
   - **Lance Formation eligible** (when mounted on Warhorse and attached to a KotR or Knights Errant unit per §1 Character Attachment Exception, §6) — counts as Lance per §17 Faction Mechanics

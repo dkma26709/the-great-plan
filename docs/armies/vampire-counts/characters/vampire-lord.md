@@ -11,13 +11,13 @@
 
 **Magic Profile (level-dependent):**
 
-| Level | Lore Access | Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | SK |
+| Level | LA | CaB | DiB | Ch | CB | DB | DR | SK |
 |-------|----|-----|-----|----|----|----|-----|-----|
 | **Lvl 2** *(base)* | 2 | 2 | 1 | 2 | +1 | +0 | 18" | **4** |
 | **Lvl 3** *(+35 pts)* | 3 | 3 | 2 | 3 | +2 | +1 | 24" | **4** |
 | **Lvl 4** *(+35 pts more)* | 4 | 4 | 2 | 3 | +3 | +2 | 24" | **4** |
 
-*Lvl 2 caster baseline (Lore Access 2 — Basic + Intermediate spell access). May upgrade to Lvl 3 or Lvl 4 at list-build, +35 pts per step. **Lores Known: Death + Necromancy + Shadow** (intrinsic three-lore access; no list-build choice). **SK 4** = total spells known: 3 Signatures (one from each intrinsic lore, free) + 1 additional spell picked from any of the three lores per the wizard's normal spell-pick rules (see §11). With **Forbidden Lore** Bloodline Power, lore access expands to all 8 generic lores + Necromancy (does not change SK; just widens the pool the additional spell can be picked from).*
+*Lvl 2 caster baseline (LA 2 — Basic + Intermediate spell access). May upgrade to Lvl 3 or Lvl 4 at list-build, +35 pts per step. **Lores Known: Death + Necromancy + Shadow** (intrinsic three-lore access; no list-build choice). **SK 4** = total spells known: 3 Signatures (one from each intrinsic lore, free) + 1 additional spell picked from any of the three lores per the wizard's normal spell-pick rules (see §11). With **Forbidden Lore** Bloodline Power, lore access expands to all 8 generic lores + Necromancy (does not change SK; just widens the pool the additional spell can be picked from).*
 
 **Points:** **280** base (Lvl 2, gut-plate-equivalent armour + hand weapon, no Bloodline Powers). **+35** to Lvl 3 / **+70** to Lvl 4. Bloodline Powers add their listed costs (no hard cap on count).
 
@@ -37,7 +37,7 @@
 - **Special rules:**
   - Disciplined (see §8)
   - **Undead** (see §8)
-  - **Wizard (Lore Access 2 / 3 / 4 by level, intrinsic dual-lore — Death + Necromancy + Shadow)** — see Magic Profile. Lores Known: Death + Necromancy + Shadow (all three intrinsic; no list-build choice). Sig + 1 additional from any of the three lores = 4 spells known total. *(With Forbidden Lore Bloodline Power: lore access expands to all 8 generic lores + Necromancy.)*
+  - **Wizard (LA 2 / 3 / 4 by level, intrinsic dual-lore — Death + Necromancy + Shadow)** — see Magic Profile. Lores Known: Death + Necromancy + Shadow (all three intrinsic; no list-build choice). Sig + 1 additional from any of the three lores = 4 spells known total. *(With Forbidden Lore Bloodline Power: lore access expands to all 8 generic lores + Necromancy.)*
   - **Vampiric Hunger** *(intrinsic universal vampire trait)* — see Faction Mechanics. Causing a wound in melee → regen 1 W (capped 1 W/turn)
   - **Necromantic Anchor** *(identity rule)* — at the end of each Combat phase, friendly **Undead** units with any model within **12"** of the Vampire Lord **Crumble for 1 less wound** (the conversion of stress over Res to wounds is reduced by 1, minimum 0). Effect applies **per unit** within range — multiple Undead units in the aura each benefit. Represents the Vampire Lord as a stabilising node in the necromantic web — his presence reinforces the binding magic, slowing dissolution under sustained pressure. Anchor effects from multiple Vampire characters do **not stack** — a unit caught in overlapping Vampire Lord and Vampire Hero auras receives -1 wound reduction, not -2 (cap at -1 from any combination of Anchor sources)
 

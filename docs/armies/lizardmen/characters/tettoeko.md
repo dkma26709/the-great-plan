@@ -13,13 +13,13 @@
 
 **Magic Profile:**
 
-| Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | Lore Access | SK |
+| CaB | DiB | Ch | CB | DB | DR | LA | SK |
 |-----|-----|----|----|----|----|----|-----|
 | **5** | **4** | **4** | **+3** | **+2** | **30"** | **Heavens 4 — Loremaster** | **Loremaster** |
 
-*Loremaster (Heavens) — Tetto'eko knows **every spell in the Lore of Heavens** (Sig + Basic + Intermediate + Advanced + Master). Lore-direct apex Heavens specialist. Cast Base 5 / Dispel Base 4 = above the Starseer (3/2) but below Lord Kroak / Mazdamundi (6 / 7). Dispel Range 30" = above Starseer's 24". Channelling 4 reflects Tepok's blessing — Tetto'eko channels celestial energy more readily than any other living Skink.*
+*Loremaster (Heavens) — Tetto'eko knows **every spell in the Lore of Heavens** (Sig + Basic + Intermediate + Advanced + Master). Lore-direct apex Heavens specialist. CaB 5 / DiB 4 = above the Starseer (3/2) but below Lord Kroak / Mazdamundi (6 / 7). DR 30" = above Starseer's 24". Ch 4 reflects Tepok's blessing — Tetto'eko channels celestial energy more readily than any other living Skink.*
 
-**Points:** **250** base (intrinsic regalia + Palanquin included; no upgrades available)
+**Points:** **200** base (intrinsic regalia + Palanquin included; no upgrades available)
 
 - **Keywords:** Lizardmen, Saurian, Skink, Wizard, **Arcane Vassal**, Character, Lord, Named
 - **Unit type:** Infantry (Character — Skink on floating Palanquin); flying-character
@@ -30,7 +30,7 @@
 - **Special rules:**
   - **Skink species package** — Disciplined, Cold-Blooded, Aquatic, Slippery (WS-A < WS-D split)
   - **Fly (8)** — via the Palanquin
-  - **Wizard (Heavens, Lore Access 4 — Master, Loremaster)** — see Magic Profile above
+  - **Wizard (Heavens, LA 4 — Master, Loremaster)** — see Magic Profile above
   - **Arcane Vassal** — friendly Slann may cast spells through Tetto'eko's model position
   - **Tepok's Foresight** *(identity rule — apex prediction)* — **once per phase**, Tetto'eko may force a re-roll of any single D6 rolled by either player anywhere on the battlefield. The re-rolled result stands. Unlike the generic Starseer's once-per-game / misread-risk Foresight, Tetto'eko's foresight is unfailing — there is no backlash. Lore-direct: "the Lizardmen have never lost a battle with Tetto'eko present" + "ability to shift the winds of fate his own way."
   - **Eye of the Old Ones** *(intrinsic — Ward 5+ already encoded above)* — additionally, at the start of every friendly turn, Tetto'eko may nominate one enemy unit on the battlefield. Until the end of that turn, friendly Lizardmen units **re-roll 1s to hit** in melee and ranged attacks against the nominated unit. Lore-direct: "as stellar alignments draw near, Tetto'eko can see opportunities for his forces to exploit."

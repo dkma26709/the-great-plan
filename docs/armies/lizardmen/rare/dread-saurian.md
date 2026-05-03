@@ -11,7 +11,7 @@
 
 *Dread Saurian US equals current remaining W per the Monster-US convention. **A is on weapons** (see profiles below). LiS 6 is a new tier established by this unit — the Dread Saurian's canopy-brushing silhouette is meaningfully taller than any other profile (Troglodon/Arcanadon sit at LiS 5).*
 
-**Points:** **570** base per Dread Saurian (no Howdah, no Glyph)
+**Points:** **456** base per Dread Saurian (no Howdah, no Glyph)
 
 - **Keywords:** Lizardmen, Saurian, Monster, Rare
 - **Unit type:** Monster (single-model unit unless Howdah taken — then Mixed Unit)
@@ -19,7 +19,7 @@
 - **Natural Armour:** **3+** (apex biological plate — matches Stegadon, one step below Bastiladon; the Dread Saurian's armour is augmented by sacred gold-and-jewel plates in lore, but we abstract that into NA rather than a layered-armour mechanic)
 - **Ward Save:** — (none baseline; see Tepok's Crystalline Eye glyph for an optional 5+ ward)
 - **Equipment (beast):** natural weapons (Rending Jaws, Crushing Claws, Trampling Mass, Thunder Tail — see profiles)
-- **Optional Howdah** (+60 pts): adds **6 Skink Crew** with **Giant Blowpipes** (same weapon profile as Stegadon's Blowpipes — see §10 Stegadon). Unit becomes Mixed Unit. Crew do **not** have Aquatic (dry-land apex predator, per the Skink-on-mount rule)
+- **Optional Howdah** (+48 pts): adds **6 Skink Crew** with **Giant Blowpipes** (same weapon profile as Stegadon's Blowpipes — see §10 Stegadon). Unit becomes Mixed Unit. Crew do **not** have Aquatic (dry-land apex predator, per the Skink-on-mount rule)
 - **Optional Glyph-Relic** (pick one at list-building): see Glyph-Relic table below
 - **Command options:** none (single-beast unit; Howdah adds Crew but not command models)
 - **Special rules:**
@@ -54,10 +54,10 @@
 
 | Glyph | Points | Effect |
 |-------|--------|--------|
-| **Shadow Rebus of Huanchi** | +25 | **Ambushers** (see §8) — held in reserve off-table, rolls to arrive from Turn 2 onward. The Dread Saurian stalks through jungle shadows before striking |
-| **Quetzl's Flawless Heartstone** | +35 | Replaces Stubborn with **Unbreakable** (see §8) — never becomes Broken. **M reduced to 5**, **T raised to 8**. The heartstone locks the apex into an implacable defensive march |
-| **Blazing Configuration of Chotec** | +35 | All Dread Saurian natural melee attacks gain **Flaming Attacks** (see §8). Additionally, on the turn the Dread Saurian **charges**, it inflicts **2D6 Flaming Impact Hits at S 4, AP 0, D 1** against the charged enemy unit, resolved before normal combat |
-| **Golden Shroud of Tlazcotl** | +35 | All attacks (melee and ranged) targeting this unit suffer **-1 to hit**. A shimmering golden aura deflects blows and shots alike |
-| **Tepok's Crystalline Eye** | +50 | This unit gains **Ward Save (5+)**, reduced to **Ward Save (6+) against Magical Attacks**. Crystalline lenses set into the beast's hide refract incoming blows into nothing |
+| **Shadow Rebus of Huanchi** | +20 | **Ambushers** (see §8) — held in reserve off-table, rolls to arrive from Turn 2 onward. The Dread Saurian stalks through jungle shadows before striking |
+| **Quetzl's Flawless Heartstone** | +28 | Replaces Stubborn with **Unbreakable** (see §8) — never becomes Broken. **M reduced to 5**, **T raised to 8**. The heartstone locks the apex into an implacable defensive march |
+| **Blazing Configuration of Chotec** | +28 | All Dread Saurian natural melee attacks gain **Flaming Attacks** (see §8). Additionally, on the turn the Dread Saurian **charges**, it inflicts **2D6 Flaming Impact Hits at S 4, AP 0, D 1** against the charged enemy unit, resolved before normal combat |
+| **Golden Shroud of Tlazcotl** | +28 | All attacks (melee and ranged) targeting this unit suffer **-1 to hit**. A shimmering golden aura deflects blows and shots alike |
+| **Tepok's Crystalline Eye** | +40 | This unit gains **Ward Save (5+)**, reduced to **Ward Save (6+) against Magical Attacks**. Crystalline lenses set into the beast's hide refract incoming blows into nothing |
 
 > **Lore notes:** The apex — larger than a Carnosaur or Stegadon, dorsal fins brushing the canopy. Sacred to the Lizardmen, few in number, often dwelling within mountainous Old One temples. Its march is the arrival of an extinction event. The single costliest unit in the Lizardmen list by design — most armies will never field one; the ones that do do not need to field much else. W 25 is the largest wound pool in the ruleset; LiS 6 establishes a new tier above Troglodon and Arcanadon, encoding "fins brush the canopy" literally into the line-of-sight ladder. **Bloodlust** keeps the saurian biology consistent (first unsaved wound = locked Frenzy, parallel to Carnosaur and Aggradon Lancers). **Earth-Shaking Roar** is the identity rule — once-per-battle +2 stress to all enemies within 18", matching the canonical roars heard across city plazas and jungle. Five **Glyph-Relics** layer in lore-flavoured profile shifts (ambush, unbreakable, flaming charge, deflection, ward).

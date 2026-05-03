@@ -15,7 +15,7 @@
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 
-**Points:** **145** per beast-bundle (1 Ancient Salamander + 3 Handlers)
+**Points:** **116** per beast-bundle (1 Ancient Salamander + 3 Handlers)
 
 - **Keywords:** Lizardmen, Warbeast, Rare (Ancient Salamander); Lizardmen, Skink, Infantry, Rare (Handler)
 - **Unit type:** Mixed Unit (Warbeast + Skink Infantry support, per §1) — still Warbeast, not Monster; an Ancient is a bigger beast but not Monster-scale
@@ -26,8 +26,8 @@
   - Handler: hand weapon
   - No shields
 - **Command options:**
-  - **Handler Leader** (+5 pts) — designated Skink leader; replaces a Handler model
-  - **Musician** (+5 pts) — replaces a Handler model
+  - **Handler Leader** (+4 pts) — designated Skink leader; replaces a Handler model
+  - **Musician** (+4 pts) — replaces a Handler model
   - No Standard bearer
 - **Special rules:**
   - Cold-Blooded (see §8)

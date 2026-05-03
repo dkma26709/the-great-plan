@@ -19,7 +19,7 @@
 
 *Standard Carnosaur character mount profile, with one identity-change: Grimloq does **not** have Bloodlust (Kroq-Gar maintains perfect command; the Carnosaur is in lockstep, not berserker fury). In place of Bloodlust, Grimloq has **+1 Attack on Massive Jaws** (A 3 → A 4) — the bite lands more often because rider and mount are perfectly synchronised. Apex Predator, Pinned Prey, Pursuit Predator, Bloodroar, Locked Jaws, Predatory Fighter all preserved. Combined wound pool W14 per §1 *Combined Wounds*.*
 
-**Points:** **700** base (intrinsic equipment + Grimloq mount + 3 baked-in spawnings + Top Commander aura included; no upgrades available)
+**Points:** **560** base (intrinsic equipment + Grimloq mount + 3 baked-in spawnings + Top Commander aura included; no upgrades available)
 
 - **Keywords:** Lizardmen, Saurian, Saurus, Character, Lord, Named
 - **Unit type:** Monster-mount (Saurus Oldblood rider + Carnosaur mount, single model per §1 *Rider and Mount Profiles*)

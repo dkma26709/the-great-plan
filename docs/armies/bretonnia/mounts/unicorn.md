@@ -11,7 +11,7 @@ A horse-form spirit of the Lady's wilderness, white-coated and silver-horned. Un
 
 *(Unicorn baseline M 12 — fast cavalry tier, faster than a Warhorse's M 10. The Unicorn is a ground-bound mount, not flying; barding is not standard kit and the M 12 stat is the Unicorn's natural pace, no penalty applied.)*
 
-- **Available to:** Prophetess of the Lady (+42 pts) only. NOT available to Damsel (per WAP — Damsel mount options cap at Pegasus)
+- **Available to:** Prophetess of the Lady (+34 pts) only. NOT available to Damsel (per WAP — Damsel mount options cap at Pegasus)
 - **Combined wounds:** per §1 *Combined Wounds* (higher of mount W2 or rider W, plus the other ÷ 2 round down). With Prophetess (W4): max(4,2) + 2÷2 = **W5**. Attackers use highest WS-D and highest T per §1
 - **Worn armour:** none (Unicorns do not bear barding — fae creature)
 - **Special rules (intrinsic to Unicorn):**

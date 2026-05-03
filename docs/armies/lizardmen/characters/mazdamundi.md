@@ -21,13 +21,13 @@
 
 **Magic Profile:**
 
-| Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | Lore Access | SK |
+| CaB | DiB | Ch | CB | DB | DR | LA | SK |
 |-----|-----|----|----|----|----|----|-----|
 | **7** | 6 | 6 | +5 | +5 | 42" | **4 (4 chosen + Loremaster Geomancy)** | **8 + Loremaster Geomancy** |
 
-*Lore Access 4 (Master) across **4 chosen lores** at list-build (any 4 of the 9 non-Geomancy lores) via the **Greater Mastery** Discipline, PLUS **Loremaster (Geomancy)** intrinsic — Mazdamundi knows every Geomancy spell at every tier as a separate, automatic lore. **SK 8** = total spells known across the 4 chosen lores: 4 Sigs (one from each chosen lore, free) + 4 additional spells picked at list-build from the combined pool (any tier within Lore Access limits). Plus all Geomancy spells via Loremaster — total spells known: ~18 (8 picked + ~10 Geomancy). Dispel Range 42" sits between the generic Slann (36") and Lord Kroak (48"). **Cast Base 7** is one above the generic Slann, the lore-direct "powers far outstrip even those of other Slann."*
+*LA 4 (Master) across **4 chosen lores** at list-build (any 4 of the 9 non-Geomancy lores) via the **Greater Mastery** Discipline, PLUS **Loremaster (Geomancy)** intrinsic — Mazdamundi knows every Geomancy spell at every tier as a separate, automatic lore. **SK 8** = total spells known across the 4 chosen lores: 4 Sigs (one from each chosen lore, free) + 4 additional spells picked at list-build from the combined pool (any tier within LA limits). Plus all Geomancy spells via Loremaster — total spells known: ~18 (8 picked + ~10 Geomancy). DR 42" sits between the generic Slann (36") and Lord Kroak (48"). **CaB 7** is one above the generic Slann, the lore-direct "powers far outstrip even those of other Slann."*
 
-**Points:** **800** base (intrinsic regalia + Zlaaq mount + 4 baked-in Disciplines included; no upgrades available)
+**Points:** **640** base (intrinsic regalia + Zlaaq mount + 4 baked-in Disciplines included; no upgrades available)
 
 - **Keywords:** Lizardmen, Slann, Saurian, Wizard, Character, Lord, Named
 - **Unit type:** Monster-mount (Slann rider + Ancient Stegadon mount, single model per §1 *Rider and Mount Profiles*)
@@ -45,7 +45,7 @@
     - **Focus of Mystery (Geomancy)** — Loremaster (Geomancy); knows every Geomancy spell at all tiers
     - **Greater Mastery** — 4 chosen lores at list-build instead of 3 (above)
     - **Soul of Stone** — for miscast checks, the Slann's lowest-rolled cast die is not counted toward the "2+ natural 1s" trigger
-    - **Focused Rumination** — +1 Cast Base (already encoded as Cast Base 7 above)
+    - **Focused Rumination** — +1 CaB (already encoded as CaB 7 above)
   - **Cobra Mace of Mazdamundi** *(intrinsic, sentient weapon)* — the Mace has a sentience of its own and strikes with lightning speed to defy Mazdamundi's foes. The Mace has its own effective **WS-A 5** for to-hit purposes (rolled normally vs the target's WS-D). **Sentient Strike**: when an enemy model in base contact with Mazdamundi or Zlaaq successfully lands a melee hit against this unit, the Cobra Mace immediately makes 1 retaliatory attack against that attacker, resolved *before* the original hit's wound roll. Profile: **1" reach | A 1 | WS-A 5 | S 5 | AP -2 | D 1 | Magical Attacks**. Limit: once per attacking enemy model per Combat phase. Distinct from Lord Kroak's Mace of Malachite — the Cobra Mace is *reactive retaliation* rather than passive AP negation.
   - **Sunburst Standard of Hexoatl** *(intrinsic — Chotec-themed)* — friendly Lizardmen units within **12"** of Mazdamundi gain **+1 Resolve** (separate from Inspiring Presence; the Standard is a totem, the Presence is psychic). Additionally, enemy ranged attacks targeting Mazdamundi or Zlaaq suffer **-1 to hit when fired from more than 12" away, and -2 to hit when fired from 12" or less**. The closer the foe, the brighter the sun-standard burns.
   - **Plaque of Tepec** *(intrinsic, once per battle)* — Mazdamundi may declare the use of the Plaque after an enemy spell is successfully cast but before its effects resolve. The spell **automatically fails** (no dispel roll required); the Plaque shatters into a thousand shards.

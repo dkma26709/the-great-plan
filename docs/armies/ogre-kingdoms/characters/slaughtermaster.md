@@ -11,12 +11,12 @@
 
 **Magic Profile (level-dependent):**
 
-| Level | Lore Access | Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | SK |
+| Level | LA | CaB | DiB | Ch | CB | DB | DR | SK |
 |-------|----|-----|-----|----|----|----|-----|-----|
 | **Lvl 3** *(base)* | 3 | 3 | 2 | 2 | +2 | +1 | 18" | **4** |
 | **Lvl 4** *(+35 pts)* | 4 | 4 | 2 | 3 | +3 | +2 | 18" | **4** |
 
-*Lvl 3 caster (Lore Access 3 — Basic + Intermediate + Advanced spell access). May upgrade to **Lvl 4** at list-build for +35 pts: Lore Access 4 reaches Master tier (where Master content exists per §11). **Lores Known: Great Maw + Beasts** (both intrinsic; no list-build choice — every Slaughtermaster channels both lores). **SK 4** = total spells known: 2 Signatures (one from each intrinsic lore, free) + 2 additional spells (one from each lore, picked at list-build, Lore Access-tier limits). Note: Lore of the Great Maw is **pending separate §11 drafting** — Slaughtermaster ships with the magic profile and lore-access mechanic locked, but the actual Great Maw spells are deferred to a dedicated lore design pass.*
+*Lvl 3 caster (LA 3 — Basic + Intermediate + Advanced spell access). May upgrade to **Lvl 4** at list-build for +35 pts: LA 4 reaches Master tier (where Master content exists per §11). **Lores Known: Great Maw + Beasts** (both intrinsic; no list-build choice — every Slaughtermaster channels both lores). **SK 4** = total spells known: 2 Signatures (one from each intrinsic lore, free) + 2 additional spells (one from each lore, picked at list-build, LA-tier limits). Note: Lore of the Great Maw is **pending separate §11 drafting** — Slaughtermaster ships with the magic profile and lore-access mechanic locked, but the actual Great Maw spells are deferred to a dedicated lore design pass.*
 
 **Points:** **320** base (Lvl 3, gut-plate + hand weapon). **+35** to upgrade to Lvl 4 (= 355 pts).
 
@@ -34,7 +34,7 @@
 - **Battle Standard option:** — *(wizards do not take BSB by convention)*
 - **Special rules:**
   - Disciplined (see §8)
-  - **Wizard (Lore Access 3 / 4 by level, dual-lore intrinsic — Great Maw + Beasts)** — see Magic Profile. Slaughtermaster casts from both Lore of the Great Maw (faction-exclusive, food-themed Gut Magic) and Lore of Beasts (the savage / bestial Wind, lore-faithful affinity for Ogre wizards) intrinsically — no list-build choice. Each lore: Signature spell free + 1 additional spell from that lore = 4 spells known total. *(Pattern note: dual-lore intrinsic access, **not** a Mark-of-X list-build pick. Differs from Empire's Mark of the Wind and Skink Priest's Mark of the Old One — Slaughtermaster's lore access is fixed at character creation, not configured at list-build.)*
+  - **Wizard (LA 3 / 4 by level, dual-lore intrinsic — Great Maw + Beasts)** — see Magic Profile. Slaughtermaster casts from both Lore of the Great Maw (faction-exclusive, food-themed Gut Magic) and Lore of Beasts (the savage / bestial Wind, lore-faithful affinity for Ogre wizards) intrinsically — no list-build choice. Each lore: Signature spell free + 1 additional spell from that lore = 4 spells known total. *(Pattern note: dual-lore intrinsic access, **not** a Mark-of-X list-build pick. Differs from Empire's Mark of the Wind and Skink Priest's Mark of the Old One — Slaughtermaster's lore access is fixed at character creation, not configured at list-build.)*
   - **Bloodgreed** *(identity rule)* — when the Slaughtermaster slays an enemy model in melee (and only via his own melee attacks — not allies' kills, not magic, not ranged), he immediately regenerates **1 W** (capped at his starting maximum). Captures the Butcher consuming the blood, meat, and fat of his fallen victims and channelling it into his own bulk
 
 **Weapon profiles (A on weapons):**

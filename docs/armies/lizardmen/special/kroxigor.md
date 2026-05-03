@@ -10,7 +10,7 @@
 - **Keywords:** Lizardmen, Kroxigor, Monstrous Infantry, Special
 - **Unit type:** Monstrous Infantry
 - **Unit size:** 3-6
-- **Points:** 140 per model
+- **Points:** 112 per model
 - **Natural Armour:** 4+ (thick reinforced scales — "better protection than the lacquered scale armour worn by the emperor's bodyguard")
 - **Equipment (default):** Moonstone Club — see Armoury
 - **Equipment options:**

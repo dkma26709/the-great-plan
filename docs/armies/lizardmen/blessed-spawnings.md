@@ -65,7 +65,7 @@
 
 **Xhotl** *(Xhotl's Mark)* — If the unit/character has Predatory Fighter at baseline, the threshold is lowered to **Predatory Fighter (5+)** (unmodified to-hit rolls of 5 or 6 in melee generate an additional attack, resolved at the same Initiative step; the additional attacks cannot themselves cascade). If the unit/character does not have Predatory Fighter at baseline, it gains **Predatory Fighter (6+)**. Deep-blue scales. *(Rider-only — mount's natural weapons unaffected.)*
 
-**Potec** *(Potec's Eye)* — The unit/character has a **6+ Ward Save** against any incoming attack with the **Magical Attacks** keyword. Additionally, if the unit/character is a wizard (has the Wizard tag), they gain **+1 Channelling** (Channeling) for the duration of the battle. Violet eyes. *(Ward is unit-level; Channeling boost is wizard-only.)*
+**Potec** *(Potec's Eye)* — The unit/character has a **6+ Ward Save** against any incoming attack with the **Magical Attacks** keyword. Additionally, if the unit/character is a wizard (has the Wizard tag), they gain **+1 Ch** (Channeling) for the duration of the battle. Violet eyes. *(Ward is unit-level; Channeling boost is wizard-only.)*
 
 **Xapati** *(Xapati's Wrath)* — When a model in this unit/character suffers an unsaved wound from a ranged attack (Shooting Phase, Magic Phase damage spells, or any other ranged source), the attacking unit immediately suffers an automatic hit: **S 2 / AP 0 / D 1 / auto-hit / one vengeance hit per unsaved wound**. Roll to wound and save normally. Vengeance hits are allocated per standard wound allocation rules. Teal-hued scales.
 
@@ -77,21 +77,21 @@ At the start of each battle, the character generates **D3+1 Old Ones' Favour** t
 
 #### Pricing Matrix
 
-**Per-unit pricing** (per model, in addition to any FoC tier promotion cost):
+**Per-unit pricing** (per model, in addition to any FoC tier promotion cost) *(Pass 8 — 0.8× scaling applied)*:
 
 | Spawning | Saurus Warriors | Temple Guard | Kroxigor | Saurus Cav¹ | Skink units² | Skink-rider Cav³ | Chameleon Skinks / Terradon Riders |
 |----------|----------------|--------------|----------|-------------|--------------|------------------|------------------------------------|
 | **Chotec** | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
 | **Huanchi** | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
 | **Itzl** | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| **Quetzl** | 3 | 4 | 5 | 3 | 1 | 1 | 1 |
-| **Sotek** | 3 | 3 | 3 | **4** | 3 | 3 | 3 |
-| **Tepok** | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
+| **Quetzl** | 2 | 3 | 4 | 2 | 1 | 1 | 1 |
+| **Sotek** | 2 | 2 | 2 | **3** | 2 | 2 | 2 |
+| **Tepok** | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
 | **Tlazcotl** | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
 | **Tzunki** | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| **Tlanxla** | **5** | **5** | **5** | 4 | 4 | 4 | **2** |
-| **Tzcatli** | **5** | **5** | **5** | 4 | **3** | **3** | **3** |
-| **Xhotl** | **5** | **5** | **10** | 4 | **2** | **2** | **2** |
+| **Tlanxla** | **4** | **4** | **4** | 3 | 3 | 3 | **2** |
+| **Tzcatli** | **4** | **4** | **4** | 3 | **2** | **2** | **2** |
+| **Xhotl** | **4** | **4** | **8** | 3 | **2** | **2** | **2** |
 | **Potec** | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
 | **Xapati** | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
 
@@ -99,24 +99,24 @@ At the start of each battle, the character generates **D3+1 Old Ones' Favour** t
 ² Skink units = Skink Cohort
 ³ Skink-rider Cav = Horned One Riders, Ripperdactyl Riders
 
-**Per-character pricing** (flat, in addition to character base cost):
+**Per-character pricing** (flat, in addition to character base cost) *(Pass 8 — 0.8× scaling applied)*:
 
 | Spawning | Saurus characters⁴ | Kroxigor Ancient | Skink Priest / High Priest | Other Skink characters⁵ | Chameleon Stalker |
 |----------|---------------------|-------------------|----------------------------|-------------------------|-------------------|
-| **Chotec** | 10 | 10 | 10 | 10 | 10 |
-| **Huanchi** | 10 | 10 | 10 | 10 | 10 |
-| **Itzl** | 10 | 10 | 10 | 10 | 10 |
-| **Quetzl** | 15 | 15 | 15 | 15 | 15 |
-| **Sotek** | 15 | 15 | 15 | 15 | 15 |
-| **Tepok** | 15 | 15 | 15 | 15 | 15 |
-| **Tlazcotl** | 10 | 10 | 10 | 10 | 10 |
-| **Tzunki** | 5 | 5 | 5 | 5 | 5 |
-| **Tlanxla** | 20 | 20 | 20 | 20 | 20 |
-| **Tzcatli** | 20 | 20 | 20 | 20 | 20 |
-| **Xhotl** | **18** | **25** | **12** | **12** | **12** |
-| **Potec** | 10 | 10 | **15** | 10 | 10 |
-| **Xapati** | 10 | 10 | 10 | 10 | 10 |
-| **Mark of the Old Ones** | 35 | 35 | 35 | 35 | 35 |
+| **Chotec** | 8 | 8 | 8 | 8 | 8 |
+| **Huanchi** | 8 | 8 | 8 | 8 | 8 |
+| **Itzl** | 8 | 8 | 8 | 8 | 8 |
+| **Quetzl** | 12 | 12 | 12 | 12 | 12 |
+| **Sotek** | 12 | 12 | 12 | 12 | 12 |
+| **Tepok** | 12 | 12 | 12 | 12 | 12 |
+| **Tlazcotl** | 8 | 8 | 8 | 8 | 8 |
+| **Tzunki** | 4 | 4 | 4 | 4 | 4 |
+| **Tlanxla** | 16 | 16 | 16 | 16 | 16 |
+| **Tzcatli** | 16 | 16 | 16 | 16 | 16 |
+| **Xhotl** | **14** | **20** | **10** | **10** | **10** |
+| **Potec** | 8 | 8 | **12** | 8 | 8 |
+| **Xapati** | 8 | 8 | 8 | 8 | 8 |
+| **Mark of the Old Ones** | 28 | 28 | 28 | 28 | 28 |
 
 ⁴ Saurus characters = Saurus Scar-Veteran, Saurus Oldblood
 ⁵ Other Skink characters = Skink Chief, Skink High Chief

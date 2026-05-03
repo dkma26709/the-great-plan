@@ -98,6 +98,12 @@ A unit with models in melee reach of an enemy may move away during Normal Moveme
 
 Fast units disengage easily. Slow units caught by fast enemies struggle to create distance. The "lock" of melee is a natural consequence of relative speed, not a rule.
 
-> **Open question:** Should moving away from an enemy within close combat reach (1") provoke a free strike — one attack per model in range? This would add a cost to disengaging from melee specifically, without preventing it. Worth playtesting both ways.
+#### Free Strike
+
+When a model moves out of an enemy model's melee weapon reach during the Movement phase — by Advance, March, Disengaging, or any other voluntary movement — that enemy model may make **a single attack from one of its weapon profiles** against the moving model before the move continues. The attacker chooses which of its melee weapon profiles to use. Resolve the attack at its normal stat line; apply wounds and remove casualties before the moving model resumes its activation.
+
+Each enemy model whose melee weapon reach is being broken gets one such attack — there is no per-unit cap. A model that has no melee weapon profile (e.g., a wizard whose only attack is magical, or a model with ranged-only profiles) cannot make a free strike. Free strikes do not count as the attacker's Combat phase activation; they are a parting blow at the moment the gap opens.
+
+**Involuntary movement does not provoke.** A model pushed back by displacement, swept off by a Broken flee, or otherwise relocated against the controlling player's will does not trigger free strikes. Only deliberate movement out of reach does.
 
 ---

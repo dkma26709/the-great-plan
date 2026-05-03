@@ -13,11 +13,11 @@
 
 **Magic Profile:**
 
-| Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | Lore Access | SK |
+| CaB | DiB | Ch | CB | DB | DR | LA | SK |
 |-----|-----|----|----|----|----|----|----|
 | 2 | 2 | 2 | +1 | +1 | 18" | **3 (Beasts, locked Mark of the Old One)** | **3** |
 
-**Points:** **220** base (intrinsic regalia + Mark of the Old One locked; no upgrades available)
+**Points:** **176** base (intrinsic regalia + Mark of the Old One locked; no upgrades available)
 
 - **Keywords:** Lizardmen, Saurian, Skink, Skink Priest, Character, Hero, Wizard, Named
 - **Unit type:** Infantry (Character)

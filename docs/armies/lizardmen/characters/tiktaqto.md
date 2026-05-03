@@ -27,7 +27,7 @@
 
 **Combined wound pool:** **W5** — max(rider 3, mount 4) = 4 + rider 3 ÷ 2 = 1 → W5, per §1 *Combined Wounds*
 
-**Points:** **230** base (intrinsic regalia + Zwup included; no upgrades available; Pass 3 2026-05-01: 260 → 230 reflecting pool W7 → conversion W5)
+**Points:** **184** base (intrinsic regalia + Zwup included; no upgrades available; Pass 3 2026-05-01: 260 → 230 reflecting pool W7 → conversion W5; Pass 8 2026-05-03: 230 → 184 via 0.8× global scaling)
 
 - **Keywords:** Lizardmen, Saurian, Skink, Cavalry, Character, Hero, Named
 - **Unit type:** Cavalry (Fast Cavalry, Mixed Unit per §1 — flying-character)

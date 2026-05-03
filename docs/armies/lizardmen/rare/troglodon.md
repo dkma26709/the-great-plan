@@ -19,7 +19,7 @@
 
 *Oracle shares the Troglodon's M (rides the howdah-saddle). A Skink priest-figure, support profile per §1 Mixed Unit rules. Has a light melee capability for self-defence and a thrown javelin — see weapon profiles.*
 
-**Points:** **260** per bundle (Troglodon + Oracle)
+**Points:** **208** per bundle (Troglodon + Oracle)
 
 - **Keywords:** Lizardmen, Saurian, Monster, Rare (Troglodon); Lizardmen, Skink, Arcane Vassal, Infantry, Rare (Oracle)
 - **Unit type:** Mixed Unit (Monster + Skink Oracle support, per §1)

@@ -13,7 +13,7 @@
 
 Target friendly unit's melee attacks gain **Poisoned Attacks** until start of next turn. Claws, fangs, and blades run with bestial venom.
 
-#### Basic (Tier 1) — Lore Access 1+
+#### Basic (Tier 1) — LA 1+
 
 **Flock of Doom**
 
@@ -47,7 +47,7 @@ Target enemy unit suffers **-1 to hit** with all melee attacks. The unit also tr
 
 Target friendly unit gains **Frenzy** until start of next turn. When the duration ends, the unit reverts to its normal state — it does not retain Frenzy (nor does it lose any Frenzy it already had). Frenzy's normal rules apply during the duration: +1 A, must charge the nearest visible enemy, cannot disengage from combat, Immune to Psychology.
 
-#### Intermediate (Tier 2) — Lore Access 2+
+#### Intermediate (Tier 2) — LA 2+
 
 **The Amber Spear**
 
@@ -81,7 +81,7 @@ Target enemy unit suffers **-D3 Movement** until start of next turn. Phantom roo
 
 Target friendly **Character** gains **+2 Strength**, **+2 Attacks**, and **Frenzy** (see §8) until start of next turn. The hero swells with primal fury — for a single round, they fight as a beast-lord of legend, all snarling teeth and hammering blows. Champion-tier augment that pushes one chosen Character to monstrous combat output for a single decisive turn. Stacks deliberately with Wyssan's Wildform on the same Character's unit (Wyssan's targets the unit, Savage Beast targets the Character) for a peak two-cast combo. Frenzy's autonomy cost (must charge nearest enemy, cannot disengage) is the offset for the raw combat boost — a buffed Character may end up locked into a fight the player would rather avoid.
 
-#### Advanced (Tier 3) — Lore Access 3+
+#### Advanced (Tier 3) — LA 3+
 
 **Wyssan's Wildform**
 
@@ -117,7 +117,7 @@ Target friendly unit gains **Ward vs Spells (5+)** and **+1 Toughness** until st
 
 > **No Transformation.** Traditional WHFB/WAP Beasts included caster-to-monster transformation spells (Transformation of Kadon). These are deliberately omitted — they create mechanical awkwardness (replacing the model mid-game, swapping stats, mount interactions) without adding to the lore's core identity. Bestial power in this Lore of Beasts expresses through augmentation of existing troops, not the caster becoming a beast themselves.
 
-#### Master (Tier 4) — Lore Access 4+
+#### Master (Tier 4) — LA 4+
 
 **The Wild Hunt**
 

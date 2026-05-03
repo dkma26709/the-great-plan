@@ -19,7 +19,7 @@
 
 | LiS | US |   | Points |
 |-----|----|---|--------|
-| 3   | 5  |   | **95** |
+| 3   | 5  |   | **76** |
 
 - **Keywords:** Lizardmen, Saurus, Monstrous Cavalry, Special
 - **Unit type:** Monstrous Cavalry
@@ -33,9 +33,9 @@
   - **Celestite Club + shield**
 - **Blessed Spawnings:** up to 3 per unit, per-model costs from §10 menu. Each spawning beyond the first promotes the unit one FoC tier (Special → Rare; max Rare). Spawning effects apply to the rider (Crested Saurus) only — the Aggradon mount profile is untouched (Itzl exception aside).
 - **Command options:**
-  - **Patrol Leader** (champion, +10 pts, no stat buff) — acts as unit leader for Rally, challenges, and Leader-snipe purposes
-  - **Standard bearer** (+15 pts — may carry a **Magic Standard up to 50 pts**, per Saurus elite-cavalry convention)
-  - **Musician** (+10 pts) — +1 to recovery and Rally rolls
+  - **Patrol Leader** (champion, +8 pts, no stat buff) — acts as unit leader for Rally, challenges, and Leader-snipe purposes
+  - **Standard bearer** (+12 pts — may carry a **Magic Standard up to 40 pts**, per Saurus elite-cavalry convention)
+  - **Musician** (+8 pts) — +1 to recovery and Rally rolls
 - **Special rules:**
   - Disciplined (see §8)
   - Cold-Blooded (see §8)

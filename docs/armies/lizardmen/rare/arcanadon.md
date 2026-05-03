@@ -19,7 +19,7 @@
 
 *Skink Crew share the Arcanadon's M (they ride the howdah). Crew **do not have Aquatic** (the Arcanadon is a dry-land sauropod, not a swimmer — per the Skink-on-mount rule).*
 
-**Points:** **400** per Arcanadon + 3 Crew bundle
+**Points:** **320** per Arcanadon + 3 Crew bundle
 
 - **Keywords:** Lizardmen, Saurian, Monster, Rare (Arcanadon); Lizardmen, Skink, Infantry, Rare (Crew)
 - **Unit type:** Mixed Unit (Monster + Skink Infantry crew, per §1)
@@ -37,7 +37,7 @@
   - **Terror** (see §8) — sauropod scale
   - **Immune to Psychology** (see §8) — lore-direct: "Arcanodon pay no heed to threats from other creatures, as so few are any real threat to them." The apex sauropod doesn't register lesser threats; Fear, Terror, and other Psychology-keyword effects do not apply.
   - Mixed Unit (see §1)
-  - **Aura of the Old Ones** — while this Arcanadon is alive, all friendly **Lizardmen Wizards** with any model within **12"** gain **+1 Channelling** (Channeling) for that Magic phase — they roll one extra die in their Channeling roll. The engine's passive energy-emission feeds nearby caster-saurians.
+  - **Aura of the Old Ones** — while this Arcanadon is alive, all friendly **Lizardmen Wizards** with any model within **12"** gain **+1 Ch** (Channeling) for that Magic phase — they roll one extra die in their Channeling roll. The engine's passive energy-emission feeds nearby caster-saurians.
   - **Degrading** — performance degrades as wounds are lost. See damage table below.
 
 **Weapon profiles (A on weapons):**

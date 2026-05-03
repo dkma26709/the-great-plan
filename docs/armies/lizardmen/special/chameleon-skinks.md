@@ -5,7 +5,7 @@
 
 | M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |  | Points |
 |---|----|----|----|---|---|---|---|----|-----|----|---|--------|
-| 6 | 2 | 4 | 4 | 3 | 2 | 1 | 4 | 5 | 1 | 1 |  | **15** |
+| 6 | 2 | 4 | 4 | 3 | 2 | 1 | 4 | 5 | 1 | 1 |  | **12** |
 
 - **Keywords:** Lizardmen, Skink, Infantry, Special
 - **Unit type:** Infantry (Skirmishers — coherency 2")
@@ -17,8 +17,8 @@
   - **Skink Sling + shield** (free swap — replaces Dartpipe with Sling, adds shield). Trades 12" poisoned precision for 12" unpoisoned volume and a 5+ combined save.
 - **Blessed Spawnings:** up to 3 per unit, per-model costs from §10 menu. Each spawning beyond the first promotes the unit one FoC tier (Special → Rare; max Rare).
 - **Command options:**
-  - **Patrol Leader** (champion, +5 pts, no stat buff)
-  - **Musician** (+5 pts)
+  - **Patrol Leader** (champion, +4 pts, no stat buff)
+  - **Musician** (+4 pts)
   - No standard bearer — stealth unit; banners defeat the purpose
 - **Special rules:**
   - Cold-Blooded (see §8)

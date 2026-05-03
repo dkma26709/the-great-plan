@@ -23,9 +23,9 @@
 
 | Configuration | Crew | Relic cost | Bundle total |
 |---------------|------|------------|--------------|
-| **Ark of Sotek** (default) | **4** | +0 | **280** |
-| **Revivification Crystal** | **3** | +10 | **285** |
-| **Solar Engine** | **3** | +40 | **315** |
+| **Ark of Sotek** (default) | **4** | +0 | **224** |
+| **Revivification Crystal** | **3** | +8 | **228** |
+| **Solar Engine** | **3** | +32 | **252** |
 
 - **Keywords:** Lizardmen, Saurian, Monster, Rare (Bastiladon); Lizardmen, Skink, Infantry, Rare (Crew)
 - **Unit type:** Mixed Unit (Monster + Skink Infantry crew, per §1)
@@ -34,8 +34,8 @@
 - **Equipment (beast):** natural weapons (Slab-Paws, Crushing Bulk, Crushing Tail) + **one Howdah relic** (picked at list-build)
 - **Howdah relic options:**
   - **Ark of Sotek** (default, +0 pts, 4 Crew) — see weapon profile below. Two-part effect: Summoning + Sotek's Sting.
-  - **Revivification Crystal** (+10 pts, 3 Crew) — aura. All friendly Lizardmen units with any model within **6"** gain **Regeneration (6+)** (see §8). No shooting attack. The crystal's pulsing light knits bone and scale in whatever Lizardmen stand near it.
-  - **Solar Engine** (+40 pts, 3 Crew) — two-part effect:
+  - **Revivification Crystal** (+8 pts, 3 Crew) — aura. All friendly Lizardmen units with any model within **6"** gain **Regeneration (6+)** (see §8). No shooting attack. The crystal's pulsing light knits bone and scale in whatever Lizardmen stand near it.
+  - **Solar Engine** (+32 pts, 3 Crew) — two-part effect:
     - **Aura of Chotec:** all friendly Lizardmen units with any model within **6"** gain **+1 Initiative** for the rest of the battle while a Bastiladon carrying this engine is alive
     - **Beam of Chotec** — shooting attack fired from the engine by the Skink Crew. See weapon profile below
 - **Command options:** none

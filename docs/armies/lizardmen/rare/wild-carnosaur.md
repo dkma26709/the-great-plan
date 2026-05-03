@@ -12,7 +12,7 @@
 - **Keywords:** Lizardmen, Saurian, Monster, Wild, Rare
 - **Unit type:** Monster (single model, no rider)
 - **Unit size:** 1
-- **Points:** 280 per model
+- **Points:** 224 per model
 - **Natural Armour:** 5+ (predator hide — less armoured than howdah-saurians, this beast relies on speed and ferocity)
 - **Ward Save:** —
 - **No flying. No breath weapon. No regeneration.** The Wild Carnosaur's defensive ceiling is its W pool plus NA 5+; once the W is gone, the predator is gone. Vulnerable to high-S AP-heavy attacks, ranged attrition, and anti-monster magic. M 10 mobility partially mitigates by closing distance fast.

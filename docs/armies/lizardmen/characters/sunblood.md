@@ -9,7 +9,7 @@
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 6 | 6 | 0 | 5 | 5 | **8** | 3 | 10 | 1 | 2 |
 
-**Points:** **230** base (with Sunblood Warblade)
+**Points:** **184** base (with Sunblood Warblade)
 
 - **Keywords:** Lizardmen, Saurian, Character, Hero
 - **Unit type:** Infantry (Character)

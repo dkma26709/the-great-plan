@@ -21,7 +21,7 @@
 
 | LiS | US |   | Points |
 |-----|----|---|--------|
-| 2   | 2  |   | **34** |
+| 2   | 2  |   | **27** |
 
 - **Keywords:** Lizardmen, Skink, Cavalry, Special
 - **Unit type:** Cavalry (Fast Cavalry — see §8)
@@ -35,8 +35,8 @@
   - **Glyph-Inscribed Spheres** (+1 pt/model — upgrades Drop Rocks: the unit's Drop Rocks attacks gain **+1 to wound**. The masonry spheres bear chains for the Terradons to grip and ancient glyphs of "fortune and devastation," landing where they are meant to and biting harder than common stone.)
 - **Blessed Spawnings:** up to 3 per unit, per-model costs from §10 menu. Each spawning beyond the first promotes the unit one FoC tier (Special → Rare; max Rare). Spawning effects apply to the Skink rider only — the Terradon mount profile is untouched (Itzl exception aside).
 - **Command options:**
-  - Patrol Leader (champion, +5 pts, no stat buff)
-  - Musician (+5 pts)
+  - Patrol Leader (champion, +4 pts, no stat buff)
+  - Musician (+4 pts)
   - No Standard bearer — flying skirmishers; banners don't serve at altitude
 - **Special rules:**
   - Cold-Blooded (see §8)

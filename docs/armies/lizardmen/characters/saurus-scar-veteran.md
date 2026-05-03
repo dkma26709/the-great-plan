@@ -9,7 +9,7 @@
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 6 | 6 | 0 | 5 | 5 | **6** | 3 | 10 | 2 | 3 |
 
-**Points:** **180** base (on foot, with Celestite Blade + shield)
+**Points:** **144** base (on foot, with Celestite Blade + shield)
 
 - **Keywords:** Lizardmen, Saurian, Character, Hero
 - **Unit type:** Infantry (Character); may take a mount

@@ -11,12 +11,12 @@
 
 **Magic Profile (level-dependent):**
 
-| Level | Lore Access | Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | SK |
+| Level | LA | CaB | DiB | Ch | CB | DB | DR | SK |
 |-------|----|-----|-----|----|----|----|-----|-----|
 | **Lvl 1** *(base)* | 1 | 2 | 1 | 1 | +0 | +0 | 18" | **2** |
 | **Lvl 2** *(+30 pts)* | 2 | 2 | 1 | 2 | +1 | +0 | 18" | **2** |
 
-*Lvl 1 caster baseline (Lore Access 1 — Basic spell access only). May upgrade to Lvl 2 at list-build for +30 pts. **Lores Known: Necromancy** intrinsic (single-lore — Vampire Heroes have less arcane breadth than Lord-tier vampires). **SK 2** = total spells known: Signature spell (free, from Necromancy) + 1 additional spell from Necromancy. With **Forbidden Lore** Bloodline Power, lore access expands to all 8 generic lores + Necromancy (does not change SK; just widens the pool).*
+*Lvl 1 caster baseline (LA 1 — Basic spell access only). May upgrade to Lvl 2 at list-build for +30 pts. **Lores Known: Necromancy** intrinsic (single-lore — Vampire Heroes have less arcane breadth than Lord-tier vampires). **SK 2** = total spells known: Signature spell (free, from Necromancy) + 1 additional spell from Necromancy. With **Forbidden Lore** Bloodline Power, lore access expands to all 8 generic lores + Necromancy (does not change SK; just widens the pool).*
 
 **Points:** **125** base (Lvl 1, heavy armour + shield + hand weapon, no Bloodline Powers). **+30** to Lvl 2 (= 155 pts). Bloodline Powers add listed costs.
 
@@ -36,7 +36,7 @@
 - **Special rules:**
   - Disciplined (see §8)
   - **Undead** (see §8)
-  - **Wizard (Lore Access 1 / 2 by level)** — see Magic Profile. Lore: Necromancy intrinsic
+  - **Wizard (LA 1 / 2 by level)** — see Magic Profile. Lore: Necromancy intrinsic
   - **Vampiric Hunger** *(intrinsic universal vampire trait)* — see Faction Mechanics
   - **Necromantic Anchor** *(identity rule, Hero version)* — at the end of each Combat phase, friendly **Undead** units with any model within **6"** of the Vampire Hero **Crumble for 1 less wound** (same mechanic as the Vampire Lord's Necromantic Anchor, half range). Anchor effects from multiple Vampire characters do **not stack** — a unit caught in overlapping Vampire Lord and Vampire Hero auras receives -1 wound reduction, not -2
 

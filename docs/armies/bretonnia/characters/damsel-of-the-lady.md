@@ -11,14 +11,14 @@
 
 **Magic Profile (level-dependent):**
 
-| Level | Lore Access | Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | SK |
+| Level | LA | CaB | DiB | Ch | CB | DB | DR | SK |
 |-------|----|-----|-----|----|----|----|-----|-----|
 | **Lvl 1** *(base)* | 1 | 2 | 1 | 1 | +0 | +0 | 18" | **2** |
-| **Lvl 2** *(+30 pts)* | 2 | 2 | 1 | 2 | +1 | +0 | 18" | **2** |
+| **Lvl 2** *(+24 pts)* | 2 | 2 | 1 | 2 | +1 | +0 | 18" | **2** |
 
-*Lvl 1 caster (Lore Access 1 — Basic spell access only). May upgrade to **Lvl 2** at list-build for +30 pts: Lore Access 2 reaches Intermediate spells within the chosen lore, and bumps Channels and Cast Bonus by +1 each. **SK 2** = total spells known: Signature Spell (free, from chosen lore) + 1 additional spell from the same lore (any tier within Lore Access limits). Mirrors the Empire Battle Wizard's Lvl 1/2 ladder exactly.*
+*Lvl 1 caster (LA 1 — Basic spell access only). May upgrade to **Lvl 2** at list-build for +24 pts: LA 2 reaches Intermediate spells within the chosen lore, and bumps Channels and Cast Bonus by +1 each. **SK 2** = total spells known: Signature Spell (free, from chosen lore) + 1 additional spell from the same lore (any tier within LA limits). Mirrors the Empire Battle Wizard's Lvl 1/2 ladder exactly.*
 
-**Points:** **85** base (Lvl 1, hand weapon, no armour, Lady's Chosen). **+30** to upgrade to Lvl 2 (= 115 pts).
+**Points:** **68** base (Lvl 1, hand weapon, no armour, Lady's Chosen). **+24** to upgrade to Lvl 2 (= 92 pts).
 
 - **Keywords:** Bretonnia, Human, **Wizard**, Character, Hero, **Lady's Chosen**
 - **Unit type:** Infantry (Character); may take a mount
@@ -29,15 +29,15 @@
 - **Equipment options:**
   - Magic items up to **50 pts** (Hero-tier convention)
 - **Mount options:**
-  - **Warhorse** (+12 pts) — per Knights of the Realm mount profile (Bretonnian destrier with Purebred Warhorse, M 10 with full barding)
-  - **Pegasus** (+20 pts) — per Pegasus Knights mount profile (Fly 12", W 2 / T 4 / S 4 / A 2). Damsel on Pegasus does NOT inherit Pegasus Knights' Diving Charge identity rule
+  - **Warhorse** (+10 pts) — per Knights of the Realm mount profile (Bretonnian destrier with Purebred Warhorse, M 10 with full barding)
+  - **Pegasus** (+16 pts) — per Pegasus Knights mount profile (Fly 12", W 2 / T 4 / S 4 / A 2). Damsel on Pegasus does NOT inherit Pegasus Knights' Diving Charge identity rule
   - *(No Royal Pegasus, Royal Hippogryph — Hero-tier mount limit, same as Paladin)*
 - **Battle Standard option:** — *(Damsels do not take BSB; the Battle Standard is a fighter-tier role, carried by the Lord or Paladin)*
 - **Special rules:**
   - Disciplined (see §8)
   - **Lady's Chosen** (intrinsic — see §17 Faction Mechanics) — the Damsel was chosen directly by the Lady, not bound by a Vow. The keyword counts as a Vow keyword for all rule interactions (Peasant's Duty / Class Barrier / spell restrictions that key off Vow-bearing characters)
   - **Blessing of the Lady** (intrinsic via Lady's Chosen — see §17) — Ward Save 6+ vs S ≤ 4, 5+ vs S ≥ 5. Lost on flee from combat (same loss conditions as vow-bearing characters)
-  - **Wizard (Lore Access 1 / 2 by level)** — see Magic Profile
+  - **Wizard (LA 1 / 2 by level)** — see Magic Profile
   - **Mark of the Lady** *(intrinsic lore-pick)* — at list-building, choose **one** of: **Lore of Life, Lore of Heavens, Lore of Light**, OR **Lore of the Lady** (see §11). The Damsel casts exclusively from that lore. The four options reflect lores aligned with the Lady's nature: Life (restoration), Heavens (celestial order), Light (divine purification), and the Lady's own faction lore. **Lore of Beasts excluded** — Bretonnia's geographic and historical conflict with Beastmen makes the wild-magic lore thematically incompatible with the Lady's chosen; a Damsel channelling Beast-magic would be channelling the same Wind that empowers her people's primary enemies. Narrower selection than the Empire Battle Wizard (8 Winds), but with **exclusive Lore of the Lady access** unavailable to any other faction's wizards
   - **Magic Resistance (1)** (see §8) — enemy spells targeting or affecting this character suffer **-1 to the casting roll**. Modest anti-magic defensive layer reflecting the Lady's protection extending to her chosen
   - **Lance Formation eligible** (when mounted on Warhorse and attached to a KotR or Knights Errant unit per §1 Character Attachment Exception, §6) — counts as Lance per §17 Faction Mechanics. The Damsel rides with her knights and shares their formation discipline

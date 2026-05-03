@@ -11,7 +11,7 @@ The apex flying mount of the Bretonnian noble — a hippogryph, the great fae-to
 
 *(Royal Hippogryph baseline ground M 8, reduced to M 6 by barding per §8.* **Fly 12"** *— see special rules.)*
 
-- **Available to:** Bretonnian Lord (+130 pts) only *(Pass 3, 2026-05-01: 150 → 130 reflecting W collapse)*
+- **Available to:** Bretonnian Lord (+104 pts) only *(Pass 3, 2026-05-01: 150 → 130 reflecting W collapse; Pass 8, 2026-05-03: 130 → 104 via 0.8× scaling)*
 - **Combined wounds:** per §1 *Combined Wounds* (higher of mount W5 or rider W, plus the other ÷ 2 round down). With Lord (W5): max(5,5) + 5÷2 = **W7**. Attackers use highest WS-D (5) and highest T (5) per §1
 - **Special rules (intrinsic to Royal Hippogryph):**
   - **Fly (12")** (see §8) — same Fly value as a regular Pegasus. The Royal Hippogryph is heavier than a Royal Pegasus and trades raw flight speed for combat power

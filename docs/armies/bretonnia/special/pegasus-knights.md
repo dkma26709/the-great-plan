@@ -21,7 +21,7 @@
 
 | LiS | US |   | Points |
 |-----|----|---|--------|
-| 2   | 3  |   | **78** |
+| 2   | 3  |   | **62** |
 
 - **Keywords:** Bretonnia, Human, Cavalry, Special, Pegasus Knights
 - **Unit type:** Cavalry (flying)
@@ -32,9 +32,9 @@
 - **Combined save: 2+** (heavy armour 4+ → Heavy Shield 3+ → barding 2+)
 - **Equipment (fixed kit, no swap options):** Heavy Lance + Heavy Shield + heavy armour + barding
 - **Command options:**
-  - **Leader** (+5 pts) — *Pegasus Lord*; the senior knight of the Pegasus stable, often the duke's airborne herald
-  - **Standard bearer** (+10 pts — Magic Standard up to 50 pts; the duke's heraldic banner mounted on a Pegasus-borne pole)
-  - **Musician** (+5 pts) — +1 to recovery and Rally rolls (the unit's herald, signalling charges and rallies on a sky-horn audible across the battlefield)
+  - **Leader** (+4 pts) — *Pegasus Lord*; the senior knight of the Pegasus stable, often the duke's airborne herald
+  - **Standard bearer** (+8 pts — Magic Standard up to 40 pts; the duke's heraldic banner mounted on a Pegasus-borne pole)
+  - **Musician** (+4 pts) — +1 to recovery and Rally rolls (the unit's herald, signalling charges and rallies on a sky-horn audible across the battlefield)
 - **Special rules:**
   - Disciplined (see §8)
   - **Knight's Vow** (see §17 Faction Mechanics) — Blessing-eligibility marker. No additional effect at this vow tier

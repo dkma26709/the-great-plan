@@ -9,7 +9,7 @@
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 4 | 4 | 0 | 6 | 6 | 10 | 2 | 9 | 4 | 5 |
 
-**Points:** **230** base (on foot, with Massive Stone Club)
+**Points:** **184** base (on foot, with Massive Stone Club)
 
 - **Keywords:** Lizardmen, Kroxigor, Monstrous Infantry, Character, Hero
 - **Unit type:** Monstrous Infantry (Character); foot only (no mount)

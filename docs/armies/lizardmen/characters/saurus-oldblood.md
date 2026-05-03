@@ -9,7 +9,7 @@
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 7 | 7 | 0 | 5 | 5 | **8** | 3 | 10 | 2 | 4 |
 
-**Points:** **285** base (on foot, with Celestite Blade + shield, no Light Armour)
+**Points:** **228** base (on foot, with Celestite Blade + shield, no Light Armour)
 
 - **Keywords:** Lizardmen, Saurian, Character, Lord
 - **Unit type:** Infantry (Character); may take a mount
@@ -21,7 +21,7 @@
   - Celestite Spear (2" reach, AP -2)
   - Celestite Polearm (2" reach, Two-Handed, S+2, AP -3)
   - Celestite Great Weapon (1" reach, Two-Handed, S+3, AP -4, D 2) — no shield
-  - **Light Armour** (+15 pts) — Skink-attendant-applied bronze armour-plates worked into the scales. Combined save: NA 3+ + Light Armour +1 step = **2+** (Bastiladon-grade). Lore-direct: "scores of Skinks secure bronze armour-plates" — the upgrade makes the canonical Skink-attended battle-prep mechanically explicit.
+  - **Light Armour** (+12 pts) — Skink-attendant-applied bronze armour-plates worked into the scales. Combined save: NA 3+ + Light Armour +1 step = **2+** (Bastiladon-grade). Lore-direct: "scores of Skinks secure bronze armour-plates" — the upgrade makes the canonical Skink-attended battle-prep mechanically explicit.
   - Magic items up to 100 pts
   - Blessed Spawnings — up to 3, per-character costs from §10 menu (Mark of the Old Ones counts as one slot)
 - **Mount options:**

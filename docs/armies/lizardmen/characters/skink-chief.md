@@ -9,7 +9,7 @@
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | **3** | **5** | 5 | 4 | 3 | **2** | 6 | 8 | 1 | 2 |
 
-**Points:** **80** base (on foot, with Blowpipe + hand weapon + shield)
+**Points:** **64** base (on foot, with Blowpipe + hand weapon + shield)
 
 - **Keywords:** Lizardmen, Skink, Character, Hero
 - **Unit type:** Infantry (Character); may take a mount
@@ -18,10 +18,10 @@
 - **Equipment options:**
   - Melee swap: Celestite Spear (2" reach, AP -1) OR Additional Hand Weapon (+1 A)
   - Ranged swap: Moonstone Javelin / Skink Sling / Shortbow (see Armoury)
-  - **Jungle Poisons upgrade** (+5 pts) — all Skink Chief weapons gain Poisoned Attacks (see §8)
+  - **Jungle Poisons upgrade** (+4 pts) — all Skink Chief weapons gain Poisoned Attacks (see §8)
   - Magic items up to 50 pts
   - Blessed Spawnings — up to 3, per-character costs from §10 menu (Mark of the Old Ones counts as one slot)
-- **Mount options:** Raptadon, Horned One, Terradon, Ripperdactyl, **Stegadon** *(adds ~100 pts; see Character Mounts — Stegadon mount profile pending write-up)*
+- **Mount options:** Raptadon, Horned One, Terradon, Ripperdactyl, **Stegadon** *(adds ~80 pts; see Character Mounts — Stegadon mount profile pending write-up)*
 - **Battle Standard option:** +25 pts — one Skink Chief in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the Chief's other magic item allowance remains intact (taking a magic banner does **not** reduce the Chief's magic-item budget)
 - **Special rules:**
   - Cold-Blooded (see §8)

@@ -19,7 +19,7 @@
 
 *Skink Priest-Crew share the Stegadon's M (they ride atop the howdah). Five Skinks, junior priesthood members trained in the rote glyph-sequence to activate the Engine. They have no ranged weapon — the Engine is their armament; their hand weapons are self-defence only.*
 
-**Points:** **400** per Engine of the Gods + 5 Skink Priest-Crew bundle
+**Points:** **320** per Engine of the Gods + 5 Skink Priest-Crew bundle
 
 - **Keywords:** Lizardmen, Saurian, Monster, Rare (Stegadon); Lizardmen, Skink, Wizard-Adjacent, Infantry, Rare (Crew)
 - **Unit type:** Mixed Unit (Monster + Skink Infantry support, per §1)

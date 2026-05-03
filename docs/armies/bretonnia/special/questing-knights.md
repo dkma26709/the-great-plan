@@ -21,7 +21,7 @@
 
 | LiS | US |   | Points |
 |-----|----|---|--------|
-| 2   | 2  |   | **35** |
+| 2   | 2  |   | **28** |
 
 - **Keywords:** Bretonnia, Human, Cavalry, Special, Questing Knights
 - **Unit type:** Cavalry
@@ -32,9 +32,9 @@
 - **Combined save: 3+** (heavy armour 4+ → barding 3+; no shield)
 - **Equipment (fixed kit, no swap options):** Great weapon + heavy armour + barding
 - **Command options:**
-  - **Leader** (+5 pts) — *Quest Leader*; champion of the questing brotherhood, the most senior of the questing knights present
-  - **Standard bearer** (+10 pts — Magic Standard up to 50 pts; the questing brotherhood's banner, often bearing the heraldry of a fallen knight whose Quest the unit continues)
-  - **Musician** (+5 pts) — +1 to recovery and Rally rolls
+  - **Leader** (+4 pts) — *Quest Leader*; champion of the questing brotherhood, the most senior of the questing knights present
+  - **Standard bearer** (+8 pts — Magic Standard up to 40 pts; the questing brotherhood's banner, often bearing the heraldry of a fallen knight whose Quest the unit continues)
+  - **Musician** (+4 pts) — +1 to recovery and Rally rolls
 - **Special rules:**
   - Disciplined (see §8)
   - **Questing Vow** (see §17 Faction Mechanics) — confers **Blessing of the Lady** AND **Stubborn** (see §8 Stubborn — ignores Shaken / Wavering state effects)

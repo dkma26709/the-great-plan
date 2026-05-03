@@ -11,7 +11,7 @@ The duke's personal stable selects only the finest pegasi from the Forest of Lor
 
 *(Royal Pegasus baseline ground M 8, reduced to M 6 by barding per §8 Barding rule. Not a Bretonnian destrier — Pegasus is a winged magical creature, not a warhorse, and does not have Purebred Warhorse.* **Fly 14"** *— see special rules below.)*
 
-- **Available to:** Bretonnian Lord (+45 pts), Paladin (+30 pts). NOT available to Damsel or Prophetess (per WAP — Lady's Chosen take Pegasus, Unicorn, or Sacrosanctum, not Royal Pegasus)
+- **Available to:** Bretonnian Lord (+36 pts), Paladin (+24 pts). NOT available to Damsel or Prophetess (per WAP — Lady's Chosen take Pegasus, Unicorn, or Sacrosanctum, not Royal Pegasus)
 - **Combined wounds:** per §1 *Combined Wounds* (higher of mount W3 or rider W, plus the other ÷ 2 round down). With Lord (W5): max(5,3) + 3÷2 = **W6**. With Paladin (W4): max(4,3) + 3÷2 = **W5**. Attackers use highest WS-D and highest T per §1
 - **Worn armour:** barding (per the rider's character entry kit)
 - **Special rules (intrinsic to Royal Pegasus):**

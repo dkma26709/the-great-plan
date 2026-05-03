@@ -11,15 +11,15 @@
 - **Keywords:** Lizardmen, Skink, Infantry, Core
 - **Unit type:** Infantry (Skirmishers — coherency 2")
 - **Unit size:** 10-20
-- **Points:** 8 per model
+- **Points:** 6 per model
 - **Natural Armour:** 6+ (wet-slick scaly hide)
 - **Equipment (default):** Skink Blowpipe — see Armoury
 - **Equipment options:**
   - **Moonstone Javelin + shield** (free swap) — replaces the Blowpipe. Loses 12" poisoned volley and 360° arc; gains an 8" javelin and a **5+ combined save** with the shield.
 - **Command options:**
-  - **Patrol Leader** (champion, +5 pts) — acts as unit leader for Rally, challenges, and Leader-snipe purposes (no stat buff)
-  - **Standard bearer** (+5 pts)
-  - **Musician** (+5 pts) — +1 to recovery and Rally rolls
+  - **Patrol Leader** (champion, +4 pts) — acts as unit leader for Rally, challenges, and Leader-snipe purposes (no stat buff)
+  - **Standard bearer** (+4 pts)
+  - **Musician** (+4 pts) — +1 to recovery and Rally rolls
 - **Special rules:**
   - Cold-Blooded (see §8)
   - Skirmishers (see §8)

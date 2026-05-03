@@ -9,7 +9,7 @@
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 5 | 5 | 5 | 4 | 4 | 4 | 5 | 9 | 1 | 2 |
 
-**Points:** **95** base (on foot, hand weapon + heavy armour, Knight's Vow)
+**Points:** **76** base (on foot, hand weapon + heavy armour, Knight's Vow)
 
 - **Keywords:** Bretonnia, Human, Character, Hero
 - **Unit type:** Infantry (Character); may take a mount
@@ -19,18 +19,18 @@
 - **Equipment (default):** Hand weapon + heavy armour
 - **Equipment options** (pick one melee swap, plus optional shield):
   - **Shield** (+2 pts, additive — combines with armour for 3+ save on foot)
-  - **Polearm (Bretonnian Bill)** (+6 pts, **foot only** — replaces hand weapon, shield retained) — 2" reach | A 3 | S+1 (= S 5) | AP -1 | D 1
-  - **Heavy Lance** (+6 pts, **mounted only** — replaces hand weapon, shield retained) — 2" reach | A 3 | charge: S+2 (= S 6) AP -2 D 2; subsequent rounds S+0 AP 0 D 1
-  - **Great Weapon** (+9 pts — replaces hand weapon, no shield) — 1" reach | A 3 | S+2 (= S 6) | AP -2 | D 1 | Two-Handed
+  - **Polearm (Bretonnian Bill)** (+5 pts, **foot only** — replaces hand weapon, shield retained) — 2" reach | A 3 | S+1 (= S 5) | AP -1 | D 1
+  - **Heavy Lance** (+5 pts, **mounted only** — replaces hand weapon, shield retained) — 2" reach | A 3 | charge: S+2 (= S 6) AP -2 D 2; subsequent rounds S+0 AP 0 D 1
+  - **Great Weapon** (+7 pts — replaces hand weapon, no shield) — 1" reach | A 3 | S+2 (= S 6) | AP -2 | D 1 | Two-Handed
 - **Vow upgrade options (replace Knight's Vow at list-build, pick at most one):**
-  - **Crusader's Vow** (+10 pts) — replaces Knight's Vow keyword. See §17 Faction Mechanics. Immunity to Panic-source stress + reroll psychology-source recovery + +1D6 charge distance roll (discard lowest)
-  - **Questing Vow** (+10 pts) — replaces Knight's Vow keyword. See §17 Faction Mechanics. Grants Stubborn. May NOT take Heavy Lance (Questing Vow forbids the lance). Trade-off: gives up the Paladin's lance access for permanent Stubborn
-  - **Grail Vow** (+20 pts) — replaces Knight's Vow keyword. See §17 Faction Mechanics. Grants improved Blessing of the Lady (5+ Ward vs S ≤ 4, 4+ vs S ≥ 5) + Stubborn + Immune to Psychology. The apex chivalric Hero — a Paladin who has personally completed the Quest. (Frenzy explicitly NOT granted — serene devotion, not berserk fury)
+  - **Crusader's Vow** (+8 pts) — replaces Knight's Vow keyword. See §17 Faction Mechanics. Immunity to Panic-source stress + reroll psychology-source recovery + +1D6 charge distance roll (discard lowest)
+  - **Questing Vow** (+8 pts) — replaces Knight's Vow keyword. See §17 Faction Mechanics. Grants Stubborn. May NOT take Heavy Lance (Questing Vow forbids the lance). Trade-off: gives up the Paladin's lance access for permanent Stubborn
+  - **Grail Vow** (+16 pts) — replaces Knight's Vow keyword. See §17 Faction Mechanics. Grants improved Blessing of the Lady (5+ Ward vs S ≤ 4, 4+ vs S ≥ 5) + Stubborn + Immune to Psychology. The apex chivalric Hero — a Paladin who has personally completed the Quest. (Frenzy explicitly NOT granted — serene devotion, not berserk fury)
 - **Magic Items:** up to **50 pts** (Hero-tier convention)
 - **Mount options:**
-  - **Warhorse** (+12 pts) — per Knights of the Realm mount profile (Bretonnian destrier, Purebred Warhorse, M 10 with full barding)
-  - **Pegasus** (+20 pts) — per Pegasus Knights mount profile (Fly 12", W 2 / T 4 / S 4 / A 2). Paladin on Pegasus does NOT inherit Pegasus Knights' Diving Charge identity rule
-  - **Royal Pegasus** (+30 pts) — improved Pegasus mount, profile deferred to Character Mounts pass
+  - **Warhorse** (+10 pts) — per Knights of the Realm mount profile (Bretonnian destrier, Purebred Warhorse, M 10 with full barding)
+  - **Pegasus** (+16 pts) — per Pegasus Knights mount profile (Fly 12", W 2 / T 4 / S 4 / A 2). Paladin on Pegasus does NOT inherit Pegasus Knights' Diving Charge identity rule
+  - **Royal Pegasus** (+24 pts) — improved Pegasus mount, profile deferred to Character Mounts pass
   - *(No Royal Hippogryph option — Lord-tier mount only; Heroes do not field Hippogryphs)*
 - **Battle Standard option:** +25 pts — one Paladin (or Bretonnian Lord) in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the Paladin's other magic-item allowance is reduced to 25 pts when carrying a magic banner (per WAP convention — the Paladin's banner load competes with his personal kit, distinct from the Lord's full-100-pt-budget BSB option). Battle Standard Bearer aura (12") per §8 — +1 CR + +1 to recovery / rally rolls for friendly Bretonnia units. **The Paladin is the Bretonnian army's traditional BSB carrier** in most lists — the Lord rides forward to charge, the Paladin holds the centre with the banner high
 - **Special rules:**

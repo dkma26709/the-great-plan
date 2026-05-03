@@ -15,7 +15,7 @@
 
 Target friendly unit may reroll all to-hit, to-wound, and armour save rolls of 1. The stars align — minor adjustments to fate that compound across an entire unit's worth of dice.
 
-#### Basic (Tier 1) — Lore Access 1+
+#### Basic (Tier 1) — LA 1+
 
 **Iceshard Blizzard**
 
@@ -49,7 +49,7 @@ Target enemy unit is pushed D6" directly away from the caster. If the unit conta
 
 D6 S5 hits with Lightning Attacks (ignore armour saves). A single devastating bolt called down from the heavens — the signature damage spell of every Heavens wizard. Basic tier but high casting value: any Heavens caster can learn it, but landing it reliably demands real magical ability. Range 30" reflects Heavens' celestial reach — the bolt is summoned from the sky, not thrown from the wizard's hand, and can punish gunlines deep in the enemy deployment zone.
 
-#### Intermediate (Tier 2) — Lore Access 2+
+#### Intermediate (Tier 2) — LA 2+
 
 **Curse of the Midnight Wind**
 
@@ -75,7 +75,7 @@ The caster and all friendly units within 12" may reroll one failed dispel or rec
 
 All enemy units within 18" of the caster suffer D3 S4 hits with Lightning Attacks (ignore armour saves). A ring of celestial lightning radiating outward from the wizard — punishes anything that gets too close, in any direction. The caster stands at the eye of the storm. Bubble damage hits every enemy unit in range simultaneously — the CV reflects that scaling against tightly-packed deployments. The 18" radius (rather than Heavens' usual longer reach) is the trade for that bubble effect.
 
-#### Advanced (Tier 3) — Lore Access 3+
+#### Advanced (Tier 3) — LA 3+
 
 **Chain Lightning**
 
@@ -101,7 +101,7 @@ Place a marker anywhere within range. At the start of each subsequent turn, roll
 
 Remove a friendly unit from the battlefield entirely — it passes through a celestial gateway into the space between stars. At the start of any subsequent friendly Magic phase, the caster may place the unit anywhere on the table more than 9" from any enemy model. If the caster dies before the unit returns, the unit is lost — the arch collapses and the travellers are stranded between worlds. CV held high in Advanced — whole-unit teleport is among the strongest non-damage effects in the system, dictating engagement on the caster's terms.
 
-#### Master (Tier 4) — Lore Access 4+
+#### Master (Tier 4) — LA 4+
 
 **Lightning Storm**
 
@@ -113,9 +113,9 @@ All enemy units with at least one model within **24"** of the caster suffer **D3
 
 **Reading of the Stars** *(RIP, aura)*
 
-| CV | Range | Type |
-|----|-------|------|
-| 16 | 18" (self-radius) | Augment (aura), Remains In Play |
+| CV | Range | Type | Duration |
+|----|-------|------|----------|
+| 16 | 18" (self-radius) | Augment (aura) | Remains In Play |
 
 *Remains In Play.* While in play, all friendly units wholly within **18"** of the caster may **reroll their Charge distance roll** when declaring a charge. The wizard reads the constellations and tells her allies the moment to commit — the heavens themselves whisper where the charge will land, and the army gallops forward in step with fate. Single-rule capstone, but charge consistency at army-wide scale is decisive — failed charges leave units stranded in front of enemy lines, and a persistent charge-reroll aura turns shaky 9-10" charges into reliable engagement. RIP makes the spell dispellable on the opponent's turn; until dispelled, every friendly charge from inside the bubble is effectively guaranteed within reasonable distance bands. Caster has to commit a position near the line for the aura to cover the units that need it most.
 

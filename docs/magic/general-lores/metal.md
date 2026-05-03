@@ -13,7 +13,7 @@
 
 **D3 hits** at **AP -2, D1**. **Armour-Seeking** (see §8) — each hit wounds on a D6 roll equal to or higher than the target model's unmodified worn armour save value (Natural Armour excluded); targets with no worn armour cannot be wounded. **Magical Attacks.** The workhorse Metal opener — modest against lightly-armoured foes, devastating against knights and elite infantry. The more metal they wear, the more the spell has to grip.
 
-#### Basic (Tier 1) — Lore Access 1+
+#### Basic (Tier 1) — LA 1+
 
 **Rust** *(Summoning)*
 
@@ -49,7 +49,7 @@ Target friendly unit's **melee attacks gain +1 AP** (AP 0 → AP -1; AP -1 → A
 
 Target friendly unit's **melee attacks gain +1 damage** (D1 → D2; D2 → D3; D D3 → D D3+1, etc.) until start of next turn. Forge-light clings to every edge; a graze bites like a severing blow. Stacks meaningfully with Enchanted Blades — a unit under both buffs deals +1 AP and +1 damage in melee for one devastating turn.
 
-#### Intermediate (Tier 2) — Lore Access 2+
+#### Intermediate (Tier 2) — LA 2+
 
 **Weight of Iron**
 
@@ -93,7 +93,7 @@ Target enemy unit's **melee attacks are treated as AP 0** until start of next tu
 
 Target enemy unit's worn armour save value **worsens by 2** until start of next turn (a 2+ save becomes 4+; a 4+ becomes 6+; a 6+ is lost entirely; no worn armour stays no armour). Natural Armour is unaffected. The wizard wills the unit's armour to remember every weak point — for one turn, the mail loosens, the plate thins, the seams part. Distinct from the lore's other armour-strip options: **Rust** (permanent -1 armour), **Corroded Edge** (zeros enemy AP rather than removing armour), **Weight of Iron** (M slow scaled by armour). Forgemaster's Demand is the *temporary-but-huge* -2 armour spike — devastating for one decisive turn against heavy infantry, cavalry, or monsters; pairs with any incoming damage source (charge, magic missile, shooting volley) to crack the target before its armour reasserts.
 
-#### Advanced (Tier 3) — Lore Access 3+
+#### Advanced (Tier 3) — LA 3+
 
 **Final Transmutation**
 
@@ -123,7 +123,7 @@ Target enemy unit's melee attacks **permanently suffer +1 AP** (AP -3 becomes AP
 
 The unit's blades turn leaden — strikes still land, but find less purchase. Pairs with Rust for a permanent offence-and-defence downgrade of the same target: one spell corrodes their armour, the other softens their edge. Very-strong-for-tier — game-long permanent weapon debuff. CV held at the high end of Advanced to match Rust's calibration as Basic-top permanent debuff.
 
-#### Master (Tier 4) — Lore Access 4+
+#### Master (Tier 4) — LA 4+
 
 **Storm of Iron**
 
@@ -150,4 +150,4 @@ Single rule. Scales Glittering Robe (Basic, single-target +1 armour, until-next-
 ---
 
 
-The following lores are **restricted to specific factions and wizard types**. They include a fourth tier (Master, Lore Access 4+) no general lore reaches, in exchange for narrower flavour. A faction-lore caster trades the breadth of the eight general lores for depth — magic no other army can wield.
+The following lores are **restricted to specific factions and wizard types**. They include a fourth tier (Master, LA 4+) no general lore reaches, in exchange for narrower flavour. A faction-lore caster trades the breadth of the eight general lores for depth — magic no other army can wield.

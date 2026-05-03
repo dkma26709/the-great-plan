@@ -13,13 +13,13 @@
 
 **Magic Profile:**
 
-| Cast Base | Dispel Base | Channelling | Cast Bonus | Dispel Bonus | Dispel Range | Lore Access | SK |
+| CaB | DiB | Ch | CB | DB | DR | LA | SK |
 |-----|-----|----|----|----|----|----|-----|
 | 6 | 6 | 6 | +5 | +5 | 48" | **4 (all 10 lores)** | **10** |
 
-*Lore Access 4 (Master) across **all 10 lores** — every general lore (Heavens, Beasts, Fire, Light, Life, Death, Shadow, Metal) plus both faction lores (Cosmic Architecture, Geomancy). **SK 10** = the player picks **10 spells at list-build** from any combination of lores and tiers (within Lore Access 4 Master limits). Captures the lore-canonical "strongest caster ever" — Kroak's spell list is fully player-tailored each game, reflecting his omni-arcane mastery. Dispel Range 48" (vs Slann 36") for the lore-direct extended psychic reach.*
+*LA 4 (Master) across **all 10 lores** — every general lore (Heavens, Beasts, Fire, Light, Life, Death, Shadow, Metal) plus both faction lores (Cosmic Architecture, Geomancy). **SK 10** = the player picks **10 spells at list-build** from any combination of lores and tiers (within LA 4 Master limits). Captures the lore-canonical "strongest caster ever" — Kroak's spell list is fully player-tailored each game, reflecting his omni-arcane mastery. DR 48" (vs Slann 36") for the lore-direct extended psychic reach.*
 
-**Points:** **675** base (intrinsic regalia and miscast immunity included; no upgrades available)
+**Points:** **540** base (intrinsic regalia and miscast immunity included; no upgrades available)
 
 - **Keywords:** Lizardmen, Slann, Relic Priest, Wizard, Character, Lord, Named
 - **Unit type:** Infantry (Character — Slann on floating palanquin)
@@ -45,4 +45,4 @@
 | **Standard of the Sacred Serpent** | 1" | D3 | 2+ fixed | 4 | -1 | 1 | Magical Attacks — the golden serpent animates and bites; lore-direct "writhes, hisses and spits like a living creature, animated by Kroak's residual power" |
 | **Guardian Spirits** | 2" | D3+1 | 2+ fixed | 4 | -2 | 1 | Magical Attacks — ancestral spirits gravitate around Kroak's husk and lash at any approaching enemy. Range 2" reflects spirit-pursuit (slightly longer than the Mace/Serpent which strike from base contact) |
 
-> **Lore notes:** The Venerable Lord Kroak — Defender of Itza, the most ancient and powerful Slann ever to live, mortally torn apart by Bloodthirsters at the Defence of Itza in -4450 IC and refusing to concede defeat. His husk lies in resin-soaked bandages and is brought forth only in moments of greatest need. **WS-A 0 / WS-D 0** is lore-direct: the mummified husk doesn't fight, doesn't dodge — combat is something done *at* him, and the spirits and intrinsic relics fight back via fixed-2+ profiles. The strongest caster ever to live: **Lore Access 4 Master across all 10 lores** with **SK 10** spells picked freely at list-build, Dispel Range 48". **Miscast Immunity** is the apex-caster identity — reality has stopped offering Kroak miscast consequences; lore-direct "could simply choose to be alive again, were he so inclined." **Unbreakable** replaces Stubborn — Kroak functions like undead in every meaningful way (mummified, spirit-bound, stress-immune, fear-immune); he just isn't *technically* Undead by keyword.
+> **Lore notes:** The Venerable Lord Kroak — Defender of Itza, the most ancient and powerful Slann ever to live, mortally torn apart by Bloodthirsters at the Defence of Itza in -4450 IC and refusing to concede defeat. His husk lies in resin-soaked bandages and is brought forth only in moments of greatest need. **WS-A 0 / WS-D 0** is lore-direct: the mummified husk doesn't fight, doesn't dodge — combat is something done *at* him, and the spirits and intrinsic relics fight back via fixed-2+ profiles. The strongest caster ever to live: **LA 4 Master across all 10 lores** with **SK 10** spells picked freely at list-build, DR 48". **Miscast Immunity** is the apex-caster identity — reality has stopped offering Kroak miscast consequences; lore-direct "could simply choose to be alive again, were he so inclined." **Unbreakable** replaces Stubborn — Kroak functions like undead in every meaningful way (mummified, spirit-bound, stress-immune, fear-immune); he just isn't *technically* Undead by keyword.

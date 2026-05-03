@@ -15,7 +15,7 @@ Target friendly unit **ignores enemy cover bonuses** on all its attacks (melee a
 
 Distinct from any general-lore signature. No other signature turns the visual field transparent. Functional every turn: there's almost always a unit in cover worth punishing.
 
-#### Basic (Tier 1) — Lore Access 1+
+#### Basic (Tier 1) — LA 1+
 
 **Prophetic Insight**
 
@@ -49,7 +49,7 @@ Target enemy unit is **marked** by the cosmic pattern. Until start of next turn,
 
 Target enemy **wizard** suffers **-1 to all casting rolls** until start of next turn. The cosmic fabric resists their reach into it. Narrow (only useful against magic-heavy opponents) but iconic AoS Lizardmen — a taste of the anti-magic theme that scales at higher tiers.
 
-#### Intermediate (Tier 2) — Lore Access 2+
+#### Intermediate (Tier 2) — LA 2+
 
 **Celestial Equilibrium**
 
@@ -81,7 +81,7 @@ Target friendly unit gains **Ward (5+) against attacks with the Magical Attacks 
 
 Complements Mystical Unforging — together they form the lore's **anti-magic pillar** (offensive spell-dispel + defensive damage-ward). Narrow against armies with no Magical Attacks, devastating against spell-heavy or magic-weapon-heavy opponents.
 
-#### Advanced (Tier 3) — Lore Access 3+
+#### Advanced (Tier 3) — LA 3+
 
 **Walk Between Realms** *(Conveyance)*
 
@@ -113,7 +113,7 @@ Target enemy unit **cannot benefit from any re-rolls** from any source (special 
 
 Novel mechanic — no other spell in any lore denies re-rolls. Narrow against re-roll-poor armies; devastating against armies that lean on re-rolls (Hatred first-turn, Harmonic Convergence, re-roll-heavy aura abilities). Pairs with **Hand of Glory** above for a thematic one-two: the Slann grants re-rolls to allies *and* denies them to enemies in the same turn.
 
-#### Master (Tier 4) — Lore Access 4+
+#### Master (Tier 4) — LA 4+
 
 **Comet's Call** *(Summoning)*
 

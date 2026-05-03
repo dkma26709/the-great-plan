@@ -10,7 +10,7 @@
 - **Keywords:** Lizardmen, Saurus, Infantry, Core
 - **Unit type:** Infantry
 - **Unit size:** 10-30
-- **Points:** 36 per model
+- **Points:** 29 per model
 - **Natural Armour:** 5+ (scaly skin)
 - **Equipment (default):** Celestite Blade, Medium Shield
 - **Equipment options:**
@@ -18,9 +18,9 @@
 - **With shield:** combined save **4+** (Natural 5+ + Medium Shield +1 step, per §8 Armour Save Stacking)
 - **Blessed Spawnings:** up to 3 per unit, per-model costs from §10 menu. Each spawning beyond the first promotes the unit one FoC tier (Core → Special → Rare; max Rare).
 - **Command options:**
-  - **Spawn Leader** (champion, +10 pts) — acts as unit leader for Rally, challenges, and Leader-snipe purposes
-  - **Standard bearer** (+10 pts)
-  - **Musician** (+10 pts) — +1 to recovery and Rally rolls
+  - **Spawn Leader** (champion, +8 pts) — acts as unit leader for Rally, challenges, and Leader-snipe purposes
+  - **Standard bearer** (+8 pts)
+  - **Musician** (+8 pts) — +1 to recovery and Rally rolls
 - **Special rules:**
   - Disciplined (see §8)
   - Cold-Blooded (see §8)

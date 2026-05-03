@@ -11,7 +11,7 @@
 
 *Hero-tier Saurus character — apex Temple Guard. Stats sit between generic Temple Guard rank-and-file (W 3) and Saurus Oldblood (W 8). WS-A/WS-D 6 matches Scar-Vet apex melee; W 6 matches Scar-Vet pass-2 baseline — Hero-tier durability.*
 
-**Points:** **400** base (intrinsic regalia + Light Armour included; no upgrades available)
+**Points:** **320** base (intrinsic regalia + Light Armour included; no upgrades available)
 
 - **Keywords:** Lizardmen, Saurian, Saurus, Temple Guard, Character, Hero, Named
 - **Unit type:** Infantry (Character)

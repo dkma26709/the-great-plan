@@ -13,7 +13,7 @@
 
 Target friendly unit restores **D3 wounds**. Apply to wounded models first (restore lost W on multi-wound models); excess wounds bring back slain models if any (single-wound models return to the unit in base contact with the formation). Never restores more than was originally lost.
 
-#### Basic (Tier 1) — Lore Access 1+
+#### Basic (Tier 1) — LA 1+
 
 **Awakening of the Wood**
 
@@ -55,7 +55,7 @@ While this spell is in play, whenever an enemy model makes a melee attack agains
 
 Target friendly unit gains **-1 to hit against all incoming ranged attacks** until start of next turn. The air around them fills with drifting leaves, seeds, and living mist — the attacker's line breaks up before the shot lands. A cast-triggered defensive shield distinct from Loose formation's Dispersed: works regardless of the unit's arrangement.
 
-#### Intermediate (Tier 2) — Lore Access 2+
+#### Intermediate (Tier 2) — LA 2+
 
 **Throne of Vines** *(RIP)*
 
@@ -89,7 +89,7 @@ Place a **forest terrain feature of up to 6" diameter** within range. The placem
 
 Target friendly unit **ignores the first D3 hits** from any source (melee, ranged, Impact, spells) in **each phase** until start of next turn. Roll the D3 once when the spell is cast; the same number applies to each phase this turn (Shooting, Combat, and any others). The caster thickens the unit's living presence — the first strikes of each exchange slide off before any save is rolled. A damage-cap, not a save — distinct from wards. Strong-for-tier — the per-phase reset compounds across Shooting and Combat in the same turn, so a single cast can negate 2D3 hits over the turn.
 
-#### Advanced (Tier 3) — Lore Access 3+
+#### Advanced (Tier 3) — LA 3+
 
 **The Bloom**
 
@@ -119,7 +119,7 @@ Uniquely Life-thematic — organic teleportation through the plant network of th
 
 > **Design note on Life identity (pre-Master).** Life is deliberately the *quietest* lore. Two damage spells across the entire roster (Awakening of the Wood at Basic, Dwellers Below at Master), no stat debuffs, no morale effects. What Life does that no other lore does: physical wound restoration, permanent terrain creation, and nature-themed utility (Cloak of Dain's damage cap, Leaf Fall's anti-shooting, Paranoth's organic teleport). A Life wizard keeps an army standing through sustained pressure rather than winning phases directly — the offensive Master is reserved as a single decisive option.
 
-#### Master (Tier 4) — Lore Access 4+
+#### Master (Tier 4) — LA 4+
 
 **The Great Regrowth**
 

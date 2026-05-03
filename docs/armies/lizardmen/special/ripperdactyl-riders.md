@@ -21,7 +21,7 @@
 
 | LiS | US |   | Points |
 |-----|----|---|--------|
-| 2   | 2  |   | **36** |
+| 2   | 2  |   | **29** |
 
 - **Keywords:** Lizardmen, Skink, Cavalry, Special
 - **Unit type:** Cavalry (Fast Cavalry — see §8)
@@ -32,7 +32,7 @@
 - **Equipment options:** none baseline
 - **Blessed Spawnings:** up to 3 per unit, per-model costs from §10 menu. Each spawning beyond the first promotes the unit one FoC tier (Special → Rare; max Rare). Spawning effects apply to the Skink Brave rider only — the Ripperdactyl mount profile is untouched (Itzl exception aside).
 - **Command options:**
-  - Patrol Leader (champion, +5 pts, no stat buff)
+  - Patrol Leader (champion, +4 pts, no stat buff)
   - No Musician, no Standard — Ripperdactyls are too aggressive for formation coordination; the rider hangs on and points
 - **Special rules:**
   - Cold-Blooded (see §8)

@@ -1,13 +1,35 @@
 # §13 Points Framework
 
 
-Unit costs are derived from a two-stage formula: a base **stat contribution** representing the unit's combat and rule value at W1-equivalent, multiplied by a **wound factor** that scales durability non-linearly with wound count.
+Unit costs are derived from a two-stage formula: a base **stat contribution** representing the unit's combat and rule value at W1-equivalent, multiplied by a **wound factor** that scales durability non-linearly with wound count, and finally scaled by a **global scaling factor** that tunes overall model count per points-budget.
 
 ```
-cost = round(statContribution × woundFactor)
+cost = round(scalingFactor × statContribution × woundFactor)
 ```
 
-A linear cost-per-wound systematically undervalues high-W units — every additional wound buys both an extra survival interaction *and* an extra turn of offensive output. The quadratic wound factor captures this compounding.
+A linear cost-per-wound systematically undervalues high-W units — every additional wound buys both an extra survival interaction *and* an extra turn of offensive output. The quadratic wound factor captures this compounding. The scaling factor is the global lever for army density: a lower factor makes units cheaper without altering relative power between units, allowing larger armies in the same points budget.
+
+### 13.0 Global Scaling Factor *(added 2026-05-03 — Pass 8)*
+
+```
+scalingFactor = 0.8   (current)
+```
+
+The global scaling factor is a single tunable knob that scales every unit, character, equipment, and spawning price uniformly. **Relative power between units is unchanged**; only the points-budget ratio shifts.
+
+**Why 0.8?** Pre-scaling prices made rank-and-file blocks feel expensive — a 20-Saurus regiment at 22 pts/model consumed 22% of a 2000-pt budget. The 0.8 scaling drops that to ~18% (Saurus 18 pts/model × 20 = 360 pts), enabling the "big block of infantry plus support" feel that the WAP / Old World tradition relies on. Values were chosen for clean rounding on the most common unit costs.
+
+**How to apply at draft time.** Compute `statContribution × woundFactor` per the framework below to get the *raw* cost. Multiply by `scalingFactor` (currently 0.8). Round to nearest whole (0.5 rounds up). This is the final printed price.
+
+**Exempt from the scaling factor:**
+- **Character magic-item allowances** — Lord-tier 100 pts, Sub-Lord 75 pts, Hero-tier 50 pts. These are armoury-budget caps the player spends *into* the game's separate magic items pool, not points the unit pays for stats and rules. The cap stays anchored to the magic items list (which is itself unscaled) so list-builders see consistent numbers regardless of the global density knob.
+- **Battle Standard upgrade cost** — flat **+25 pts** for any character carrying the Army Battle Standard. Conventional cross-faction value; not driven by the §13 stat formula.
+
+These two exemptions are the only ones; everything else (unit base costs, equipment swaps, character base costs, mount upgrades, vow upgrades, Blessed Spawning costs, command upgrades, magic-banner caps on unit standards) flows through the scaling factor.
+
+**Tuning the factor.** If playtest shows armies are too dense (board congestion, slow play) raise toward 0.9 or 1.0; if too sparse (handful of elite models per side) lower toward 0.7. Re-tuning is a single-pass operation against the framework — every priced unit re-derives at the new factor in one bulk update.
+
+**Currently scaled rosters (Pass 8):** §10 Lizardmen, §17 Bretonnia. **Pending:** §14 Empire, §15 Ogre Kingdoms, §16 Vampire Counts, §18 Cross-Faction Reference Units — these still display 1.0× pricing pending bulk re-scale; cross-faction comparison during the Pass 8 transition should account for the mismatch.
 
 ### 13.1 Wound Factor
 
@@ -274,7 +296,7 @@ The framework has been fit against the current roster of priced units:
 | Ancient Salamander (beast + 3 Handlers bundle) | — | — | — | 115 (formula+weapon premium) | **140** (priced) | +25 |
 | Arcanadon (beast only — W14, sauropod, Stubborn, Aura of the Old Ones, PoA cannon) | 42 | 14 | 8.48 | 356 | 360 | +4 |
 | Arcanadon (beast + 3 Crew bundle with Power of the Ancients) | — | — | — | ~380 | **400** | +20 |
-| Coatl (W8 — Fly 8, MR3, Terror, Magical Storm, Guardian; Wizard flat pkg +50 for Lore Access 3 / Cast Base 2 / Dispel Base 2 / Channelling 2 / Cast Bonus +1 / Dispel Range 18") | 30 | 8 | 5.48 | 214 (164 base + 50 flat wizard) | **225** | +11 |
+| Coatl (W8 — Fly 8, MR3, Terror, Magical Storm, Guardian; Wizard flat pkg +50 for LA 3 / CaB 2 / DiB 2 / Ch 2 / CB +1 / DR 18") | 30 | 8 | 5.48 | 214 (164 base + 50 flat wizard) | **225** | +11 |
 | Dread Saurian (beast only — W25 apex, Earth-Shaking Roar, 4-weapon profile, NA 3+, LiS 6) | 40 | 25 | 13.98 | 559 | **550** | -9 |
 
 **Drift policy:**
@@ -284,7 +306,7 @@ The framework has been fit against the current roster of priced units:
 - Jungle Swarms was investigated — formula produces 32; draft price was 30. Updated to 32 per the ≥ 2 pt threshold policy.
 - Ancient Salamander Δ +25 — the Searing Stream template weapon (S 5 AP -2) is under-priced in the equipment table (+4 for a basic flame template); playtesting will decide whether to bump template weapon baseline or keep the bundle premium.
 - Arcanadon bundle Δ +20 — the Power of the Ancients (cannon + channel-aura combo) is underweighted in the rule-contribution table. Deferred investigation; value matches Stegadon's price envelope for a comparable apex-utility Monster and reads correct by design intent.
-- Coatl Δ +11 — the Wizard package is currently priced **flat** (+50 for Lore Access 3 / Cast Base 2 / Dispel Base 2 / Channelling 2 / Cast Bonus +1 / Dispel Range 18") rather than W-factor-multiplied. Convention pending formal §13 write-up once more wizard profiles (Skink Priest, Slann) are drafted. Multiplying the wizard package by the W factor would over-price magic on durable casters; keeping flat is the current working call.
+- Coatl Δ +11 — the Wizard package is currently priced **flat** (+50 for LA 3 / CaB 2 / DiB 2 / Ch 2 / CB +1 / DR 18") rather than W-factor-multiplied. Convention pending formal §13 write-up once more wizard profiles (Skink Priest, Slann) are drafted. Multiplying the wizard package by the W factor would over-price magic on durable casters; keeping flat is the current working call.
 
 ### 13.6 Caveats and Limitations
 

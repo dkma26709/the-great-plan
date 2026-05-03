@@ -15,9 +15,9 @@ Single-target, low-power per-cast effect — neither extends mechanical Blessing
 |----|-------|------|----------|
 | 6 | 18" | Augment | Until start of next turn |
 
-Target friendly Bretonnia unit gains **Ward Save (6+)** until start of next turn AND removes **1 stress** from the unit on cast. The Damsel raises the chalice of holy water blessed by the Lake — divine intervention adds a layer of protection across the chosen unit, and the Lady's voice steadies their fear. The 6+ Ward stacks per §8 Ward Save Stacking with an existing Blessing for a one-step improvement (Knight's Vow 5+ vs S 5+ → 4+) without overshooting; the spell remains modest as a stand-alone Ward and useful as a stacking layer, while the stress removal is the consistent benefit for any target — even peasants gain a moment of holy calm.
+Target friendly Bretonnia unit gains **Ward Save (6+)** until start of next turn AND removes **1 stress** from the unit on cast. The Damsel raises the chalice of holy water blessed by the Lake — divine intervention adds a layer of protection across the chosen unit, and the Lady's voice steadies their fear. The 6+ Ward stacks per §8 Ward Save Stacking with any existing Ward the unit already has (e.g., a Knight's Vow 5+ vs S 5+ Ward → 4+ in qualifying combats); the spell remains modest as a stand-alone Ward and useful as a stacking layer for already-warded knights, while the stress removal is the consistent benefit for any target — even peasants gain a moment of holy calm.
 
-#### Basic (Tier 1) — Lore Access 1+
+#### Basic (Tier 1) — LA 1+
 
 **Lifebloom of the Lady**
 
@@ -57,7 +57,7 @@ Target friendly Blessed Bretonnia unit's melee weapons gain the following until 
 
 The Damsel sprinkles consecrated lake-water on the chosen unit's blades and lance-heads, channelling the Lady's recognition of her sworn warriors. The sanctification is reserved to those already Blessed — peasants cannot bear the Lady's water without a Vow first opening them to it. Pairs naturally with Questing Knights' permanent Anointed Steel for a one-round wound-floor boost on top of their always-Magical great weapons.
 
-#### Intermediate (Tier 2) — Lore Access 2+
+#### Intermediate (Tier 2) — LA 2+
 
 **Silver Mirror**
 
@@ -83,7 +83,7 @@ Target enemy unit suffers **D6 hits at S 4, AP -1, D 1, Magical Attacks**. Faeri
 
 Target friendly Bretonnia unit restores **D6 wounds** AND removes **D3 stress**. **Blessing tier:** if the target has the Blessing of the Lady, restores **D6+2 wounds** AND removes **D3 stress** instead. The unit briefly experiences submersion in the Lady's lake — a moment of holy water, restoration of wounds, dissolution of fear. The truly Blessed are healed more deeply; their submersion finds more of the Lady's restoration. Higher CV than Lifebloom; the Lake's Embrace is the larger blessing, healing more comprehensively while also restoring morale.
 
-#### Advanced (Tier 3) — Lore Access 3+
+#### Advanced (Tier 3) — LA 3+
 
 **Aegis of the Lady** *(RIP, aura)*
 
@@ -123,7 +123,7 @@ The Lady briefly steadies the chosen knight — every die that would have failed
 
 Target enemy unit suffers **D6 hits**. Against units with the **Daemon**, **Undead**, or **Chaos** keyword, hits resolve at **S 5, AP -2, D 1, Magical Attacks, Flaming Attacks**. Against any other unit, hits resolve at **S 3, AP 0, D 1, Magical Attacks** only — the spell is *purgative*, calibrated to harm the unholy specifically; mortal flesh is barely scorched. The Lady's wrath against the corrupt; the lore's single anti-evil offensive option.
 
-#### Master (Tier 4) — Lore Access 4+
+#### Master (Tier 4) — LA 4+
 
 **The Lady's Embrace** *(Blessing-only)*
 
@@ -133,7 +133,7 @@ Target enemy unit suffers **D6 hits**. Against units with the **Daemon**, **Unde
 
 **Restriction:** target unit must have the **Blessing of the Lady** keyword. The Lady's most complete gift extends only to her sworn faithful — peasant units (without Blessing) cannot benefit from this Master-tier restoration unless first granted the keyword via the Lady's Touch lore attribute, Aegis of the Lady, or another rule that confers Blessing.
 
-Target friendly Blessed Bretonnia unit is **fully restored** — every wounded model returns to its starting wound count, every slain model returns to the unit (positioned in coherency with surviving models, or in base contact with the formation). The unit must have started the battle at full strength; The Lady's Embrace can never restore *more* than was originally lost. Command Group models (Leader / Standard Bearer / Musician / Grail Monk if attached) return if they fell. The Lady's most generous gift — a unit emerges from her embrace as if the morning's first muster had only just begun. CV 12 makes the spell hard to land reliably even for a Lord-tier wizard; the most powerful healing in the ruleset, befitting Master tier and the chivalric faithful alone.
+Target friendly Blessed Bretonnia unit is **fully restored** — every wounded model returns to its starting wound count, every slain model returns to the unit (positioned in coherency with surviving models, or in base contact with the formation). The unit must have started the battle at full strength; The Lady's Embrace can never restore *more* than was originally lost. Command Group models (Leader / Standard Bearer / Musician / Grail Monk if attached) return if they fell. The Lady's most generous gift — a unit emerges from her embrace as if the morning's first muster had only just begun. CV 18 places this firmly in Master tier — landing it reliably requires a Lord-tier wizard with strong dice support; the most powerful healing in the ruleset, befitting Master tier and the chivalric faithful alone.
 
 **Wrath of the Faerie** *(area effect)*
 
@@ -141,9 +141,9 @@ Target friendly Blessed Bretonnia unit is **fully restored** — every wounded m
 |----|-------|------|
 | 18 | 18" (self-aura) | Direct Damage, Instant |
 
-All enemy units with at least one model within **18"** of the caster suffer **D3 hits** at the standard profile (S 5, AP -1, D 1, Magical Attacks). Units with the **Daemon, Undead,** or **Chaos** keyword suffer **D6 hits** instead, at **S 6, AP -2, D 1, Magical Attacks, Flaming Attacks**. The Lady's faerie-host descends in a furious wave — the unholy take the worst of it, but no enemy near the caster is untouched. CV 14 is among the highest in the ruleset; landing this reliably requires Lvl 4 mastery and ideally a magic-item or aura buff. The lore's offensive capstone — paired with The Lady's Embrace's defensive capstone, the Master tier offers either *complete unit restoration* or *cleansing-damage burst*.
+All enemy units with at least one model within **18"** of the caster suffer **D3 hits** at the standard profile (S 5, AP -1, D 1, Magical Attacks). Units with the **Daemon, Undead,** or **Chaos** keyword suffer **D6 hits** instead, at **S 6, AP -2, D 1, Magical Attacks, Flaming Attacks**. The Lady's faerie-host descends in a furious wave — the unholy take the worst of it, but no enemy near the caster is untouched. CV 18 is among the highest in the ruleset; landing this reliably requires Lvl 4 mastery and ideally a magic-item or aura buff. The lore's offensive capstone — paired with The Lady's Embrace's defensive capstone, the Master tier offers either *complete unit restoration* or *cleansing-damage burst*.
 
-> **Design note on Lore of the Lady.** Bretonnia's faction lore, restricted to Damsels and Prophetesses (Lady's Chosen keyword). The lore deliberately mirrors **Lore of Life** in tone — healing-and-protection focused, scarce offensive options — with two key faction-distinct twists: (1) **Direct synergy with Blessing of the Lady** (multiple spells stack with or improve the chivalric Ward), and (2) **Anti-Daemon / Undead / Chaos offensive bias** (the Lady's wrath specifically targets the corrupt; mortal-vs-mortal damage is intentionally weak). The Lord-tier Prophetess unlocks Master-tier access (Lady's Embrace and Wrath of the Faerie), making her the apex caster of the chivalric tradition — comparable to Wizard Lord or Skink High Priest in raw casting power, but with a lore that turns the chivalric army into a *self-restoring, divinely-shielded* line. Pairs naturally with Bretonnia's high-W cavalry — KotR / Knights Errant / Pegasus Knights all have W 2-3 combined per model, and Lady healing keeps them on the field through extended combat. Cross-faction comparison: Skink High Priest and Wizard Lord can heal incidentally via Life access, but the Bretonnian Prophetess gets *all 12 Lady spells* plus the Lord-tier Master content, making her the definitive faction-bound healer-caster. Damsel of the Lady (Hero-tier) gets Lore Access 1-2 access, capping at Intermediate-tier spells — sufficient for army-screening healing and basic Ward buffing without reaching the apex defensive auras (Aegis) or unit-restore (Lady's Embrace).
+> **Design note on Lore of the Lady.** Bretonnia's faction lore, restricted to Damsels and Prophetesses (Lady's Chosen keyword). The lore deliberately mirrors **Lore of Life** in tone — healing-and-protection focused, scarce offensive options — with two key faction-distinct twists: (1) **Direct synergy with Blessing of the Lady** (multiple spells stack with or improve the chivalric Ward), and (2) **Anti-Daemon / Undead / Chaos offensive bias** (the Lady's wrath specifically targets the corrupt; mortal-vs-mortal damage is intentionally weak). The Lord-tier Prophetess unlocks Master-tier access (Lady's Embrace and Wrath of the Faerie), making her the apex caster of the chivalric tradition — comparable to Wizard Lord or Skink High Priest in raw casting power, but with a lore that turns the chivalric army into a *self-restoring, divinely-shielded* line. Pairs naturally with Bretonnia's high-W cavalry — KotR / Knights Errant / Pegasus Knights all have W 2-3 combined per model, and Lady healing keeps them on the field through extended combat. Cross-faction comparison: Skink High Priest and Wizard Lord can heal incidentally via Life access, but the Bretonnian Prophetess gets *all 12 Lady spells* plus the Lord-tier Master content, making her the definitive faction-bound healer-caster. Damsel of the Lady (Hero-tier) gets LA 1-2 access, capping at Intermediate-tier spells — sufficient for army-screening healing and basic Ward buffing without reaching the apex defensive auras (Aegis) or unit-restore (Lady's Embrace).
 >
 > **Structural note: no Knight-tier casters in Bretonnia.** Per WAP and our §17 design, only Lady's Chosen characters (Damsel, Prophetess) cast Lady magic. Knight-tier characters (Lord, Paladin, KotR, Knights Errant, Questing Knights, Pegasus Knights) are recipients of Lady magic, not casters. This is structurally distinct from Empire (where any noble can train at the Colleges of Magic) or Lizardmen (where any Skink can become a Priest of an Old One); Bretonnia's chivalric order is specifically excluded from magical channelling — the knight's role is *to be blessed*, not to *bless*. Mechanically this concentrates Lady magic in one or two characters per army; tactically this means Lady casters are high-priority enemy targets and high-positional-priority for the Bretonnian player.
 >

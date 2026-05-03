@@ -21,7 +21,7 @@
 
 | LiS | US |   | Points |
 |-----|----|---|--------|
-| 2   | 2  |   | **30** |
+| 2   | 2  |   | **24** |
 
 - **Keywords:** Bretonnia, Human, Cavalry, Core, Knights of the Realm
 - **Unit type:** Cavalry
@@ -36,9 +36,9 @@
   - *(Questing Vow not available — Questing Vow forbids Heavy Lance per §17, and KotR are lance-specialist units; a unit of knights who give up the lance becomes Questing Knights, drafted as a separate unit in §17 Special)*
   - *(Grail Vow not available at unit level — the Grail Vow is exceptionally rare; Grail-Vow knights typically appear as individual characters or future Grail Knights units rather than as a Knight's-Vow upgrade)*
 - **Command options:**
-  - **Leader** (+5 pts) — the unit's *Knight Gallant*; champion for Rally / challenge / Leader-snipe purposes
-  - **Standard bearer** (+10 pts — Magic Standard up to 50 pts; Bretonnian Knights get the elite cavalry banner budget, matching Imperial Knights)
-  - **Musician** (+5 pts) — +1 to recovery and Rally rolls (the unit's herald, signalling charges and rallies on horn)
+  - **Leader** (+4 pts) — the unit's *Knight Gallant*; champion for Rally / challenge / Leader-snipe purposes
+  - **Standard bearer** (+8 pts — Magic Standard up to 40 pts; Bretonnian Knights get the elite cavalry banner budget, matching Imperial Knights)
+  - **Musician** (+4 pts) — +1 to recovery and Rally rolls (the unit's herald, signalling charges and rallies on horn)
 - **Special rules:**
   - Disciplined (see §8)
   - **Knight's Vow** (see §17 Faction Mechanics) — Blessing-eligibility marker. No additional effect at this vow tier. Replace with Crusader's Vow at list-build (see Vow upgrade options above)

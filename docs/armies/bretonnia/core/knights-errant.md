@@ -21,7 +21,7 @@
 
 | LiS | US |   | Points |
 |-----|----|---|--------|
-| 2   | 2  |   | **28** |
+| 2   | 2  |   | **22** |
 
 - **Keywords:** Bretonnia, Human, Cavalry, Core, Knights Errant
 - **Unit type:** Cavalry
@@ -34,9 +34,9 @@
 - **Vow upgrade options (replace Knight's Vow at list-build):**
   - **Crusader's Vow** (+1 pt/model, whole-unit upgrade) — replaces Knight's Vow keyword. See §17 Faction Mechanics. Same Crusader's Vow effects as KotR (Immunity Panic-source stress + reroll psychology recovery + +1D6 charge distance roll discard lowest). Knights Errant under Crusader's Vow are particularly thematic — young knights on their first holy crusade, eager and now psychology-immune
 - **Command options:**
-  - **Leader** (+5 pts) — *First Knight*; the most senior errant of the unit, often a Hero-tier knight on his second or third Errantry Tour
-  - **Standard bearer** (+10 pts — Magic Standard up to 25 pts; the family's heraldic banner, often that of the young knight's father or sponsor)
-  - **Musician** (+5 pts) — +1 to recovery and Rally rolls
+  - **Leader** (+4 pts) — *First Knight*; the most senior errant of the unit, often a Hero-tier knight on his second or third Errantry Tour
+  - **Standard bearer** (+8 pts — Magic Standard up to 20 pts; the family's heraldic banner, often that of the young knight's father or sponsor)
+  - **Musician** (+4 pts) — +1 to recovery and Rally rolls
 - **Special rules:**
   - Disciplined (see §8)
   - **Knight's Vow** (see §17 Faction Mechanics) — Blessing-eligibility marker. No additional effect at this vow tier. Replace with Crusader's Vow at list-build (see Vow upgrade options above)

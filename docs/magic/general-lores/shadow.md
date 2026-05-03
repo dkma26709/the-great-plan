@@ -13,7 +13,7 @@
 
 Caster chooses one of **WS, BS, I, or M**. Target enemy unit suffers **-D3** to that characteristic until start of next turn (minimum 1 — characteristics cannot drop below 1). Confusion fills their minds — swords miss their marks, legs falter, arrows fly wide. The workhorse Shadow cast — always available, flexible, softens any unit for what comes next.
 
-#### Basic (Tier 1) — Lore Access 1+
+#### Basic (Tier 1) — LA 1+
 
 **The Withering**
 
@@ -47,7 +47,7 @@ Target friendly unit suffers **-1 to hit against it from ranged attacks** until 
 
 Target **single friendly character** (not a unit, not a champion in a unit — solo models only) may immediately make a **12" Fly move**, ignoring terrain and models. The character cannot end within 1" of an enemy unit or inside impassable. Cannot declare a Charge as part of this move. The character fades into shadow and re-emerges somewhere useful. Paired with Fading Step, a Shadow wizard on foot can reposition over 20" in a single magic phase.
 
-#### Intermediate (Tier 2) — Lore Access 2+
+#### Intermediate (Tier 2) — LA 2+
 
 **Veil of Unreality**
 
@@ -81,7 +81,7 @@ Target friendly unit may immediately make a **D6" Fly move** (not a Charge, 1" r
 
 Target enemy unit cannot benefit from **any newly-cast friendly augment spells, friendly Lore Attribute effects, or hostile-spell removal effects** until start of next turn. Existing buffs already on the unit when this spell resolves are unaffected; only effects that *would* land on the unit during the duration fail. The unit is fogged in a mirror-mist — their own wizards' blessings can't find them, and incoming Lore-attribute pulses miss the mark. Anti-magic hex — forces opposing wizards to choose less-protected targets, complementing Shadow's existing "-stat" approach. Single rule (block magic-targeting); single mental load.
 
-#### Advanced (Tier 3) — Lore Access 3+
+#### Advanced (Tier 3) — LA 3+
 
 **Pendulum of Shadow** *(line template)*
 
@@ -111,7 +111,7 @@ Target friendly unit uses its **Res value instead of S** for wound rolls in mele
 
 A wild swing: S3 peasants with Res 7 suddenly wound as if S7; a Loremaster character with Res 10 wounds on 2+ against almost anything. Rewards well-led, high-Res units (generals' regiments, veteran blocks) and makes an otherwise-average combat unit into a surgical cleaver for one brutal turn.
 
-#### Master (Tier 4) — Lore Access 4+
+#### Master (Tier 4) — LA 4+
 
 **Penumbral Pendulum**
 

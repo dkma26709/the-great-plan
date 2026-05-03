@@ -15,7 +15,7 @@
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 
-**Points:** **85** per beast-bundle (1 Razordon + 3 Handlers)
+**Points:** **68** per beast-bundle (1 Razordon + 3 Handlers)
 
 - **Keywords:** Lizardmen, Warbeast, Special (Razordon); Lizardmen, Skink, Infantry, Special (Handler)
 - **Unit type:** Mixed Unit (Warbeast + Skink Infantry support, per §1)
@@ -27,8 +27,8 @@
   - Handler: hand weapon
   - No shields on either profile
 - **Command options:**
-  - **Handler Leader** (+5 pts) — designated Skink leader; replaces a Handler model (not added)
-  - **Musician** (+5 pts) — replaces a Handler model
+  - **Handler Leader** (+4 pts) — designated Skink leader; replaces a Handler model (not added)
+  - **Musician** (+4 pts) — replaces a Handler model
   - No Standard bearer
 - **Special rules:**
   - Cold-Blooded (see §8)

@@ -10,7 +10,7 @@
 - **Keywords:** Lizardmen, Saurus, Infantry, Special
 - **Unit type:** Infantry
 - **Unit size:** 5-20
-- **Points:** 55 per model
+- **Points:** 44 per model
 - **Natural Armour:** 4+ (sacred reinforced scales — thicker than rank-and-file Saurus, "withstand attacks that penetrate the hides of Saurus Warriors")
 - **Worn armour:** light armour
 - **Combined save:** 3+ (no shield) / **2+ (with Stardrake Shield — default)** — NA 4+ → light armour 3+ → Stardrake Shield 2+ (cap), per §8 Armour Save Stacking
@@ -19,9 +19,9 @@
   - Hand weapon + Stardrake Shield (swap — retains 2+ save, loses halberd's reach and +1 S)
 - **Blessed Spawnings:** up to 3 per unit, per-model costs from §10 menu. Each spawning beyond the first promotes the unit one FoC tier (Special → Rare; max Rare).
 - **Command options:**
-  - **Revered Guardian** (champion, +15 pts) — acts as unit leader for Rally, challenges, and Leader-snipe purposes; the Master of the Twenty-Two, the strongest and most savage of the cohort
-  - **Standard bearer** (+15 pts) — Stardrake Icon
-  - **Musician** (+15 pts) — Wardrum; +1 to recovery and Rally rolls
+  - **Revered Guardian** (champion, +12 pts) — acts as unit leader for Rally, challenges, and Leader-snipe purposes; the Master of the Twenty-Two, the strongest and most savage of the cohort
+  - **Standard bearer** (+12 pts) — Stardrake Icon
+  - **Musician** (+12 pts) — Wardrum; +1 to recovery and Rally rolls
 - **Special rules:**
   - Disciplined (see §8)
   - Cold-Blooded (see §8)

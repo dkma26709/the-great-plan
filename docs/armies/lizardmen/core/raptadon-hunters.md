@@ -18,16 +18,16 @@
 - **Keywords:** Lizardmen, Skink, Cavalry, Core
 - **Unit type:** Cavalry (Fast Cavalry — see §8)
 - **Unit size:** 5-15
-- **Points:** 15 per model
+- **Points:** 12 per model
 - **Wounds per model:** **W1** — Raptadon mount W1 + rider conversion (Skink W1 → +0 step), per §1 *Combined Wounds*. Attackers use highest WS-D (3) and highest T (3) when resolving hits against this unit
 - **Natural Armour:** 6+ (Raptadon hide); 5+ combined with shield
 - **Equipment (default):** Hand weapon + **Moonstone Javelins** + shield — see Armoury
 - **Equipment options:**
   - **Jungle Poisons** — whole unit, +1 pt/model — rider's melee and ranged attacks gain **Poisoned Attacks**. (Raptadon mount attacks are already the mount's natural weaponry and are unaffected.)
 - **Command options:**
-  - **Patrol Leader** (champion, +5 pts, no stat buff)
-  - **Standard bearer** (+10 pts — may carry a Magic Standard worth up to 25 pts)
-  - **Musician** (+5 pts)
+  - **Patrol Leader** (champion, +4 pts, no stat buff)
+  - **Standard bearer** (+8 pts — may carry a Magic Standard worth up to 20 pts)
+  - **Musician** (+4 pts)
 - **Special rules:**
   - Cold-Blooded (see §8)
   - Fast Cavalry (see §8)

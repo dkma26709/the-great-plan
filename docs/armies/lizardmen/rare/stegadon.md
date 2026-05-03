@@ -19,7 +19,7 @@
 
 *Skink Crew share the Stegadon's M (they are in the howdah — they do not move independently). Their profiles are used for resolving attacks, wounds, and howdah weapon shots; primary-profile wound allocation and Mixed Unit rules apply per §1.*
 
-**Points:** **285** per Stegadon + 5 Skink Crew bundle
+**Points:** **228** per Stegadon + 5 Skink Crew bundle
 
 - **Keywords:** Lizardmen, Saurian, Monster, Rare (Stegadon); Lizardmen, Skink, Infantry, Rare (Crew)
 - **Unit type:** Mixed Unit (Monster + Skink Infantry support, per §1)

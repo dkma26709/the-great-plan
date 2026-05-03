@@ -9,7 +9,7 @@
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 6 | 6 | 5 | 4 | 4 | 5 | 6 | 10 | 2 | 3 |
 
-**Points:** **170** base (on foot, hand weapon + heavy armour, Knight's Vow)
+**Points:** **136** base (on foot, hand weapon + heavy armour, Knight's Vow)
 
 - **Keywords:** Bretonnia, Human, Character, Lord
 - **Unit type:** Infantry (Character); may take a mount
@@ -18,14 +18,14 @@
 - **Combined save (foot, default):** 4+ (heavy armour alone)
 - **Equipment (default):** Hand weapon + heavy armour
 - **Equipment options** (pick one melee swap, plus optional shield):
-  - **Shield** (+3 pts, additive — combines with armour for 3+ save on foot, integrates with mount armour as normal per §8)
-  - **Polearm (Bretonnian Bill)** (+8 pts, **foot only** — replaces hand weapon, shield retained) — 2" reach | A 4 | S+1 (= S 5) | AP -1 | D 1 (same profile as Empire Halberd)
-  - **Heavy Lance** (+8 pts, **mounted only** — replaces hand weapon, shield retained) — 2" reach | A 4 | charge: S+2 (= S 6) AP -2 D 2; subsequent rounds S+0 AP 0 D 1
-  - **Great Weapon** (+12 pts — replaces hand weapon, no shield; save drops to 4+ on foot or one-step worse on mount) — 1" reach | A 4 | S+2 (= S 6) | AP -2 | D 1 | Two-Handed
+  - **Shield** (+2 pts, additive — combines with armour for 3+ save on foot, integrates with mount armour as normal per §8)
+  - **Polearm (Bretonnian Bill)** (+6 pts, **foot only** — replaces hand weapon, shield retained) — 2" reach | A 4 | S+1 (= S 5) | AP -1 | D 1 (same profile as Empire Halberd)
+  - **Heavy Lance** (+6 pts, **mounted only** — replaces hand weapon, shield retained) — 2" reach | A 4 | charge: S+2 (= S 6) AP -2 D 2; subsequent rounds S+0 AP 0 D 1
+  - **Great Weapon** (+10 pts — replaces hand weapon, no shield; save drops to 4+ on foot or one-step worse on mount) — 1" reach | A 4 | S+2 (= S 6) | AP -2 | D 1 | Two-Handed
 - **Vow upgrade options (replace Knight's Vow at list-build, pick at most one):**
-  - **Crusader's Vow** (+15 pts, whole-character upgrade) — replaces Knight's Vow keyword. See §17 Faction Mechanics for full definition. Grants Immunity to Panic-source stress, reroll failed psychology-source recovery rolls, and +1D6 charge distance roll (discard lowest). Captures the holy-crusader Lord — typically a Lord on the long campaign against Chaos Wastes / Sylvania / Greenskins
-  - **Questing Vow** (+15 pts, whole-character upgrade) — replaces Knight's Vow keyword. See §17 Faction Mechanics. Grants Stubborn (already-stress-state-resistant). The character may NOT take a Heavy Lance (Questing Vow forbids the lance). Trade-off: gives up the Lord's lance access for permanent Stubborn protection
-  - **Grail Vow** (+30 pts, whole-character upgrade) — replaces Knight's Vow keyword. See §17 Faction Mechanics for full definition. Grants:
+  - **Crusader's Vow** (+12 pts, whole-character upgrade) — replaces Knight's Vow keyword. See §17 Faction Mechanics for full definition. Grants Immunity to Panic-source stress, reroll failed psychology-source recovery rolls, and +1D6 charge distance roll (discard lowest). Captures the holy-crusader Lord — typically a Lord on the long campaign against Chaos Wastes / Sylvania / Greenskins
+  - **Questing Vow** (+12 pts, whole-character upgrade) — replaces Knight's Vow keyword. See §17 Faction Mechanics. Grants Stubborn (already-stress-state-resistant). The character may NOT take a Heavy Lance (Questing Vow forbids the lance). Trade-off: gives up the Lord's lance access for permanent Stubborn protection
+  - **Grail Vow** (+24 pts, whole-character upgrade) — replaces Knight's Vow keyword. See §17 Faction Mechanics for full definition. Grants:
     - **Blessing of the Lady (improved)** — Ward Save **5+** vs S ≤ 4, **4+** vs S ≥ 5 (one step better at each strength tier than the Knight's Vow Blessing's 6+/5+). The Lady's hand rests firmly on those who have completed the Quest; ordinary blows pass through more easily, and even heavy strikes find divine intervention more often
     - **Stubborn** (per §8 — ignores Shaken / Wavering state effects)
     - **Immune to Psychology** — this character ignores stress accumulation from psychology-source triggers (Fear, Terror, Panic-source events). Already-accumulated stress is unaffected; only new psychology-source stress is blocked
@@ -34,10 +34,10 @@
     The character is the apex of the chivalric ladder — has met the Lady in person, drunk from the Grail, returned transformed. *(Grail Vow keyword definition is forward-compat per §17 — this entry establishes the Lord-tier interaction; Grail Knights and other Grail-Vow units will reference and refine the keyword in a future expansion pass.)*
 - **Magic Items:** up to **100 pts** (Lord-tier convention)
 - **Mount options:**
-  - **Warhorse** (per Knights of the Realm mount profile — Bretonnian destrier with Purebred Warhorse, M 10 with full barding) — +18 pts
-  - **Pegasus** (per Pegasus Knights mount profile — Fly 12", W 2 / T 4 / S 4 / A 2 / I 4) — +30 pts. Lord on Pegasus does NOT inherit Pegasus Knights' Diving Charge identity rule (that's unit-specific to the Pegasus Knights regiment)
-  - **Royal Pegasus** (improved Pegasus mount — *profile deferred to a Character Mounts pass; expected Fly 14", S 5, A 3 / "Iron-hard Hooves" identity*) — +45 pts
-  - **Royal Hippogryph** (flying monster mount — see Character Mounts) — +130 pts *(Pass 3, 2026-05-01: 150 → 130 reflecting W collapse)*
+  - **Warhorse** (per Knights of the Realm mount profile — Bretonnian destrier with Purebred Warhorse, M 10 with full barding) — +14 pts
+  - **Pegasus** (per Pegasus Knights mount profile — Fly 12", W 2 / T 4 / S 4 / A 2 / I 4) — +24 pts. Lord on Pegasus does NOT inherit Pegasus Knights' Diving Charge identity rule (that's unit-specific to the Pegasus Knights regiment)
+  - **Royal Pegasus** (improved Pegasus mount — *profile deferred to a Character Mounts pass; expected Fly 14", S 5, A 3 / "Iron-hard Hooves" identity*) — +36 pts
+  - **Royal Hippogryph** (flying monster mount — see Character Mounts) — +104 pts *(Pass 3, 2026-05-01: 150 → 130 reflecting W collapse; Pass 8, 2026-05-03: 130 → 104 via 0.8× scaling)*
 - **Battle Standard option:** +25 pts — one Bretonnian Lord (or Paladin) in the army may carry the Army Battle Standard. The banner may be a magic banner with no points limit; the Lord's other magic-item allowance remains intact (taking a magic banner does **not** reduce the Lord's magic-item budget). This character also gains the Battle Standard Bearer aura per §8 (12" radius, +1 CR + +1 to recovery / rally rolls for friendly Bretonnia units)
 - **Special rules:**
   - Disciplined (see §8)

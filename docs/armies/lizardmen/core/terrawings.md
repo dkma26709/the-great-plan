@@ -5,7 +5,7 @@
 
 | M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |  | Points |
 |---|----|----|----|---|---|---|---|----|-----|----|---|--------|
-| 2 | 2 | 2 | 0 | 3 | 3 | 1 | 3 | 3 | 1 | 1 |  | **8** |
+| 2 | 2 | 2 | 0 | 3 | 3 | 1 | 3 | 3 | 1 | 1 |  | **6** |
 
 - **Keywords:** Lizardmen, War Beast, Core
 - **Unit type:** War Beast (LiS 1 is an exception — small flyers, below typical War Beast scale)

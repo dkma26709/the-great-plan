@@ -13,7 +13,7 @@
 
 *Carnosaur US equals current remaining W per the Monster-US convention. **A is on weapons** (see profiles below) — no Attack stat on the profile line.*
 
-**Points:** **+230** added to the rider's base cost (Carnosaur + Rider combined per Rider and Mount Profiles §1). *(Pass 3, 2026-05-01: reduced from +280 reflecting the new conversion-W rule. A Saurus Oldblood W8 mounted on Carnosaur now sits at W14 vs old pool W18; the mount-W contribution differential drops from +10 W to +6 W, with the mount premium scaling proportionally.)*
+**Points:** **+184** added to the rider's base cost (Carnosaur + Rider combined per Rider and Mount Profiles §1). *(Pass 3, 2026-05-01: reduced from +280 reflecting the new conversion-W rule. Pass 8, 2026-05-03: 0.8× global scaling reduces +230 → +184.)*
 
 - **Keywords:** Lizardmen, Saurian, Monster, Character Mount (the rider's Keywords — Character, Lord/Hero, Saurian — apply to the combined model as usual)
 - **Unit type:** Monster Mount (single model combining Carnosaur + Rider — see §1 Rider and Mount Profiles for combined profile handling)

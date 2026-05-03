@@ -9,7 +9,7 @@
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 5 | 5 | 0 | 4 | 4 | 4 | 2 | 10 | 1 | 2 |
 
-**Points:** **140** base (with Celestite Blade + shield + intrinsic Astrolith)
+**Points:** **112** base (with Celestite Blade + shield + intrinsic Astrolith)
 
 - **Keywords:** Lizardmen, Saurian, Character, Hero
 - **Unit type:** Infantry (Character); foot only — the Astrolith is too cumbersome to bear on a mount
@@ -36,4 +36,4 @@
 - **Saurus Jaws** *(Bearer natural, always)* — 1" reach | **A 1** | S 4 | AP -1 | D 1 — Saurus baseline jaw-strike `[Natural]`
 - **Celestite Blade** *(default, 1H)* — 1" reach | **A 3** | S 4 | AP -1 | D 1 (see Armoury) `[1H Blade]`
 
-> **Lore notes:** A Saurus warrior gifted a sacred Astrolith icon — chosen by the Slann not as the greatest fighter, but as one deemed by the Old Ones to bear a great destiny. Identity is the icon, not the duel. **Astrolith** is the lore-direct mechanic: friendly Wizards within 12" gain +1 to cast rolls — captures "Lizardmen who tap into this energy find their powers greatly enhanced in the icon's presence." Distinct from the Arcanadon's +1 Channelling aura (clean carve: Astrolith = cast bonus, Arcanadon = channel bonus). Foot only — the Astrolith disc is a heavy ceremonial relic, held aloft. Cannot also carry the army Battle Standard; one Astrolith Bearer per army.
+> **Lore notes:** A Saurus warrior gifted a sacred Astrolith icon — chosen by the Slann not as the greatest fighter, but as one deemed by the Old Ones to bear a great destiny. Identity is the icon, not the duel. **Astrolith** is the lore-direct mechanic: friendly Wizards within 12" gain +1 to cast rolls — captures "Lizardmen who tap into this energy find their powers greatly enhanced in the icon's presence." Distinct from the Arcanadon's +1 Ch aura (clean carve: Astrolith = cast bonus, Arcanadon = channel bonus). Foot only — the Astrolith disc is a heavy ceremonial relic, held aloft. Cannot also carry the army Battle Standard; one Astrolith Bearer per army.

@@ -11,7 +11,7 @@
 
 *Skink slipperiness split (WS-A 4 / WS-D 5). **BS 7** = one shot above the rest of the Lizardmen roster (Chameleon Stalker BS 6) — lore-direct "last and greatest Chameleon Hunter." W 4 = Stalker baseline +1 (ancient survivor of the Realm of Chaos). I 8 = supernatural anticipation. Res 9 = Realm-of-Chaos veteran.*
 
-**Points:** **235** base (intrinsic regalia included; no upgrades available)
+**Points:** **188** base (intrinsic regalia included; no upgrades available)
 
 - **Keywords:** Lizardmen, Saurian, Skink, Chameleon, Character, Hero, Named
 - **Unit type:** Infantry (Character, Skirmishers — coherency 2"); foot only

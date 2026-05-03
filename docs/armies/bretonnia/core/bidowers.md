@@ -10,7 +10,7 @@
 - **Keywords:** Bretonnia, Human, Infantry, Core, Peasant, Skirmisher
 - **Unit type:** Infantry (Skirmisher)
 - **Unit size:** 10-30 (loose-order skirmishers; smaller blocks fit the harassment role, larger blocks reflect the WAP 20+ horde tradition)
-- **Points:** 6 per model
+- **Points:** 5 per model
 - **Natural Armour:** —
 - **Worn armour (default):** — (village levies issued no body armour; Bidowers are too low-status to merit even a quilted jack)
 - **Equipment (default):** Hand weapon + Javelin
@@ -19,8 +19,8 @@
 - **Additive equipment options:**
   - **Buckler** (+0.5 pt/model) → grants **Parry (6+)** in melee (see §8 Parry). Small enough not to interfere with javelin or sling — Bidowers carry the buckler on the off-arm for melee defence after thrown ammunition is spent
 - **Command options:**
-  - **Leader** (+5 pts) — *Bidower Master*; a senior peasant skirmisher, often a ducal forester or a seasoned scout
-  - **Musician** (+5 pts) — +1 to recovery and Rally rolls (a peasant horn-blower or runner who relays signals across the dispersed unit)
+  - **Leader** (+4 pts) — *Bidower Master*; a senior peasant skirmisher, often a ducal forester or a seasoned scout
+  - **Musician** (+4 pts) — +1 to recovery and Rally rolls (a peasant horn-blower or runner who relays signals across the dispersed unit)
   - *(No Standard Bearer — skirmishers carry no banner. The Bidower lives by speed and scattered movement, not by the standard's anchor.)*
 - **Special rules:**
   - Undisciplined (see §8)
