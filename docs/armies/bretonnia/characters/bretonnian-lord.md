@@ -48,6 +48,11 @@
   - **Purebred Warhorse** (when mounted on Warhorse — see §8) — negates barding's -2 M penalty
   - **Class Barrier** *(clause of Peasant's Duty — interaction)* — this character cannot effectively attach to a peasant unit (Men-at-Arms, Longbowmen, Bidowers, Field Trebuchet) per the Peasant's Duty Class Barrier clause. The Lord can stand within 6" of a peasant unit to grant the Inspiring Presence aura, but loses Character Attachment shielding (per §6) when standing within the peasant unit's coherency
   - **Inspiring Charge** *(identity rule)* — when this character successfully completes a charge, until the end of the current **Movement phase**, all friendly Bretonnia units within **18"** of this character's post-charge position may **reroll failed charge distance rolls**. The Lord rides ahead of the line; once his lance bites home, the duchy's knights and infantry follow into the breach he has opened. The 18" radius is measured from the Lord's *new* position after his charge resolves — important when the Lord has charged deep into the enemy line and is now far from his starting deployment, because his reroll buff still trails forward to the rest of the army's charges in the same Movement phase
+  - **Liege Bond** *(character shift — per-unit, mount/Vow-conditional, per §9.3)* — depending on this Lord's mount and Vow, one unit of the matching type counts as **Core** instead of Special while this model is in your list. Stacks across multiple Bretonnian Lords and Paladins.
+    - **on Pegasus or Royal Pegasus:** one **Pegasus Knights** unit → Core
+    - **with Questing Vow:** one **Questing Knights** unit → Core *(stacks with the on-Pegasus shift if the Lord is on a Pegasus AND has Questing Vow — note Questing Vow forbids the Heavy Lance, so the Lord-on-Pegasus-with-Questing-Vow build is offensive-leaning rather than charge-focused)*
+    - **with Grail Vow:** *(no list-shift currently — Grail Knights and other Grail-Vow units pending future drafts; the shift hook is reserved for those entries)*
+    - **on Warhorse / Royal Hippogryph / foot:** no shift (knights of the Realm and Errant are already Core; the Hippogryph is a unique Lord-only mount, not a unit type)
 
 **Weapon profiles (A on weapons):**
 

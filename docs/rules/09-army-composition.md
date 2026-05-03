@@ -5,15 +5,23 @@
 
 ### 9.1 Categories
 
-An army is divided into five categories:
+An army is divided into five categories. Each AoI defines its own Composition Table; default constraints across most AoIs are:
 
-- **Lords** — the most powerful commanders of the faction. Usually limited to 0–1 per 1000 pts of army size.
+| Category | Default constraint | Notes |
+|---|---|---|
+| **Lords** | Maximum **25%** of army points | No per-character count limit — multiple of the same Lord type are permitted within the points cap |
+| **Heroes** | Maximum **25%** of army points | Same — no per-character count limit |
+| **Core** | Minimum **25%** of army points | The faction's rank-and-file backbone |
+| **Special** | Maximum **50%** of army points | Elite and specialist units |
+| **Rare** | Maximum **25%** of army points | Apex units; signature monsters and unique assets |
+
+- **Lords** — the most powerful commanders of the faction.
 - **Heroes** — lesser characters, lieutenants, and exceptional individuals above line-officer level.
-- **Core** — the backbone of the army: rank-and-file infantry, standard cavalry, the faction's most numerous units. Usually subject to a **minimum** percentage.
-- **Special** — elite and specialist units: shock cavalry, veterans, heavy infantry, war beasts, unusual troop types. Usually subject to a **maximum** percentage.
-- **Rare** — apex units: signature monsters, unique constructs, the faction's most unusual or powerful assets. Usually subject to a tighter **maximum** percentage.
+- **Core** — rank-and-file infantry, standard cavalry, the faction's most numerous units.
+- **Special** — elite and specialist units: shock cavalry, veterans, heavy infantry, war beasts, unusual troop types.
+- **Rare** — apex units: signature monsters, unique constructs, the faction's most unusual or powerful assets.
 
-Categories are the **chassis**. Which of a faction's units sit in which category under any given list is decided by the AoI.
+Categories are the **chassis**. Which of a faction's units sit in which category under any given list is decided by the AoI. AoIs may tighten or loosen the default constraints.
 
 ### 9.2 Armies of Infamy
 
@@ -21,7 +29,7 @@ Every list must be built under an **Army of Infamy**. Each faction has a **Defau
 
 An AoI defines:
 
-- **Composition Table** — minimums and maximums per category (e.g. Core min 25%, Special max 50%, Rare max 25%; Lord/Hero caps scaling with points).
+- **Composition Table** — minimums and maximums per category (default: Lords 25% max, Heroes 25% max, Core 25% min, Special 50% max, Rare 25% max — see §9.1). AoIs may diverge from the defaults to enforce their theme.
 - **Category assignments** — which of the faction's units sit in each category under this AoI.
 - **Army-wide rules** — 0–2 special rules applied to the entire list.
 - **Mandatory picks** — 0–2 units that must appear.

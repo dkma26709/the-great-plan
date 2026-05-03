@@ -38,6 +38,11 @@
   - **Fear** (see §8)
   - **Locked Jaws** *(Saurus species rule)* — when this Oldblood is reduced to 0 W during the Combat phase, before being removed it makes 1 final Saurus Jaws attack against the model that scored the killing blow (or closest enemy in base contact). Single attack — no Predatory Fighter cascade on the death-bite. The lore-canonical "even in death the bite still goes in," propagated from the Saurus species pass.
   - **Primeval Command** *(identity rule)* — friendly **Saurus** units with any model within **18"** of the Oldblood gain **+1 Res** for stress threshold purposes. Additionally, at the start of any friendly turn, the Oldblood nominates one friendly Saurus unit within 18"; that unit immediately removes **2 stress counters**. Represents the latent strategic knowledge of war unlocked across the Oldblood's centuries — his people orient around his unspoken tactical vision.
+  - **Apex Bond** *(character shift — per-unit, mount-conditional, per §9.3)* — depending on this Oldblood's mount, one unit of the matching type counts as a lower category while this model is in your list. Stacks across multiple Oldbloods.
+    - **on Aggradon:** one **Aggradon Lancers** unit → Core *(stacks with the Scar-Veteran on Aggradon's Lead from the Saddle — two Aggradon-mounted characters, two units shifted)*
+    - **on Carnosaur:** one **Wild Carnosaur** unit → Special *(Kroq-Gar's blanket version — see Kroq-Gar entry — extends this to all Wild Carnosaur units)*
+    - **on Horned One:** one **Horned One Riders** unit → Core
+    - **on foot:** no shift (the Oldblood already integrates into Saurus Warriors / Temple Guard cohorts as standard)
 
 **Weapon profiles (A on weapons):**
 

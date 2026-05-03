@@ -66,7 +66,7 @@ Cross-faction reference for which units carry **Disciplined** / **Undisciplined*
 
 | Faction | Disciplined units | Undisciplined units | Cold-Blooded units |
 |---------|-------------------|----------------------|---------------------|
-| **Lizardmen / Seraphon** | Saurus Warriors, Saurus Temple Guard, Saurus characters (Oldblood, Scar-Veteran), Aggradon Lancers, Horned One Riders | — | **All Lizardmen units** (faction-wide trait — Saurus, Skink, Kroxigor, Saurian beasts, Slann) |
+| **Lizardmen** | Saurus Warriors, Saurus Temple Guard, Saurus characters (Oldblood, Scar-Veteran), Aggradon Lancers, Horned One Riders | — | **All Lizardmen units** (faction-wide trait — Saurus, Skink, Kroxigor, Saurian beasts, Slann) |
 | **Empire** | All State Troops (Halberdiers, Handgunners, Swordsmen, Spearmen, Crossbowmen — drilled-daily professional standing army), Greatswords, Reiksguard, Imperial Knights, Demigryph Knights, Wizard Lord, Imperial General, Empire characters | — | — |
 | **Bretonnia** | Knights of the Realm, Knights Errant, Questing Knights, Pegasus Knights, Bretonnian Lord, Paladin, Damsel, Prophetess | Men-at-Arms, Longbowmen, Bidowers, Field Trebuchet crew | — |
 | **Ogre Kingdoms** | Tyrant, Bruiser, Slaughtermaster (commander tier — drilled by violence rather than discipline) | Ogre Bulls (rabble), Gnoblar units (when drafted) | — |

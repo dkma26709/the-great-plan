@@ -29,6 +29,12 @@
   - **Aquatic** (see §8)
   - **Strategist of the Skink-caste** *(identity rule — replaces Target Designation of the basic Skink Chief with a stronger Lord-tier version)* — at the start of each friendly Shooting phase, the High Chief nominates one visible enemy unit within **36"** (double the Chief's 24" range). Until end of phase, all friendly **Skink** units shooting the nominated unit gain **+1 to hit AND +1 to wound**. Additionally, while the High Chief is alive and not Broken, all friendly **Skink** units with any model within **12"** of the High Chief treat their Res as **8** (if lower). Represents the Lord-tier tactical authority — the High Chief sees the whole Skink battle line and directs it to decisive effect
   - **Scout** *(inherited from the Skink Chief tradition)* — the High Chief (and any friendly Skink Skirmishers or Chameleon Skinks unit attached at list-building) deploys as Scouts after normal deployment, outside 12" of enemy units
+  - **Pack Bond** *(character shift — per-unit, mount-conditional, per §9.3 — same pattern as Skink Chief, scaled to Lord tier)* — depending on this High Chief's mount, one unit of the matching type counts as **Core** instead of Special while this model is in your list. Stacks across multiple Skink High Chiefs and Skink Chiefs.
+    - **on Terradon:** one **Terradon Riders** unit → Core *(Tiktaq'to's blanket version extends this to all Terradon Riders units)*
+    - **on Ripperdactyl:** one **Ripperdactyl Riders** unit → Core
+    - **on Horned One:** one **Horned One Riders** unit → Core
+    - **on Raptadon:** no shift (Raptadon Hunters and Raptadon Chargers are already Core in the Default AoI)
+    - **on foot or Stegadon:** no shift (Stegadon-mounted High Chiefs lead the Stegadon directly; the Stegadon is the unit, not a separate one shifted)
 
 **Weapon profiles (A on weapons, all Poisoned Attacks if Jungle Poisons taken):**
 

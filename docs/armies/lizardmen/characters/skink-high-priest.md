@@ -1,7 +1,7 @@
 # Skink High Priest
 
 
-> The senior caster of the Skink caste — elder, richly adorned, marked with the visible sigil of a specific Old One since spawning. When the Slann is entranced (which is most of the time), the High Priest is the operational voice of the Seraphon command: prophet, chief augur, and emissary to the Saurus and Skink castes alike. Combat is beneath them but occasionally unavoidable; they rely entirely on magical power, mount mobility, and the protection of the units around them.
+> The senior caster of the Skink caste — elder, richly adorned, marked with the visible sigil of a specific Old One since spawning. When the Slann is entranced (which is most of the time), the High Priest is the operational voice of the Lizardmen command: prophet, chief augur, and emissary to the Saurus and Skink castes alike. Combat is beneath them but occasionally unavoidable; they rely entirely on magical power, mount mobility, and the protection of the units around them.
 
 **Skink High Priest:**
 
@@ -42,4 +42,4 @@
 - **Hand weapon** *(1" melee)* — 1" | A 1 | S 3 | AP 0 | D 1 `[1H Blade]`
 - **Moonstone Javelin** *(8" ranged, see Armoury)* — 8" range | S 3 | AP -1 | D 1 | Quick to Fire | Poisoned Attacks
 
-> **Lore notes:** The senior caster of the Skink caste — when the Slann is entranced (which is most of the time), the High Priest is the operational voice of Seraphon command. **Mark of the Old One** locks them to one chosen lore at Lore Access 3 Advanced — the promotion over the basic Priest is *tier reached*, not lore breadth (Slann are the multi-lore generalists; Priests stay focused). **Arcane Vassal** is the identity-rule continuity from the basic Priest — the Slann casts through them; the High Priest is a stronger relay-antenna by virtue of being closer to a Slann's caster-tier presence. Res 8 is lower than the High Chief's Res 10 — the wisdom/bravery split established at basic-Priest/Chief tier continues here. Combat is beneath them but occasionally unavoidable; they rely on magic, mount mobility, and the units around them.
+> **Lore notes:** The senior caster of the Skink caste — when the Slann is entranced (which is most of the time), the High Priest is the operational voice of Lizardmen command. **Mark of the Old One** locks them to one chosen lore at Lore Access 3 Advanced — the promotion over the basic Priest is *tier reached*, not lore breadth (Slann are the multi-lore generalists; Priests stay focused). **Arcane Vassal** is the identity-rule continuity from the basic Priest — the Slann casts through them; the High Priest is a stronger relay-antenna by virtue of being closer to a Slann's caster-tier presence. Res 8 is lower than the High Chief's Res 10 — the wisdom/bravery split established at basic-Priest/Chief tier continues here. Combat is beneath them but occasionally unavoidable; they rely on magic, mount mobility, and the units around them.

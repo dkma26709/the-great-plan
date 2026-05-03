@@ -30,7 +30,7 @@ docs/                       # Source content
 ├── index.md                # Front page (elevator pitch)
 ├── rules/                  # Core rules sections
 └── armies/                 # Per-faction rosters and unit pages
-    └── seraphon/           # Lizardmen — proof-of-concept army
+    └── lizardmen/          # Lizardmen — proof-of-concept army
 
 mkdocs.yml                  # Site configuration and navigation
 .github/workflows/          # GH Actions deploy workflow

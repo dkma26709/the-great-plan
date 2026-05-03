@@ -1,7 +1,7 @@
 # Armoury
 
 
-The Seraphon fight with stone, bone, and the living crystal of their homeland — celestite mined from the Black Pyramid, obsidian chipped from volcanic glass, wood older than civilisation. Canonical weapon profiles referenced by the unit entries below. A unit equipping a weapon from this armoury uses the profile exactly as written; unit-specific weapon variants are listed inline on the relevant profile.
+The Lizardmen fight with stone, bone, and the living crystal of their homeland — celestite mined from the Black Pyramid, obsidian chipped from volcanic glass, wood older than civilisation. Canonical weapon profiles referenced by the unit entries below. A unit equipping a weapon from this armoury uses the profile exactly as written; unit-specific weapon variants are listed inline on the relevant profile.
 
 (Generic **hand weapon** = 1" reach, AP 0, D1 — the implicit profile for any model not specifying otherwise.)
 

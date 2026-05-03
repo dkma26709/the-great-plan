@@ -41,6 +41,11 @@
   - **Purebred Warhorse** (when mounted on Warhorse — see §8) — negates barding's -2 M penalty
   - **Class Barrier** *(clause of Peasant's Duty — interaction)* — this character cannot effectively attach to a peasant unit (loses Character Attachment shielding when standing within peasant unit coherency). Same restriction as Bretonnian Lord
   - **Champion of the Realm** *(identity rule)* — when this character is engaged in melee with an enemy model with the **Character** keyword, his melee attacks against that enemy character **reroll all failed to-Hit rolls**. Always-on, no per-battle limit. Captures the chivalric duel — the Paladin as the realm's champion, trained from boyhood to single out the enemy's hero and strike true. Applies only to attacks against a Character; unit-bearing enemy models do not trigger the reroll. If multiple enemy Character models are within reach, the Paladin chooses which character his attacks target (per normal attack-allocation rules) and gains the reroll against that target only — though in practice he can split attacks across multiple characters, with each character-targeted attack getting the reroll independently
+  - **Liege Bond** *(character shift — per-unit, mount/Vow-conditional, per §9.3 — same pattern as Bretonnian Lord, scaled to Hero tier)* — depending on this Paladin's mount and Vow, one unit of the matching type counts as **Core** instead of Special while this model is in your list. Stacks across multiple Bretonnian Lords and Paladins.
+    - **on Pegasus or Royal Pegasus:** one **Pegasus Knights** unit → Core
+    - **with Questing Vow:** one **Questing Knights** unit → Core
+    - **with Grail Vow:** *(no list-shift currently — Grail Knights pending future drafts)*
+    - **on Warhorse / foot:** no shift
 
 **Weapon profiles (A on weapons):**
 

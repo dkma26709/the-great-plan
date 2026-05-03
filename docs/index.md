@@ -46,7 +46,7 @@ Wizards roll from their own pools — no shared army-wide power dice, no dice-po
 
 - **[Rules](rules/index.md)** — core mechanics, stat lines, comparative tables, special rules glossary, magic system, points framework
 - **[Armies](armies/index.md)** — faction rosters and unit profiles
-    - [Seraphon (Lizardmen)](armies/seraphon/index.md) — proof-of-concept army; the most heavily iterated faction
+    - [Lizardmen](armies/lizardmen/index.md) — proof-of-concept army; the most heavily iterated faction
     - More in progress: Empire, Ogre Kingdoms, Vampire Counts
 
 ## Status

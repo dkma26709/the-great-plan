@@ -28,6 +28,7 @@
   - **Telescopic Eyes** *(Sniper baseline — same as Chameleon Skinks unit)* — this Stalker's ranged attacks always have the **Sniper** keyword (see §8). The independently-tracking, telescopic eyes pick out vulnerable joints, helmet slits, command markings; the shot finds the target whether the Stalker is still or moving.
   - **Perfect Stillness** *(Stalker variant — stronger than the Chameleon Skinks unit version)* — when this Stalker does not move in its Movement phase, it may not be targeted by ranged attacks until the start of its next Movement phase
   - **Ambush Killshot** *(identity rule)* — the **first ranged attack this Stalker makes in the game** (the first Dartpipe shot, any Shooting phase) resolves at **+1 to hit, +1 AP (= AP -2), D D3 damage** (replacing the D 1 baseline). All subsequent shots this game use the standard Chameleon Dartpipe profile. Represents the archetypal Oxyotl opening strike — one catastrophic hit before the Stalker is detected; thereafter, normal-issue dartpipe
+  - **Lead the Hunt-Pack** *(character shift — per-unit, per §9.3)* — one **Chameleon Skinks** unit in your army counts as **Core** instead of Special while this Stalker is in your list. Stacks across multiple Stalkers. The Stalker draws his hunt-pack into a shadow vanguard at the army's leading edge; the chameleon-caste, ordinarily a specialist sniper unit, becomes rank-and-file in his presence. *(Oxyotl's blanket version — see Oxyotl entry — extends this to all Chameleon Skinks units.)*
 
 **Weapon profiles:**
 

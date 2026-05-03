@@ -151,7 +151,7 @@ Every unit profile carries a **keyword line** — a list of tags that identify t
 
 | Category | Examples |
 |----------|----------|
-| **Faction** | Lizardmen (Seraphon is an AoS-specific alias; "Lizardmen" is the canonical faction keyword) |
+| **Faction** | Lizardmen |
 | **Sub-faction / race** | Saurus, Skink, Kroxigor, Slann |
 | **Unit type** | Infantry, Cavalry, Monstrous Infantry, Monstrous Cavalry, Warbeast, Monster, Chariot, Swarm (matches the Unit Types table above — every unit carries its type keyword here as well) |
 | **Role** | Core, Special, Rare, Hero, Lord (army-composition categories for list building) |

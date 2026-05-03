@@ -1,7 +1,7 @@
 # Coatl
 
 
-> A giant flying serpent — an Ophidian — sacred to the Seraphon. Ancient, intelligent, born-wise (Res 8, highest in the Seraphon roster), a natural wizard of the Heavens lore. Not a line fighter: a mobile Heavens-caster that drops onto objectives, casts from above, and coils anything that strays into strike range. The only flying non-character wizard in the roster.
+> A giant flying serpent — an Ophidian — sacred to the Lizardmen. Ancient, intelligent, born-wise (Res 8, highest in the Lizardmen roster), a natural wizard of the Heavens lore. Not a line fighter: a mobile Heavens-caster that drops onto objectives, casts from above, and coils anything that strays into strike range. The only flying non-character wizard in the roster.
 
 **Coatl (Beast):**
 
@@ -47,4 +47,4 @@
 - W 4–8 (full strength): all profiles as written
 - W 1–3 (wounded): **Coils and Bite reduced to A 3** — the serpent strikes fewer, slower times as it bleeds out
 
-> **Lore notes:** A giant flying serpent sacred to the Seraphon — ancient, intelligent, born-wise (Res 8, the highest non-character Res in the roster). The only flying non-character wizard in the list. **Shield of the Old Ones** is the primordial 4+ Ward — the same magic-saturation ward the Slann carry, explicitly attributed to adult Coatl in canonical lore. **Magical Storm** is the canonical "blocks the rays of light above its own forces, the Lizardmen army in its shadow is obscured" — a 12" aura turning ranged attacks against the Coatl and any unit fully within its shadow at -1 to hit. **Hatred (Chaos)** captures the natural aversion to anything tainted with Chaos or Dhar. **Guardian of the Sacred Places** is once-per-battle free-action terrain-shuffle (D3 forest pieces, D6" each) — the jungle answers when the serpent calls.
+> **Lore notes:** A giant flying serpent sacred to the Lizardmen — ancient, intelligent, born-wise (Res 8, the highest non-character Res in the roster). The only flying non-character wizard in the list. **Shield of the Old Ones** is the primordial 4+ Ward — the same magic-saturation ward the Slann carry, explicitly attributed to adult Coatl in canonical lore. **Magical Storm** is the canonical "blocks the rays of light above its own forces, the Lizardmen army in its shadow is obscured" — a 12" aura turning ranged attacks against the Coatl and any unit fully within its shadow at -1 to hit. **Hatred (Chaos)** captures the natural aversion to anything tainted with Chaos or Dhar. **Guardian of the Sacred Places** is once-per-battle free-action terrain-shuffle (D3 forest pieces, D6" each) — the jungle answers when the serpent calls.

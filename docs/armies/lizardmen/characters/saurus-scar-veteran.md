@@ -31,6 +31,7 @@
   - **Predatory Fighter** (see §8)
   - **Fear** (see §8)
   - **Battlefield Growl** *(identity rule)* — once per battle, at the start of any friendly turn, the Scar-Veteran may issue a bellow. All friendly **Saurus** units with any model within **12"** of the Scar-Veteran immediately **remove D3 stress counters each**. Represents the lore "sets an entire battle line in order with only a low, grumbling growl and a final bellow" — the veteran's presence cuts through the accumulated psychological pressure of the battle and steadies the Saurus line in a single moment. Complements the Saurus Oldblood's Primeval Command (per-turn 2-stress removal on one unit) by burst-removing stress across multiple units once per game
+  - **Lead from the Saddle** *(character shift — per-unit, per §9.3; applies only when this Scar-Veteran is mounted on an **Aggradon**)* — one **Aggradon Lancers** unit in your army counts as **Core** instead of Special while this model is in your list. Stacks across multiple Aggradon-mounted Scar-Veterans (two riders → two Aggradon Lancers units shift to Core). The Saurus's bond with the bloodline-old reptile mount runs deep enough that he can rally a full Lance into riding alongside him as the army's natural front-line vanguard, not its specialist counter-strike
 
 **Weapon profiles (A on weapons):**
 

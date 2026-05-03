@@ -1,7 +1,7 @@
 # Arcanadon
 
 
-> A sauropod — the largest beast-of-war in the Seraphon roster short of the Dread Saurian. Heavy-necked, armoured, long-bodied, slower than a Stegadon and taller than a Bastiladon, with a tail that whips faster than anything of its size has any right to. Its back bears the **Power of the Ancients**, a Stegadon-scale Engine of the Gods artefact that channels Old Ones magic into both arcane amplification of nearby Seraphon casters and template bombardment of the enemy.
+> A sauropod — the largest beast-of-war in the Lizardmen roster short of the Dread Saurian. Heavy-necked, armoured, long-bodied, slower than a Stegadon and taller than a Bastiladon, with a tail that whips faster than anything of its size has any right to. Its back bears the **Power of the Ancients**, a Stegadon-scale Engine of the Gods artefact that channels Old Ones magic into both arcane amplification of nearby Lizardmen casters and template bombardment of the enemy.
 
 **Arcanadon (Beast):**
 
@@ -37,7 +37,7 @@
   - **Terror** (see §8) — sauropod scale
   - **Immune to Psychology** (see §8) — lore-direct: "Arcanodon pay no heed to threats from other creatures, as so few are any real threat to them." The apex sauropod doesn't register lesser threats; Fear, Terror, and other Psychology-keyword effects do not apply.
   - Mixed Unit (see §1)
-  - **Aura of the Old Ones** — while this Arcanadon is alive, all friendly **Seraphon Wizards** with any model within **12"** gain **+1 Channelling** (Channeling) for that Magic phase — they roll one extra die in their Channeling roll. The engine's passive energy-emission feeds nearby caster-saurians.
+  - **Aura of the Old Ones** — while this Arcanadon is alive, all friendly **Lizardmen Wizards** with any model within **12"** gain **+1 Channelling** (Channeling) for that Magic phase — they roll one extra die in their Channeling roll. The engine's passive energy-emission feeds nearby caster-saurians.
   - **Degrading** — performance degrades as wounds are lost. See damage table below.
 
 **Weapon profiles (A on weapons):**
@@ -57,4 +57,4 @@
 
 *US is not in the damage table — US equals current remaining W directly.*
 
-> **Lore notes:** A sauropod — heavy-necked, long-bodied, larger than a Stegadon and the largest beast-of-war in the roster short of the Dread Saurian. The Arcanadon takes hits by mass, not armour thickness (NA 5+, not the Stegadon's 3+); its defence is W 14 plus its sheer size. Signature kit is **Power of the Ancients**, a Stegadon-scale relic that doubles as cannon and caster amplifier — Small Round Template artillery bombardment (Magical Attacks + Flaming) *plus* a +1 Channel aura for friendly Seraphon wizards within 12". Cleanly distinct from Bastiladon's Solar Engine (variable beam, no aura) and Stegadon's Goring Horns (charge-focused impact). **Immune to Psychology** is direct lore: "pay no heed to threats from other creatures, as so few are any real threat to them." Degrading attenuates Cannon and Aura together — the beast's life-force *is* the engine's output.
+> **Lore notes:** A sauropod — heavy-necked, long-bodied, larger than a Stegadon and the largest beast-of-war in the roster short of the Dread Saurian. The Arcanadon takes hits by mass, not armour thickness (NA 5+, not the Stegadon's 3+); its defence is W 14 plus its sheer size. Signature kit is **Power of the Ancients**, a Stegadon-scale relic that doubles as cannon and caster amplifier — Small Round Template artillery bombardment (Magical Attacks + Flaming) *plus* a +1 Channel aura for friendly Lizardmen wizards within 12". Cleanly distinct from Bastiladon's Solar Engine (variable beam, no aura) and Stegadon's Goring Horns (charge-focused impact). **Immune to Psychology** is direct lore: "pay no heed to threats from other creatures, as so few are any real threat to them." Degrading attenuates Cannon and Aura together — the beast's life-force *is* the engine's output.

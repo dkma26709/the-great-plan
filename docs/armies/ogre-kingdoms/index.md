@@ -1,7 +1,7 @@
 # Ogre Kingdoms — Test Profiles
 
 
-> **Design principle:** Cross-faction demonstration roster — second non-Seraphon faction after Empire. Where Empire stress-tested rank-and-flank human infantry, gunpowder, cavalry, war machines, and multi-Wind magic, Ogres stress-test the **Monstrous-Infantry-as-whole-army** archetype: small elite units (5-9 models per block), every model Kroxigor-adjacent in scale and pricing, faction-specific armour (gut-plate), a unique faction lore (Lore of the Great Maw — pending separate §11 draft), and the absence of inspirational-leadership tropes. See `cross-faction-reference-notes.md` at project root for design-prep research.
+> **Design principle:** Cross-faction demonstration roster — second non-Lizardmen faction after Empire. Where Empire stress-tested rank-and-flank human infantry, gunpowder, cavalry, war machines, and multi-Wind magic, Ogres stress-test the **Monstrous-Infantry-as-whole-army** archetype: small elite units (5-9 models per block), every model Kroxigor-adjacent in scale and pricing, faction-specific armour (gut-plate), a unique faction lore (Lore of the Great Maw — pending separate §11 draft), and the absence of inspirational-leadership tropes. See `cross-faction-reference-notes.md` at project root for design-prep research.
 
 > **Heft calibration note for Ogres.** Ogres are **fat brutes** — wounds are the Ogre identity, more than Toughness or armour. Per design call (2026-04-25 session), **no artificial wound ceiling applies**; unit identity drives the wound count, not abstract tier caps. **Pass 4 (2026-05-01) species-identity W ladder:**
 > - **Bulls W 7** — rank-and-file baseline (Pass 4 bump from W6, capturing Ogre 10ft / ~700lb mass per the §1.5 species reference)

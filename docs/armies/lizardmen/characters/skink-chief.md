@@ -28,6 +28,12 @@
   - **Aquatic** (see §8)
   - **Target Designation** *(identity rule)* — at the start of each friendly Shooting phase, the Skink Chief nominates one visible enemy unit within **24"** and line-of-sight. Until end of phase, all friendly **Skink** units shooting that nominated unit gain **+1 to hit**. Represents "spot, alert, guide" as a passive intel buff — fires every turn, stacks with Jungle Poisons for a devastating combined +1 hit / +1 wound on the marked unit
   - **Scout** *(secondary)* — the Skink Chief (and any friendly **Skink Skirmishers** or **Chameleon Skinks** unit he is attached to at list-building) deploys as Scouts: after both sides have finished normal deployment, this Scout group places anywhere on the board outside **12"** of enemy units. Captures the scout-coordinator role mechanically
+  - **Pack Bond** *(character shift — per-unit, mount-conditional, per §9.3)* — depending on this Skink Chief's mount, one unit of the matching type counts as **Core** instead of Special while this model is in your list. Stacks across multiple Skink Chiefs.
+    - **on Terradon:** one **Terradon Riders** unit → Core *(Tiktaq'to's blanket version extends this to all Terradon Riders units)*
+    - **on Ripperdactyl:** one **Ripperdactyl Riders** unit → Core
+    - **on Horned One:** one **Horned One Riders** unit → Core
+    - **on Raptadon:** no shift (Raptadon Hunters and Raptadon Chargers are already Core in the Default AoI)
+    - **on foot or Stegadon:** no shift (Stegadon-mounted Chiefs lead the Stegadon directly; the Stegadon is the unit, not a separate one shifted)
 
 **Weapon profiles (A on weapons, all Poisoned Attacks if Jungle Poisons taken):**
 

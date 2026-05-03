@@ -23,7 +23,7 @@ RULES_FILES = {
 }
 
 FACTION_DIR = {
-    "10": "armies/seraphon",
+    "10": "armies/lizardmen",
     "14": "armies/empire",
     "15": "armies/ogre-kingdoms",
     "16": "armies/vampire-counts",
@@ -52,7 +52,7 @@ KEEP_EXISTING = {
 WIPE_DIRS = [
     "rules",
     "magic",
-    "armies/seraphon",
+    "armies/lizardmen",
     "armies/empire",
     "armies/ogre-kingdoms",
     "armies/vampire-counts",

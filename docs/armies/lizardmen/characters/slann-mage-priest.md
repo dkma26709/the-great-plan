@@ -43,6 +43,7 @@
   - **Shield of the Old Ones** — baseline Ward Save 4+ (already encoded in the profile line above; listed here for reference)
   - **Fear** (see §8) — the Slann's presence is unsettling at a primordial level; lesser beings sense an Old-One-shaped mind regarding them
   - **Stubborn** (see §8) — the Slann does not break. Even in the direst circumstances, contemplative focus is unbroken by battlefield reverses
+  - **Ancient Authority** *(character shift — blanket, per §9.3)* — while a Slann Mage-Priest is in your army, all **Temple Guard units count as Core** instead of Special. The Slann's living presence re-categorises the bodyguard caste — Temple Guard exist as a unit type *because* a Slann needs guarding; without one, they are an elite curiosity, with one, they are the army's natural rank-and-file core
   - **Disciplines of the Slann** — pick **0–2** from the menu below at list-building
 
 **Weapon profiles:**
@@ -59,7 +60,7 @@
 | **Focused Rumination** | +1 Cast Base (5 Cast dice baseline per phase) | +30 |
 | **Becalming Cogitation** | +1 Dispel Base (5 Dispel dice baseline per phase) | +30 |
 | **Higher State of Consciousness** | Ward Save improves 4+ → 3+ | +30 |
-| **Harmonic Convergence** | Once per battle, at the start of any friendly Magic phase, declare Convergence. Until end of phase, all friendly Seraphon Wizards (including the Slann) may re-roll one Cast die per cast attempt | +40 |
+| **Harmonic Convergence** | Once per battle, at the start of any friendly Magic phase, declare Convergence. Until end of phase, all friendly Lizardmen Wizards (including the Slann) may re-roll one Cast die per cast attempt | +40 |
 | **Wandering Deliberations** | Each Magic phase, the Slann may cast as a **Loremaster** in one chosen lore (any general or faction lore — access to every spell, all tiers, in that lore for the phase). The chosen lore **must change each phase** — cannot repeat the previous phase's lore. Effective rotating-Loremaster | +50 |
 | **Unfathomable Presence** | Enemy spells cast anywhere within 18" of the Slann suffer **-2 to the casting roll** | +30 |
 | **Soul of Stone** | For miscast checks, the Slann's **lowest-rolled cast die is not counted** toward the "2+ natural 1s" trigger. Spell still resolves with all dice for cast total; only miscast detection ignores the lowest die | +25 |

@@ -1,7 +1,7 @@
 # Cross-Faction Reference Units
 
 
-> **Design principle:** Single representative units drawn from factions outside the four full demonstration rosters (Empire, Ogres, Vampires, Bretonnia, plus the Seraphon original). Each unit is a *single profile + identity rule + design note*, not a faction commitment — no full mechanic suite, no army-wide lore, no command structure beyond the standard Leader/Musician/Standard pattern. The purpose is **calibration data** — having more cross-faction comparison points helps validate stat heft, point cost, and identity-rule density without requiring a dedicated faction draft for each. Drafted 2026-04-28 to widen the reference set before further Lizardmen passes; lore informs identity throughout, since flavour and mechanics are inseparable.
+> **Design principle:** Single representative units drawn from factions outside the four full demonstration rosters (Empire, Ogres, Vampires, Bretonnia, plus the Lizardmen original). Each unit is a *single profile + identity rule + design note*, not a faction commitment — no full mechanic suite, no army-wide lore, no command structure beyond the standard Leader/Musician/Standard pattern. The purpose is **calibration data** — having more cross-faction comparison points helps validate stat heft, point cost, and identity-rule density without requiring a dedicated faction draft for each. Drafted 2026-04-28 to widen the reference set before further Lizardmen passes; lore informs identity throughout, since flavour and mechanics are inseparable.
 
 ---
 
