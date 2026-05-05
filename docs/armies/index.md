@@ -5,9 +5,9 @@ The factions drafted so far. Each army has its own section with faction-specific
 ## Drafted
 
 - **[Lizardmen](lizardmen/index.md)** — proof-of-concept army; the most heavily iterated faction
-- *Empire* — drafted; pages in progress
-- *Ogre Kingdoms* — drafted; pages in progress
-- *Vampire Counts* — drafted; pages in progress
+- **[Empire](empire/index.md)** — combined-arms human State Army; gunpowder, knights, cannon
+- **[Ogre Kingdoms](ogre-kingdoms/index.md)** — Monstrous-Infantry-as-whole-army; the Maw paradigm
+- **[Vampire Counts](vampire-counts/index.md)** — Undead paradigm; Vampiric Hunger, Bloodline Powers, raise economy
 - **[Bretonnia](bretonnia/index.md)** — feature-complete chivalric faction; cavalry-dominant, faith-blessed, with full vow ladder and Lore of the Lady
 
 Each faction has a distinct mechanical paradigm:

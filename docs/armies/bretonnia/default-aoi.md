@@ -20,7 +20,7 @@
 | **Lords** | Bretonnian Lord, Prophetess of the Lady |
 | **Heroes** | Paladin, Damsel of the Lady |
 | **Core** | Knights of the Realm, Knights Errant, Men-at-Arms, Longbowmen, Bidowers |
-| **Special** | Questing Knights, Pegasus Knights |
+| **Special** | Foot Knights, Questing Knights, Pegasus Knights |
 | **Rare** | Field Trebuchet *(Grail Knights and other apex Knightly Orders pending future drafts; only the Trebuchet currently drafted at Rare)* |
 
 **Character mounts** *(option, not separate slots)*: Royal Pegasus (Lord, Paladin), Royal Hippogryph (Lord only), Unicorn (Prophetess only). Mounts attach to character profiles per §1 Rider/Mount conventions.

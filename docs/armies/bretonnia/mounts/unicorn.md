@@ -1,27 +1,26 @@
-# Unicorn *(Prophetess only)*
+# Unicorn
 
-
-A horse-form spirit of the Lady's wilderness, white-coated and silver-horned. Unicorns answer the Lady's chosen by ancient covenant — they are not bred or stabled but *summoned*, called from the deep forests to bear a senior priestess on a single campaign and then released back to the wild. A Prophetess on a Unicorn is a sign of the Lady's particular favour; the mount itself is a fae creature, magical in nature, partially translucent in the morning mists, and immune to ordinary mortal weapons.
+## Profile
 
 **Unicorn:**
-
 | M | WS-A | WS-D | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 12 | 5 | 5 | 0 | 4 | 4 | 2 | 5 | 8 |
 
-*(Unicorn baseline M 12 — fast cavalry tier, faster than a Warhorse's M 10. The Unicorn is a ground-bound mount, not flying; barding is not standard kit and the M 12 stat is the Unicorn's natural pace, no penalty applied.)*
+**Base Size:** 25mm × 50mm
 
-- **Available to:** Prophetess of the Lady (+34 pts) only. NOT available to Damsel (per WAP — Damsel mount options cap at Pegasus)
-- **Combined wounds:** per §1 *Combined Wounds* (higher of mount W2 or rider W, plus the other ÷ 2 round down). With Prophetess (W4): max(4,2) + 2÷2 = **W5**. Attackers use highest WS-D and highest T per §1
+## Equipment
+
 - **Worn armour:** none (Unicorns do not bear barding — fae creature)
-- **Special rules (intrinsic to Unicorn):**
-  - **Magical Attacks** (see §8) — the Unicorn's horn and natural strikes count as magical, useful against Ethereal targets and any rule requiring magical attack source. The mount itself is a fae creature, woven from magic; its strikes carry that nature
-  - **Magic Resistance (2)** (see §8) — enemy spells targeting or affecting the Unicorn (and rider, per Mixed Unit conventions) suffer **-2 to the casting roll**. Stronger MR than the Damsel's baseline MR(1) — the Prophetess on Unicorn becomes one of the most magic-resistant character-mount profiles in the ruleset, befitting the Lady-blessed apex caster
-  - **Impale** *(intrinsic on charge)* — when the Unicorn (and rider) successfully completes a charge, the unit inflicts **D3 Impact Hits at S 5, AP -1, D 1, Magical Attacks** before melee combat resolves. The horn drives forward in a focused thrust at the moment of charge impact. WAP-canonical Impale rule preserved at S 5 (instead of "+1 S to Impact Hits" which assumes impact hits already exist) — interpreted as "the Unicorn's charge inflicts D3 Impact Hits at S 5"
-  - **Fae Creature** *(intrinsic)* — the Unicorn ignores all terrain penalties for movement and may not be targeted by enemy ranged attacks while in **Forest** terrain (Skirmisher-equivalent immunity in the deep wood). Captures the lore of the Unicorn fading into mist when in its native habitat
 
-**Mount weapon profile:**
+#### Sacrosanctum of the Lady *(Prophetess only — stub)*
 
-- **Horn and Hooves** *(mount natural)* — 1" reach | **A 2** | S 4 | AP -1 | D 1 | **Magical Attacks** — two attacks per round, S 4 (matching the Unicorn's S), AP -1 from the focused horn-strike. Magical Attacks always `[Natural]`
+The Lady's holiest battlefield platform — a ceremonial wagon drawn by harnessed Pegasi or Unicorns, bearing the Prophetess at its centre and a Grail Damsel attendant at her side. The Sacrosanctum is rolled out only on the most desperate campaigns; its presence sanctifies the field and channels the Lady's full battlefield-presence.
 
-> **Stat upgrade summary vs Pegasus.** Mount W 2 (parity with Pegasus W 2), but trades flight (no Fly) for ground speed (M 12 vs Pegasus's M 8 ground / 12 Fly), Magical Attacks always-on, MR(2), and Impale charge-spike. **Pass 3 (2026-05-01)** — Prophetess (W4) on Unicorn (W2) under §1 *Combined Wounds* = max(4,2) + 2÷2 = 4+1 = **W5** (the rider dominates; mount adds one step). Net: a *faster ground mount with stronger magic-defensive profile* and a charge-impact rule, vs a Pegasus's flying mobility. Tactical pick: Pegasus when the Prophetess needs aerial repositioning; Unicorn when she'll stay near the chivalric line and wants raw magic-resistance + charge-supplementary damage. The +12 pts over Pegasus (+42 vs +30) is the Magical Attacks + MR(2) + Impale + speed package premium.
+**Available to:** Prophetess of the Lady (+96 pts, replaces Grail Damsel attendant per WAP) only.
+
+> **Mechanical stub.** Full Sacrosanctum mechanics deferred to a dedicated drafting pass. The Sacrosanctum is a complex unit-as-vehicle (chariot-class platform, Mixed Unit with the Prophetess and a Grail Damsel attendant, drawn by 2 Pegasi or Unicorns, sacred-aura effects on the surrounding chivalric line) that warrants its own design discussion before formalisation. WAP-canonical effects expected to include: *the Sacrosanctum extends Lady-magic auras at increased range, the Grail Damsel attendant adds a second caster to the platform, and the platform itself functions as a Chariot for movement / engagement purposes*. None of these are formally drafted yet — the entry exists here only as a list-build placeholder for the WAP-canonical option, with full mechanics to follow.
+
+> **Why deferred:** the Sacrosanctum requires (a) a Chariot / wagon unit-type that we haven't drafted (no other Bretonnian unit uses one, and no other faction in the ruleset has one yet), (b) Mixed Unit mechanics for the Prophetess + Grail Damsel pair, and (c) sacred-aura mechanics that may want their own §8 entry. Drafting any one of these three independently is a multi-decision design pass; combining all three for a single mount option would over-extend the current commit. The list-build option is reserved (cost 120 pts) but the mechanical resolution is pending — flagged in the §17 outstanding-stragglers list.
+
+---

@@ -1,11 +1,28 @@
 #!/usr/bin/env python3
-"""Split the monolithic core-rules-draft.md into per-page MkDocs files."""
+"""
+Split the monolithic core-rules-draft.md into per-page MkDocs files.
+
+Sources (post 2026-05-05 master shrink):
+- core-rules-draft.md — rules, faction overviews, AoI tables, faction
+  mechanics, and (in faction tier sub-sections) bullet links of the form
+  `- [Name](units/<Faction>/<Name>/profile.md)` pointing at per-unit cards.
+- units/<Faction>/<Unit>/profile.md — structured per-unit card files; the
+  source of truth for unit profile content.
+
+For each tier-section bullet, the splitter copies the corresponding
+profile.md into the public site as armies/<faction>/<tier>/<slug>.md
+(stripping the H1 and References section). §18 cross-faction reference
+units are inlined into a single misc page.
+"""
 
 import re
 import shutil
+import urllib.parse
 from pathlib import Path
 
-SOURCE_FILE = Path("C:/PersonalRepos/warhammer-hybrid-ruleset/core-rules-draft.md")
+PRIVATE_ROOT = Path("C:/PersonalRepos/Warhammer Hybrid Ruleset")
+SOURCE_FILE = PRIVATE_ROOT / "core-rules-draft.md"
+UNITS_DIR = PRIVATE_ROOT / "units"
 TARGET_DIR = Path("C:/PersonalRepos/the-great-plan/docs")
 
 RULES_FILES = {
@@ -57,7 +74,54 @@ WIPE_DIRS = [
     "armies/ogre-kingdoms",
     "armies/vampire-counts",
     "armies/bretonnia",
+    "misc",
 ]
+
+
+# Bullet-link pattern used inside faction tier subsections (Core / Special /
+# Rare / Characters / Character Mounts) and §18. Format produced by the
+# 2026-05-05 master shrink:
+#   - [Saurus Warriors](units/Lizardmen/Saurus%20Warriors/profile.md)
+UNIT_BULLET_RE = re.compile(
+    r"^- \[([^\]]+)\]\(units/([^/]+)/([^/]+)/profile\.md\)\s*$"
+)
+
+
+def slurp_profile(faction_dir_name: str, unit_dir_name: str) -> str | None:
+    """Read a unit profile.md from the private repo and prep it for MkDocs.
+
+    Strips the H1 title (MkDocs derives it from the page) and the
+    `## References` section (links to design.md / lore source files that
+    don't exist in the public tree).
+    """
+    src = UNITS_DIR / faction_dir_name / unit_dir_name / "profile.md"
+    if not src.exists():
+        return None
+    text = src.read_text(encoding="utf-8")
+    lines = text.splitlines()
+
+    # Strip leading H1 + following blank
+    if lines and lines[0].startswith("# "):
+        lines = lines[1:]
+        if lines and lines[0].strip() == "":
+            lines = lines[1:]
+
+    # Strip `## References` section to end-of-file (or until next ## header)
+    out = []
+    skipping = False
+    for ln in lines:
+        if ln.startswith("## References"):
+            skipping = True
+            continue
+        if skipping and ln.startswith("## "):
+            skipping = False
+        if not skipping:
+            out.append(ln)
+
+    while out and out[-1].strip() == "":
+        out.pop()
+
+    return "\n".join(out) + "\n"
 
 
 def clean_heading(s: str) -> str:
@@ -213,18 +277,57 @@ def main():
             append(line)
             continue
 
-        # #### unit heading (only within a faction unit-folder subsection)
-        m = re.match(r"^#### (.+?)\s*$", line)
+        # Unit-bullet line inside a tier subsection — copy the corresponding
+        # profile.md from the private units/ tree into the public site.
         if (
-            m
-            and section in FACTION_DIR
+            section in FACTION_DIR
             and subsection in {"core", "special", "rare", "characters", "mounts"}
         ):
-            unit_name = m.group(1).strip()
-            slug = slugify(unit_name)
-            fac = FACTION_DIR[section]
-            open_page(f"{fac}/{subsection}/{slug}.md", unit_name)
-            continue
+            mb = UNIT_BULLET_RE.match(line)
+            if mb:
+                unit_name = mb.group(1).strip()
+                faction_dir_name = urllib.parse.unquote(mb.group(2))
+                unit_dir_name = urllib.parse.unquote(mb.group(3))
+                slug = slugify(unit_name)
+                fac = FACTION_DIR[section]
+                page_path = f"{fac}/{subsection}/{slug}.md"
+                profile_body = slurp_profile(faction_dir_name, unit_dir_name)
+                if profile_body is None:
+                    print(f"  [warn] missing profile.md for {unit_name} "
+                          f"(looked in units/{faction_dir_name}/{unit_dir_name}/)")
+                    continue
+                open_page(page_path, unit_name)
+                for ln in profile_body.splitlines():
+                    append(ln)
+                continue
+
+        # §18 cross-faction reference — inline each unit's profile (no per-unit
+        # pages — keep all 7 reference units on a single misc page since they
+        # are calibration data, not a faction commitment).
+        if section == "18":
+            mb = UNIT_BULLET_RE.match(line)
+            if mb:
+                unit_name = mb.group(1).strip()
+                faction_dir_name = urllib.parse.unquote(mb.group(2))
+                unit_dir_name = urllib.parse.unquote(mb.group(3))
+                profile_body = slurp_profile(faction_dir_name, unit_dir_name)
+                if profile_body is None:
+                    print(f"  [warn] missing profile.md for {unit_name} "
+                          f"(§18, looked in units/{faction_dir_name}/{unit_dir_name}/)")
+                    continue
+                # Demote inlined `## ` headers to `### ` (and `### ` to `#### `)
+                # so each reference unit sits as a `## ` block under the misc H1.
+                append(f"## {unit_name} *({faction_dir_name})*")
+                append("")
+                for ln in profile_body.splitlines():
+                    if ln.startswith("## "):
+                        append("#" + ln)
+                    elif ln.startswith("### "):
+                        append("#" + ln)
+                    else:
+                        append(ln)
+                append("")
+                continue
 
         # default: append to current page
         append(line)
