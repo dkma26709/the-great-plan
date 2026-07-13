@@ -4,11 +4,11 @@
 
 ## Profile
 
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 3 | 3 | 3 | 3 | 3 | 1 | 3 | 9 | 1 | 1 |
 
-**Points:** 11 per model
+**Points:** 9 per model *(Pass 9 refresh, 2026-05-07: 11 → 9 at 0.8× scaling)*
 
 **Unit size:** 10-20
 

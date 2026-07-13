@@ -5,7 +5,7 @@
 ## Profile
 
 **Skink High Chief:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | **4** | **6** | 6 | 4 | 4 | **4** | 7 | 10 | 1 | 2 |
 

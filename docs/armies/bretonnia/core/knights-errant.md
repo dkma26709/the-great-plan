@@ -5,12 +5,12 @@
 ## Profile
 
 **Rider (Knight Errant):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 4 | 3 | 3 | 3 | 3 | 3 | 1 | 3 | 8 |
 
 **Mount (Warhorse — barded, Purebred):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 10 | 3 | 3 | 0 | 3 | 3 | 1 | 3 | 5 |
 

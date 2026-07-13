@@ -9,21 +9,23 @@ The keyword **Psychology** tags rules that represent effects on a unit's mental 
 
 #### Fear *(Psychology)*
 
-This unit radiates Fear. Any enemy unit with a model within **(6 + LiS)"** of any model in this unit suffers **+1 stress**, applied once per turn while in range. Fear does not stack with other Fear sources. A unit that causes Terror is immune to Fear. A unit within range of both Fear and Terror sources suffers only the Terror effect.
+This unit radiates Fear. Any enemy unit with a model within **(6 + LiS)"** of any model in this unit suffers **+1 stress**, checked **at the end of the Movement phase** — applied once per turn to each enemy unit in range at that moment. Fear does not stack with other Fear sources. A unit that causes Terror is immune to Fear. A unit within range of both Fear and Terror sources suffers only the Terror effect.
 
 #### Terror *(Psychology)*
 
-This unit radiates Terror. Any enemy unit with a model within **(6 + LiS)"** of any model in this unit suffers **+2 stress**, applied once per turn while in range. Terror does not stack with other Terror sources. A unit that causes Terror is immune to both Fear and Terror. A unit within range of both Fear and Terror sources suffers only the Terror effect; a unit that causes Fear but not Terror is still affected by Terror from another source.
+This unit radiates Terror. Any enemy unit with a model within **(6 + LiS)"** of any model in this unit suffers **+2 stress**, checked **at the end of the Movement phase** — applied once per turn to each enemy unit in range at that moment. Terror does not stack with other Terror sources. A unit that causes Terror is immune to both Fear and Terror. A unit within range of both Fear and Terror sources suffers only the Terror effect; a unit that causes Fear but not Terror is still affected by Terror from another source.
 
 #### Frenzy
 
 This unit is in the grip of animal rage. While Frenzied (the **F4 fingerprint**):
 
 - **+1 Attack** on a single weapon profile of the model's choice (per the +1-attack convention — single profile, not all profiles)
-- **+1 WS-A** — the rage sharpens the offensive edge; blows land more often
-- **-1 WS-D** — the rage dulls defensive instinct; the unit is easier to strike in return
+- **+1 MA** — the rage sharpens the offensive edge; blows land more often
+- **-1 MD** — the rage dulls defensive instinct; the unit is easier to strike in return
 - **Must declare a charge** against the nearest visible enemy within charge range during its Movement phase, if able
 - **May not voluntarily disengage** from combat
+- **Must Follow up** when an enemy Falls Back from combat (no Hold option, per §4 Fall Back)
+- **Must pursue** when an enemy voluntarily moves out of melee reach during the Movement phase (per §4 Pursuit)
 - **Immune to Psychology**
 - **Suppresses the state effects of Wavering and Broken** — ignores the -1 to-hit, cannot-charge, and fleeing behaviour while Frenzied. Stress still accumulates and thresholds are still crossed, but the rage carries the unit through
 
@@ -31,7 +33,7 @@ Frenzy is **lost permanently** when the unit loses a combat round (strict loss �
 
 #### Stubborn *(Psychology-adjacent)*
 
-This unit ignores the **state effects** of Shaken and Wavering — the WS-A / WS-D / BS penalties and the cannot-charge restriction do not apply. Stress still accumulates normally and the Broken threshold still applies. A Stubborn unit fights at full effectiveness until it finally shatters.
+This unit ignores the **state effects** of Shaken and Wavering — the MA / MD / BS penalties and the cannot-charge restriction do not apply. Stress still accumulates normally and the Broken threshold still applies. A Stubborn unit fights at full effectiveness until it finally shatters.
 
 #### Skittish
 
@@ -59,6 +61,52 @@ A creature/unit trait — applies to rabble, conscripts, peasant levy, feral uni
 **Typical units:** Bretonnian Men-at-Arms, Bretonnian Longbowmen, Goblins (when drafted), Beastmen (when drafted), Orc Boyz, Skeleton Warriors. Most rank-and-file units carry neither — baseline D3 is default; Undisciplined is a flag for genuinely-rabble cases.
 
 **Saurus interaction note:** Saurus Warriors carry both **Disciplined (+1)** AND **Cold-Blooded (-1 Recovery)** → net **0** Recovery modifier. Tracks lore: drilled spawn-brothers offset the cold-blooded slow-fade. Kroxigor carry **Cold-Blooded only** (no Disciplined — dim brute) → net **-1** Recovery, full slow-fade penalty.
+
+#### Animosity *(Greenskin-wide faction trait)*
+
+At the start of each Movement phase, **roll D6** for the unit. The roll is **only made if the unit is not currently engaged in melee combat** — units in melee are too occupied to squabble. On a **1**, the unit's natural aggression breaks discipline. **Roll D6 again** to determine which way the squabble breaks:
+
+- **1-3** — *"Get Stuck In!"* The unit **must declare a charge against the nearest visible enemy** in charge range this Movement phase. If no charge is possible (no visible enemy in range), treat as result 4-6 instead — the bottled-up aggression turns inward.
+- **4-6** — *"Did You Spill My Pint?"* The unit takes **D3 hits at the unit's own Strength** (AP 0, D 1) as Greenskins turn on each other. Standard saves apply. Casualties allocated by the controlling player. The unit may move normally this Movement phase.
+
+Iconic Greenskin unpredictability — the unit might surge forward when the player wanted them to hold, or brawl among themselves when the player wanted them to flank. The cost of fielding Greenskins: roughly 1-in-6 per unit per turn the player loses positional control or absorbs self-inflicted casualties.
+
+**Sub-species manifestation** (narrative, not mechanical):
+- **Orcs** — bloodlust-driven; the squabble is fists-and-choppas turned on whoever's closest.
+- **Goblins** — panic-driven; "abject in-fighting" — scrawny goblins biting and clawing each other in confusion.
+- **Snotlings** — distracted-driven; the swarm forgets what it's doing and scatters momentarily.
+
+The mechanical effect is identical across all Greenskin sub-species; the narrative manifestation differs by sub-tribe.
+
+**Applies to: all Greenskin units** — Orcs, Goblins, Snotlings, and Greenskin-allied biology (Trolls, Squigs, Giants when drafted). Even Disciplined Black Orcs roll Animosity (lore: a Black Orc squabble is "Get on with it!" rather than "I'm bored of waiting" — different manifestation, same trigger).
+
+**War Machine exception** *(2026-05-19)*: Greenskin **War Machines** (Goblin Spear Chukka, Goblin Rock Lobber when drafted, Doom Diver Catapult when drafted, and any future Greenskin War Machine entries) **do not roll Animosity**. The rule's force-charge sub-result requires movement actions the unit cannot perform (War Machines cannot Charge), and the Crew when operating the machine are too engaged with loading/aiming to squabble. Unit-profile-level qualification — individual War Machine entries will state "No Animosity" explicitly in their Special Rules section.
+
+**Sub-tribe sub-table variants.** Specific Greenskin sub-tribes replace the standard 1-3 / 4-6 sub-table above with their own variant. Currently drafted:
+
+- **Mushroom Madness** *(Night Goblin sub-tribe)* — replaces the standard sub-table with a six-result D6 table (Pretty Lights / "'Ere We Go!" / Bickerin' / Mushroom Frenzy). See the Night Goblins unit profile for the full table. Sub-tribe-wide: all Night Goblin keyword units (Night Goblins, Night Goblin Shaman, Night Goblin Big Boss, Night Goblin Squig Hoppers, etc.) roll on Mushroom Madness instead of the standard sub-table.
+
+Forest Goblin and Savage Orc sub-tribe variants pending separate drafts.
+
+#### Loves a Scrap *(Orc-specific faction trait — Greenskin sub-species split)*
+
+Two effects:
+
+1. **Stress relief on engagement.** At the end of each **Combat phase** in which this unit was engaged in melee, the unit removes **1 stress**. Brawling physically calms Orcs — every round of combat bleeds tension off the unit, and the squabbling-Animosity dissipates the moment there's a real fight to have.
+
+2. **Sustained-combat momentum.** If this unit was engaged in melee combat at the end of the previous turn, the unit gains **+1 Attack** on a single weapon profile of each model's choice this turn (per the +1-attack convention — single profile, not all profiles). The momentum of the brawl carries forward — Orcs warm up to the fight and hit harder the longer it lasts.
+
+**Applies to: Orc-sub-species Greenskins** — Common Orcs (Boyz), Big 'Uns, Black Orcs, Savage Orcs, Boar Boyz, Orc characters. **Goblins explicitly DO NOT inherit Loves a Scrap.** Goblins do not enjoy combat — brawling drains them, doesn't refresh them. The Greenskin faction split at the Orc/Goblin sub-species boundary is the cleanest mechanical expression of "Orcs love a fight, Goblins do not." Goblin units carry **Animosity** and **Undisciplined** but no Loves a Scrap. Greenskin-allied biology (Trolls, Squigs, Giants) likewise do not inherit Loves a Scrap — they may carry Animosity but not the Orc-specific brawl-bonus.
+
+Pairs thematically with Animosity: an Orc unit that *isn't* fighting accumulates problems (Animosity squabbles, no momentum bonus), while one that *is* fighting bleeds stress off naturally and ramps up its attack output. Player incentive: keep the Boyz engaged.
+
+#### Resolute *(Dwarf-wide faction trait)*
+
+When this unit would convert **combat resolution loss to stress** (per §5 — losing combat causes the loser to take stress equal to the CR difference), the unit **subtracts 1** from the converted total (minimum 0). The dwarf phalanx absorbs the indignity of losing slightly better than other races.
+
+Translates the WAP "lose by 1 less" Break-test mechanic to our stress-based combat-resolution system. Lore-grounded in the iron-stoic Dwarf identity — even when losing the field, the Dawi don't crack as fast as mortal humans or panicky Goblins.
+
+**Applies to: all Dwarf units** (faction-wide species trait — including Slayer Cult, Thunderers, Ironbreakers, Hammerers, characters, war-machine crews). Stacks cleanly with Stubborn (state-effect immunity) and Disciplined (Recovery +1) — three separate morale-resilience layers, all Dwarf-faction-wide.
 
 #### Trait Reference Table *(faction-wide trait assignments — broad-strokes; refined per-unit in retrofit pass)*
 
@@ -114,6 +162,8 @@ Restrictions while Stupidity is active this turn:
 - Voluntary **wheels and pivots are permitted** during any Advance
 - Ranged weapons may still be fired in the Shooting phase at the normal move-and-shoot penalty (Quick to Fire relieves as usual)
 
+Sub-phase timing: the forced **Charge** is declared in the Charges sub-phase (§7.2a) like any other charge; a forced **Advance** resolves in the Normal Movement sub-phase (§7.2b).
+
 **Design requirement.** A unit bearing Stupidity must be balanced against the loss of tactical control by at least one of:
 
 - A **mitigation condition** (e.g., proximity to a specific ally, a character with a relevant rule)
@@ -136,11 +186,11 @@ A unit with the **Undead** keyword is animated by necromantic will, not biologic
 
 2. **No psychology-source stress.** Undead do not accumulate stress from **Fear, Terror, friendly-unit-destroyed-within-6"**, or other psychology triggers — the dead do not fear, do not grieve. **However, Undead still accumulate stress from being a shooting target** (+1 per Shooting phase per §5) — this represents strain on the necromantic binding rather than psychological reaction. Stress from own-unit casualties and lost combat differentials accumulates normally per §5/§6.
 
-3. **Cannot voluntarily Fall Back.** Undead automatically Hold from a lost combat (taking +1 stress per the §6 Hold rules). The necromantic anchor permits no retreat.
+3. **No retreat.** An Undead unit that loses a combat does not fall back — it holds its ground. In addition to the standard stress for losing (per §5), the unit takes **+1 stress per inch of the fall-back distance it refused** (the combat difference, up to the 6" fall-back maximum) — resolved exactly as a fully-blocked fall-back path per §4. The winner does not choose Follow up or Hold; no gap opens and the melee simply continues next turn. The necromantic anchor permits no retreat — the binding strains instead.
 
 4. **Immune to Psychology.** Stupidity, Frenzy, Hatred-as-test, and other Psychology-rule triggers do not apply. The necromantic will commands directly; the bones don't have second thoughts.
 
-5. **Cannot Rally** (inherited from Unstable; reiterated for clarity). Stress is removed only via end-of-turn Recovery (per §5) or Necromancy spells (e.g., Invocation of Nehek). If the army's necromantic master falls and no spell support remains, an Undead unit can accumulate stress to fatal levels — the death-spiral is on theme: the master provides the drive and the magic; without him, the dead simply unwind.
+5. **Cannot Rally** (inherited from Unstable; reiterated for clarity). Stress is removed only via the Start of Turn Recovery roll (per §5) or Necromancy spells (e.g., Invocation of Nehek). If the army's necromantic master falls and no spell support remains, an Undead unit can accumulate stress to fatal levels — the death-spiral is on theme: the master provides the drive and the magic; without him, the dead simply unwind.
 
 ### Command and Coordination
 
@@ -169,6 +219,26 @@ Additional `[Command]` candidates surface during faction draft passes; auditing 
 
 Where X specifies the hated target (a unit type, faction, keyword, or "All" for indiscriminate hatred). In the first round of each melee combat engagement against a hated target, the bearer may reroll failed melee to-hit rolls. Applies only in melee, only to the to-hit roll, only in the first round of a given engagement. If the unit later enters a fresh combat with a hated target (including re-engagement with the same unit), Hatred triggers again — it is about the heat of initial contact. Frenzy's charge requirement takes precedence over Hatred's preferences; Hatred is a bonus when circumstances allow it.
 
+#### Martial Prowess
+
+A model with this rule may **reroll to-Hit rolls of 1** in melee. The millennium-of-training reflex — every blow finds its target unless the elf himself fumbles. Faction-wide for **Asur** (High Elves), capturing the disciplined-accuracy cultural axis. The Druchii do **not** share this rule — their lethality emphasis is expressed via *Murderous Prowess* (below) rather than to-Hit reroll. **Asrai** (Wood Elves, pending draft) — prowess assignment deferred until the Asrai faction pass; either Martial or Murderous fits, and the call should be made when Asrai units are drafted.
+
+Reroll applies to the melee to-Hit roll only — not to-Wound, not Strike-Order, not ranged. The reroll cannot itself be rerolled (per the standard reroll-once convention). Stacks cleanly with Hatred (which rerolls *failed* hits in round one); Martial Prowess covers the residual 1s after Hatred has consumed its first-round window.
+
+#### Murderous Prowess
+
+A model with this rule may **reroll to-Wound rolls of 1** in melee. The Druchii training emphasis — every blow is meant to kill, not merely engage. Faction-wide for **Druchii** (Dark Elves), capturing the lethality cultural axis. The Asur do **not** share this rule — their accuracy emphasis is expressed via *Martial Prowess* (above) rather than to-Wound reroll. The two are *parallel* faction-wide rules: same biological reflex framework, different cultural channel.
+
+Reroll applies to the melee to-Wound roll only — not to-Hit, not Strike-Order, not ranged. Per the standard convention (cf. Predatory Fighter), the "1" is the **unmodified** natural die face — the reroll triggers regardless of any +/- modifiers that would have applied. The reroll cannot itself be rerolled (per the standard reroll-once convention).
+
+#### Hunter's Prowess
+
+A model with this rule may **reroll to-Hit rolls of 1 with ranged attacks**. Faction-wide for **Asrai** (Wood Elves), capturing the marksmanship cultural axis. The reflex framework that the Asur channel into melee accuracy (Martial Prowess) and the Druchii channel into melee lethality (Murderous Prowess), the Asrai channel into the bow — the apex longbow tradition of Athel Loren, the hunter's eye made manifest.
+
+Reroll applies to the ranged to-Hit roll only — not melee, not to-Wound, not Strike-Order. The "1" is the **unmodified** natural die face — the reroll triggers regardless of any +/- modifiers that would have applied (a roll that needed a 3+ and came up a natural 1 with a -1 modifier still rerolls). The reroll cannot itself be rerolled (per the standard reroll-once convention). Stacks cleanly with weapon-specific rerolls (e.g., Quick to Fire) where both rules permit a reroll of the same die; the model picks which reroll source to apply (rerolls do not chain).
+
+Asur, Druchii, and Asrai inherit one — and only one — of the three prowess rules: Asur **Martial Prowess** (melee to-Hit reroll-1s), Druchii **Murderous Prowess** (melee to-Wound reroll-1s), Asrai **Hunter's Prowess** (ranged to-Hit reroll-1s). The three are mutually exclusive across the elven sub-factions, modelling the same biological reflex framework expressed through three distinct cultural channels.
+
 #### Killing Blow (Target, X)
 
 On an unmodified wound roll of 6 against a model matching *Target*, this attack deals X damage instead of its normal Damage value. **Excess damage does not carry between models** — damage beyond what the wounded model can absorb is wasted. If multiple Killing Blow rules on the same attack match the target, use the most favourable.
@@ -194,6 +264,8 @@ Armour-Seeking does not modify the armour save roll itself. The target still sav
 
 Strength and Toughness are irrelevant to the wound roll of an Armour-Seeking attack.
 
+**Combined models (rider and mount):** Armour-Seeking reads the model's **best single worn-armour source at its face value** — the rider's worn armour or the mount's barding — ignoring Natural Armour and all combination/conversion steps. A model whose protection is purely Natural Armour (an unbarded beast with an unarmoured rider) cannot be wounded by Armour-Seeking.
+
 #### Flaming
 
 Attacks with this keyword have two effects:
@@ -206,6 +278,14 @@ Flaming has no other inherent effect; its significance comes from rules that int
 #### Flammable
 
 Attacks with the **Flaming** keyword targeting this unit reroll failed to-wound rolls. Represents units made of dry wood, oil-soaked cloth, straw, pitch, or otherwise susceptible to catching and spreading fire. Fire takes hold on the target and burns worse than a normal flame-hit would.
+
+#### Breath Weapon
+
+A keyword on weapon profiles that flags the attack as a **cone-exhalation attack** — gas, flame, frost, acid, venom, or other exhaled medium projected from a creature's mouth or throat. Distinguished from weapon-strike attacks (sword, axe, lance) by the delivery mechanism: a Breath Weapon is the creature's own exhalation, not a weapon swing.
+
+Breath Weapons are typically ranged template attacks (Flame Template per §7 Templates) and often combined with **Flaming Attacks**, but neither is intrinsic — the Breath Weapon keyword itself does not carry built-in Flaming or Template attributes. The weapon profile lists those independently. The keyword is a **tag** that other rules can reference (e.g., immunity items, anti-dragon armour, cone-blast defensive auras) — distinguishing breath-attacks from weapon-Flaming attacks (a sword wreathed in flame is Flaming but not a Breath Weapon).
+
+Currently used by: Salamander Spout Flames (§10 Lizardmen Armoury). Future units / items expected to use the keyword: Wyvern / Dragon breath, Chimera breath, Wyrmlance / Wyrmbreath Vial (Bretonnia magic items pending expansion), Skaven Warpfire Throwers, Plague Censer Bearer breath-cloud, etc.
 
 #### Magical Attacks
 
@@ -227,11 +307,25 @@ Attacks with this rule gain **+1 to wound**. Poison does not care about size or 
 
 Unmodified melee to-hit rolls of 6 generate an additional attack. These additional attacks are resolved at the same Initiative step and cannot themselves generate further extras.
 
+The predator-instinct biology also compels chase. When an enemy unit Falls Back from combat with this unit, this unit **must Follow up** (no Hold option, per §4 Fall Back). When an enemy unit voluntarily moves out of melee reach during the Movement phase, this unit **must pursue** (per §4 Pursuit). The chase is not a choice — and being baited out of position by a fast-disengaging opponent is a real downside of the rule, balancing the bonus-attack upside.
+
+#### Pursuit Predator
+
+A unit-or-character keyword bundling three "the chase doesn't end" effects driven by apex predator-instinct biology — the rule's wearer is markedly harder to disengage from than ordinary combat-loving units:
+
+- **Forced Follow up.** When an enemy unit Falls Back from combat with this unit (per §4 *Losing Combat — Fall Back*), this unit **must Follow up** — the Hold option is removed. The chase is mandatory.
+- **Wipeout free move.** If this unit wipes out an enemy unit in melee (all enemy models slain in the same combat round), it may immediately make a **free move of up to 6"** toward the nearest visible enemy unit. The kill instinct does not stop at the corpse pile.
+- **Movement-phase pursuit upgrade.** This unit rolls **D6"** instead of the standard D3" for the §4 *Pursuit* reaction (when an enemy voluntarily disengages during the Movement phase). The apex-predator instinct turns the chase into a serious follow-up, not a token snap.
+
+Stacks distinctly with **Predatory Fighter** (different keyword — extra attacks on melee 6s) and **Frenzy** (different keyword — also forces Follow up + Movement-phase pursuit, but at D3"). When multiple compulsion sources are active on the same unit, the "must Follow up" and "must pursue" clauses fire once per trigger (no double-pursuit); the D6" pursuit distance from Pursuit Predator is the better source and supersedes Frenzy's D3" if both are present.
+
+Currently appears on: Carnosaur (mount profile, §10) and Wild Carnosaur (Rare standalone, §10). Forward-compatible with future apex-predator drafts (Hippogryphs, larger predators, certain Monster-tier units).
+
 #### Impact *(weapon keyword)*
 
 An attack profile with the Impact keyword may only be used on the turn the wielder successfully charges into combat. Impact attacks resolve **immediately on successful charge contact, within the Charges sub-phase (§7.2a)** — not in the Combat phase. Against each enemy model within the weapon's Reach of any charging model in base contact, resolve one attack using this profile. Strength equals the charging unit's Strength (or its mount's Strength if mounted). AP, Damage, and Reach are as listed in the profile. Damage does not carry between models. Failed charges produce no Impact attacks. Impact resolves only on the turn of the charge; subsequent Combat phase rounds use the unit's normal attack profiles.
 
-Because Impact resolves in the Movement phase, casualties from Impact are removed before the Combat phase begins — a defender may have its formation broken or its front rank thinned before its own attacks are made. Wounds lost to Impact count against the Movement phase for the "2 wounds in a phase = +1 stress" trigger.
+Because Impact resolves in the Movement phase, casualties from Impact are removed before the Combat phase begins — a defender may have its formation broken or its front rank thinned before its own attacks are made. Wounds lost to Impact count against the Movement phase for the "2 wounds in a phase = +1 stress" trigger, and count toward the charger's side in that combat's CR total (per §4 *Combat Resolution*).
 
 #### Always Strikes First
 
@@ -408,15 +502,25 @@ This unit has an X+ ward save representing natural healing, supernatural resilie
 
 #### Magic Resistance (X)
 
-Enemy spells that **target or affect** this unit suffer **-X to the casting roll**. The reduced result is used for both the casting-value check (determining whether the spell is cast at all) and any subsequent dispel attempts (the lower result is easier to beat). The penalty applies to any spell the unit is a target or affected unit of, whether the spell names the unit directly or catches it in an area effect.
+Enemy spells that **target or affect** this unit suffer **-X to the casting roll**. The reduced result is used for both the casting-value check (determining whether the spell is cast at all) and any subsequent dispel attempts (the lower result is easier to beat). The penalty applies to any spell the unit is a target or affected unit of, whether the spell names the unit directly or catches it in an area effect. If multiple units with Magic Resistance are targets or affected units of the same cast, apply the **highest single X** — Magic Resistance does not stack across units.
 
 #### Ward vs Spells (X+)
 
 This unit has an X+ ward save against wounds caused by spells. Stacks with other wards under the normal ward stacking rules.
 
+#### Elven Grace
+
+A model with this rule has a **Ward (6+) in melee** against attacks made at the model's own Initiative **or lower**. Attacks made by models with strictly higher Initiative than the elf are not affected — they land faster than the elf can react, and Elven Grace does not apply. Iconic elven reflex: elves *are* harder to hit, but only so long as nothing strikes faster.
+
+Faction-wide for **Asur** (High Elves) and **Druchii** (Dark Elves); also for **Asrai** (Wood Elves) once that faction is drafted, per §13 *Elves*. Melee only — Elven Grace does not protect against ranged attacks, magic, or template effects.
+
+**Stacking note:** Elven Grace is a Ward Save and follows the Ward Save Stacking rules above. A model that already carries another Ward source improves by one step from Elven Grace's 6+ contribution, up to the standard 4+ cap.
+
+**Mount and rider interaction:** Elven Grace applies to all melee hits resolved against a model containing an elf — whether the model itself is an elf, or carries an elf rider. Mirrors the Parry / Dodge convention (per §1 *Combined Wounds*): rider-level identity rules apply to the combined wound pool of the rider-and-mount model. The rule does **not** extend to non-elf characters that subsequently attach to an elf unit — rules attach per-model, not by unit-association.
+
 #### Parry (X)
 
-A model-level rule, **equipment-conditional**. Parry grants **+X to the model's WS-D** in melee combat (no effect on ranged attacks — you can't parry an arrow in flight).
+A model-level rule, **equipment-conditional**. Parry grants **+X to the model's MD** in melee combat (no effect on ranged attacks — you can't parry an arrow in flight).
 
 **Parry value computation:** the final Parry(X) is the sum of the model's **weapon-type baseline** plus its **shield contribution**:
 
@@ -434,23 +538,23 @@ Plus the wielded shield's contribution (per Shield Class table above):
 - **Medium Shield:** +1 Parry
 - **Heavy Shield:** +0 Parry
 
-**Examples:** Empire Halberdier (1H Reach + Medium Shield) → Parry baseline 0 + 1 = **Parry(1)**, gaining +1 WS-D in melee. Saurus Warrior (1H Blade + Medium Shield) → Parry 1 + 1 = **Parry(2)**, +2 WS-D. Imperial Knight (1H Lance + Heavy Shield) → Parry 0 + 0 = **Parry(0)**, no melee defensive bonus from kit (relies on heavy armour and W). Witch Elf (Paired hand weapons) → Parry 1, no shield contribution = **Parry(1)**, +1 WS-D from the second blade.
+**Examples:** Empire Halberdier (1H Reach + Medium Shield) → Parry baseline 0 + 1 = **Parry(1)**, gaining +1 MD in melee. Saurus Warrior (1H Blade + Medium Shield) → Parry 1 + 1 = **Parry(2)**, +2 MD. Imperial Knight (1H Lance + Heavy Shield) → Parry 0 + 0 = **Parry(0)**, no melee defensive bonus from kit (relies on heavy armour and W). Witch Elf (Paired hand weapons) → Parry 1, no shield contribution = **Parry(1)**, +1 MD from the second blade.
 
-**Multi-weapon resolution:** the model's currently-wielded melee weapon determines the weapon-type baseline. Natural attacks (Saurus Jaws, Vampire Bite, Demigryph Claws-and-Beak) **do not override or modify** the weapon-derived value — they're additional attack profiles, not replacement weapons. Riders with mount attacks: the rider's loadout determines Parry; the mount has no Parry of its own. The single combined wound pool (per §1 *Combined Wounds*) means the +X WS-D bonus applies to all incoming melee hits regardless of which "side" of the model would logically take them.
+**Multi-weapon resolution:** the model's currently-wielded melee weapon determines the weapon-type baseline. Natural attacks (Saurus Jaws, Vampire Bite, Demigryph Claws-and-Beak) **do not override or modify** the weapon-derived value — they're additional attack profiles, not replacement weapons. Riders with mount attacks: the rider's loadout determines Parry; the mount has no Parry of its own. The single combined wound pool (per §1 *Combined Wounds*) means the +X MD bonus applies to all incoming melee hits regardless of which "side" of the model would logically take them.
 
-**Front-arc only.** Parry does not apply against melee attacks from the model's flank or rear (you can't parry what you can't see). The attacker resolves at +0 WS-D modifier from this rule when attacking from a flank or rear arc.
+**Front-arc only.** Parry does not apply against melee attacks from the model's flank or rear (you can't parry what you can't see). The attacker resolves at +0 MD modifier from this rule when attacking from a flank or rear arc.
 
 #### Dodge (X)
 
-A model-level rule that grants **+X to the model's WS-D** in melee combat. Dodge represents agile evasion at close quarters: slipping aside from a sword swing rather than parrying it. **Melee only** — arrows and bolts travel too fast to physically evade once fired; ranged protection lives in Skirmisher / cover / camouflage rules, not Dodge.
+A model-level rule that grants **+X to the model's MD** in melee combat. Dodge represents agile evasion at close quarters: slipping aside from a sword swing rather than parrying it. **Melee only** — arrows and bolts travel too fast to physically evade once fired; ranged protection lives in Skirmisher / cover / camouflage rules, not Dodge.
 
 **Front-arc only.** Dodge does not apply against melee attacks from the model's flank or rear (no warning, no time to move).
 
-**Stacks with Parry.** A model with both Parry(X) and Dodge(Y) applies **+X+Y total to WS-D** in melee. Independent contributions — one is weapon-and-shield work, the other is reflex.
+**Stacks with Parry.** A model with both Parry(X) and Dodge(Y) applies **+X+Y total to MD** in melee. Independent contributions — one is weapon-and-shield work, the other is reflex.
 
 **Typical values:** Dodge(1) for naturally agile units (Skink Skirmishers, Witch Elves' bare-flesh acrobatics if granted by identity rule); Dodge(2) for elite-tier evasion specialists. Most units have no Dodge.
 
-Dodge follows Ward Save Stacking rules. Parry and Dodge are distinct — Parry fails against overwhelming Strength, Dodge against overwhelming Initiative. A model may have both if thematic (a duelist with both blade-work and agility).
+A model may have both if thematic (a duelist with both blade-work and agility).
 
 ### Movement and Positioning
 
@@ -475,6 +579,14 @@ When this unit is charged, before the charger rolls charge distance, the Elusive
 #### Strider (X)
 
 Where X is a terrain type (e.g., Forest, Rocky, Difficult). Models with Strider ignore the terrain's **inherent effects** — movement penalties, and Dangerous Terrain tests arising from the terrain's natural features. Applies to all movement including charges. Does not negate effects layered onto terrain from external sources (haunted woods, magical quagmires) — those are supernatural threats that familiarity with the landscape does not address.
+
+#### Wall-crawler
+
+The model or unit ignores all Movement penalties from **Difficult Terrain** and **Dangerous Terrain** (no Dangerous Terrain test required), and may move over **impassable-but-vertical features** (cliffs, walls, sheer rock faces) as if they were open ground — the unit literally crawls across the surface. The model or unit **cannot end its movement** inside another model, inside **impassable-horizontal terrain** (water, lava, void), or in any space where it could not legally be deployed.
+
+Equivalent to **Strider (any terrain)** with the additional clause for vertical impassable features. Distinct from **Fly** (which ignores intervening models and all terrain types including horizontal-impassable, and may freely end movement at any legal flying-eligible position).
+
+**Applies to:** Forest Goblin Arachnarok Spider, Forest Goblin Spider Riders (and any future spider-mounted unit). Cross-faction precedent: Forest Goblin spider-cult biology.
 
 #### Chameleon
 
@@ -503,7 +615,18 @@ When this unit rolls its charge distance, it rolls **one additional D6 and disca
 
 Swiftstride adds roughly +1" average to charge distance and sharply reduces the chance of a catastrophically low roll — fast units reach charge range reliably. Failed charges (where the total still falls short of the target) resolve normally, with the unit making a standard advance instead.
 
-Swiftstride applies only to charge rolls. Flee and pursuit in this system are deterministic moves, not dice rolls, so the rule has no effect on them.
+Swiftstride applies only to charge rolls. Flee in this system is a deterministic move, not a dice roll, so the rule has no effect on it. Pursuit (per §4 *Pursuit*) is a D3/D6 reaction roll, but Swiftstride does not apply to it either — Swiftstride is a charge-mobility upgrade, not a generic dice-roll modifier.
+
+#### Chariot
+
+A unit-type identifier for wheeled vehicles pulled by mounts, with a Crew on the platform. Chariots are Mixed Units (per §1 Crew-pattern, with a chariot-specific stat-routing variant — see individual unit profiles). A unit with the Chariot keyword carries the following rules:
+
+- **Cannot March** in Difficult Terrain or Dangerous Terrain. The chariot's wheels are not designed for off-road tracks. When entering or traversing Difficult Terrain, the unit moves at half its normal M; when entering Dangerous Terrain, the unit takes a Dangerous Terrain test (per §6.5) and may take wounds on a failed roll.
+- **Flank / Rear Charge Vulnerability** — when this unit is charged in the **flank or rear arc**, the charging unit gains **+1 to its melee combat resolution score** for that combat round, on top of standard flank/rear bonuses. The chariot is designed to face forward; its sides and back are exposed.
+
+**Stat-routing convention (chariot-specific Crew-pattern variant):** Chariot units route their stats across the Primary (chariot frame), Crew, and Mount profiles distinctly from the standard §1 Crew-pattern. The Chariot Primary carries only **T / W / Res / LiS / US** (frame durability). The Mount carries the unit's **M** (the mount pulls the chariot) plus its own MA / MD / S / I for natural-weapon attacks. The Crew carries **MA / MD / BS / S / I** for the Crew's weapon profiles AND for incoming melee defence (attackers roll to-hit against the Crew's MD). M / T / W are dashed on the supporting profiles (the chariot's durability is the unit's). Wounds go to the Chariot Primary's W pool; Crew and Mount never die individually. Composition is fixed at deployment per unit profile.
+
+**Applies to:** Orc Boar Chariot, Goblin Wolf Chariot (and any future chariot drafts).
 
 #### Fast Cavalry
 
@@ -511,7 +634,7 @@ A package rule representing light horse, swift scouts, and mobile harassers. A u
 
 - **Vanguard** by default (see §8) — deploys up to its M outside the deployment zone
 - **Free pivots** — models may pivot freely at any point during their move, not only at the end. Not subject to the base-contact-prevents-pivot rule
-- **Flee reaction** — when charged, the unit may declare **Flee** as its charge reaction instead of Stand and Shoot. It immediately makes a free move of **M + D6 directly away** from the charger. If the charger can no longer reach, the charge fails. A unit that Flees this way does not become Broken, takes no stress from the Flee itself, and operates normally on subsequent turns. Coherency must be maintained — if the Flee move cannot end in a legal formation, it is limited to whatever distance is legal
+- **Flee reaction** — when charged, the unit may declare **Flee** as its charge reaction instead of Stand and Shoot. It immediately makes a free move of **M + D6 directly away** from the charger. If the charger can no longer reach, the charge fails. The fleeing unit suffers **+4 stress** (or **+2 stress** if it has the **Skirmisher** keyword per §8 *Skirmisher* — evasion-coded units bear the moral cost less heavily) for the act of fleeing. The act of Fleeing does not by itself put the unit into the Broken state, but the accumulated stress contributes toward state thresholds at the **next regular threshold check** (Start of Turn, per §5) — a Flee that pushes the unit's stress past Wavering or Broken triggers that state at the check, not immediately. The unit operates normally for the remainder of the current turn and on subsequent turns subject to whatever state effects the stress eventually triggers. Coherency must be maintained — if the Flee move cannot end in a legal formation, it is limited to whatever distance is legal
 
 Fast Cavalry and Skirmishers (Loose formation) share free-pivots by design — both are evasion-oriented archetypes. A single unit may have both if thematic (mounted skirmishers). The Flee reaction is distinct from Elusive's 2" reactive scramble; a unit could have both, using Elusive for quick sidesteps and Flee as a genuine retreat from an overwhelming charge. Fast Cavalry still pays the standard **-1 to hit for moving-and-shooting** (see §7.4) — the package confers positioning advantages, not shooting advantages.
 
@@ -546,6 +669,8 @@ The unit stops **1" short** of any friendly unit or impassable terrain it would 
 
 A Random Movement unit never counts as Formed — it lacks the discipline to hold formation. It may be treated as Loose or Disordered based on arrangement. Most Random Movement creatures are single models in any case.
 
+A Random Movement unit activates in the **Normal Movement sub-phase (§7.2b)**. If its rolled move brings it into contact with an enemy, it resolves as a charge at that moment (+1 I, Impact attacks trigger) — but the defender may **not** Stand and Shoot; the lurch gives no warning.
+
 #### Scouts
 
 This unit deploys after both armies have completed standard deployment. The scouting player chooses between two options:
@@ -553,7 +678,7 @@ This unit deploys after both armies have completed standard deployment. The scou
 - **Rear deployment:** anywhere within the unit's own deployment zone. The extra information (seeing where the enemy has committed) allows optimal positioning, but normal movement options including Turn 1 charges are retained.
 - **Forward deployment:** anywhere on the battlefield more than 12" from any enemy model, outside the unit's own deployment zone. The unit may not declare a charge on Turn 1 — the forward position is already a significant advantage.
 
-Deployment is open — both players see the final positions. *(Deployment rules themselves are not yet formally drafted; Scouts will slot into the standard deployment framework when it exists.)*
+Deployment is open — both players see the final positions. *(Standard deployment framework: §9.5 Battles — Deployment, which sequences Scouts after all standard placement is complete.)*
 
 #### Vanguard
 
@@ -573,7 +698,7 @@ Models with Ambushers are not deployed with the rest of the army. They are held 
 | Turn 3 | 2+ |
 | Turn 4+ | Automatic |
 
-When arriving, the unit is placed in base contact with any board edge (including the opponent's rear) in a legal formation facing inward. The unit may move, shoot, cast, or perform any other normal action on the turn it arrives, but may not declare a charge.
+When arriving, the unit is placed in base contact with any board edge (including the opponent's rear) in a legal formation facing inward. It may not be placed with any enemy model within melee weapon reach, in either direction — engagement still requires a charge (per §6 *Engaging the Enemy*). The unit may move, shoot, cast, or perform any other normal action on the turn it arrives, but may not declare a charge.
 
 If the roll succeeds but no legal space exists at the chosen edge (blocked by enemies, terrain, or other units), the attempt is wasted — the unit does not arrive this turn. It rolls again next turn under the same schedule (Turn 4+ still auto-succeeds, subject to space availability).
 
@@ -626,7 +751,7 @@ Example: A Skink Priest with **Loremaster (Heavens)** and LA 2 in Heavens knows 
 
 #### Divination (X/Y)
 
-Once per Y (typically "turn" or "game"), after any die is rolled within 12" of this model, the bearer may declare Divination. The die is rerolled and the second result must be accepted. Applies to any die — friendly, enemy, own, or another's — including casting rolls, to-hit, to-wound, saves, damage rolls, and stress recovery.
+Once per Y (typically "turn" or "game"), after any die is rolled by a unit within 12" of this model, the bearer may declare Divination. A die belongs to the unit whose models roll it — the attacker for to-hit and to-wound rolls, the defender for saves, the unit itself for tests, casting rolls, and recovery. The die is rerolled and the second result must be accepted. Applies to any die — friendly, enemy, own, or another's.
 
 A die may only be affected by a single Divination per roll; rerolls cannot be chained across multiple Divination users.
 

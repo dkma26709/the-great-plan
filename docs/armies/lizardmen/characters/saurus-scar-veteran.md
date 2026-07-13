@@ -5,11 +5,11 @@
 ## Profile
 
 **Saurus Scar-Veteran:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 4 | 6 | 6 | 0 | 5 | 5 | **6** | 3 | 10 | 2 | 3 |
+| 4 | 6 | 5 | 0 | 5 | 5 | **6** | 3 | 10 | 2 | 3 |
 
-**Points:** 144 base (on foot, with Celestite Blade + shield)
+**Points:** 143 base (on foot, with Celestite Blade + shield) *(2026-05-15: MD 6 → 5 to preserve the Saurus cold-blooded slow-defence axis at the character tier — Scar-Vet's age-hardened scales narrow the gap but don't close it; the species's defensive reflex still lags its offence. Cross-faction comparator is Empire Captain MA 6 / MD 5, Black Orc Big Boss MA 6 / MD 5. Effective MD in melee remains 6 via Medium Shield Parry.)*
 
 **Unit type:** Infantry (Character); may take a mount
 

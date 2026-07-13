@@ -5,7 +5,7 @@
 ## Profile
 
 **Field Trebuchet (platform + crew, unified profile):**
-| M | WS-A | WS-D | BS | S | T (ranged) | T (melee) | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T (ranged) | T (melee) | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|---|----|-----|----|
 | 2 | 2 | 2 | 2 | 3 | **7** | **3** | **5** | 3 | 6 | 2 | 2 |
 
@@ -28,11 +28,11 @@
 
 - Undisciplined
 - **War Machine** *(unit type — see §14)* — single-profile unit with dual T. Ranged incoming: T 7. Melee incoming: T 3. W is a wound pool — wounds accumulate but do not reduce combat output, melee A, or fire rate. The Trebuchet fires at full effectiveness from W=full all the way down to W=1; the engine goes silent only at W=0 (destroyed). Can be charged normally. Cannot itself Charge
-- **Crew attack in melee** — Crew fight with hand weapons at unified WS 2, I 3, **A 3** baseline (A 4 with Reinforced Crew upgrade). Melee A is fixed and does not scale with remaining wounds. Note WS 2 is one step worse than the Empire Great Cannon's Engineer Crew (WS 3) — peasant crew, not professional artillerists; melee defence is genuinely weak. BS 2 is similarly worse than Imperial Engineers' BS 3 — affects scatter resolution (Crew BS 3 → 2 means scatter penalty reduced by 1)
+- **Crew attack in melee** — Crew fight with hand weapons at unified MA 2 MD 2, I 3, **A 3** baseline (A 4 with Reinforced Crew upgrade). Melee A is fixed and does not scale with remaining wounds. Note MA 2 MD 2 is one step worse than the Empire Great Cannon's Engineer Crew (MA 3 MD 3) — peasant crew, not professional artillerists; melee defence is genuinely weak. BS 2 is similarly worse than Imperial Engineers' BS 3 — affects scatter resolution (Crew BS 3 → 2 means scatter penalty reduced by 1)
 - **Peasant's Duty** *(identity rule — same translation as Men-at-Arms / Longbowmen / Bidowers)* — while any model of this unit (the Crew) is within **6"** of a friendly Bretonnia character with the **Knight's Vow**, **Crusader's Vow**, **Questing Vow**, **Grail Vow**, or **Lady's Chosen** keyword, that character grants this unit the effects of **Inspiring Presence (6")** (see §8 Resolve and Command). Aura passes from outside the unit only
 - **Class Barrier** *(clause of Peasant's Duty)* — a Bretonnian vow-bearing character standing within the Trebuchet Crew's coherency does NOT gain Character Attachment Exception shielding. Knights cannot conceal themselves behind the peasant crew either
 - **Wall Warden upgrade** *(+8 pts, single-model crew leader upgrade)* — adds a Wall Warden to the crew, a master-of-works or veteran siege engineer who has overseen castle bombardments. The Wall Warden persists for the duration of the battle (until the Trebuchet is destroyed at W=0). While the Wall Warden's upgrade is active:
-- The unit's **WS** is treated as **3** (the Wall Warden raises the crew's melee competence)
+- The unit's **MA and MD** are treated as **3** (the Wall Warden raises the crew's melee competence)
 - The unit's **BS** is treated as **3** (the Wall Warden's professional eye improves scatter accuracy)
 - The unit's **Res** is treated as **7** (the Wall Warden's command experience steadies the levy)
 - The unit may **once per battle, reroll one Artillery Die** (any roll — for scatter distance, MISFIRE check, or the misfire-table D6 result)

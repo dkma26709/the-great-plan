@@ -11,7 +11,7 @@
 |----|-------|------|----------|
 | 6 | 18" | Hex | Until start of next turn |
 
-Caster chooses one of **WS, BS, I, or M**. Target enemy unit suffers **-D3** to that characteristic until start of next turn (minimum 1 — characteristics cannot drop below 1). Confusion fills their minds — swords miss their marks, legs falter, arrows fly wide. The workhorse Shadow cast — always available, flexible, softens any unit for what comes next.
+Caster chooses one of **MA, MD, BS, I, or M**. Target enemy unit suffers **-D3** to that characteristic until start of next turn (minimum 1 — characteristics cannot drop below 1). Confusion fills their minds — swords miss their marks, legs falter, arrows fly wide. The workhorse Shadow cast — always available, flexible, softens any unit for what comes next.
 
 #### Basic (Tier 1) — LA 1+
 

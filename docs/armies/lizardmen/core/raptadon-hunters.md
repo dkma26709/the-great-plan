@@ -5,12 +5,12 @@
 ## Profile
 
 **Rider (Skink Hunter):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 6 | 2 | 2 | 3 | 3 | 2 | 1 | 4 | 6 |
 
 **Mount (Raptadon):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 12 | 3 | 3 | 0 | 3 | 3 | 1 | 3 | 3 |
 
@@ -52,7 +52,7 @@
 ### Close Combat
 
 - **Hand weapon** *(rider, implicit melee fallback)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
-- **Raptadon's Serrated Fangs** *(Raptadon mount, each model)* — 1" reach | **A 1** | S 3 | AP -1 | D 1 — resolved at mount's WS 3, I 3 `[Natural]`
+- **Raptadon's Serrated Fangs** *(Raptadon mount, each model)* — 1" reach | **A 1** | S 3 | AP -1 | D 1 — resolved at mount's MA 3, I 3 `[Natural]`
 
 ### Ranged
 

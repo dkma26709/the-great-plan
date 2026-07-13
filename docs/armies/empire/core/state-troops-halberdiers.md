@@ -4,11 +4,11 @@
 
 ## Profile
 
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 3 | 3 | 3 | 3 | 3 | 1 | 3 | 9 | 1 | 1 |
 
-**Points:** 7 per model
+**Points:** 6 per model *(Pass 9 refresh, 2026-05-07: 7 → 6 at 0.8× scaling)*
 
 **Unit size:** 10-30
 
@@ -33,14 +33,14 @@
 
 **Worn armour options (pick one, additive):**
 - Light armour (+0.5 pt/model) → 6+ save
-- Medium armour (+1.5 pt/model) → 5+ save
+- Medium armour (+1 pt/model) → 5+ save
 
 **Worn armour additive:** Medium Shield (+1 pt/model) — combines with armour for one step per source (per §8 Armour Save Stacking)
 
 **Command options:**
-- **Leader** (+5 pts) — champion; unit leader for Rally / challenges / Leader-snipe. May take a pistol (+3 pts).
-- **Standard bearer** (+10 pts) — may carry a Magic Standard up to 25 pts
-- **Musician** (+5 pts) — +1 to recovery and Rally rolls
+- **Leader** (+4 pts) — champion; unit leader for Rally / challenges / Leader-snipe. May take a pistol (+2.5 pts).
+- **Standard bearer** (+8 pts) — may carry a Magic Standard up to 25 pts
+- **Musician** (+4 pts) — +1 to recovery and Rally rolls
 
 ## Weapon Profiles
 

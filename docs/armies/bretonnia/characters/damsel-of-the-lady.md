@@ -5,7 +5,7 @@
 ## Profile
 
 **Damsel of the Lady:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 8 | 1 | 1 |
 
@@ -13,9 +13,9 @@
 | Level | LA | CaB | DiB | Ch | CB | DB | DR | SK |
 |-------|----|-----|-----|----|----|----|-----|-----|
 | **Lvl 1** *(base)* | 1 | 2 | 1 | 1 | +0 | +0 | 18" | **2** |
-| **Lvl 2** *(+24 pts)* | 2 | 2 | 1 | 2 | +1 | +0 | 18" | **2** |
+| **Lvl 2** *(+19 pts)* | 2 | 2 | 1 | 2 | +1 | +0 | 18" | **2** |
 
-**Points:** 68 base (Lvl 1, hand weapon, no armour, Lady's Chosen). **+24** to upgrade to Lvl 2 (= 92 pts).
+**Points:** 48 base (Lvl 1, hand weapon, no armour, Lady's Chosen). **+19** to upgrade to Lvl 2 (= 67 pts). *(Pass 10 Wizard pricing re-derivation, 2026-05-08: 68 → 48 under §13.8 framework; Lvl 2 upgrade 24 → 19.)*
 
 **Unit type:** Infantry (Character); may take a mount
 

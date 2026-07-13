@@ -4,11 +4,11 @@
 
 ## Profile
 
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 1 | 1 | 0 | 2 | 3 | 1 | 1 | 4 | 1 | 1 |
 
-**Points:** 3 per model
+**Points:** 2 per model *(Pass 9 refresh, 2026-05-07: 3 → 2 at 0.8× scaling. Sub-baseline Undead chaff; pure 0.8× scaling.)*
 
 **Unit size:** 10-40
 

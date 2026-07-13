@@ -4,11 +4,11 @@
 
 ## Profile
 
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 3 | 3 | 3 | 3 | 3 | 1 | 3 | 9 | 1 | 1 |
 
-**Points:** 7 per model
+**Points:** 6 per model *(Pass 9 refresh, 2026-05-07: 7 → 6 at 0.8× scaling)*
 
 **Unit size:** 10-30
 
@@ -47,4 +47,4 @@
 
 ### Close Combat
 
-- **Spear** *(default, 1H Reach — pairs with shield)* — **2" reach** | **A 1** | S 3 | AP 0 | D 1 — leveled spear; second-rank Spearmen stab past the front rank. **Receive Charge** identity rule applies — see Special Rules. Parry baseline 1H Reach(0) + Medium Shield(1) = **Parry(1)**, +1 WS-D in melee per §8 `[1H Reach]`
+- **Spear** *(default, 1H Reach — pairs with shield)* — **2" reach** | **A 1** | S 3 | AP 0 | D 1 — leveled spear; second-rank Spearmen stab past the front rank. **Receive Charge** identity rule applies — see Special Rules. Parry baseline 1H Reach(0) + Medium Shield(1) = **Parry(1)**, +1 MD in melee per §8 `[1H Reach]`

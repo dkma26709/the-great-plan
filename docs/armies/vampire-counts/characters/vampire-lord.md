@@ -1,11 +1,11 @@
 # Vampire Lord
 
-> Centuries-old, unliving, mind-bending, warp-fast, sword-master, necromancer. The apex of a vampire bloodline — typically Von Carstein in our reference but can carry any bloodline flavour via Bloodline Powers selection. Combines **Lord-tier combat killer** and **Lord-tier wizard** in one model: WS 7 / S 5 / T 5 / W 5 / I 7 swordwork, plus Lvl 2-4 Wizard with Death + Necromancy + Shadow lore access intrinsic. Bloodline Powers customise the vampire's flavour and combat style — Red Fury (cascade-strike Carstein), Quickblood (always-first Strigoi), Forbidden Lore (knowledge-hoarder Lahmian), etc. Vampiric Hunger lets him heal a wound per turn from blood drunk in melee.
+> Centuries-old, unliving, mind-bending, warp-fast, sword-master, necromancer. The apex of a vampire bloodline — typically Von Carstein in our reference but can carry any bloodline flavour via Bloodline Powers selection. Combines **Lord-tier combat killer** and **Lord-tier wizard** in one model: MA 7 / S 5 / T 5 / W 5 / I 7 swordwork, plus Lvl 2-4 Wizard with Death + Necromancy + Shadow lore access intrinsic. Bloodline Powers customise the vampire's flavour and combat style — Red Fury (cascade-strike Carstein), Quickblood (always-first Strigoi), Forbidden Lore (knowledge-hoarder Lahmian), etc. Vampiric Hunger lets him heal a wound per turn from blood drunk in melee.
 
 ## Profile
 
 **Vampire Lord:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 7 | 7 | 5 | 5 | 5 | 5 | 7 | 10 | 2 | 2 |
 
@@ -14,9 +14,9 @@
 |-------|----|-----|-----|----|----|----|-----|-----|
 | **Lvl 2** *(base)* | 2 | 2 | 1 | 2 | +1 | +0 | 18" | **4** |
 | **Lvl 3** *(+35 pts)* | 3 | 3 | 2 | 3 | +2 | +1 | 24" | **4** |
-| **Lvl 4** *(+35 pts more)* | 4 | 4 | 2 | 3 | +3 | +2 | 24" | **4** |
+| **Lvl 4** *(+25 pts more)* | 4 | 4 | 2 | 3 | +3 | +2 | 24" | **4** |
 
-**Points:** 280 base (Lvl 2, gut-plate-equivalent armour + hand weapon, no Bloodline Powers). **+35** to Lvl 3 / **+70** to Lvl 4. Bloodline Powers add their listed costs (no hard cap on count).
+**Points:** **160** base (Lvl 2, heavy armour + shield + hand weapon, no Bloodline Powers). **+35** to Lvl 3 / **+60** to Lvl 4. Bloodline Powers add their listed costs (no hard cap on count). *(Pass 10 Wizard pricing re-derivation, 2026-05-08: 225 → 160 under §13.8 framework; the Vampire Lord drop reflects flat-outside-W convention — wizard package no longer scales through W5 factor. Lvl 2→3 upgrade now +35 (was +28); Lvl 3→4 +25 (was +28). Earlier Pass 9 refresh had 280 → 225 at 0.8× scaling; Wizard package now framework-derived per §13.8.)*
 
 **Unit type:** Infantry (Character)
 
@@ -45,7 +45,7 @@
 
 **Equipment options:** (pick one melee swap)
 - **Great weapon** (free swap — replaces hand weapon, no shield; save drops to 4+) — 1" reach | A 4 | S+2 (= S 7) | AP -2 | D 1 | Two-Handed
-- **Lance** (+10 pts, mounted only) — 2" reach | A 4 | charge: S+2, AP -2, D 2; subsequent: S+0, AP 0, D 1
+- **Lance** (+8 pts, mounted only) — 2" reach | A 4 | charge: S+2, AP -2, D 2; subsequent: S+0, AP 0, D 1
 
 **Magic items:** up to **100 pts** (Lord-tier convention; includes vampire-specific items pending separate magic-item draft)
 

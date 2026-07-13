@@ -5,12 +5,12 @@
 ## Profile
 
 **Rider (Questing Knight):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 4 | 4 | 4 | 3 | 4 | 3 | 1 | 4 | 9 |
 
 **Mount (Warhorse — barded, Purebred):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 10 | 3 | 3 | 0 | 3 | 3 | 1 | 3 | 5 |
 

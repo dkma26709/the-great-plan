@@ -57,7 +57,7 @@ D6 S5 hits with Lightning Attacks (ignore armour saves). A single devastating bo
 |----|-------|------|----------|
 | 10 | 24" | Hex | Until start of next turn |
 
-Target enemy unit must reroll all 6s on to-hit, to-wound, and armour save rolls. The inverse of Harmonic Convergence — where the stars align for your allies, they conspire against your enemies. Devastating against elite units that rely on every roll counting. Strong-for-tier hex: hits three axes simultaneously and disproportionately punishes high-WS / high-armour units, so the CV is held high in Intermediate.
+Target enemy unit must reroll all 6s on to-hit, to-wound, and armour save rolls. The inverse of Harmonic Convergence — where the stars align for your allies, they conspire against your enemies. Devastating against elite units that rely on every roll counting. Strong-for-tier hex: hits three axes simultaneously and disproportionately punishes high-MA/MD / high-armour units, so the CV is held high in Intermediate.
 
 **Portent of Far-Seeing**
 
@@ -99,7 +99,7 @@ Place a marker anywhere within range. At the start of each subsequent turn, roll
 |----|-------|------|----------|
 | 13 | 24" | Conveyance | Special |
 
-Remove a friendly unit from the battlefield entirely — it passes through a celestial gateway into the space between stars. At the start of any subsequent friendly Magic phase, the caster may place the unit anywhere on the table more than 9" from any enemy model. If the caster dies before the unit returns, the unit is lost — the arch collapses and the travellers are stranded between worlds. CV held high in Advanced — whole-unit teleport is among the strongest non-damage effects in the system, dictating engagement on the caster's terms.
+Remove a friendly unit from the battlefield entirely — it passes through a celestial gateway into the space between stars. At the start of any subsequent Magic phase, the caster may place the unit anywhere on the table more than 9" from any enemy model. If the caster dies before the unit returns, the unit is lost — the arch collapses and the travellers are stranded between worlds. CV held high in Advanced — whole-unit teleport is among the strongest non-damage effects in the system, dictating engagement on the caster's terms.
 
 #### Master (Tier 4) — LA 4+
 

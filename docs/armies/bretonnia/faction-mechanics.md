@@ -81,7 +81,7 @@ Pattern: vow ladder tier 3 *apex*. The Grail Vow combines defensive elements fro
         Stubborn, Immune Psychology)
 ```
 
-A knight typically progresses Knight's Vow → (one of Crusader's / Questing) → Grail Vow over the course of a long career. Future Grail Knights units (when drafted in an expansion pass) will inherit this Vow as their default; the Bretonnian Lord and Paladin can take the Grail Vow as a list-build upgrade representing a personal completion of the Quest.
+A knight typically progresses Knight's Vow → (one of Crusader's / Questing) → Grail Vow over the course of a long career. **Grail Knights** (Rare slot, see below) inherit this Vow as their unit-wide default; the Bretonnian Lord and Paladin can take the Grail Vow as a list-build upgrade representing a personal completion of the Quest, with the Bretonnian Lord's Liege Bond shifting one Grail Knights unit from Rare to Special.
 
 #### Lance Formation *(sub-state of Formed — Bretonnian mounted Knight units only)*
 

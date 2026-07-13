@@ -5,11 +5,11 @@
 ## Profile
 
 **Saurus Oldblood:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 4 | 7 | 7 | 0 | 5 | 5 | **8** | 3 | 10 | 2 | 4 |
+| 4 | 7 | 6 | 0 | 5 | 5 | **8** | 3 | 10 | 2 | 4 |
 
-**Points:** 228 base (on foot, with Celestite Blade + shield, no Light Armour)
+**Points:** 226 base (on foot, with Celestite Blade + shield, no Light Armour) *(2026-05-15: MD 7 → 6 to preserve the Saurus cold-blooded slow-defence axis at the Lord tier — even millennia of accumulated tactical age don't fully erase the species's defensive lag relative to its offensive ceiling. Cross-faction comparator at MA 7 / MD 6 is Black Orc Warboss; Dwarf Lord and HE Prince sit at MA 7 / MD 7 because their species axes don't lag defensively. Effective MD in melee remains 7 via Medium Shield Parry.)*
 
 **Unit type:** Infantry (Character); may take a mount
 

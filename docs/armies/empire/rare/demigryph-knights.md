@@ -5,19 +5,19 @@
 ## Profile
 
 **Rider (Inner Circle Knight):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 4 | 4 | 4 | 3 | 4 | 3 | 1 | 4 | 9 |
 
 **Mount (Demigryph):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 8 | 4 | 4 | 0 | 4 | 4 | 3 | 4 | 7 |
 
 **Unit-level:**
 | LiS | US |   | Points |
 |-----|----|---|--------|
-| 3   | 3  |   | **60** |
+| 3   | 3  |   | **50** |
 
 **Unit size:** 3-6
 

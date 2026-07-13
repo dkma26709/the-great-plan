@@ -5,12 +5,12 @@
 ## Profile
 
 **Mazdamundi (rider — Slann):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | — | 0 | 1 | 0 | 3 | 4 | 8 | 1 | 12 | (mount) | (mount) |
 
 **Zlaaq the Ancient Stegadon (mount):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 4 | 4 | 0 | 6 | 7 | 12 | 2 | 8 | 4 | =W |
 
@@ -45,7 +45,7 @@
 - **Greater Mastery** — 4 chosen lores at list-build instead of 3 (above)
 - **Soul of Stone** — for miscast checks, the Slann's lowest-rolled cast die is not counted toward the "2+ natural 1s" trigger
 - **Focused Rumination** — +1 CaB (already encoded as CaB 7 above)
-- **Cobra Mace of Mazdamundi** *(intrinsic, sentient weapon)* — the Mace has a sentience of its own and strikes with lightning speed to defy Mazdamundi's foes. The Mace has its own effective **WS-A 5** for to-hit purposes (rolled normally vs the target's WS-D). **Sentient Strike**: when an enemy model in base contact with Mazdamundi or Zlaaq successfully lands a melee hit against this unit, the Cobra Mace immediately makes 1 retaliatory attack against that attacker, resolved *before* the original hit's wound roll. Profile: **1" reach | A 1 | WS-A 5 | S 5 | AP -2 | D 1 | Magical Attacks**. Limit: once per attacking enemy model per Combat phase. Distinct from Lord Kroak's Mace of Malachite — the Cobra Mace is *reactive retaliation* rather than passive AP negation.
+- **Cobra Mace of Mazdamundi** *(intrinsic, sentient weapon)* — the Mace has a sentience of its own and strikes with lightning speed to defy Mazdamundi's foes. The Mace has its own effective **MA 5** for to-hit purposes (rolled normally vs the target's MD). **Sentient Strike**: when an enemy model in base contact with Mazdamundi or Zlaaq successfully lands a melee hit against this unit, the Cobra Mace immediately makes 1 retaliatory attack against that attacker, resolved *before* the original hit's wound roll. Profile: **1" reach | A 1 | MA 5 | S 5 | AP -2 | D 1 | Magical Attacks**. Limit: once per attacking enemy model per Combat phase. Distinct from Lord Kroak's Mace of Malachite — the Cobra Mace is *reactive retaliation* rather than passive AP negation.
 - **Sunburst Standard of Hexoatl** *(intrinsic — Chotec-themed)* — friendly Lizardmen units within **12"** of Mazdamundi gain **+1 Resolve** (separate from Inspiring Presence; the Standard is a totem, the Presence is psychic). Additionally, enemy ranged attacks targeting Mazdamundi or Zlaaq suffer **-1 to hit when fired from more than 12" away, and -2 to hit when fired from 12" or less**. The closer the foe, the brighter the sun-standard burns.
 - **Plaque of Tepec** *(intrinsic, once per battle)* — Mazdamundi may declare the use of the Plaque after an enemy spell is successfully cast but before its effects resolve. The spell **automatically fails** (no dispel roll required); the Plaque shatters into a thousand shards.
 - **Plaque of Xoloc** *(intrinsic, once per battle)* — Mazdamundi may declare the use of the Plaque before rolling a casting roll. He gains **+D6 to that casting roll** (rolled and added). The Plaque crumbles to dust.

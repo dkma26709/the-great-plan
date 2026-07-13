@@ -5,7 +5,7 @@
 ## Profile
 
 **Tetto'eko (Lord, Named — Skink Astromancer; apex Skink caster, palanquin-borne):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | — | 1 | **2** | 3 | 3 | 3 | **3** | 5 | **10** | 1 | 2 |
 
@@ -31,7 +31,7 @@
 
 ## Special Rules
 
-- **Skink species package** — Disciplined, Cold-Blooded, Aquatic, Slippery (WS-A < WS-D split)
+- **Skink species package** — Disciplined, Cold-Blooded, Aquatic, Slippery (MA < MD split)
 - **Fly (8)** — via the Palanquin
 - **Wizard (Heavens, LA 4 — Master, Loremaster)** — see Magic Profile above
 - **Arcane Vassal** — friendly Slann may cast spells through Tetto'eko's model position

@@ -5,12 +5,12 @@
 ## Profile
 
 **Rider (Tepok-Blessed Skink Brave):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 6 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 7 |
 
 **Mount (Raptadon):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 12 | 3 | 3 | 0 | 3 | 3 | 1 | 3 | 3 |
 
@@ -57,4 +57,4 @@
 
 - **Hand weapon** *(rider, implicit melee fallback)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
 - **Tepok Lance (Charger variant)** *(rider, default)* — 2" reach | **A 1** | on charge: +2 S (= S 5), AP -3, D 2 (first round); subsequent rounds: S 3, AP -1, D 1. The fully-consecrated temple-vault relic spear — meaningfully stronger than the Hunter's Tepok Lance, reflecting the Charger's elevated status as a Tepok-blessed warrior.
-- **Raptadon's Serrated Fangs and Claws** *(Raptadon mount, each model)* — 1" reach | **A 2** | S 3 | AP -1 | D 1 — resolved at mount WS 3, I 3 `[Natural]`
+- **Raptadon's Serrated Fangs and Claws** *(Raptadon mount, each model)* — 1" reach | **A 2** | S 3 | AP -1 | D 1 — resolved at mount MA 3, I 3 `[Natural]`

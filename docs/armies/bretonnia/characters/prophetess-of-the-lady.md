@@ -5,7 +5,7 @@
 ## Profile
 
 **Prophetess of the Lady:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 3 | 3 | 3 | 3 | 4 | 4 | 3 | 9 | 1 | 2 |
 
@@ -13,9 +13,9 @@
 | Level | LA | CaB | DiB | Ch | CB | DB | DR | SK |
 |-------|----|-----|-----|----|----|----|-----|-----|
 | **Lvl 3** *(base)* | 3 | 3 | 2 | 3 | +2 | +1 | 24" | **2** |
-| **Lvl 4** *(+28 pts)* | 4 | 4 | 3 | 3 | +3 | +2 | 24" | **2** |
+| **Lvl 4** *(+25 pts)* | 4 | 4 | 3 | 3 | +3 | +2 | 24" | **2** |
 
-**Points:** 136 base (Lvl 3, hand weapon, no armour, Lady's Chosen). **+28** to upgrade to Lvl 4 (= 164 pts).
+**Points:** 111 base (Lvl 3, hand weapon, no armour, Lady's Chosen). **+25** to upgrade to Lvl 4 (= 136 pts). *(Pass 10 Wizard pricing re-derivation, 2026-05-08: 136 → 111 under §13.8 framework; Lvl 4 upgrade 28 → 25.)*
 
 **Unit type:** Infantry (Character); may take a mount
 
@@ -61,6 +61,7 @@
 ### Close Combat
 
 - **Hand weapon** *(default, 1H)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 — a slim ceremonial blade or carved bone-handled knife from the Lady's grove. Even less impressive in melee than the Damsel's, given the Prophetess's age and focus on the magical arts. She is not a fighter `[1H Blade]`
+- [The Fay Enchantress](units/Bretonnia/The%20Fay%20Enchantress/profile.md) *(named, Unique — mounted on Silvermane the Unicorn by default; may not be fielded alongside the Prophetess of the Lady)*
 
 
 Lord-tier and Hero-tier mount options for Bretonnian characters. Warhorse and Pegasus profiles are documented inline in the Knights of the Realm (§17 Core) and Pegasus Knights (§17 Special) entries respectively; this section adds the four Bretonnia-exclusive mounts referenced from the character entries.

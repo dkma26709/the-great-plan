@@ -4,8 +4,8 @@
 | Stat | Abbr | Description |
 |------|------|-------------|
 | Movement | M | Base movement in inches |
-| Weapon Skill (Attack) | WS-A | Skill at striking enemies in melee |
-| Weapon Skill (Defence) | WS-D | Skill at avoiding being struck in melee |
+| Melee Attack | MA | Skill at striking enemies in melee |
+| Melee Defence | MD | Skill at avoiding being struck in melee |
 | Ballistic Skill | BS | Ranged combat ability |
 | Strength | S | Raw hitting power |
 | Toughness | T | Physical resilience |
@@ -15,7 +15,7 @@
 | Line of Sight | LiS | Size/visibility for LoS calculations (see §7.4) |
 | Unit Strength | US | Physical presence and mass of one model. See below |
 
-**Note on the WS-A / WS-D split:** Weapon Skill is split into two stats — **WS-A** (the attacker's skill at landing blows) and **WS-D** (the defender's skill at avoiding them). The §3 To Hit (Melee) table compares **attacker's WS-A vs defender's WS-D**. Always display both values on a profile (e.g., `WS-A 4 / WS-D 4`) even when symmetric, so the architecture is visible. Asymmetric profiles capture lore-distinct combat archetypes — frenzied glass-cannons (high WS-A / low WS-D), evasive skirmishers (low WS-A / high WS-D), bred-warrior moderate-attacker / lower-defender (Saurus), apex predators with heavy committed motion (Carnosaur high WS-A / moderate WS-D), and so on.
+**Note on the MA / MD split:** Melee combat ability is split into two stats — **Melee Attack (MA)**, the attacker's skill at landing blows, and **Melee Defence (MD)**, the defender's skill at avoiding them. The §3 To Hit (Melee) table compares **attacker's MA vs defender's MD**. Always display both values on a profile (e.g., `MA 4 MD 4`) even when symmetric, so the architecture is visible. Asymmetric profiles capture lore-distinct combat archetypes — frenzied glass-cannons (high MA / low MD), evasive skirmishers (low MA / high MD), bred-warrior moderate-attacker / lower-defender (Saurus), apex predators with heavy committed motion (Carnosaur high MA / moderate MD), and so on.
 
 **Attacks are a weapon property, not a stat.** The number of attacks a model makes is defined per-weapon on the weapon profile, not on the stat line. A model with three weapon profiles (e.g., a Monster's natural weapons plus a howdah-mounted ranged weapon) has three independent Attack values. This keeps multi-weapon units cleanly expressible and prevents double-counting across attack modes. When a weapon is used, the model makes the Attacks listed on that weapon's profile, resolved at the weapon's own S, AP, D, and any special rules.
 
@@ -47,15 +47,15 @@ Unit Strength represents a model's **physical presence and mass**. It is a stat-
 
 **What US does:**
 
-1. **Combat resolution wound totals.** Each model killed contributes its US, not 1, to the CR wound tally. A Kroxigor (US 3) killed in combat adds 3 CR wounds. A Stegadon (US 5) killed adds 5. A Saurus (US 1) adds 1.
+1. **Objective and presence calculations.** Scenarios scored by "controlling an objective" or "holding a zone" count **total US** on the point, not model count. A Dragon (US 5) controls a courtyard more decisively than three Skinks (US 3) huddled on it. Physical presence scales with mass.
 
-2. **Objective and presence calculations.** Scenarios scored by "controlling an objective" or "holding a zone" count **total US** on the point, not model count. A Dragon (US 5) controls a courtyard more decisively than three Skinks (US 3) huddled on it. Physical presence scales with mass.
+2. **Rule gating by scale.** Some rules gate their effects on a US threshold rather than enumerating type keywords (e.g., Flaming's beast-panic triggers on US 2+; Killing Blow can target models with US ≤ 2 for anti-infantry or US ≥ 3 for anti-large). More scalable than listing types.
 
-3. **Rule gating by scale.** Some rules gate their effects on a US threshold rather than enumerating type keywords (e.g., Flaming's beast-panic triggers on US 2+; Killing Blow can target models with US ≤ 2 for anti-infantry or US ≥ 3 for anti-large). More scalable than listing types.
+US plays no role in combat resolution — CR counts melee wounds caused (see §4 *Combat Resolution*); a model's mass matters for holding ground, not for the morale arithmetic of a melee.
 
 **US is not tied to Wounds.** A multi-wound hero (W4 Scar-Veteran) still has US 1 — he's one bloke, however tough. A Monster with many wounds has high US because of its mass, not because of its durability.
 
-**US and Degrading.** Monsters with the Degrading rule may have US on their damage table, decreasing as wounds are lost. A wounded Stegadon is a smaller presence than a healthy one — less imposing on the battlefield, contributes less to objectives, and its death counts for fewer CR wounds.
+**US and Degrading.** Monsters with the Degrading rule may have US on their damage table, decreasing as wounds are lost. A wounded Stegadon is a smaller presence than a healthy one — less imposing on the battlefield and contributing less to objectives.
 
 **Monster US = current W.** As a convention, Monster-keyword units have **US equal to their current remaining Wounds** rather than a fixed value. A full-strength Monster contributes its maximum W as US; a heavily-wounded Monster contributes proportionally less. This is a smoother version of the tier-based US-degrading pattern — the wound pool directly reads as battlefield presence. The Monster's *typical* W value governs the top-end presence; individual profiles should set LiS independently to reflect the Monster's scale irrespective of W (a Carnosaur and a Stegadon may both be W10+ but carry different LiS per their sheer physical volume).
 
@@ -89,8 +89,8 @@ Units whose models consist of a rider and a mount (Cavalry, Monstrous Cavalry, C
 | When resolving... | Cavalry / Monstrous Cavalry | Monster-mount |
 |-------------------|------------------------------|---------------|
 | **Movement** | Mount's M | Mount's M |
-| **An attack the model makes** | Profile of the part attacking — rider's WS-A / S / I / A for rider's weapons, mount's for mount attacks. Each strikes at its own Initiative step | Same |
-| **To-hit roll against the model** | Highest WS-D of rider or mount | **Mount's WS-D only** — the rider cannot interpose against attacks aimed at a body that dwarfs him |
+| **An attack the model makes** | Profile of the part attacking — rider's MA / S / I / A for rider's weapons, mount's for mount attacks. Each strikes at its own Initiative step | Same |
+| **To-hit roll against the model** | Highest MD of rider or mount | **Mount's MD only** — the rider cannot interpose against attacks aimed at a body that dwarfs him |
 | **To-wound roll against the model** | Highest T of rider or mount | Same |
 | **Wounds** | See *Combined Wounds* below | Same |
 | **Armour Save** | See *Combined Save — Cavalry / Monstrous Cavalry* below | See *Combined Save — Monster-mount* below |
@@ -117,7 +117,7 @@ The lore principle: the mount's bulk dominates the model's silhouette, so the ri
 **Defensive equipment beyond armour save.** Even where rider gear doesn't translate fully into save value (Monster-mount tier especially), it still contributes:
 - **Shield Parry** (per §8) applies to the model's melee defence
 - **Heavy Shield's +1 vs ranged** still applies
-- **Dodge** and other WS-D buffs on the rider apply to the model's WS-D when attacks are resolved against it
+- **Dodge** and other MD buffs on the rider apply to the model's MD when attacks are resolved against it
 
 **Combined Wounds (uniform across all mounted tiers).** Take the **higher** W of rider or mount as the base. The **other** profile contributes via a 2:1 conversion (round down):
 
@@ -165,15 +165,40 @@ Keywords are **static** — printed on the profile, not gained or lost in play �
 
 ### Mixed Unit
 
-A unit whose composition includes models of two or more distinct profiles — e.g., a Warbeast accompanied by a fixed pool of Handler support models, a crew-served weapon with its Crew, a Chariot with a Rider and a Driver. Both profiles appear on the unit card; each model uses its own profile when attacking or being attacked.
+A unit whose composition includes models of two or more distinct profiles — e.g., a Warbeast with a Handler pool, a war machine with its Crew, a Monster ridden by a Crew of riders, a Chariot with a Rider and a Driver. Both profiles appear on the unit card; each model uses its own profile when attacking or being attacked.
 
-**Wound allocation.** Wounds inflicted on a Mixed Unit are applied to the **supporting profile** (Handlers, Crew, etc.) first. Only once all supporting models are removed may wounds be allocated to the **primary profile**. Rules that specifically target a named model or profile (Sniper, Precision Strike, "pick a model" effects) bypass this priority and apply per the targeting rule's own text.
+Mixed Units come in **two patterns**, distinguished by how the supporting profile interacts with damage. The unit's profile entry specifies which pattern applies.
 
-**Movement and coherency.** All models move together as a single unit. The **primary profile sets the unit's M** (slowest-moves-all is the convention). Supporting models must remain within **2"** of a primary model at the end of any move; a supporting model isolated from all primary models is removed as a casualty.
+#### Handler-pattern *(supporting profile dies individually)*
 
-**If all primary models are destroyed**, any remaining supporting models are also removed and the unit is destroyed. Supporting models cannot outlive their primaries.
+The supporting profile has full M / T / W stats and is removed as casualties when reduced. Examples: **Salamander Handlers**, **Razordon Handlers** (both §10 Lizardmen — Skink handlers tending fire-breathing or barb-firing beast platforms).
 
-Individual unit profiles specify the composition — typically a fixed ratio of support-to-primary (e.g. "3 Handlers per Beast"). Fixed ratios are locked at deployment and cannot be adjusted in play, unlike regular unit sizes.
+- **Wound allocation.** Wounds inflicted on the unit are applied to the **Handlers first**. Only once all Handlers are removed may wounds be allocated to the primary profile. Rules that specifically target a named model or profile (Sniper, Precision Strike, "pick a model" effects) bypass this priority and apply per the targeting rule's own text.
+- **Handlers can be removed individually as casualties.** A Handler reduced to 0 W is gone; the unit operates with fewer Handlers.
+- **Coherency.** Handlers must remain within **2"** of a primary model at the end of any move; a Handler isolated from all primaries is removed as a casualty.
+- **If all primary models are destroyed**, any remaining Handlers are also removed and the unit is destroyed. Handlers cannot outlive their primaries.
+
+#### Crew-pattern *(supporting profile is non-individual)*
+
+The supporting profile has dashes (—) for M / T / W on its line, reflecting that Crew has no individual existence beyond the primary. Examples: **Field Trebuchet Crew** (§17 Bretonnia — peasant crew on a war machine), **Forest Goblin Arachnarok Spider Crew** (§18 — goblin riders on a Monster mount).
+
+- **Crew is never killed individually.** Wounds inflicted on the unit go directly to the primary profile's W pool (or whatever wound mechanic the primary uses); Crew does not absorb or contribute wounds.
+- **Crew provides attacks and special effects only.** The Crew profile's listed melee and ranged attacks fire as part of the unit's combat output; Crew may also provide active special effects (Poisoned Attacks application, faction-flavour rules, support behaviours) named in the unit profile.
+- **Coherency.** N/A — Crew is conceptually attached to the primary; no separate position to maintain.
+- **If the primary is destroyed**, the entire unit is destroyed (Crew goes with it).
+- **Crew count adjustments fire only via specific rule effects** (e.g., Spidershrine upgrade replacing 2 Crew with shrine attendants at list-build, Reinforced Crew upgrade adding 1 to a Trebuchet's W pool). In-play casualty allocation does not reduce Crew count.
+
+#### Common rules (both patterns)
+
+- **Movement.** All models move together as a single unit. The **primary profile sets the unit's M** (slowest-moves-all convention).
+- **Composition lock.** Profile compositions are fixed at deployment per the unit profile (e.g., "3 Handlers per Beast" or "8 Crew on the Arachnarok"). Ratios cannot be adjusted in play, unlike regular unit sizes.
+- **Targeting.** Rules that specifically target a named model or profile resolve per the targeting rule's text, bypassing pattern-specific defaults.
+
+#### Pattern selection guidance
+
+- Use **Handler-pattern** when the supporting models are *physically distinct individuals* with their own footprint and exposure (Skink handlers on the ground beside a Salamander; engineers manning a war machine's mechanism). Handlers represent positional individuals at risk.
+- Use **Crew-pattern** when the supporting models are *attached to and inseparable from* the primary's body / platform (riders on a Monster's back, peasants serving a fixed wood-and-rope assembly). Crew represents a flavour-and-attack contribution that doesn't have an independent battlefield position.
+- Chariots fit the Crew-pattern (Driver / Riders are part of the chariot's silhouette; the chariot's W pool is the unit's durability).
 
 ---
 
@@ -189,7 +214,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Typical baseline** — rank-and-file Saurus Warrior:
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 4 | 4 | 3 | 0 | 4 | 4 | 3 | 2 | 2 | 10 | 5+ |
 
@@ -211,15 +236,15 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Variants of note:**
 - Saurus Warriors (W3, NA 5+) — baseline rank-and-file
-- Temple Guard (W3, NA 4+, WS 5/5, Sworn Protectors) — sacred bodyguards, thicker scales
+- Temple Guard (W3, NA 4+, MA 5 MD 5, Sworn Protectors) — sacred bodyguards, thicker scales
 - Crested Saurus (Aggradon Lancer rider — W3, baseline)
-- Saurus Scar-Veteran (Hero, W6, NA 4+, WS 6/6)
-- Sunblood (Hero, W7, NA 4+, Ward 6+) — celestial-form variant
-- Saurus Astrolith Bearer (Hero, W4, NA 5+, BSB carrier)
-- Saurus Oldblood (Lord, W8, NA 3+, WS 7/7, Primeval Command)
+- Saurus Scar-Veteran (Hero, W6, NA 4+, MA 6 MD 5)
+- Sunblood (Hero, W8, NA 4+, Ward 6+, MA 6 MD 5) — celestial-form variant
+- Saurus Astrolith Bearer (Hero, W4, NA 5+, MA 5 MD 4, BSB carrier)
+- Saurus Oldblood (Lord, W8, NA 3+, MA 7 MD 6, Primeval Command)
 - Gor-Rok (named Hero, W10, NA 3+, oversized albino)
 - Chakax (named Hero, W6, NA 4+, Temple Guard apex)
-- Kroq-Gar (named Lord, W8 + Tlanxla spawning WS-A 8)
+- Kroq-Gar (named Lord, W8 + Tlanxla spawning MA 8)
 
 ### Skink
 
@@ -227,7 +252,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Typical baseline** — rank-and-file Skink Cohort:
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 6 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 1 | 6 | 6+ |
 
@@ -235,7 +260,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 - **Cold-Blooded** (faction-wide)
 - **Aquatic** (most Skink units; exceptions are flyer-mounted variants)
 - **Skittish** (faster to break — biological nervousness)
-- **WS-A < WS-D asymmetry** on the **Skirmisher / stalker / Chameleon caste** — slippery profile, poor melee skill, hard to pin down. **Cohort-caste Skinks** (drilled rank-and-file in Formed regiments) instead carry **symmetric WS-A = WS-D** baseline — the discipline of standing in line is its own combat rhythm, distinct from the evader-asymmetry of skirmishing kin
+- **MA < MD asymmetry** on the **Skirmisher / stalker / Chameleon caste** — slippery profile, poor melee skill, hard to pin down. **Cohort-caste Skinks** (drilled rank-and-file in Formed regiments) instead carry **symmetric MA = MD** baseline — the discipline of standing in line is its own combat rhythm, distinct from the evader-asymmetry of skirmishing kin
 - **Pit-venom biology** (Poisoned Attacks on Skink-default ranged weapons; Jungle Poisons upgrade extends this to melee for some variants)
 
 **Biologically constrained:**
@@ -248,7 +273,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Variants of note:**
 - Skink Cohort (W1, baseline rank-and-file, formed-capable)
-- Skink Skirmishers (W1, Skirmisher, WS 2/4, Elusive)
+- Skink Skirmishers (W1, Skirmisher, MA 2 MD 4, Elusive)
 - Chameleon Skinks (W1, Chameleon, Sniper, Scouts, Dartpipe)
 - Skink Brave (mounted variants, often Res 7 elevation)
 - Great Crested Skink (Horned One Riders, Res 6, more disciplined)
@@ -267,7 +292,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Typical baseline** — rank-and-file Kroxigor:
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 6 | 3 | 2 | 0 | 5 | 5 | 8 | 2 | (on weapon) | 7 | 4+ |
 
@@ -285,7 +310,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 - Cannot be Skink-quick — too massive for high I (cap at I 2-3)
 - Cannot bear ranged weapons (no missile-tier biology; ancient Kroxigor with magical weapons might in named-character cases)
 - Lacks the tactical-cognition of Saurus-tier Lord characters — even the Kroxigor Ancient is a brute apex, not a strategist
-- WS-D capped low (2-3) — *easy to hit but hard to actually hurt* is the species fingerprint
+- MD capped low (2-3) — *easy to hit but hard to actually hurt* is the species fingerprint
 
 **Variants of note:**
 - Kroxigor (W8, NA 4+) — baseline Monstrous Infantry
@@ -299,7 +324,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Typical baseline** — Slann Mage-Priest:
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | — | 0 | 1 | 0 | 3 | 4 | 8 | 1 | (Palanquin Lightning) | 12 | — (Ward 4+ baseline) |
 
@@ -314,7 +339,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 - **Long-Lived** — Res 12 baseline, above the standard Lord cap
 
 **Biologically constrained:**
-- Cannot fight in melee personally (WS-A 0 baseline — the Slann is a passenger; the palanquin's celestite array fires independent lightning at fixed-2+ to-hit)
+- Cannot fight in melee personally (MA 0 baseline — the Slann is a passenger; the palanquin's celestite array fires independent lightning at fixed-2+ to-hit)
 - Cannot equip magical weapons or armour (the "Contemplation" lore-rule)
 - Cannot be transported except by palanquin — no direct mount options. **Mazdamundi is the lore-canonical exception**: his palanquin is borne *atop* Zlaaq the Ancient Stegadon, but the Slann himself never directly mounts the creature. This palanquin-on-creature configuration is rare and named-character-only; commonplace Slann are palanquin-borne via floating-stone-throne mechanics
 - Slann should not appear at Hero-tier — Lord-only species; Slann are too rare and powerful for sub-Lord drafting
@@ -363,7 +388,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Typical baseline** — rank-and-file human soldier (Empire State Trooper):
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 4 | 3 | 3 | 3 | 3 | 3 | 1 | 3 | 1 | 9 | — |
 
@@ -398,7 +423,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Typical baseline** — rank-and-file Ogre Bull (Pass 4):
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 6 | 4 | 2 | 2 | 4 | 4 | 7 | 2 | 3 | 7 | — / 6+ gut-plate |
 
@@ -413,7 +438,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Biologically constrained:**
 - No Natural Armour — protection comes from gut-plate (intrinsic shield) and optional light armour. **No heavy armour anywhere in the Ogre roster** (5+ save ceiling) — "fat guys with little armour" is the design call
-- WS-D capped low (rank-and-file WS-D 2; even Tyrant only WS-D 6) — *easy to hit but hard to actually hurt* via wounds + Toughness rather than dodge-tier defence
+- MD capped low (rank-and-file MD 2; even Tyrant only MD 6) — *easy to hit but hard to actually hurt* via wounds + Toughness rather than dodge-tier defence
 - I 2-4 across the species — Ogres are not quick; Mighty Blow + Headbutt land late in the strike order vs apex-Initiative opponents
 - No Predatory Fighter (Lizardmen-reserved) — Ogre combat-spike rules use Mighty Blow / Bone Crackers / Bull Charge / Bloodgreed instead
 - Limited magic depth — only Slaughtermaster (Lord-caster) channels; Ogre lore-access is dual (Great Maw + Beasts) but no ladder of caster tiers below Slaughtermaster
@@ -434,22 +459,21 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Typical baseline** — rank-and-file Common Orc (Boyz):
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 4 | 4 | 3 | 3 | 4 | 4 | 2 | 2 | 1 | 7 | — |
 
-(W 2 reflects fungal-pain-tolerance — Orcs at the rank-and-file tier already exceed mortal humans on durability per the Pass 4 species-identity scaling. WS-A 4 / WS-D 3 captures the hit-hard-but-telegraphed combat profile — Orcs swing hard, register hits poorly. Res 7 unchanged from WAP — Greenskins don't get the +1 disciplined-faction Res bump.)
+(W 2 reflects fungal-pain-tolerance — Orcs at the rank-and-file tier already exceed mortal humans on durability per the Pass 4 species-identity scaling. MA 4 / MD 3 captures the hit-hard-but-telegraphed combat profile — Orcs swing hard, register hits poorly. Res 7 unchanged from WAP — Greenskins don't get the +1 disciplined-faction Res bump.)
 
 **Common traits** (typical, not universal):
-- **Animosity** (Greenskin faction-wide) — D6 each Movement phase; on a 1, the unit must charge nearest enemy or take +1 stress squabbling
-- **Loves a Scrap** (Greenskin faction-wide for Orcs specifically) — bleeds 1 stress per Combat phase the unit was engaged; melee is morale-positive
+- **Animosity** (Greenskin faction-wide) — D6 each Movement phase (only when out of combat); on a 1, sub-roll D6 — 1-3 forces a charge against nearest visible enemy (fallback to self-hits if no target), 4-6 the unit takes D3 hits at S 4 as Boyz turn on each other
+- **Loves a Scrap** (Greenskin faction-wide for Orcs specifically) — bleeds 1 stress per Combat phase the unit was engaged; AND if engaged at the end of the previous turn, the unit gains +1 A on a chosen weapon profile this turn — sustained-combat momentum, Orcs warm up to the fight
 - **Undisciplined** (Common Orcs and most rank-and-file Greenskins; -1 to Recovery rolls). Black Orcs are the exception — Disciplined.
-- **Boyz Will Be Boyz** on hand-weapon-only Boyz (charge-bonus +1 attack)
-- **WS-A > WS-D** asymmetry — Orcs swing harder than they parry, by typically one step
+- **MA > MD** asymmetry — Orcs swing harder than they parry, by typically one step
 
 **Biologically constrained:**
 - No Natural Armour — protection from worn armour and shields only
-- WS-D tends to lag WS-A — Orcs are not parry-fighters; the design call is "swing hard, get hit hard"
+- MD tends to lag MA — Orcs are not parry-fighters; the design call is "swing hard, get hit hard"
 - I 2 baseline — Orcs are not quick. Apex Black Orcs may reach I 3, never higher
 - Heavy armour reserved for elite tier (Black Orcs); rank-and-file Boyz cap at light armour + shield
 - No species-wide morale-aura abilities — Greenskins are individualistic; no Inspiring Presence baseline
@@ -476,11 +500,11 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Typical baseline** — rank-and-file Common Goblin:
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
-| 4 | 2 | 3 | 3 | 3 | 3 | 1 | 3 | 1 | 5 | — |
+| 5 | 2 | 3 | 3 | 3 | 3 | 1 | 3 | 1 | 5 | — |
 
-(WS-A 2 / WS-D 3 reflects the stab-from-behind instinct — Goblins are bad at fair fights but slippery to pin down. Res 5 — Goblins panic readily; cowardice is the species fingerprint, distinguishing them sharply from their Orcish kin.)
+(MA 2 / MD 3 reflects the stab-from-behind instinct — Goblins are bad at fair fights but slippery to pin down. Res 5 — Goblins panic readily; cowardice is the species fingerprint, distinguishing them sharply from their Orcish kin. **M 5** — Goblins are small, light, and quick-footed; the species fingerprint is *skulker, outflanker, runner-from-trouble*, which the +1 over the default infantry M baseline mechanically supports. Cross-faction precedent: Skaven Clanrats at M 5, Skink Cohort at M 6 — small / scurrying / evasion-tier species reliably break the M 4 baseline. The Goblin foot tier is *fast for infantry*; mounted Goblins (Wolf Riders, Spider Riders, Squig Hoppers) layer Cavalry-tier mobility on top.)
 
 **Common traits** (typical, not universal):
 - **Animosity** (Greenskin faction-wide) — same trigger as Orcs, but the manifestation is more often panic/squabble than bloodlust
@@ -495,7 +519,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 - Low Res (5-6) — easy to break; Goblins generally do not hold a line under sustained pressure
 - Cannot bear heavy armour (small frame, encumbrance, cultural disinclination)
 - No species-wide melee-cascade rules; Goblin combat output is volume + opportunism, not raw quality
-- **Forest Goblin sub-tribe** layers Poisoned Attacks (spider-pit-venom) + Wall-crawler mount-mechanic + Spider God magical access on top of the Goblin baseline; same biology, distinct sub-tribe culture and toolkit. Forest Goblins retain the Common Goblin slippery profile (WS-A 2 / WS-D 3) — sub-tribe culture changes the *toolkit*, not the *combat-axis identity*
+- **Forest Goblin sub-tribe** layers Poisoned Attacks (spider-pit-venom) + Wall-crawler mount-mechanic + Spider God magical access on top of the Goblin baseline; same biology, distinct sub-tribe culture and toolkit. Forest Goblins retain the Common Goblin slippery profile (MA 2 / MD 3) — sub-tribe culture changes the *toolkit*, not the *combat-axis identity*
 
 **Equipment patterns:** light armour at most, shield, hand weapon (short blade or club), bow (Common Goblins favour the short-bow; Forest Goblins use poisoned bows), **slings** (cheaper alternative ranged weapon). Night Goblins layer in **bound Fanatics** (chained-and-mushroom-dosed Goblins released as whirling-ball-of-death suicide weapons before contact). Spear + shield is also common at the rank-and-file tier.
 
@@ -519,7 +543,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Typical baseline** — Snotling base (Swarm-tier):
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 4 | 2 | 2 | 0 | 2 | 2 | =W (5-7) | 3 | =W | 4 | — |
 
@@ -537,29 +561,29 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 ### Elves
 
-> Long-lived, slim, magic-attuned humanoids. Two and a half millennia of life is typical for an elf; the eldest reach 6+ centuries. Cultural sub-factions: **High Elves** (Asur — disciplined citizen-soldiers of Ulthuan, ten-thousand-year war-tradition), **Dark Elves** (Druchii — frenzied raiders of Naggaroth, Khaine-cult bloodlust). **Wood Elves** (Asrai) are biologically identical but currently omitted from the species reference until forest-bound mechanics are drafted — the Wood Elves are a future revisit if material warrants it. Across all sub-factions, elves share the same biological baseline. Long-lifespan is *flavour* mechanically — but it surfaces indirectly through the higher-than-average WS / I baselines (centuries of compressed training), and through the M 5-6 species speed.
+> Long-lived, slim, magic-attuned humanoids. Two and a half millennia of life is typical for an elf; the eldest reach 6+ centuries. Cultural sub-factions: **High Elves** (Asur — disciplined citizen-soldiers of Ulthuan, ten-thousand-year war-tradition), **Dark Elves** (Druchii — frenzied raiders of Naggaroth, Khaine-cult bloodlust). **Wood Elves** (Asrai) are biologically identical but currently omitted from the species reference until forest-bound mechanics are drafted — the Wood Elves are a future revisit if material warrants it. Across all sub-factions, elves share the same biological baseline. Long-lifespan is *flavour* mechanically — but it surfaces indirectly through the higher-than-average MA / MD / I baselines (centuries of compressed training), and through the M 5-6 species speed.
 
 **Typical baseline** — disciplined-tier elf (High Elf Spearman as the baseline reference):
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 5 | 4 | 4 | 4 | 3 | 3 | 1 | 5 | 1 | 9 | — |
 
-(M 5-6 baseline. WS / BS / I 4-5 reflects centuries of training compressed into a slim biological frame. Cultural sub-factions warp the WS-A / WS-D *axis*, not the underlying stat.)
+(M 5-6 baseline. MA / MD / BS / I 4-5 reflects centuries of training compressed into a slim biological frame. Cultural sub-factions warp the MA / MD *axis*, not the underlying stat.)
 
 **Common traits** (typical, not universal):
-- **Elven Grace** (faction-wide for both Asur and Druchii) — Ward 6+ in melee against attacks made at the elf's Initiative or lower
-- **Martial Prowess** (faction-wide for both Asur and Druchii) — reroll to-Hit 1s in melee
+- **Elven Grace** (faction-wide for Asur, Druchii, and Asrai) — Ward 6+ in melee against attacks made at the elf's Initiative or lower
+- **Prowess triad (cultural split, not shared)** — Asur carry **Martial Prowess** (reroll to-Hit 1s in melee — disciplined-accuracy axis); Druchii carry **Murderous Prowess** (reroll to-Wound 1s in melee — Khainite lethality axis); Asrai carry **Hunter's Prowess** (reroll to-Hit 1s in ranged attacks — apex-archer marksmanship axis, locked in 2026-05-15 with the Glade Guard draft). Three parallel rules, same biological reflex framework channelled along three distinct cultural axes
 - **Disciplined** for High Elves (Asur), often **Frenzy** or sub-faction-specific bloodlust for Druchii Khainite units
-- High WS / BS / I baselines reflecting long-lifespan training compression — elves are the *skill-and-discipline* species archetype across the ruleset
-- **Cultural WS-A / WS-D asymmetry** as the across-sub-faction axis: High Elf disciplined-balanced (WS-A ≈ WS-D), Dark Elf frenzied-attacker (WS-A > WS-D), Wood Elf (pending) likely skirmisher-evader (WS-A < WS-D)
+- High MA / MD / BS / I baselines reflecting long-lifespan training compression — elves are the *skill-and-discipline* species archetype across the ruleset
+- **Cultural MA / MD asymmetry** as the across-sub-faction axis: High Elf disciplined-balanced (MA ≈ MD), Dark Elf frenzied-attacker (MA > MD), Wood Elf (pending) likely skirmisher-evader (MA < MD)
 
 **Biologically constrained:**
 - Low T / W (3 / 1) — elves are slender; biological resilience is low. Lord-tier characters cap at W4-5
 - No Natural Armour — protection comes from worn armour
 - Magic affinity is *cultural-level* (lots of caster characters across all sub-factions) but does not appear as a rank-and-file trait — common elves are not mages, only elf characters are
 - Cannot grow large — no Monstrous Infantry-tier elves; the species-frame is fundamentally slim. Mounted variants and monster-mounted variants exceed the slim baseline only via the *mount*, not the rider
-- Long-lifespan does not surface as a stat-line bump; instead it's expressed via the elevated WS / I baseline
+- Long-lifespan does not surface as a stat-line bump; instead it's expressed via the elevated MA / MD / I baseline
 
 **Equipment patterns:** elves are master craftsmen — every elf-forged weapon and armour piece is exquisite by mortal standards. **High Elves** favour spears (Lothern Sea Guard, Spearmen), longbows (every Sea Guard carries one), elite swordsmanship (Sword Masters of Hoeth wield two-handed greatswords), and ceremonial weapons (Phoenix Guard halberds). **Dark Elves** favour repeater crossbows (Dark Shards, Corsairs), paired weapons (Witch Elf knives, Corsair sea-blades), and heavy armour-and-shield (Black Guard, Cold One Knights). **Wood Elves** (pending) lean heavily on the **Glade Bow** (apex longbow tradition) and forest-camouflage.
 
@@ -575,8 +599,8 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 - **Treemen** (pending Wood Elf draft) — animated forest-monsters, apex Wood Elf Monster
 
 **Variants of note:**
-- High Elf Spearmen (W1, M 5, WS-A 4 / WS-D 4, Disciplined, Defensive Formation)
-- Witch Elves / Druchii (W1, WS-A 5 / WS-D 3, Frenzy, Khainite-cult bloodlust — frenzied-attacker cultural axis)
+- High Elf Spearmen (W1, M 5, MA 4 / MD 4, Disciplined, Defensive Formation)
+- Witch Elves / Druchii (W1, MA 5 / MD 3, Frenzy, Khainite-cult bloodlust — frenzied-attacker cultural axis)
 - *Pending:* Sword Masters of Hoeth, Phoenix Guard, White Lions, Lothern Sea Guard, High Elf Archers, Reavers, Silver Helms / Dragon Princes (High Elf elite tiers); Black Guard, Corsairs, Cold One Knights, Dark Riders, Dark Shards, Executioners (Dark Elf tiers); Wood Elf entire roster (Wardancers, Glade Guard, Eternal Guard, Treekin, Treemen, etc.); High Elf and Dark Elf Lord/Hero characters (Princes, Anointed, Dreadlords, Sorceresses, Loremasters of Hoeth, etc.); Dragon-mounted apex characters across both factions
 
 ### Dwarfs
@@ -585,11 +609,11 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Typical baseline** — rank-and-file Dwarf Warrior:
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 3 | 4 | 4 | 3 | 3 | 4 | 1 | 2 | 1 | 10 | — |
 
-(M 3 baseline — dwarfs are slow, hard-coded into the species. T 4 / Res 10 captures the iron-stoic identity. WS 4 across the species — every adult dwarf is a trained warrior.)
+(M 3 baseline — dwarfs are slow, hard-coded into the species. T 4 / Res 10 captures the iron-stoic identity. MA 4 MD 4 across the species — every adult dwarf is a trained warrior.)
 
 **Common traits** (typical, not universal):
 - **Stubborn** (faction-wide) — dwarf morale ignores Shaken / Wavering state effects
@@ -625,11 +649,11 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Typical baseline** — Chaos Warrior (the unmarked-mortal-corrupted reference):
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 4 | 5 | 5 | 3 | 4 | 4 | 2 | 4 | 2 | 9 | — |
 
-(W 2 reflects chaos-mutation hardening — every chaos warrior has survived dozens of fights that would kill a man. Heavy armour standard; combined save 4+ baseline, 3+ with Heavy Shield. WS / I 4-5 reflects veteran skill compounded with chaos-blessed reaction speed.)
+(W 2 reflects chaos-mutation hardening — every chaos warrior has survived dozens of fights that would kill a man. Heavy armour standard; combined save 4+ baseline, 3+ with Heavy Shield. MA / MD / I 4-5 reflects veteran skill compounded with chaos-blessed reaction speed.)
 
 **Common traits** (typical, not universal):
 - **Will of Chaos** (faction-wide for mortal Chaos) — Immune to Psychology + reroll failed recovery rolls; centuries of chaos-devotion purges fear
@@ -675,11 +699,11 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Typical baseline** — pending; rank-and-file Gor (the Beastman parallel to Common Orcs) is the expected anchor. Provisional values:
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 5 | 4 | 3 | 3 | 4 | 4 | 1 | 3 | 1 | 7 | — |
 
-(W 1 — weaker than Chaos Warriors at the rank-and-file tier per the "weaker baseline + more twisted" framing. M 5 — Beastmen are quicker than Chaos Warriors, evolved for the chase. WS-A 4 / WS-D 3 captures the savage-attacker valence. T 4 — bestial-frame resilience.)
+(W 1 — weaker than Chaos Warriors at the rank-and-file tier per the "weaker baseline + more twisted" framing. M 5 — Beastmen are quicker than Chaos Warriors, evolved for the chase. MA 4 / MD 3 captures the savage-attacker valence. T 4 — bestial-frame resilience.)
 
 **Common traits** (typical, not universal):
 - **Will of Chaos** (Mortal Chaos faction-wide inherit, partial — most Beastmen are Imm Psych but the reroll-recovery is unit-specific)
@@ -716,7 +740,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Typical baseline** — provisional Lesser Daemon (rank-and-file legion-troop, e.g., Bloodletter):
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 4-5 | 5 | 4 | 0 | 4-5 | 4 | 1-2 | 4-5 | 1-2 | 9-10 | — / Ward 5+ |
 
@@ -756,7 +780,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Animated Dead (Skeleton Warrior baseline):**
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 4 | 2 | 2 | 2 | 3 | 3 | 1 | 2 | 1 | 4 | — |
 
@@ -764,11 +788,11 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Vampires (Vampire Hero / Lord baseline):**
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 6 | 6-7 | 6-7 | 4 | 5 | 4-5 | 4-5 | 6 | 4 | 9-10 | — |
 
-(Apex-tier supernatural stats — high WS, high I, supernatural T. Vampires regenerate via Vampiric Hunger on Bite wounds.)
+(Apex-tier supernatural stats — high MA/MD, high I, supernatural T. Vampires regenerate via Vampiric Hunger on Bite wounds.)
 
 **Common traits — Animated Dead:**
 - **Undead** (faction-wide; see §8 — Imm to Psychology, no morale-source stress, can't Fall Back, Crumble mechanic when stress > Res)
@@ -786,7 +810,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 - Animated Dead cannot be Hero or Lord tier — they're rank-and-file binding-magic constructs; characters are Vampires (apex) or Necromancers (mortal humans, see Humans entry)
 - Animated Dead cannot grow beyond their drafted W (W1 baseline at infantry; W2 for Wights / Grave Guard tier, max ~W3 for skeletal cavalry)
 - No biological reproduction — the population is *raised*, not bred. Necromancer / Vampire magic generates the warriors as needed
-- Vampires are biologically supernatural — Marked (Bloodlines) and lifespan-unbounded; their bumps to W / T / WS reflect supernatural stat ladder, not mortal biological scaling
+- Vampires are biologically supernatural — Marked (Bloodlines) and lifespan-unbounded; their bumps to W / T / MA / MD reflect supernatural stat ladder, not mortal biological scaling
 - No armour beyond what was worn in mortal life — Skeleton Warriors with rusted bucklers, Grave Guard with light armour; Vampires with Heavy armour as apex caster-warriors
 
 **Equipment patterns:** Animated Dead retain *what they died wearing* — Skeleton Warriors with rusted bucklers and rotted leathers, Zombies with whatever rags survive, Grave Guard with their mortal-life heavy armour and Wight Blades (magical-by-binding). Vampires wear what their station and personal taste dictate — typically Heavy armour at apex, intricate gothic plate; Vampire blades are often magical heirlooms (the Sword of Vlad, Drakenhof Runefang etc.).
@@ -819,7 +843,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Skeletal Tomb-Bound (Tomb-King-bound skeleton):**
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 4 | 2 | 2 | 2 | 3 | 3 | 1 | 2 | 1 | 5-6 | — |
 
@@ -827,7 +851,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Stone Constructs (Khemrian Warsphinx as anchor):**
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 6 | 4 | 4 | 0 | 5 | 8 | 10 | 1 | (varies) | 10 | — |
 
@@ -876,11 +900,11 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 ### Wood Elves (Asrai)
 
-> Descendants of High Elves who chose to remain in the Old World, bonded across generations to the forest-kingdom of **Athel Loren**. Biologically the Asrai are *elves* — same long-lifespan slim physiology, same Elven Grace + Martial Prowess that High Elves and Dark Elves share — but the cultural and magical bond with the forest has shaped their warfare, equipment, and magic into a distinct identity. Wood Elves "have been likened to a force of nature, neither truly good nor evil"; they pay homage to **Orion (King of the Wood, avatar of Kurnous the Hunter)** and **Ariel (Queen of the Wood, avatar of Isha the Mother)**, and the forest itself fights alongside them as a faction-anchor. Athel Loren is suffused with primeval magic; *time flows unevenly* within its borders, and the forest is alive in ways incomprehensible to mortals.
+> Descendants of High Elves who chose to remain in the Old World, bonded across generations to the forest-kingdom of **Athel Loren**. Biologically the Asrai are *elves* — same long-lifespan slim physiology, same Elven Grace that High Elves and Dark Elves share. The Asur and Druchii split their prowess-axis (Asur reroll-to-Hit, Druchii reroll-to-Wound); the Asrai prowess assignment is pending the Wood Elf draft. The cultural and magical bond with the forest has shaped their warfare, equipment, and magic into a distinct identity. Wood Elves "have been likened to a force of nature, neither truly good nor evil"; they pay homage to **Orion (King of the Wood, avatar of Kurnous the Hunter)** and **Ariel (Queen of the Wood, avatar of Isha the Mother)**, and the forest itself fights alongside them as a faction-anchor. Athel Loren is suffused with primeval magic; *time flows unevenly* within its borders, and the forest is alive in ways incomprehensible to mortals.
 >
 > Two distinct biological tiers within the faction:
 >
-> **Asrai (the Wood Elves themselves)** — same elf biology as Asur and Druchii, with M 5-6, low T/W, Elven Grace + Martial Prowess faction-wide. The cultural axis: **WS-A < WS-D leaning** (skirmisher-evader — Wood Elves are forest-rangers, ambush-hunters, kite-and-fade specialists; closer in valence to Skink Skirmishers than to disciplined Asur or frenzied Druchii).
+> **Asrai (the Wood Elves themselves)** — same elf biology as Asur and Druchii, with M 5-6, low T/W, Elven Grace faction-wide. Prowess assignment (Martial vs Murderous vs Asrai-specific variant) is pending the Wood Elf draft. The cultural axis: **MA < MD leaning** (skirmisher-evader — Wood Elves are forest-rangers, ambush-hunters, kite-and-fade specialists; closer in valence to Skink Skirmishers than to disciplined Asur or frenzied Druchii).
 >
 > **Forest Spirits** — biologically distinct entities; *not elves at all*. **Dryads** (forest-spirits bound to living trees, Monstrous-Infantry tier), **Tree Kin** (lesser tree-spirits bound into dead-wood bodies — animated tree-monsters), **Treemen** (apex Forest Spirit Monster — ancient sentient trees taking the field). Forest Spirits do not bleed in the mortal sense; they are *bound spirits in plant-matter*, with their own durability paradigm closer to Daemons-on-mortal-plane than to mortal elves.
 
@@ -888,7 +912,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Asrai (rank-and-file Wood Elf, e.g., Glade Guard):**
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 5 | 4 | 4 | 5 | 3 | 3 | 1 | 5 | 1 | 8-9 | — |
 
@@ -896,7 +920,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Forest Spirits (Dryad baseline):**
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 5 | 4 | 4 | 0 | 4 | 4 | 2 | 4 | 2 | 8 | 5+ (bark-and-thorn) |
 
@@ -904,9 +928,9 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Common traits — Asrai (typical, not universal):**
 - **Elven Grace** (faction-wide, shared with Asur and Druchii) — Ward 6+ in melee against attacks at the elf's I or lower
-- **Martial Prowess** (faction-wide) — reroll to-Hit 1s in melee
+- **Hunter's Prowess** *(Asrai-specific — locked in 2026-05-15 with Glade Guard draft)* — reroll to-Hit 1s with ranged attacks. The Asrai channel the elven reflex framework into the bow rather than the sword (Asur Martial Prowess) or the killing blow (Druchii Murderous Prowess). See §8 for authoritative rules text
 - **Forest Stride** *(Asrai-distinct)* — Wood Elves treat forest terrain as Open ground (no movement penalties, no Dangerous Terrain tests for thorn-fields / dense undergrowth); the forest does not impede the forest-folk
-- **Wardancer / Skirmisher cultural valence** — most Asrai melee units are Skirmisher-keyword; the species expression of melee is fluid evasion, not formed-wedge discipline
+- **Skirmisher cultural valence (mostly)** — *most* Asrai melee units (Wardancers, Waywatchers, Glade Riders) are Skirmisher-keyword; the species expression of melee is fluid evasion. Glade Guard are the **Formed-Infantry exception** — the main-line archer regiment deployed in ranks behind the skirmisher screen, lore-canonical to WHFB 8e
 
 **Common traits — Forest Spirits (typical, not universal):**
 - **Forest Spirit** *(faction-shared trait — working title)* — bound to Athel Loren's magic; potential restrictions or bonuses related to proximity to forest terrain (mechanic per unit)
@@ -942,7 +966,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Variants of note:**
 - **Asrai units:** Glade Guard (W1, baseline rank-and-file Glade Bow archers), Eternal Guard (W1 elite spear-and-shield, defensive formed-line — *the* Asrai disciplined-tier exception), Wardancers (W1, no armour, paired blades, Imm Fear/Terror, Frenzy-leaning), **Waywatchers** (W1 Skirmisher-Sniper-Scouts apex), Glade Riders (W1 fast cavalry), Wild Riders (W1 frenzied stag-mounted cavalry), Sisters of the Thorn (apex magic-cavalry)
-- **Forest Spirits:** Dryads (Monstrous Infantry, W2, bark-NA, Fear), Tree Kin (Monstrous Cavalry / Monster-adjacent, W3-4), **Treemen** (Monster, W6-8, ancient sentient trees, can be Hero / Lord characters)
+- **Forest Spirits:** Dryads (**Infantry**, W2, bark-NA 5+, Fear, Magical Attacks, Flammable; rank-and-file Forest Spirit tier — biologically equivalent to elf-sized tree-spirits on 25mm bases), Tree Kin (**Monstrous Infantry**, W3-4, 40mm bases; the genuinely larger animated tree-monsters), **Treemen** (Monster, W6-8, ancient sentient trees, can be Hero / Lord characters)
 - **Apex Lord characters:** **Orion** (King of the Wood, named Lord, Kurnous-avatar; Wild Hunt summon), **Ariel** (Queen of the Wood, named Lord-caster, Isha-avatar; Athel Loren's magical anchor), Spellweaver (Lord-caster), Highborn (combat Lord)
 - *Pending:* Glade Lord / Highborn / Wayfinder character drafts, Forest Dragon mounts, Eagle / Great Stag mounts, Lore of Athel Loren spell list, full Wood Elf faction draft
 
@@ -952,7 +976,7 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Typical baseline** — rank-and-file Clanrat:
 
-| M | WS-A | WS-D | BS | S | T | W | I | A | Res | NA |
+| M | MA | MD | BS | S | T | W | I | A | Res | NA |
 |---|------|------|----|---|---|---|---|---|-----|-----|
 | 5 | 3 | 3 | 3 | 3 | 3 | 1 | 4 | 1 | 5 | — |
 
@@ -982,9 +1006,9 @@ Individual unit profiles specify the composition — typically a fixed ratio of 
 
 **Biologically constrained:**
 - W 1 at rank-and-file; Hero-tier Skaven characters W 2-3, Lord-tier Warlords / Grey Seers / Plague Lords / Warlock Masters / Master Assassins / Master Moulders W 3-5. Skaven biology is fundamentally fragile per-model; the species expresses durability through *numbers*, not *bulk*
-- No Natural Armour beyond the rusted gear they wear — fur is not protective at the WS-vs-S level
+- No Natural Armour beyond the rusted gear they wear — fur is not protective at the MA-vs-MD level
 - Cowardice baseline — Res 4-6 across most units. Skaven Lord-tier characters (Grey Seers, Warlords) reach Res 7-8 via station / warpstone-corruption / sheer ambition, never higher
-- T 3 baseline rank-and-file (T 4 only at elite tier — Stormvermin, certain monstrous Moulder-creations)
+- T 3 baseline rank-and-file (the species fundamentally lacks T 4 at the elite tier — Stormvermin are T 3 per WHFB 8e canon, not T 4 as earlier-pass §1.5 had projected; T 4 reserved for monstrous Moulder bio-creations only — Rat Ogres, Hell Pit Abomination)
 - Cannot hold a line under sustained pressure without numerical advantage — this is the species fingerprint, and faction design reinforces it via Verminous Valour and similar identity rules
 - No flight (no biological flying Skaven; Doomwheel is engineered ground-mobility, not flight)
 - Low magical durability per-cast — Skaven magic is *cheap and powerful but unreliable*, frequently miscasting (warpstone overload). Grey Seers excepted at the Lord tier

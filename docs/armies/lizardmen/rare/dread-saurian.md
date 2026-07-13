@@ -5,7 +5,7 @@
 ## Profile
 
 **Dread Saurian (Beast):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 7 | 4 | 4 | 0 | 8 | 7 | 25 | 1 | 6 | 6 | =W |
 

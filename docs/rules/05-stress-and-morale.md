@@ -7,7 +7,7 @@ There are no Resolve tests anywhere in the system — no pass/fail rolls against
 
 ### Triggers
 
-- **Losing a combat round:** +1 per point of combat difference (capped at +3). A Formed unit subtracts 2 from the combat difference before calculating stress (minimum 0).
+- **Losing a combat round:** +1 per point of combat difference (uncapped — a massacre shatters morale accordingly). A Formed unit subtracts 2 from the combat difference before calculating stress (minimum 0).
 - **Every 2 wounds lost in a single phase:** +1. Uniform across multi-model units (wounds = casualties) and single models (wounds = W lost).
 - **Being a shooting target:** +1, once per Shooting phase. Applies whether or not casualties result; capped at once per phase regardless of how many enemies shot at the unit.
 - **Targeted by an enemy spell:** +1, once per Magic phase. Applies only if the spell is successfully cast and not dispelled, whether or not it causes damage. Individual spells may inflict additional stress as part of their rules.
@@ -46,11 +46,13 @@ For reference at base Res values (no modifiers):
 
 | State | Effects |
 |-------|---------|
-| Shaken | −1 WS-A, −1 WS-D (melee), −1 BS (ranged) |
-| Wavering | −1 WS-A, −1 WS-D (melee), −1 BS (ranged); cannot charge |
+| Shaken | −1 MA, −1 MD (melee), −1 BS (ranged) |
+| Wavering | −1 MA, −1 MD (melee), −1 BS (ranged); cannot charge |
 | Broken | flees every Movement phase (full-M move directly away from the nearest enemy); attacks against the unit hit automatically (no to-hit roll required); enemies may engage a Broken unit by simply moving into weapon reach — no charge declaration needed |
 
-**Note on melee state effects:** Shaken and Wavering apply **−1 to both WS-A and WS-D** as standard, mirroring the dual-axis split. The unit hits worse *and* gets hit easier in melee. Special rules may modify one axis or the other in specific cases; the universal stress effect hits both.
+**Note on melee state effects:** Shaken and Wavering apply **−1 to both MA and MD** as standard, mirroring the dual-axis split. The unit hits worse *and* gets hit easier in melee. Special rules may modify one axis or the other in specific cases; the universal stress effect hits both.
+
+**Note on Broken and the board edge:** a Broken unit's flee move treats the board edge as open ground to oblivion — **each model whose flee move carries it across the edge is destroyed** (removed as a casualty). The remaining models complete the flee normally and may bleed further models on subsequent flees until the unit recovers or is wiped out; a unit whose last model leaves the field is destroyed as normal (VP, nearby-friendly stress triggers). This is deliberately per-model — a spread-out unit is not annihilated because one flank model touched the edge. Fall-back from a lost combat is different: a still-fighting unit does not stream off the field — the edge blocks fall-back per §4, converting blocked inches to stress.
 
 States apply while the unit's stress is at or above the threshold. A unit whose stress drops below a threshold (via recovery, winning combat, or rally) loses the corresponding state at the next Start of Turn threshold check.
 

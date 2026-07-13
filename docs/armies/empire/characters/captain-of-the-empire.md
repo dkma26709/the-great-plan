@@ -5,11 +5,11 @@
 ## Profile
 
 **Captain of the Empire:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 5 | 5 | 5 | 4 | 4 | 4 | 5 | 9 | 1 | 2 |
 
-**Points:** 85 base (on foot, hand weapon + heavy armour + shield)
+**Points:** 70 base (on foot, hand weapon + heavy armour + shield) *(Pass 9 refresh, 2026-05-07: 85 → 70 at 0.8× scaling)*
 
 **Unit type:** Infantry (Character); may take a mount
 

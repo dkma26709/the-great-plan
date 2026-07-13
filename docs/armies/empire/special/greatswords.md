@@ -4,11 +4,11 @@
 
 ## Profile
 
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 4 | 4 | 3 | 3 | 3 | 1 | 4 | 10 | 1 | 1 |
 
-**Points:** 14 per model
+**Points:** 11 per model *(Pass 9 refresh, 2026-05-07: 14 → 11 at 0.8× scaling)*
 
 **Unit size:** 10-20
 
@@ -36,12 +36,12 @@
 **Worn armour options:** (pick one — replacement, not additive)
 - Default: Light armour → 6+ save (no shield — Great weapon is Two-Handed)
 - Medium armour (+1 pt/model) → 5+ save
-- Heavy armour (+2.5 pt/model) → 4+ save
+- Heavy armour (+2 pt/model) → 4+ save
 
 **Command options:**
-- **Leader** (+5 pts)
-- **Standard bearer** (+10 pts — Magic Standard up to 50 pts; Greatswords get the elite banner budget, matching Knights)
-- **Musician** (+5 pts)
+- **Leader** (+4 pts)
+- **Standard bearer** (+8 pts — Magic Standard up to 50 pts; Greatswords get the elite banner budget, matching Knights)
+- **Musician** (+4 pts)
 
 ## Weapon Profiles
 

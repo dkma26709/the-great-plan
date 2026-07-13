@@ -5,7 +5,7 @@
 ## Profile
 
 **Skink Starseer:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | — | 2 | 3 | 3 | 3 | 3 | **3** | 5 | 9 | 1 | 2 |
 
@@ -14,7 +14,7 @@
 |-----|-----|----|----|----|----|----|-----|
 | 3 | 2 | 3 | +2 | +1 | 24" | **Heavens 4** | **3** |
 
-**Points:** 164 base
+**Points:** 117 base *(Pass 10 Wizard pricing re-derivation, 2026-05-08: 164 → 117 under §13.8 framework; the drop reflects halved LA tier costs under the per-component schema.)*
 
 **Unit type:** Infantry (Character — Skink on floating Palanquin); flying-character
 

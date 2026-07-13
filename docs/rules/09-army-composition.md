@@ -80,7 +80,7 @@ All units of the shifted type change category at once. Blanket shifts are binary
 
 **Standard board.** 6' × 4' (72" × 48") for full-scale battles (1500-2500 pts). Smaller engagements (≤1000 pts) play comfortably on 4' × 4' (48" × 48"). Larger games (>2500 pts) extend to 6' × 6'.
 
-**Terrain density.** A standard battlefield carries **6-10 terrain features**, occupying roughly 20-30% of the board area. Heavier terrain is permitted (jungle, urban) but should be agreed by both players in advance. Open battlefields with fewer than 4 features risk one-dimensional play; over-cluttered boards risk terrain-locking entire armies.
+**Terrain density.** A standard battlefield carries **6-10 terrain features**, occupying roughly 20-30% of the board area. Heavier terrain is permitted (jungle, urban) but should be agreed by both players in advance. Open battlefields with fewer than 4 features risk one-dimensional play; over-cluttered boards risk terrain-locking entire armies. Terrain features and their effects (movement, line of sight, combat) are defined in **§6.5 Terrain**.
 
 **Terrain placement.** Three options, in order of preference:
 
@@ -104,76 +104,6 @@ All units of the shifted type change category at once. Blanket shifts are binary
 
 **Re-deploys.** None permitted under standard rules — once a unit is placed, it stays. Specific scenarios or AoIs may grant a re-deploy as a faction-specific rule.
 
-### Terrain Types
-
-Each terrain feature carries one or more keywords from the list below. Most features carry a single keyword; some compound (a forest carries *Forest* + *Difficult Terrain* + *Soft Cover* together). When two players disagree on which keywords a feature carries, settle by mutual agreement before the game begins. *(Cover, Templates, and Dangerous Terrain mechanics already defined in §7.4 / §6.5 are not re-explained here — this section catalogues the terrain features themselves.)*
-
-#### Open Ground
-
-The default. No effect on movement, line of sight, or combat. Most of the board.
-
-#### Difficult Terrain
-
-A terrain feature that disrupts movement without being impassable — broken ground, scree, dense brush, marsh shallows, ploughed fields, ruined rubble.
-
-- **Movement penalty:** any movement (Advance, March, Charge) through Difficult Terrain costs **double** — 1" of board distance through the feature consumes 2" of the model's movement allowance. A unit that ends an Advance partway through Difficult Terrain has crossed only half the feature compared to open ground.
-- **Negated by Skirmishers, Fly, Strider (matching keyword).**
-- Difficult Terrain is **not inherently Dangerous** — most natural Difficult Terrain (rocky scree, dense brush, swamp shallows) does not carry the *Dangerous Terrain* keyword. Specific features (sharpened stakes, lava streams, caltrops) add *Dangerous Terrain* on top per §6.5.
-
-#### Impassable Terrain
-
-Cannot be entered. Includes deep water (without bridges), sheer cliffs, lava pools, building interiors not designated as garrisonable, board-edge walls. A model attempting to enter Impassable Terrain stops at the boundary; the rest of the move's allowance is lost.
-
-#### Forest / Jungle
-
-A forested area. Carries the keywords:
-
-- **Difficult Terrain** (movement doubled to cross)
-- **Soft Cover** (-1 to-hit ranged for units inside, per §7.4)
-- **Limited Sight** — line of sight *into* a forest is blocked beyond **6"** of the forest's edge. A shooter outside the forest may target a unit inside only if the line from shooter to target enters the forest no more than 6" before reaching the target. A unit *inside* a forest looking *out* sees normally only within 6" of the unit; targets beyond that are unsighted unless the shooter is also inside the same forest.
-
-The Strider (Forest) keyword negates the Difficult Terrain penalty but does **not** override the Limited Sight rule — that governs the forest's interaction with the wider battlefield.
-
-#### Hill
-
-A raised area. Itself is **Open Ground** (no movement penalty). Provides:
-
-- **High ground** — units atop the hill have an elevated firing position; they may *over-shoot* lower cover features per §7.4 (cover features below the hill's height do not protect targets the hill-shooter can see clearly over)
-- **Hard Cover** to units behind the hill, against shooters at the same elevation or lower
-
-Climbing onto and off a hill costs no extra movement. Hills are positioning features, not terrain obstacles.
-
-#### Water (Streams, Rivers, Marshes)
-
-**Shallow water** (streams, fords, marsh shallows):
-- **Difficult Terrain.** Negated by **Aquatic** (per §8).
-
-**Deep water** (rivers proper, lakes):
-- **Impassable Terrain** unless bridged or fordable at a specific point. **Aquatic** units treat deep water as Difficult Terrain instead of Impassable.
-
-#### Walls and Low Walls
-
-Linear obstacles — perimeter walls, hedges, low fences, ruined sections.
-
-- **Hard Cover** (-2 to-hit ranged) for units behind the wall, against shooters on the far side
-- **Climbing cost:** crossing a wall consumes an extra **2"** of movement beyond the model's normal step. A model that ends its move atop a wall remains there.
-- **Defensive position** — a Formed unit with at least one model in base contact with a wall along its front edge gains **+1 WS-D** against melee attacks from the wall's far side, in the same arc. Stacks with Shield Wall.
-
-Heavy fortification walls (castle perimeter, garrisoned keep) use *Building* rules below.
-
-#### Buildings
-
-A garrisonable structure. Usable in scenarios that explicitly permit garrisoning.
-
-- An **Infantry** unit may garrison a building it has at least one model in base contact with at the start of its activation. Garrison capacity per the building's profile (default: **10 models** for a small structure, **20 models** for a larger one)
-- A garrisoned unit is treated as **Formed** for all purposes regardless of physical model arrangement
-- The unit gains **Hard Cover** against ranged attacks and **+1 WS-D** in melee against attackers outside the building
-- A garrisoned unit's models cannot be individually targeted; wound allocation is per the unit's standard rules (front-rank-equivalent first)
-- Models may shoot from the building, with all eligible models treated as if in clear LOS to front and flanks; rear-arc shots are blocked unless rules state otherwise
-- Charges into a garrisoned unit declare a building face being attacked; combat is resolved through that breach. Only models within reach of the breach contribute attacks each round
-
-Specific buildings may carry additional keywords (Sacred, Cursed, Magical) per scenario.
-
 ### Game Length
 
 Standard games run **5 turns**. Scenario rules may extend (6 turns for objective-heavy missions) or shorten (4 turns for fast Meeting Engagements).
@@ -195,7 +125,6 @@ Three baseline scenarios. Players agree before deployment, or roll D3.
   - Each enemy unit at **half strength or less** at game end (current model count or current W ≤ half starting): half unit cost in VP
   - Enemy **General slain**: +200 VP bonus
   - Enemy **Battle Standard Bearer slain**: +100 VP bonus
-  - **Table-quartering bonus:** at game end, count US (excluding Broken or fleeing units) wholly within each table quarter. The player with greater US in the **two centre quarters** combined gains **+150 VP**
 - **Draw:** within 100 VP of each other
 
 #### Scenario 2: Take and Hold
@@ -209,7 +138,7 @@ Three baseline scenarios. Players agree before deployment, or roll D3.
 - **Scoring:**
   - At the **end of each turn from Turn 2 onward**, each held marker scores **+100 VP** to its holder. Cumulative across turns
   - At **end of Turn 5** (game end), each held marker scores **+200 VP** instead of +100 — the final position is what matters most
-  - **Annihilation also scores:** add destroyed-unit VP (full / half / general / BSB) per Pitched Battle, **without** the table-quartering bonus
+  - **Annihilation also scores:** add destroyed-unit VP (full / half / general / BSB) per Pitched Battle
 - **Draw:** within 100 VP
 
 #### Scenario 3: Meeting Engagement
@@ -217,9 +146,9 @@ Three baseline scenarios. Players agree before deployment, or roll D3.
 > Two armies collide unexpectedly along a march. Forces are scattered, the centre is open, and reinforcements trickle in as the fight develops.
 
 - **Deployment:** **6" zones** along long edges (smaller than standard). Each player **deploys only half their army** by points value (rounded up to the nearest unit) at the start; the remainder is held in reserve
-- **Reserves:** at the start of **each player's Movement phase from Turn 2 onward**, that player rolls D6 for each reserve unit. The unit arrives on **3+ on Turn 2**, **2+ on Turn 3**, **automatic on Turn 4+**. Place arriving units in base contact with the player's own long edge, at least **12" from any enemy model**, in a legal formation facing inward. The unit may not declare a charge on the turn it arrives
+- **Reserves:** at the start of **the Movement phase from Turn 2 onward**, each player rolls D6 for each of their reserve units. The unit arrives on **3+ on Turn 2**, **2+ on Turn 3**, **automatic on Turn 4+**. Place arriving units in base contact with the player's own long edge, at least **12" from any enemy model**, in a legal formation facing inward. The unit may not declare a charge on the turn it arrives
 - **Game length:** 5 turns
-- **Victory:** Pitched Battle scoring (destroyed-unit VP + general/BSB + table-quartering)
+- **Victory:** Pitched Battle scoring (destroyed-unit VP + general/BSB)
 - **Draw:** within 100 VP
 
 > **Future expansion.** This baseline is deliberately small. Future scenario packs may add: narrative-driven asymmetric scenarios (one army defends, the other attacks), king-of-the-hill (single objective, escalating points), random battlefield events, magical / supernatural board hazards, and matched-play tournament packets with objective-track scoring. Drafted as needed; not blocking playtest.

@@ -133,5 +133,3 @@ A short, balanced lance of wood and bone, commonly carried by lighter cavalry an
 **8" range | S4 | AP 0 | D1 | Flaming (see §8) | Quick to Fire (see §8)**
 
 A thrown weapon: weighted cords bound with small fire-leech creatures from the deep pools — reptilian pests that spit and burn on impact. When the bolas wraps around a target, the leeches cook what they touch. Short range, high strength, always hot — a thrown anti-infantry weapon iconic of Terradon-borne Skink hunters. Flaming interactions apply per §8 (no Regeneration, beast-keyword panic).
-
----

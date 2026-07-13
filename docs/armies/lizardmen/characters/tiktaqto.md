@@ -5,12 +5,12 @@
 ## Profile
 
 **Rider (Skink Chief):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 6 | **4** | **6** | **6** | 4 | 3 | **3** | **7** | **9** |
 
 **Mount (Zwup, named Terradon — particularly fierce):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 2 | **4** | **4** | 0 | 4 | 3 | **4** | 3 | 4 |
 
@@ -36,7 +36,7 @@
 
 ## Special Rules
 
-- **Skink species package** — Disciplined, Cold-Blooded, Slippery (WS-A < WS-D split). *Note: not Aquatic — Terradons are flying saurians, not water-dwellers; per the Skink-on-mount rule, the rider does not bring Aquatic to a non-aquatic mount.*
+- **Skink species package** — Disciplined, Cold-Blooded, Slippery (MA < MD split). *Note: not Aquatic — Terradons are flying saurians, not water-dwellers; per the Skink-on-mount rule, the rider does not bring Aquatic to a non-aquatic mount.*
 - **Fast Cavalry** (see §8)
 - **Fly (14)** (via Zwup)
 - **Strider (Forest)**
@@ -53,4 +53,4 @@
 ### Close Combat
 
 - **Blade of Ancient Skies** *(intrinsic, 1H — fossilised sky-predator jawbone, jagged-edged tips)* — **1" reach | A 3 | S+1 (= S 5) | AP -2 | D D3 | Magical Attacks** — apex Skink-rider weapon, far above the standard Celestite blade. Carved from the dense fossilised jawbone of a monstrous extinct sky-borne predator. `[1H Blade]`
-- **Zwup's Talons and Beak** *(mount natural — particularly fierce)* — 1" reach | **A 3** | S 4 | **AP -1** | D 1 — Zwup attacks at WS-A 4, +1 attack vs baseline Terradon (A 2), and AP -1 (vs 0) reflecting "particularly fierce." `[Natural]`
+- **Zwup's Talons and Beak** *(mount natural — particularly fierce)* — 1" reach | **A 3** | S 4 | **AP -1** | D 1 — Zwup attacks at MA 4, +1 attack vs baseline Terradon (A 2), and AP -1 (vs 0) reflecting "particularly fierce." `[Natural]`

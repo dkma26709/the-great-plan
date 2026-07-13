@@ -5,12 +5,12 @@
 ## Profile
 
 **Rider (Crested Saurus):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 4 | 4 | 4 | 0 | 4 | 4 | 3 | 2 | 10 |
 
 **Mount (Aggradon):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 7 | 3 | 3 | 0 | 5 | 5 | 4 | 2 | 3 |
 
@@ -64,7 +64,7 @@
 
 ### Close Combat
 
-- **Saurus Jaws** *(rider natural, always — front-rank only)* — **0.5" reach** | **A 1** | S 4 | AP 0 | D 1 — the Crested Saurus rider's own jaws; resolved at the rider's WS 4 / I 2. Distinct from the Aggradon's bite below — this is the rider snapping at anything that gets close enough, while the mount tears with its own substantially nastier maw `[Natural]`
+- **Saurus Jaws** *(rider natural, always — front-rank only)* — **0.5" reach** | **A 1** | S 4 | AP 0 | D 1 — the Crested Saurus rider's own jaws; resolved at the rider's MA 4 / I 2. Distinct from the Aggradon's bite below — this is the rider snapping at anything that gets close enough, while the mount tears with its own substantially nastier maw `[Natural]`
 - **Celestite Spear** *(rider option, 1H with shield)* — 2" reach | **A 2** | S 4 (+1 I baseline) | D 1 | On charge (front arc): +1 S, AP -1 | Against Cavalry / Monstrous Cavalry / Warbeast / Monster / Chariot: Damage 2 (see Armoury) `[1H Reach]`
 - **Celestite Club** *(rider option, 1H with shield)* — 1" reach | **A 2** | S 4 | AP -1 | D 1 | On charge: +1 S, AP -2, D 2 | Against W 3+ targets: +1 Damage (see Armoury)
-- **Aggradon's Rending Bites and Striking Talons** *(mount natural, each model)* — 1" reach | **A 3** | S 5 | AP -2 | D 2 — resolved at mount WS 3, I 2 `[Natural]`
+- **Aggradon's Rending Bites and Striking Talons** *(mount natural, each model)* — 1" reach | **A 3** | S 5 | AP -2 | D 2 — resolved at mount MA 3, I 2 `[Natural]`

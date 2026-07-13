@@ -19,7 +19,22 @@ The global scaling factor is a single tunable knob that scales every unit, chara
 
 **Why 0.8?** Pre-scaling prices made rank-and-file blocks feel expensive — a 20-Saurus regiment at 22 pts/model consumed 22% of a 2000-pt budget. The 0.8 scaling drops that to ~18% (Saurus 18 pts/model × 20 = 360 pts), enabling the "big block of infantry plus support" feel that the WAP / Old World tradition relies on. Values were chosen for clean rounding on the most common unit costs.
 
-**How to apply at draft time.** Compute `statContribution × woundFactor` per the framework below to get the *raw* cost. Multiply by `scalingFactor` (currently 0.8). Round to nearest whole (0.5 rounds up). This is the final printed price.
+**How to apply at draft time.** Compute `statContribution × woundFactor` per the framework below to get the *raw* cost. Multiply by `scalingFactor` (currently 0.8). Then round per the **rounding policy** below.
+
+**Rounding policy** *(refined 2026-05-07 — Pass 9)*:
+
+| Cost type | Rounding |
+|---|---|
+| Equipment / weapon upgrades / character upgrades **< 50 pts** | Nearest **0.5 pt** (e.g., 1.45 → 1.5; 1.7 → 1.5; 1.8 → 2.0) |
+| Unit base costs / character base costs **< 50 pts** | Nearest **whole pt** |
+| Anything **≥ 50 pts** (units, characters, big mounts, etc.) | Nearest **5 pt** |
+| Magic items (any cost) | Nearest **5 pt** *(overrides the 0.5/whole rules — items are an unscaled pool, WAP-tradition pricing in 5-pt increments)* |
+
+The tiered policy avoids the "0.4 raw rounds to 0 pt" precision-loss problem that flat whole-pt rounding caused on cheap upgrades (Spear options, small weapon swaps), while keeping unit and character-base prices clean integers and large-cost items at 5-pt granularity for roster-math readability.
+
+**Existing prices retained.** Prices priced under the previous rounding rule (whole pts only) are kept as-is; re-rounding under the new policy happens organically as units / equipment options are touched in normal design passes. No bulk re-pricing operation is scheduled.
+
+**For "is it equipment or unit-tier?"** — under 50 pts, the line is "is this an additive upgrade to something that already exists" (equipment / character options → 0.5-pt rounding) or "is this a base cost that exists on its own" (unit / character base → whole-pt rounding). For mounts: small mounts that read as character-options (Warhorse +14, Pegasus +24) round per the equipment rule (0.5); big mounts that read as their own statline (Royal Hippogryph 100+ pts, Carnosaur 280+) round per the 5-pt rule.
 
 **Exempt from the scaling factor:**
 - **Character magic-item allowances** — Lord-tier 100 pts, Sub-Lord 75 pts, Hero-tier 50 pts. These are armoury-budget caps the player spends *into* the game's separate magic items pool, not points the unit pays for stats and rules. The cap stays anchored to the magic items list (which is itself unscaled) so list-builders see consistent numbers regardless of the global density knob.
@@ -29,7 +44,9 @@ These two exemptions are the only ones; everything else (unit base costs, equipm
 
 **Tuning the factor.** If playtest shows armies are too dense (board congestion, slow play) raise toward 0.9 or 1.0; if too sparse (handful of elite models per side) lower toward 0.7. Re-tuning is a single-pass operation against the framework — every priced unit re-derives at the new factor in one bulk update.
 
-**Currently scaled rosters (Pass 8):** §10 Lizardmen, §17 Bretonnia. **Pending:** §14 Empire, §15 Ogre Kingdoms, §16 Vampire Counts, §18 Cross-Faction Reference Units — these still display 1.0× pricing pending bulk re-scale; cross-faction comparison during the Pass 8 transition should account for the mismatch.
+**Currently scaled rosters (Pass 8 / Pass 9 / Pass 10):** **§10 Lizardmen, §14 Empire, §15 Ogre Kingdoms, §16 Vampire Counts, §17 Bretonnia, §18 Cross-Faction Reference Units** *(all at 0.8× scaling — full bulk re-scale completed 2026-05-07; Wizard pricing formalised 2026-05-08 in §13.8 (Pass 10), all caster characters re-derived under the framework).*
+
+**No pending re-scales.** All rosters are now consistently scaled at 0.8× and all framework gaps have been closed.
 
 ### 13.1 Wound Factor
 
@@ -61,7 +78,7 @@ Start from a **baseline of 5**, representing a standard grunt — WS3 S3 T3 W1 I
 
 | Stat | Modifier per point from baseline |
 |------|----------------------------------|
-| WS-A / WS-D | ±0.5 each |
+| MA / MD | ±0.5 each |
 | S | ±1.0 |
 | T | ±1.5 |
 | I | ±0.75 *(refined — was ±0.5; bumped to reflect strike-order value at high tiers)* |
@@ -198,7 +215,7 @@ Weapons contribute to a unit's price via per-component costs. Sum the components
 | 2" reach — single-model Character / Monster | +0.3 |
 | 3"+ reach — Infantry | +1.5 |
 | 3"+ reach — other unit classes | +1 |
-| Per extra Attack on weapon (above A 1 baseline) | +1.5 |
+| Per extra Attack on weapon (above A 1 baseline) | **+1.5 × (1 + 0.5 × \|AP step (always-on)\| + 0.5 × S_bonus_step (always-on))** *(refined 2026-05-07 — Pass 9; multiplier scales with weapon's offensive amplifier stack)* |
 | AP -1 (per step from AP 0) | +0.5 |
 | Damage 2 melee | +1 |
 | Damage 3 melee | +2 |
@@ -212,6 +229,25 @@ Weapons contribute to a unit's price via per-component costs. Sum the components
 | Killing Blow (Target, X) | per stat-dependent formula in §13.3 |
 
 **Reach value scales with unit class** because the second-rank-attack benefit only applies when there *is* a second rank. A 2" polearm in a 5-wide × 4-deep Infantry block effectively doubles attacking frontage; the same reach on a Carnosaur is irrelevant.
+
+**Per-extra-A multiplier scales with the weapon's offensive amplifiers** *(refined Pass 9, 2026-05-07)*. Each additional attack on a weapon profile inherits the weapon's always-on AP and S bonuses — and the value of those amplifiers compounds with attack count. An extra attack on an AP -2 / S+2 great-weapon profile delivers ~2× the unsaved wounds of an extra attack on a plain hand weapon, but the old flat +1.5 priced both the same. The multiplier `1 + 0.5 × |AP step| + 0.5 × S_bonus_step` corrects this — a plain hand weapon (AP 0, no S bonus) keeps the +1.5 base unchanged, but multi-attack weapons with AP / S amplifiers pay proportionally more per extra attack.
+
+**Lookup table for per-extra-A cost** (raw, before scaling):
+
+| Weapon profile | Multiplier | per_extra_A raw |
+|---|---|---|
+| Plain hand weapon (AP 0, no S) | 1.0 | 1.5 |
+| AP -1 weapon | 1.5 | 2.25 |
+| AP -2 weapon | 2.0 | 3.0 |
+| AP -3 weapon | 2.5 | 3.75 |
+| S+1 weapon | 1.5 | 2.25 |
+| Great Weapon class (S+2 AP -2) | 3.0 | 4.5 |
+
+**Conditional bonuses don't compound.** Charge-only AP / S (Heavy Lance, Tepok Lance, etc.) and target-conditional bonuses (anti-Cavalry damage, anti-Charge AP, etc.) are NOT included in the multiplier — they keep the existing flat +1 to +1.5 per conditional from the table above. Conditional bonuses fire only once per battle (the charge round, the matchup turn) and don't scale per-attack value the way always-on amplifiers do.
+
+**Per-attack rules already scale with A.** Hatred, Predatory Fighter, Killing Blow, Magical Attacks, Poisoned Attacks, etc. have per-A formulas in §13.3 (e.g., "Predatory Fighter: +1 × A_primary"). They auto-scale when extra attacks are added — no double-counting needed in the per-extra-A multiplier.
+
+**Known gap — MA coupling.** The user's diagnostic also identified MA as a per-attack value driver (more skill = more hits land). MA is on the unit profile, not the weapon, so coupling per-extra-A to wielder MA would require a framework architectural change. Flagged as a follow-up task; current refinement covers AP and S bonuses only.
 
 #### Ranged weapon components
 
@@ -296,7 +332,7 @@ The framework has been fit against the current roster of priced units:
 | Ancient Salamander (beast + 3 Handlers bundle) | — | — | — | 115 (formula+weapon premium) | **140** (priced) | +25 |
 | Arcanadon (beast only — W14, sauropod, Stubborn, Aura of the Old Ones, PoA cannon) | 42 | 14 | 8.48 | 356 | 360 | +4 |
 | Arcanadon (beast + 3 Crew bundle with Power of the Ancients) | — | — | — | ~380 | **400** | +20 |
-| Coatl (W8 — Fly 8, MR3, Terror, Magical Storm, Guardian; Wizard flat pkg +50 for LA 3 / CaB 2 / DiB 2 / Ch 2 / CB +1 / DR 18") | 30 | 8 | 5.48 | 214 (164 base + 50 flat wizard) | **225** | +11 |
+| Coatl (W8 — Fly 8, MR3, Terror, Magical Storm, Guardian; Wizard flat pkg +50 for LA 3 / CaB 2 / DiB 2 / Ch 2 / CB +1 / DR 18") | 30 | 8 | 5.48 | 214 (164 base + 50 flat wizard) | **225** | +11 *(historical pre-Pass-6 entry; Pass 10 re-derivation under §13.8 lands at 250 priced; see §13.8 worked example)* |
 | Dread Saurian (beast only — W25 apex, Earth-Shaking Roar, 4-weapon profile, NA 3+, LiS 6) | 40 | 25 | 13.98 | 559 | **550** | -9 |
 
 **Drift policy:**
@@ -358,5 +394,216 @@ Upgrade prices fall out:
 - **Equipment that grants new identity rules** (e.g., Magic Standards) needs the rule cost added separately; the equipment is the *carrier* of the rule, not the rule itself.
 
 When formula and judgement disagree by more than ~15%, prefer judgement and document the divergence in the unit's design diary — the formula then learns from the case rather than dictating it.
+
+### 13.8 Wizard Pricing *(added 2026-05-08 — Pass 10)*
+
+Characters with the **Wizard** keyword carry a **Magic Profile** in addition to the standard stat line: **LA** (Lore Access tier), **CaB** (personal Cast dice), **DiB** (personal Dispel dice), **Ch** (Channel attempts), **CB** (cast modifier), **DB** (dispel modifier), **DR** (Dispel Range), **SK** (Spells Known). These components define the wizard's contribution to the Magic phase and are priced **flat, outside the wound factor** — added directly to the unit's raw cost before global scaling, not multiplied through `woundFactor`.
+
+```
+cost = round(scalingFactor × (statContribution × woundFactor + wizardPackage))
+```
+
+The flat-outside-W convention is deliberate. A Slann's per-turn casting throughput does not scale with the eight wounds his palanquin carries — he casts the same number of spells whether at full health or one wound from death. Coupling the wizard package to the wound factor would over-price magic on durable casters (a W8 Slann would pay 5.48× the wizard premium of a W3 Battle Wizard for the same magical capability). Flat addition keeps wizard pricing capability-driven, not durability-driven.
+
+#### Per-component contributions
+
+| Component | Cost (raw) |
+|---|---|
+| **LA Tier 1** (Sig + Basic spells) | +22 |
+| **LA Tier 2** (+ Intermediate) | +30 cumulative *(+8 step)* |
+| **LA Tier 3** (+ Advanced) | +40 cumulative *(+10 step)* |
+| **LA Tier 4** (+ Master) | +42 cumulative *(+2 step)* |
+| **CaB** per personal Cast die | +6 |
+| **DiB** per personal Dispel die | +5 |
+| **Ch** per Channel attempt | +5 |
+| **CB** per +1 cast modifier | +8 |
+| **DB** per +1 dispel modifier | +6 |
+| **SK** per spell known above 2 baseline | +3 |
+| **Multi-lore intrinsic** per additional lore beyond the 1st | +5 |
+
+There is **no flat "Wizard chassis" cost** — every cost line ties to a concrete in-game capability. A model with the Wizard keyword but LA 0 / CaB 0 / DiB 0 (a hypothetical Wizard-keyword carrier with no actual magic) pays nothing for the keyword alone.
+
+**LA tier costs are deliberately modest** — the qualitative jump from Tier 3 to Tier 4 (Master spells) is captured in the **Cast Mastery synergy** below, not in the flat tier cost. A Lvl 4 wizard's value over a Lvl 3 wizard is dominated by the LA-multiplied compounding of his cast bundle, not by a large flat fee for the tier.
+
+**DR is not a flat per-inch cost** — it is folded into the Dispel Mastery synergy below. A wizard's dispel reach has value only in proportion to his other dispel components (a 36" DR with 0 dispel dice and DB +0 is mechanically equivalent to a 12" DR for the same loadout).
+
+#### Cast Mastery synergy
+
+```
+Cast Mastery = LA × min(SK, CaB + Ch) × CB × 0.15
+```
+
+Cast Mastery captures two compounding effects:
+
+- **LA tier amplifies per-cast value.** A successful cast at LA 4 (Master tier) is qualitatively more decisive than one at LA 1 — Master spells include game-winners (Final Transmutation, Soulfire, Pit of Shades, Purple Sun). The LA factor multiplies the synergy because higher-LA wizards generate more value per cast attempt.
+- **CB compounds over multiple casts, capped by dice throughput.** A wizard's dice pool sets the ceiling on casts per turn. A wizard with high CB but few spells still benefits because each smaller cast exercises the modifier; a wizard with many spells but low dice cannot cast them all anyway. The `min(SK, CaB + Ch)` term enforces this — once spell count exceeds the dice ceiling, additional spells become flat *selection cost* (the SK line above), not multiplicative casting effectiveness.
+
+The 0.15 coefficient calibrates the synergy contribution to fit the existing Empire / Bretonnia / Vampire Counts mortal-tier wizard ladder while keeping the synergy modest at low tiers (Battle Wizard L1 with CB 0 generates 0 Cast Mastery; Lvl 4 wizards with CB +3 and 4 dice generate 3.6 raw).
+
+#### Dispel Mastery synergy
+
+```
+Dispel Mastery = DiB × (DB + (DR − 12) / 12) × 0.5
+```
+
+DiB and DB compound symmetrically to the cast pair, with **DR folded in** as a proportional contribution rather than a separate flat fee. The `(DR − 12) / 12` term makes a 12" DR contribute 0 to the synergy (no dispel reach above the implicit baseline), 18" contributes 0.5, 24" contributes 1.0, 36" contributes 2.0. A wizard's dispel reach then multiplies through his dispel dice — a Slann with DR 36" / DiB 5 / DB +4 produces Dispel Mastery 5 × (4 + 2) × 0.5 = 15 raw, capturing the apex defensive umbrella; a Battle Wizard L1 with DR 18" / DiB 1 / DB 0 produces 1 × 0.5 × 0.5 = 0.25 raw, mostly invisible at low tiers.
+
+LA does not multiply Dispel Mastery — defensive dispelling depth is more uniform across LA tiers than offensive casting, and the symmetrical synergy already grows naturally with the Lord-tier wizard's higher dispel components.
+
+#### Lvl ladder packages (quick reference)
+
+The Empire / Bretonnia / Vampire Counts mortal-tier wizards follow a canonical Lvl 1 → Lvl 4 ladder with these magic profiles:
+
+| Lvl | LA | CaB | DiB | Ch | CB | DB | DR | SK | Wizard package (raw) |
+|---|---|---|---|---|---|---|---|---|---|
+| **1** | 1 | 2 | 1 | 1 | +0 | +0 | 18" | 2 | **44.25** |
+| **2** | 2 | 2 | 1 | 2 | +1 | +0 | 18" | 2 | **65.85** |
+| **3** | 3 | 3 | 2 | 3 | +2 | +1 | 24" | 2 | **108.8** |
+| **4** | 4 | 4 | 3 | 3 | +3 | +2 | 24" | 2 | **140.1** |
+
+Lvl-to-Lvl upgrade costs (raw) fall out of the ladder: L1→L2 = +21.6, L2→L3 = +43.0, L3→L4 = +31.3. The L2→L3 step is the largest because it spans the Hero-to-Lord magic capability transition (one extra die in each pool, +1 CB, +1 DB, DR extends 18" → 24"); L3→L4 is smaller because the Lord-tier dispel dice and DR are already in place at Lvl 3.
+
+#### Worked example — Empire Wizard Lord at Lvl 4
+
+| Component | Value | Contribution |
+|---|---|---|
+| LA Tier 4 | 4 | 42 |
+| CaB | 4 | 4 × 6 = 24 |
+| DiB | 3 | 3 × 5 = 15 |
+| Ch | 3 | 3 × 5 = 15 |
+| CB | +3 | 3 × 8 = 24 |
+| DB | +2 | 2 × 6 = 12 |
+| SK above 2 | 0 | 0 |
+| Multi-lore | 0 | 0 |
+| **Cast Mastery** | 4 × min(2, 7) × 3 × 0.15 | 3.6 |
+| **Dispel Mastery** | 3 × (2 + 1) × 0.5 | 4.5 |
+| **Wizard package** | | **140.1** |
+
+Wizard Lord stat × wound = 8.0 × 1.96 = 15.68. Total raw = 15.68 + 140.1 = 155.78. Scaled = 0.8 × 155.78 = 124.6. Rounded to nearest 5 = **125 pts**.
+
+#### Off-ladder casters
+
+Casters whose magic profile diverges from the canonical Lvl 1-4 ladder — typically **fixed-LA characters** (Skink Priest LA 2 fixed, Skink High Priest LA 3 fixed, Skink Starseer LA 4 Heavens fixed, Coatl LA 3 Heavens, Slann LA 4 + Mastery of All Winds) — derive their wizard package by summing components per the table above. The Cast Mastery and Dispel Mastery synergies apply normally.
+
+**Slann Mage-Priest** stress-tests the high end (LA 4, CaB 5, DiB 5, Ch 5, CB +4, DB +4, DR 36", SK 6, three intrinsic lores via Mastery of All Winds): Cast Mastery 4 × min(6, 10) × 4 × 0.15 = 14.4; Dispel Mastery 5 × (4 + 2) × 0.5 = 15; Multi-lore 2 lores beyond 1st × 5 = 10. Wizard package totals to ~239 raw, contributing ~191 scaled to the Slann's price.
+
+#### Identity-rule premia
+
+Wizard-specific identity rules (Mark of the Wind, Mark of the Lady, Mark of the Old One, Master of Death, Mastery of All Winds, Bloodgreed, Vampiric Hunger, etc.) live in §13.3 Rule Contribution alongside other identity rules — priced inside the wound factor like normal stat-line content, not in the wizard package. The wizard package handles only the magic profile components; everything else routes through the standard framework.
+
+**Loremaster** (Slann's *Focus of Mystery* Discipline at +32 raw) is a paid Discipline upgrade, not part of the chassis. It expands the wizard's known-spell list to "all spells in one chosen lore" — encoded as a flat upgrade cost on the unit profile, not through the SK component (which would generate an inflated SK premium for a flexible-but-not-actually-cast capability).
+
+### 13.9 Unit-Class Scaling Guidelines *(added 2026-05-15 — Pass 11)*
+
+A drafting-time guide for *what stats a unit at a given class should typically have*. The framework formulas in §13.1-13.8 produce correct *prices* given the stats — but only if the *stats* themselves are calibrated to the project's actual tier-scaling. This section codifies the W tiers, peer anchors, and drafting workflow per unit class.
+
+**Motivation.** WHFB 8th edition stat-lines are *one* reference, but the project has consistently elevated stats above 8e canon at the Monstrous-Infantry-and-larger tier (Trolls W 7 vs 8e's W 3; Ogre Bulls W 7; Kroxigor W 8). A unit drafted at 8e stats and dropped into our framework prices like a *small* unit even though it's a large unit — the W-factor multiplier means a small mistake here cascades into a large pricing error. Recurring symptom: large-creature units priced ~3-4× too cheap when drafted directly from 8e canon.
+
+#### No stat ceiling at 10 — stats may exceed 10 where lore-justified
+
+The §2 to-hit and to-wound resolution is **formula-driven, not table-locked**. The to-hit formula reads *"3+ if MA > MD; 5+ if MA × 2 < MD; otherwise 4+"* — this extends cleanly to any value (MA 12 vs MD 20 evaluates to 4+; MA 15 vs MD 5 evaluates to 3+ trivially). The §2 *To-Hit (Melee) — MA vs MD* table at MA 1-10 / MD 1-10 is a **precomputed convenience**, not a stat cap. The same applies to the §2 To-Wound (S vs T) lookup.
+
+In practice this means **legendary named characters, apex Monsters, and faction-anchor Lord-tier units may carry stats above 10 where the lore warrants it.** Examples that may surface in future drafts:
+
+- **MA 11-12** for canonical "deadliest mortal" named characters (Gotrek Gurnisson, Tyrion of Ulthuan, the Witch King, Grand Master of the Old Ones-era apex characters)
+- **S 8-10** for apex Monster natural-weapon profiles (Star Dragons, Black Dragons, Ancient Treemen, Bone Giants when drafted)
+- **T 8-10** for stone-construct apex (Bone Giants, larger Khemrian constructs, the Anvil of Doom shrine when drafted at apex tier)
+- **W 12-15+** for apex-Monster Lord-equivalents (Hell Pit Abomination max configuration, Verminlord, Hellpit Bone Giants)
+- **Res 11-12** for unbreakable lore-anchors (Slann Mage-Priest with Disciplines, named Anvil-of-Doom-borne Runelords, Greater-Daemon characters when drafted)
+- **I 8-9** for apex-reflex named characters (Tyrion, Witch King, Gotrek "slay-first" tier)
+
+When a stat exceeds 10, the unit's pricing through §13.2 *Stat Contribution* and §13.3 *Rule Contribution* continues to apply linearly — the per-step modifiers (±0.5 MA/MD, ±1.0 S, ±1.5 T, etc.) extend without modification. **The 1-10 table at §2 is illustrative, not normative.**
+
+This is a deliberate framework opening for the apex-tier identity space — without it, every legendary character bottoms out at the same MA 10 / MD 10 / S 10 ceiling, which compresses the lore's "vastly above mortal scale" framing into a tier already occupied by elite-but-not-named-character units.
+
+#### Lore-height → unit-class crosswalk
+
+A second cross-check for drafting: **how tall is the creature in lore?** Warhammer fantasy races span roughly 2-3' (Halflings, Snotlings) up to 20'+ (Dragons, Treemen, Wild Carnosaur), and the lore-canonical height maps reasonably cleanly to our unit-class tiers. When the peer-anchor list (below) leaves room for interpretation, fall back on lore-height: a 10'+ creature is Mon Inf or Monster, not Infantry, regardless of how the unit happens to be deployed mechanically.
+
+| Lore-canonical height | Typical class | Typical W | Examples |
+|-----------------------|---------------|-----------|----------|
+| **~2-3'** (diminutive) | Infantry | W 1 | Halflings, Snotlings (rabble), individual Forest Goblin sneaks |
+| **~3-4'** (small) | Infantry | W 1 | Dwarfs, common Goblins, larger Skinks, Night Goblins |
+| **~4-5'** (mid-small) | Infantry | W 1 | Skaven (Clanrats, Stormvermin), Beastmen Gor, Halfling soldiery |
+| **~5-6'** (standard) | Infantry (or Cavalry rider) | W 1 | Humans (Empire, Bretonnian, Chaos), High / Dark / Wood Elves, Half-Saurus / Skink-Saurus hybrids |
+| **~6-7'** (tall humanoid) | Infantry — **W 3 for spawn-bred / cultivated-elite tier** | W 1-3 | **W 3 anchors:** Saurus Warriors (spawn-bred, T 4, broad-muscled), Black Orcs (Greenskin Disciplined elite, T 4, drilled brute). **W 2 anchors:** Wood Elf Dryads (bark-grown Forest Spirit frame). **W 1:** Chaos Warriors (mortal, despite the size — kept at standard Infantry W). The project supports an explicit *big-Infantry W 3* tier between standard W 1 rank-and-file and W 6+ Mon Inf — Saurus and Black Orcs occupy it as 6-7' tall elite-Infantry classes; the W 3 reflects the spawn-bred / drilled-veteran frame without crossing into the Mon Inf base-size or class |
+| **~7-8'** (large humanoid / small monstrous) | **Monstrous Infantry — smaller tier** | **W 6** | **Rat Ogres** (lighter rat-bio frame, smaller than full-Ogre / Troll), Bestigor (some readings) |
+| **~8-10'** (Ogre-tier) | **Monstrous Infantry — standard tier** | **W 7** | **Trolls, Ogre Bulls**, Tree Kin, Minotaurs (some readings) |
+| **~10-12'** (large monstrous) | **Monstrous Infantry — heavier tier** | **W 8** | **Kroxigor**, larger Trolls (River, Stone), Chaos Spawn (high-end), Bestigor / Minotaur apex |
+| **~12-15'** (Monstrous Cavalry mount tier / smaller Monster) | Mon Cav mount / smaller Monster | Mount W 3-4 / Monster W 6-8 | Demigryphs, Great Stags, Aggradons, smaller Treemen, Hippogriffs (when drafted) |
+| **~15-20'** (Monster-tier) | Monster | W 8-10 | Wild Carnosaur, Stegadons, Treemen, larger Hippogriffs, Hell Pit Abomination |
+| **~20'+** (apex Monster) | Monster | W 10-12+ | Dragons (Sun / Moon / Star tiers), Dread Saurian, Kroxigor Ancient, Verminlord (when drafted) |
+
+**Drafting cross-check:** look up the unit's lore-canonical height. If the height is **7'+**, the unit is *probably* Monstrous Infantry or larger, regardless of any 8e-canon stat-line that might suggest otherwise. The height-tier should agree with the peer-anchor list; if they disagree, surface the conflict and resolve it explicitly rather than silently picking the lower tier.
+
+*(Lore-height reference grounded against the "Rough Heights of Warhammer Fantasy Races (Expanded)" community-image — 2026-05-15. The Mon Inf 7'-12' band on this image corresponds to our W 6-8 tier, with creatures shorter than Ogres anchoring the W 6 lower-end.)*
+
+#### Class W tiers (typical, refined per peer-anchor inventory 2026-05-15)
+
+| Class | Typical W | Notes / Exceptions |
+|-------|-----------|---------------------|
+| **Infantry** | **W 1 (W 2-3 for elite biological tiers)** | W 1 is the default for most rank-and-file Infantry. **Explicit W-tier exceptions within Infantry class:** Dryads W 2 (Forest Spirit Infantry — bark-bodied bigger-than-elf-but-not-Mon-Inf bio frame); **Saurus Warriors W 3 (spawn-bred warrior elite)**; **Black Orcs W 3 (Greenskin Disciplined drilled-veteran elite)**. These W 2-3 Infantry units are still 25mm-base Infantry-class (not Mon Inf), but represent the "big-bodied / spawn-engineered / drilled-veteran" Infantry exceptions that the project supports as an explicit tier between standard W 1 rank-and-file and W 6+ Mon Inf |
+| **Cavalry** | **W 1-2** *(rider + mount combined per §1 mounted-wound convention)* | Rider W 1 + mount W 1 → combined W 1 (Bret Knights, most rank-and-file cavalry). Rider W 1 + mount W 2 → combined W 2 (Imperial Knights, heavier cavalry; mount-W-2 = "Knightly Order" tier) |
+| **Monstrous Infantry** | **W 6-8** | **The most-commonly-mis-drafted class.** Project standard: **W 6 for the lighter Mon Inf tier** (Rat Ogres — rat-bio frame, lighter than full-Ogre / Troll mass); **W 7** for standard Mon Inf brutes (Trolls, Ogre Bulls); **W 8** for the bigger Mon Inf tier (Kroxigor); **W 10** for the apex (Kroxigor Ancient, certain bio-engineered apex bio-creations). **Do not default to 8e canon W 3** — 8e Mon Inf were significantly under-statted relative to our project's elevated tier. The framework wound-factor (W 1=1.00, W 3=1.48, W 6=3.40, W 7=4.36, W 8=5.16) is calibrated against the W 6-8 baseline; pricing breaks if you use W 3 stats |
+| **Monstrous Cavalry** | **Mount W 3-4** *(rider + mount combined per §1)* | Demigryph mount W 3 → combined W 3; Aggradon mount W 4 → combined W 4; Great Stag Knights mount W 3 → combined W 3 (Demigryph-parity). The Mon Cav mount-W band is *narrower* than Mon Inf because the rider's contribution is significant; the mount needn't carry the full durability burden |
+| **Warbeast** | **W 1-3** | Skinks-on-Salamanders carrier W 4; War Lions W 3 (Skirmisher pride); Razordons W 3-4. The Warbeast class is genuinely variable — the lore-anchor matters more than a fixed band. Lower-end: Giant Rats W 1, Forest Goblin Wolf Riders mount W 1. Higher-end: bigger predator-beasts W 3-4 |
+| **Monster** | **W 6-10+** | Treemen W 6-8; Stegadon W 8; Wild Carnosaur W 10; Dread Saurian W 12+; Hell Pit Abomination (pending) projected W 10+. Apex Monsters reach W 10-12; smaller / Hero-mounted Monsters at W 6-8 |
+| **Chariot** | **W 3-6** | Held for chariot-tier review when more Chariot units are drafted |
+| **Swarm** | **W 4-7** *(US = W convention)* | Swarms have W = US, so W tracks both durability and unit-strength simultaneously. Skink-Salamander-attendant Swarms W 4-5; bigger ground-swarms W 6-7 |
+
+#### Peer-anchor reference (existing units, 2026-05-15 inventory)
+
+When drafting a unit at a given class, **check the peer-anchor list FIRST** — not WHFB 8e canon. The peer-anchor is the project's authoritative W-tier:
+
+**Infantry (W 1 baseline):**
+- Dwarf Warriors W 1 / T 4 / 4+ save
+- High Elf Spearmen W 1 / T 3 / 5+ save
+- Empire Halberdiers W 1 / T 3 / 5+ save
+- Clanrats W 1 / T 3 / 6+ save
+- Stormvermin W 1 / T 3 / 4+ save (elite-Infantry, not Mon Inf despite "elite tier" framing — body-frame is unchanged)
+
+**Infantry — W 2-3 exceptions (big-bodied / spawn-engineered / drilled-veteran Infantry tier):**
+- **Saurus Warriors W 3 / MA 5 / MD 3 / T 4 / S 4 / 4+ NA+shield save / 30 pts** — the spawn-bred warrior anchor; 6-8' tall, broad-muscled, instinct-drilled. MA 5 at the cross-faction apex-elite-Infantry tier per the canonical lore
+- **Black Orcs W 3 / T 4 / MA 5 / 29 pts** — the Greenskin Disciplined drilled-elite anchor
+- **Dryads W 2 / T 4 / NA 6+ / 15 pts** — Forest Spirit Infantry, bark-grown bio-frame
+
+**Monstrous Infantry (W 6-8 baseline):**
+- **Rat Ogres W 6 / T 4 / S 5 / NA 6+ / 52 pts** — the *smallest* Mon Inf brute; Skaven bio-engineered, lighter rat-bio frame
+- **Trolls W 7 / T 4 / S 5 / NA 5+ / 65 pts** — the canonical Mon Inf brute anchor
+- **Ogre Bulls W 7 / T 4 / S 4 / 55 pts** — Mon Inf grunt; lower S
+- **Kroxigor W 8 / T 5 / S 5 / NA 4+ / 112 pts** — the heavier Mon Inf tier
+- **Kroxigor Ancient W 10 / T 6 / S 6 / NA 4+** — apex Mon Inf
+
+**Monstrous Cavalry (mount W 3-4 baseline):**
+- Demigryph Knights — mount W 3 / T 4 / S 4 / 2+ save / 50 pts
+- Great Stag Knights — mount W 3 / T 4 / S 5 / 5+ save / 45 pts
+- Aggradon Lancers — mount W 4 / T 5 / S 5 / 3+ save / 76 pts
+
+**Monster (W 6+ baseline):**
+- Wild Carnosaur W 10 / T 5 / S 7 / NA 5+ / 224 pts
+- Treemen (projected) W 6-8 / T 6 / S 6-7
+- Dread Saurian / Hell Pit Abomination (apex) W 10-12+
+
+#### Drafting workflow (Mon-Inf-and-larger)
+
+When drafting a unit that is plausibly Mon Inf, Mon Cav, Warbeast, or Monster, **follow this checklist**:
+
+1. **Identify the class.** Use the unit's lore-size and base-size to determine class (Mon Inf = 40mm base, elite-rank-and-file = 25mm base, etc.). If a creature is "Ogre-sized" or larger, it's almost certainly Mon Inf or higher.
+2. **Check the peer-anchor list above.** Find the existing units at the same class. The W-tier is locked there.
+3. **Do NOT default to WHFB 8e stat-lines.** 8e Mon Inf were drafted under a different framework calibration; our project elevated the tier. Use peer-anchors as the truth source.
+4. **Apply class stat-baseline bonuses** (per §13.2): Mon Inf +2 raw, Mon Cav +3, Monster +3 to +5. These are *structural* and easily forgotten.
+5. **Apply US bonus** (per §13.2): US 3 = +1 raw for Mon Inf; US 5 = +2 for bigger Mon Inf or Mon Cav. The bonus is class-specific and easily forgotten.
+6. **Wound factor (§13.1)** at the correct W tier: W 1 = 1.00; W 3 = 1.48; W 7 = 4.36; W 8 = 5.16; W 10 = 7.40. The 3-5× cost multiplier from getting W wrong is what causes the pricing error.
+7. **Sense-check against peer cost.** If the unit you've drafted prices under 30 pts and the class is Mon Inf, something is structurally off — the Mon Inf tier sits at 55+ pts in our roster.
+
+#### Pattern: under-statting large creatures
+
+A recurring drafting error (called out 2026-05-15 after three corrections in two days):
+
+- **Dryads** — initially mis-classified as Monstrous Infantry W 2; should have been Infantry W 2 (the unit IS Infantry, but if it were Mon Inf it would need W 7+, not W 2). User correction surfaced the misclassification.
+- **Great Stag Knights mount** — initial draft W 2 mount; user correction bumped to W 3 (Demigryph-parity) at the Mon Cav tier.
+- **Rat Ogres** — initial draft W 3 (Skaven 8e canon); first correction bumped to W 7 (Troll-parity); second correction (user refinement) settled at W 6 (the *smaller* Mon Inf tier — Rat Ogres are lighter than full-Ogre or Troll mass). Pricing trail: 19 pts → 65 pts → 52 pts. The W 6 anchor establishes that Mon Inf has a *band* (W 6-8) rather than a single W; the lower end is for lighter bio-frame creatures.
+
+The pattern: defaulting to WHFB 8e stat-lines for large creatures, missing the project's elevated Mon Inf tier, and pricing the unit ~3× too cheap as a result. The §13.9 guidelines above are intended to prevent this recurrence.
 
 ---

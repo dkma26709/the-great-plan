@@ -5,11 +5,11 @@
 ## Profile
 
 **Gor-Rok (Hero, Named — Sunblood variant; albino apex combatant):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 4 | **7** | **7** | 0 | 5 | 5 | **10** | 3 | 10 | 2 | 3 |
+| 4 | **7** | **6** | 0 | 5 | 5 | **10** | 3 | 10 | 2 | 3 |
 
-**Points:** 336 base (intrinsic regalia + Mark of the Old Ones included; no upgrades available)
+**Points:** 333 base (intrinsic regalia + Mark of the Old Ones included; no upgrades available) *(2026-05-15: MD 7 → 6 to preserve the Saurus cold-blooded slow-defence axis at the combat-Lord tier — apex named status doesn't erase the species's defensive lag. Gor-Rok's fortress identity is expressed through The Scarred One damage-reduction, Mace of Ulumak reroll-to-hit, Shield of Aeons charge-obstacle, Mark of the Old Ones rerolls, NA 3+, and W 10 — not by closing the MD gap. Cross-faction comparator at MA 7 / MD 6 is the Oldblood; Gor-Rok sits as named apex of that line.)*
 
 **Unit type:** Infantry (Character)
 

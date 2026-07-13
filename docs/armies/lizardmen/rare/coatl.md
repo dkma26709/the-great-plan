@@ -5,7 +5,7 @@
 ## Profile
 
 **Coatl (Beast):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 5 | 4 | 4 | 0 | 5 | 5 | 8 | 2 | 8 | 4 | =W |
 
@@ -14,7 +14,7 @@
 |-----|-----|----|----|----|----|----|-----|
 | 2 | 2 | 2 | +1 | +0 | 18" | Heavens 3 | **2** |
 
-**Points:** 232 per Coatl
+**Points:** 250 per Coatl *(Pass 10 Wizard pricing re-derivation, 2026-05-08: 232 → 250 under §13.8 framework; the Coatl's apex-Monster + Wizard stack prices marginally above the old eyeballed +50 flat wizard convention.)*
 
 **Unit type:** Monster (single-model unit; not Mixed — no crew, no rider)
 

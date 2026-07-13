@@ -5,7 +5,7 @@
 ## Profile
 
 **Nakai (Lord, Named — Sacred Kroxigor of the First Spawning; jungle-spirit-made-manifest, possible avatar of Quetzl):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | **5** | **5** | 0 | 6 | **7** | **12** | 2 | **10** | 4 | 5 |
 
@@ -53,4 +53,4 @@
 - **Tail Club** *(natural, rear arc only)* — 1" reach | A 1 | S 6 | AP -1 | D 1 — heavy crocodilian tail "ending in a spiked or spade-like club." `[Natural]`
 
 
-> Character mounts are available to specific characters as listed in each character entry's Mount options. A character riding a character mount uses the mount's stats for movement, the mount's save, the rider's WS/BS/Res for character-appropriate actions, and combined wound allocation rules per §1 *Rider and Mount Profiles*. Stegadon mount variant is a Rare-tier standalone unit elsewhere in §10; the Carnosaur below is the classic Saurus Oldblood / Scar-Veteran apex-predator mount.
+> Character mounts are available to specific characters as listed in each character entry's Mount options. A character riding a character mount uses the mount's stats for movement, the mount's save, the rider's MA/MD/BS/Res for character-appropriate actions, and combined wound allocation rules per §1 *Rider and Mount Profiles*. Stegadon mount variant is a Rare-tier standalone unit elsewhere in §10; the Carnosaur below is the classic Saurus Oldblood / Scar-Veteran apex-predator mount.

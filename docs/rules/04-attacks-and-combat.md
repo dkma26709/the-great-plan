@@ -57,11 +57,13 @@ Combat occurs when models from two or more opposing units are within weapon reac
 
 A unit being peppered by javelins from 8" away is *taking casualties*, but it's not *in combat*. It doesn't test for combat resolution. It might accumulate stress from casualties (25%+ in a phase), but that's a different trigger.
 
+**One-sided engagements (reach standoffs).** If only one side can reach — a 3"-reach pike block halting at the edge of its reach against 1"-weapon defenders — the engagement is **not a combat**: no combat resolution, no fall-back, no combat-loss stress. The outranged unit still counts as *engaged* (it cannot shoot, and it cannot declare a charge), and casualty stress accumulates normally. Its recourse is its own Movement activation: close into its own weapon reach, or disengage (see §6 *Engaging the Enemy — Movement within an engagement*). A standoff therefore rarely survives past a single Combat phase — the reach weapon buys a round of one-sided striking, not a permanent farm.
+
 ### Combat Resolution
 
 At the end of each combat in the Combat phase — where a *combat* is the group of all opposing units mutually in melee reach, treated as one melee regardless of how many units are present — after all attacks resolve:
 
-1. Each side totals **melee wounds caused** in this turn's Combat phase (after saves). Shooting-phase wounds do not count — they are casualties the unit suffered, not combat contributions.
+1. Each side totals **melee wounds caused** in this turn's Combat phase (after saves). Shooting-phase wounds do not count — they are casualties the unit suffered, not combat contributions. **Impact wounds do count:** wounds a charger caused with Impact attacks this turn (§7.2a) are added to its side's total for that combat, provided the units are still engaged when CR is computed — the smash is part of the melee's violence.
 2. Add modifiers:
    - **Charge bonus:** +1 if you charged this turn
    - **Standard bearer:** +1
@@ -71,22 +73,24 @@ At the end of each combat in the Combat phase — where a *combat* is the group 
 
 The CR number is computed at the end of the Combat phase. Fall-back resolves immediately after combat resolution, still within the Combat phase. Stress consequences are evaluated at the Start of the next Turn (§7.1). Mid-combat state changes do not disrupt Initiative-ordered strike sequences.
 
+**Multiple combats:** all strikes across every combat on the table resolve on the single Initiative ladder (§7.5). CR is then computed for **every combat simultaneously** — auras, standards, and casualties assessed at that snapshot, so a BSB slain in one melee cannot retroactively lose his +1 in another. Fall-backs and follow-ups then resolve combat by combat, in an order chosen by the active player.
+
 > **Note on flanking:** Flank and rear attacks don't grant a combat resolution modifier. Their effect is to strip the defender of directional Formed benefits (see §6) — a Formed unit hit in the flank loses its charge resistance; hit in the rear it loses all Formed benefits. The natural damage differential (fewer defender models can reach back from awkward angles) still applies geometrically.
 
 ### Losing Combat — Fall Back
 
-In the End of Turn phase, for each combat resolved that turn, the loser falls back along the shortest path directly away from the nearest model of the enemy unit that defeated it — bending around friendly units and impassable terrain as needed. The fall-back distance equals the combat difference (minimum 1", maximum 6") and is measured **along the path**, not linearly.
+Immediately after a combat's resolution is computed — still within the Combat phase — the loser falls back along the shortest path directly away from the nearest model of the enemy unit that defeated it — bending around friendly units and impassable terrain as needed. The fall-back distance equals the combat difference (minimum 1", maximum 6") and is measured **along the path**, not linearly.
 
 The winning unit then chooses:
 
 - **Follow up:** advance the same distance, staying within weapon reach
 - **Hold:** remain in position — the gap opens, both units are now potentially out of weapon reach
 
-Some unit-specific rules may compel one choice or the other (e.g., *Pursuit Predator* forces Follow up).
+Some special rules may compel one choice or the other — *Frenzy*, *Predatory Fighter*, and *Pursuit Predator* all force Follow up (no Hold option) — see §8 entries.
 
 **Interpenetration is not allowed for fall-backs.** A fleeing unit cannot phase through its own lines — friendly bodies genuinely get in the way.
 
-**If the full fall-back path is blocked** (the unit cannot travel the required distance without violating friendly-unit separation or entering impassable terrain), the unit moves as far as it can along the path, then takes **+1 stress per inch of blocked fall-back**, to a maximum of +3 stress (the normal combat-stress cap).
+**If the full fall-back path is blocked** (the unit cannot travel the required distance without violating friendly-unit separation, entering impassable terrain, or crossing a board edge), the unit moves as far as it can along the path, then takes **+1 stress per inch of blocked fall-back** (naturally bounded by the 6" fall-back maximum).
 
 **If the winning unit wipes out its opponent** (all models slain), the default is to **hold** position — no pursuit. A unit-specific special rule (such as *Pursuit Predator*) may grant or compel a free move toward the nearest enemy instead.
 
@@ -105,5 +109,30 @@ When a model moves out of an enemy model's melee weapon reach during the Movemen
 Each enemy model whose melee weapon reach is being broken gets one such attack — there is no per-unit cap. A model that has no melee weapon profile (e.g., a wizard whose only attack is magical, or a model with ranged-only profiles) cannot make a free strike. Free strikes do not count as the attacker's Combat phase activation; they are a parting blow at the moment the gap opens.
 
 **Involuntary movement does not provoke.** A model pushed back by displacement, swept off by a Broken flee, or otherwise relocated against the controlling player's will does not trigger free strikes. Only deliberate movement out of reach does.
+
+### Pursuit
+
+When an enemy unit's last model breaks the melee weapon reach of one or more pursuer-eligible units during the Movement phase — by Disengaging, Advancing, Marching, or any other voluntary movement out of reach — each engaged enemy unit may make a free **pursuit move** toward the disengager.
+
+**Eligibility.** A unit is pursuer-eligible if, at the moment immediately before the disengager's move began, it had at least one model in melee weapon reach of at least one of the disengager's models. Once the disengager's move resolves, every such unit may pursue.
+
+**The move.**
+
+- **Distance:** roll **D3"**. The pursuing unit moves up to that distance toward the **closest model of the disengager** at its final position. Move along the direct line; if pursuit would overshoot (the unit reaches melee reach of the disengager before the full distance is covered), stop at melee reach — pursuit does not crash into base contact.
+- **Free reaction.** Pursuit does NOT consume the pursuer's own activation movement for the turn. The pursuer may still Advance, March, or Charge later in the turn if it has not already activated.
+- **Movement rules.** Apply normal §6 movement rules — Formed units move as a block, Loose units may move per-model, pivots only at end of move.
+
+**Mandatory pursuit.** A unit with **Frenzy**, **Predatory Fighter**, or **Pursuit Predator** **must** pursue if eligible. The "may" becomes "must" — rage / predator-instinct / apex-pursuit-instinct drive these units forward whether or not their controller wants them to chase. The mandatory clause is a real cost: the unit can be baited out of position by a fast-disengaging opponent.
+
+**Pursuit Predator upgrade.** A unit with **Pursuit Predator** rolls **D6"** instead of D3" for pursuit distance. The apex-predator instinct turns the chase into a serious follow-up.
+
+**Effect on contact.** Pursuit is just movement. If the pursuit move brings the pursuer into melee reach of the disengager, the units are simply re-engaged — the next Combat phase resolves them in melee normally. There is no new charge, no fresh Impact attacks, no second round of Free Strike (Free Strike already fired during the disengager's move).
+
+**Exclusions.**
+
+- A unit currently in **Broken** state cannot pursue (it is fleeing, not chasing).
+- Pursuit does not fire from **Fall Back** (combat-loss) or **flee** movement — those use the existing Follow up mechanic in *Losing Combat — Fall Back* (above).
+
+**Multiple pursuers.** If two or more pursuer-eligible units share the disengager, each pursues independently, rolling its own distance and moving toward the disengager's closest model. Pursuers' end positions resolve under normal §6 friendly-unit-separation rules; the controlling player sequences the moves to satisfy.
 
 ---

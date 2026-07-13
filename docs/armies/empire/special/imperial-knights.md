@@ -5,19 +5,19 @@
 ## Profile
 
 **Rider (Imperial Knight):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 4 | 4 | 4 | 3 | 3 | 3 | 1 | 3 | 9 |
 
 **Mount (Warhorse — barded):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 8 | 3 | 3 | 0 | 3 | 3 | 1 | 3 | 5 |
 
 **Unit-level:**
 | LiS | US |   | Points |
 |-----|----|---|--------|
-| 2   | 2  |   | **21** |
+| 2   | 2  |   | **17** |
 
 **Unit size:** 5-10
 
@@ -47,9 +47,11 @@
 - **Cavalry Hammers** (+1 pt/model — replaces Heavy Lance, Heavy Shield retained) — 1" | **A 1** | S+1 | AP -1 | D 1 | one-handed; effective every round, not just on the charge
 
 **Command options:**
-- **Leader** (+5 pts, no stat buff)
-- **Standard bearer** (+10 pts — Magic Standard up to 50 pts; Knight units get a bigger banner budget than State Troops, reflecting elite-cavalry convention)
-- **Musician** (+5 pts) — +1 to recovery and Rally rolls
+- **Leader** (+4 pts, no stat buff)
+- **Standard bearer** (+8 pts — Magic Standard up to 50 pts; Knight units get a bigger banner budget than State Troops, reflecting elite-cavalry convention)
+- **Musician** (+4 pts) — +1 to recovery and Rally rolls
+
+*(Pass 9 refresh, 2026-05-07: base 21 → 17 at 0.8× scaling; command upgrades scaled.)*
 
 ## Weapon Profiles
 

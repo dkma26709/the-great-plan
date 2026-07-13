@@ -4,7 +4,7 @@
 
 ## Profile
 
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |  | Points |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |  | Points |
 |---|----|----|----|---|---|---|---|----|-----|----|---|--------|
 | 2 | 2 | 2 | 0 | 3 | 3 | 1 | 3 | 3 | 1 | 1 |  | **6** |
 
@@ -27,7 +27,7 @@
 - **Strider (Forest)** (see §8)
 - **Skirmishers** (see §8) — captures the lore-canonical "flock" framing; small flyers spread loose through the canopy rather than holding rank.
 - Skittish
-- **Flock Disruption** — any enemy unit in base contact with this unit suffers **-1 WS** and **-1 BS** while the contact persists. Flapping wings, biting beaks, and constant movement distract combatants and foul aim — the enemy cannot concentrate on either sword or bow. Affects all enemy attack rolls from engaged models (melee from the contacted unit, and any ranged attack those models attempt).
+- **Flock Disruption** — any enemy unit in base contact with this unit suffers **-1 MA, -1 MD** and **-1 BS** while the contact persists. Flapping wings, biting beaks, and constant movement distract combatants and foul aim — the enemy cannot concentrate on either sword or bow. Affects all enemy attack rolls from engaged models (melee from the contacted unit, and any ranged attack those models attempt).
 
 ## Weapon Profiles
 

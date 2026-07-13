@@ -5,7 +5,7 @@
 ## Profile
 
 **Bretonnian Lord:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 6 | 6 | 5 | 4 | 4 | 5 | 6 | 10 | 2 | 3 |
 
@@ -38,7 +38,7 @@
 - **Liege Bond** *(character shift — per-unit, mount/Vow-conditional, per §9.3)* — depending on this Lord's mount and Vow, one unit of the matching type counts as **Core** instead of Special while this model is in your list. Stacks across multiple Bretonnian Lords and Paladins.
 - **on Pegasus or Royal Pegasus:** one **Pegasus Knights** unit → Core
 - **with Questing Vow:** one **Questing Knights** unit → Core *(stacks with the on-Pegasus shift if the Lord is on a Pegasus AND has Questing Vow — note Questing Vow forbids the Heavy Lance, so the Lord-on-Pegasus-with-Questing-Vow build is offensive-leaning rather than charge-focused)*
-- **with Grail Vow:** *(no list-shift currently — Grail Knights and other Grail-Vow units pending future drafts; the shift hook is reserved for those entries)*
+- **with Grail Vow:** one **Grail Knights** unit → Special (instead of Rare) *(captures the canonical "Grail-Vow Lord leads his Grail brotherhood" archetype — the Lord and the unit share Improved Blessing 5+/4+, Stubborn, and Immune to Psychology via the matching Vow)*
 - **on Warhorse / Royal Hippogryph / foot:** no shift (knights of the Realm and Errant are already Core; the Hippogryph is a unique Lord-only mount, not a unit type)
 
 ## Options

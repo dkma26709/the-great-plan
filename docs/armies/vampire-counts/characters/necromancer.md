@@ -5,7 +5,7 @@
 ## Profile
 
 **Necromancer:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 8 | 1 | 1 |
 
@@ -13,9 +13,9 @@
 | Level | LA | CaB | DiB | Ch | CB | DB | DR | SK |
 |-------|----|-----|-----|----|----|----|-----|-----|
 | **Lvl 1** *(base)* | 1 | 2 | 1 | 1 | +0 | +0 | 18" | **2** |
-| **Lvl 2** *(+30 pts)* | 2 | 2 | 1 | 2 | +1 | +0 | 18" | **2** |
+| **Lvl 2** *(+19 pts)* | 2 | 2 | 1 | 2 | +1 | +0 | 18" | **2** |
 
-**Points:** 75 base (Lvl 1, hand weapon, no armour). **+30** to Lvl 2 (= 105 pts).
+**Points:** **45** base (Lvl 1, hand weapon, no armour). **+19** to Lvl 2 (= 64 pts). *(Pass 10 Wizard pricing re-derivation, 2026-05-08: 60 → 45 under §13.8 framework; Lvl 2 upgrade 24 → 19.)*
 
 **Unit type:** Infantry (Character)
 

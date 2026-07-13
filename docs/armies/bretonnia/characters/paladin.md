@@ -5,7 +5,7 @@
 ## Profile
 
 **Paladin:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 5 | 5 | 5 | 4 | 4 | 4 | 5 | 9 | 1 | 2 |
 

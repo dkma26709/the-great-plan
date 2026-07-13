@@ -5,12 +5,12 @@
 ## Profile
 
 **Rider (Skink):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 6 | 2 | 2 | 3 | 3 | 2 | 1 | 4 | 6 |
 
 **Mount (Terradon):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 2 | 3 | 3 | 0 | 4 | 3 | 3 | 2 | 3 |
 
@@ -62,7 +62,7 @@
 ### Close Combat
 
 - **Hand weapon** *(rider, implicit melee fallback)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
-- **Terradon's Talons and Beak** *(mount natural, each model)* — 1" reach | **A 2** | S 4 | AP 0 | D 1 — resolved at mount WS 3, I 2 `[Natural]`
+- **Terradon's Talons and Beak** *(mount natural, each model)* — 1" reach | **A 2** | S 4 | AP 0 | D 1 — resolved at mount MA 3, I 2 `[Natural]`
 
 ### Ranged
 

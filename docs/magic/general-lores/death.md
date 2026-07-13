@@ -63,7 +63,7 @@ Target enemy unit **cannot Rally** until start of next turn — any stress on th
 |----|-------|------|
 | 11 | 18" | Hex, Remains In Play |
 
-On cast, target enemy unit suffers **-1 T** immediately. At the start of **each friendly Magic phase** the spell remains in play (including the turn it was cast), the Toughness penalty worsens by a further **-1** (no cap). When dispelled or the unit is destroyed, all penalties end. The flesh forgets how to function, a little more each day — a canny caster who can protect the spell from dispel dice will see the target unit crumble after three or four turns. Range 18" (vs Death's 12" baseline) reflects the RIP's persistent-targeting need — the wizard plants the curse from a slight distance, then maintains it across turns.
+On cast, target enemy unit suffers **-1 T** immediately. At the start of **each Magic phase** the spell remains in play (including the turn it was cast), the Toughness penalty worsens by a further **-1** (no cap). When dispelled or the unit is destroyed, all penalties end. The flesh forgets how to function, a little more each day — a canny caster who can protect the spell from dispel dice will see the target unit crumble after three or four turns. Range 18" (vs Death's 12" baseline) reflects the RIP's persistent-targeting need — the wizard plants the curse from a slight distance, then maintains it across turns.
 
 **Doom and Darkness**
 
@@ -107,9 +107,9 @@ Target enemy unit. **Each model** in the target unit must pass a **Toughness tes
 
 Place a **large round template** anywhere within 18" of the caster; on initial placement the template **scatters D3" in a random direction** (as Flame Storm). The spell remains in play until dispelled.
 
-While in play, any model touched by the template — on initial placement, and at the start of **each friendly Magic phase** while the spell remains in play — must pass a **Toughness test**. On a failure, that model suffers **1 wound with no armour save allowed** (ward saves permitted).
+While in play, any model touched by the template — on initial placement, and at the start of **each Magic phase** while the spell remains in play — must pass a **Toughness test**. On a failure, that model suffers **1 wound with no armour save allowed** (ward saves permitted).
 
-At the start of each friendly Magic phase **after the cast-turn**, before resolving damage, the template moves **a scatter die's distance in a random direction**. Full template mechanics (partial coverage, placement rules, scatter die behaviour) will be formalised in §7.2 Shooting phase. **Magical Attacks.**
+At the start of each Magic phase **after the cast-turn**, before resolving damage, the template moves **a scatter die's distance in a random direction**. Full template mechanics (partial coverage, placement rules, scatter die behaviour) will be formalised in §7.2 Shooting phase. **Magical Attacks.**
 
 A slow drifting annihilation. Often wanders off-target — but while it sits on a unit, it grinds.
 

@@ -17,11 +17,11 @@
 
 | Category | Units |
 |---|---|
-| **Lords** | Bretonnian Lord, Prophetess of the Lady |
+| **Lords** | Bretonnian Lord, Prophetess of the Lady, **The Fay Enchantress** *(named, Unique — may not be fielded alongside the Prophetess)* |
 | **Heroes** | Paladin, Damsel of the Lady |
-| **Core** | Knights of the Realm, Knights Errant, Men-at-Arms, Longbowmen, Bidowers |
+| **Core** | Knights of the Realm, Knights Errant, Men-at-Arms, Longbowmen, Bidowers, Mounted Yeomen |
 | **Special** | Foot Knights, Questing Knights, Pegasus Knights |
-| **Rare** | Field Trebuchet *(Grail Knights and other apex Knightly Orders pending future drafts; only the Trebuchet currently drafted at Rare)* |
+| **Rare** | Field Trebuchet, Grail Knights, Grail Reliquae |
 
 **Character mounts** *(option, not separate slots)*: Royal Pegasus (Lord, Paladin), Royal Hippogryph (Lord only), Unicorn (Prophetess only). Mounts attach to character profiles per §1 Rider/Mount conventions.
 
@@ -33,12 +33,12 @@
 
 **Magic lore access:** Damsel of the Lady and Prophetess of the Lady channel **the Lore of the Lady** (faction-flavoured forest-and-Lady magic; pending full §11 draft). Optionally — at the character's draft level — Damsels / Prophetesses may select **one general lore** instead (typically Life or Beasts), reflecting older traditions where the Lady's chosen tap into kindred Winds. Prophetess may stack with the Lore of the Lady for full lore-mastery.
 
-**Named-hero access:** No named characters drafted yet (Louen Leoncoeur, Repanse de Lyonesse, the Green Knight all pending).
+**Named-hero access:** **The Fay Enchantress** (Lord, Lady's Chosen — the Lady's voice incarnate, unique apex caster; see Characters below). Three further named heroes pending (Louen Leoncoeur, Repanse de Lyonesse, the Green Knight).
 
 **Faction-specific army-build hooks:**
 - **Knight's Vow** — all sworn knights carry it (Knights of the Realm, Errant, Bretonnian Lord, Paladin). Blessing-eligibility marker only at this tier.
 - **Questing Vow** *(option)* — Knights of the Realm units may upgrade to Questing Knights, replacing Knight's Vow with Questing Vow (Blessing + Stubborn). Lord/Paladin may also be drafted as Questing-vowed at character build.
 - **Crusader's Vow** *(option, +1 pt/model on whole-unit Knight upgrade)* — replaces Knight's Vow with Crusader's Vow (Imm Panic-source stress, +1D6 charge distance discard-lowest). Useful in anti-Chaos / anti-Undead / anti-Greenskin campaigns.
-- **Grail Vow** — exceptionally rare; appears on individual characters or on Grail Knights units (when drafted), not as a unit-wide upgrade.
+- **Grail Vow** — exceptionally rare; appears on individual characters or on **Grail Knights** units (Rare slot, see below), not as a unit-wide upgrade applicable to other Knight units.
 - **Blessing of the Lady** (per §17 Faction Mechanics) — intrinsic on all sworn knights, Damsels, and Prophetesses (and their mounts). Variable Ward Save: 6+ vs S ≤ 4, 5+ vs S ≥ 5. Lost on flee from combat.
 - **Lance Formation** sub-state (per §17 Faction Mechanics) available to mounted Knight units arranged in a triangular wedge of 6+ models in 3+ rows. +2" reach + +1 AP on melee weapons during the charge round. The chivalric-faction signature.

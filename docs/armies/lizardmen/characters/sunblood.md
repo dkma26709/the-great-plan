@@ -5,11 +5,11 @@
 ## Profile
 
 **Sunblood:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 4 | 6 | 6 | 0 | 5 | 5 | **8** | 3 | 10 | 1 | 2 |
+| 4 | 6 | 5 | 0 | 5 | 5 | **8** | 3 | 10 | 1 | 2 |
 
-**Points:** 184 base (with Sunblood Warblade)
+**Points:** 182 base (with Sunblood Warblade) *(2026-05-15: MD 6 → 5 to preserve the Saurus cold-blooded slow-defence axis on the combat-saurus character line. The Sunblood's demigod-tier uplift is expressed through Ward 6+, Predator's Eye, Sunblood's Roar, and the Magical/Flaming Warblade — not by closing the species's defensive lag. Effective MD in melee uplifted by Sunblood Warblade if paired with a parry, but the base stat retains the axis.)*
 
 **Unit type:** Infantry (Character)
 

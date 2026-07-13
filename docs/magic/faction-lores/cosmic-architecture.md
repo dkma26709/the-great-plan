@@ -99,9 +99,9 @@ Reposition rather than redeployment — the unit slips through a cosmic path and
 |----|-------|------|----------|
 | 13 | 18" | Augment | Until start of next turn |
 
-Caster chooses one of **WS, BS, I, or M**. Target friendly unit gains **+D3** to that characteristic until start of next turn (characteristics cap at the unit's natural maximum of 10 unless otherwise noted).
+Caster chooses one of **MA, MD, BS, I, or M**. Target friendly unit gains **+D3** to that characteristic until start of next turn (characteristics cap at the unit's natural maximum of 10 unless otherwise noted).
 
-Direct mirror of Shadow's Miasma (signature: -D3 to WS/BS/I/M on enemy) but friendly-side and at T3 tier. Flexible per cast: caster picks whichever stat matters for the next combat — +D3 WS for a melee unit about to fight, +D3 BS for a ranged unit, +D3 I to strike first, +D3 M for mobility. The Old Ones reach down and *perfect* one aspect of their chosen unit for a turn.
+Direct mirror of Shadow's Miasma (signature: -D3 to one of MA/MD/BS/I/M on enemy) but friendly-side and at T3 tier. Flexible per cast: caster picks whichever stat matters for the next combat — +D3 MA for an attacking unit, +D3 MD for a defending unit, +D3 BS for a ranged unit, +D3 I to strike first, +D3 M for mobility. The Old Ones reach down and *perfect* one aspect of their chosen unit for a turn.
 
 **Seize Fate**
 
@@ -123,7 +123,7 @@ Novel mechanic — no other spell in any lore denies re-rolls. Narrow against re
 
 When cast, nominate a point anywhere within **30"** of the caster. Per Summoning rules (§7.3), the spell's effect **cannot be dispelled** after the cast-turn dispel reaction has passed — the comet is *coming*.
 
-At the start of each friendly Magic phase **beginning with the one following the cast-turn**, roll a **D6** — on a **4+**, the comet arrives. When it arrives, each enemy unit with any model within **6" of the nominated point** suffers **3D6 hits at S5, AP -3, damage 2** (**Magical Attacks**), and the spell resolves. If the comet does not arrive that phase, roll again next Magic phase.
+At the start of each Magic phase **beginning with the one following the cast-turn**, roll a **D6** — on a **4+**, the comet arrives. When it arrives, each enemy unit with any model within **6" of the nominated point** suffers **3D6 hits at S5, AP -3, damage 2** (**Magical Attacks**), and the spell resolves. If the comet does not arrive that phase, roll again next Magic phase.
 
 The nominated point is **fixed** — the caster anchors where the comet will land; only the *when* is uncertain. Enemies must reposition away from the anchor; waiting for a dispel is not an option. A Slann's ultimate threat-projection: every turn after the cast is a turn the opponent must account for the coming strike.
 

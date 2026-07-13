@@ -4,11 +4,11 @@
 
 ## Profile
 
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 2 | 2 | 2 | 3 | 3 | 1 | 2 | 5 | 1 | 1 |
 
-**Points:** 4 per model
+**Points:** 3 per model *(Pass 9 refresh, 2026-05-07: 4 → 3 at 0.8× scaling. Sub-baseline stats — Skeleton W 1, T 3, no save, low everything — make full framework re-derivation noisy; pure 0.8× scaling preserves the unit's relative position on the elite-Core ladder.)*
 
 **Unit size:** 10-30
 
@@ -38,14 +38,14 @@
 
 **Equipment options:** (pick one)
 - **Spear** (+1 pt/model — replaces hand weapon) — 2" reach, S 3, AP 0
-- **Polearm** (+2 pt/model — replaces hand weapon) — 2" reach, S+1 (= S 4), AP -1
-- **Great weapon** (+2 pt/model — replaces hand weapon, Two-Handed; loses Light Shield, no Parry buckler) — 1" reach, S+2 (= S 5), AP -2
-- **Skeleton Bow** (+2 pt/model — Skeleton Archer variant; replaces Light Shield, no melee weapon swap) — 18" range, S 3, AP 0
+- **Polearm** (+1.5 pt/model — replaces hand weapon) — 2" reach, S+1 (= S 4), AP -1
+- **Great weapon** (+1.5 pt/model — replaces hand weapon, Two-Handed; loses Light Shield, no Parry buckler) — 1" reach, S+2 (= S 5), AP -2
+- **Skeleton Bow** (+1.5 pt/model — Skeleton Archer variant; replaces Light Shield, no melee weapon swap) — 18" range, S 3, AP 0
 
 **Command options:**
-- **Leader** (+5 pts) — champion (a tougher-bound skeleton, often the buried corpse of an officer)
-- **Standard bearer** (+10 pts — Magic Standard up to 25 pts)
-- **Musician** (+5 pts) — a skeleton with a war-horn or rattling drum; +1 to recovery and Rally rolls (no effect on Undead since they cannot Rally — Musician option exists but is mechanically inert; provided for list-completeness)
+- **Leader** (+4 pts) — champion (a tougher-bound skeleton, often the buried corpse of an officer)
+- **Standard bearer** (+8 pts — Magic Standard up to 25 pts)
+- **Musician** (+4 pts) — a skeleton with a war-horn or rattling drum; +1 to recovery and Rally rolls (no effect on Undead since they cannot Rally — Musician option exists but is mechanically inert; provided for list-completeness)
 
 ## Weapon Profiles
 

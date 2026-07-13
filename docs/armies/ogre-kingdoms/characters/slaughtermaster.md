@@ -5,7 +5,7 @@
 ## Profile
 
 **Slaughtermaster:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 4 | 4 | 2 | 4 | 5 | 10 | 3 | 8 | 2 | 4 |
 
@@ -13,9 +13,9 @@
 | Level | LA | CaB | DiB | Ch | CB | DB | DR | SK |
 |-------|----|-----|-----|----|----|----|-----|-----|
 | **Lvl 3** *(base)* | 3 | 3 | 2 | 2 | +2 | +1 | 18" | **4** |
-| **Lvl 4** *(+35 pts)* | 4 | 4 | 2 | 3 | +3 | +2 | 18" | **4** |
+| **Lvl 4** *(+28 pts)* | 4 | 4 | 2 | 3 | +3 | +2 | 18" | **4** |
 
-**Points:** 320 base (Lvl 3, gut-plate + hand weapon). **+35** to upgrade to Lvl 4 (= 355 pts).
+**Points:** **240** base (Lvl 3, gut-plate + hand weapon). **+28** to upgrade to Lvl 4 (= 268 pts). *(Pass 10 Wizard pricing re-derivation, 2026-05-08: 270 → 240 under §13.8 framework; Wizard package + dual-lore intrinsic now component-derived per §13.8 rather than the +16 raw rules eyeball. Earlier Pass 9 refresh had 320 → 270 at 0.8× scaling.)*
 
 **Unit type:** Monstrous Infantry (Character)
 
@@ -42,7 +42,7 @@
 **Worn armour options:** — *(Slaughtermasters wear no armour over the gut-plate — the bulk is the protection, and the flesh is the spell-focus)*
 
 **Equipment options:**
-- **Additional hand weapon** (+5 pts — paired cleavers) — +1 A on the hand weapon profile
+- **Additional hand weapon** (+2 pts — paired cleavers) — +1 A on the hand weapon profile *(Pass 9: Cleaver AP -1, multiplier 1.5; delta 2.25 raw × 0.8 = 1.8 → 2.0)*
 - Magic items up to **100 pts** (Lord-tier; the Slaughtermaster's traditional **Great Mawpot** army-buff item lives here, **pending the Great Maw lore drafting**)
 
 **Mount options:** *(Stonehorn — pending Character Mounts write-up)*

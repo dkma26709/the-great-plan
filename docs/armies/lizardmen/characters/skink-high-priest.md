@@ -5,7 +5,7 @@
 ## Profile
 
 **Skink High Priest:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 3 | **4** | 3 | 3 | 3 | 3 | 5 | 8 | 1 | 2 |
 
@@ -14,7 +14,7 @@
 |-----|-----|----|----|----|----|----|-----|
 | 3 | 2 | 3 | +2 | +1 | 24" | 3 | **3** |
 
-**Points:** 104 base (with Mark of the Old One + hand weapon + Moonstone Javelin)
+**Points:** 105 base (with Mark of the Old One + hand weapon + Moonstone Javelin) *(Pass 10 Wizard pricing re-derivation, 2026-05-08: 104 → 105 under §13.8 framework; near-exact framework fit.)*
 
 **Unit type:** Infantry (Character); may take a mount
 
@@ -40,8 +40,7 @@
 ## Options
 
 **Equipment options:**
-- Cloak of Feathers (magic item — grants Fly (6) to the Priest)
-- Magic items up to **75 pts**
+- Magic items up to **75 pts** *(see Lizardmen Magic Items in §10 of `core-rules-draft.md` — note **The Cloak of Feathers** at 20 pts grants Fly (8) and Magic Resistance (1), Skink character on foot only)*
 - Blessed Spawnings — up to 3, per-character costs from §10 menu (Mark of the Old Ones counts as one slot)
 
 **Mount options:** Raptadon, Terradon, Ripperdactyl, **Stegadon** *(adds ~80 pts; the High Priest may ride a standard Stegadon, but the Engine of the Gods variant is now a standalone Rare unit, not a High Priest mount option)*

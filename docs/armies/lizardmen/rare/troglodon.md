@@ -5,12 +5,12 @@
 ## Profile
 
 **Troglodon (Beast):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 3 | 3 | 4 | 5 | 6 | 10 | 3 | 5 | 5 | =W |
 
 **Skink Oracle (1 fixed support per Troglodon):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | — | 2 | 2 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 

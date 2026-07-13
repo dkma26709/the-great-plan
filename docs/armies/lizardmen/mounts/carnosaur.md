@@ -5,7 +5,7 @@
 ## Profile
 
 **Carnosaur (Mount profile):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 7 | 5 | 3 | 0 | 7 | 5 | 10 | 3 | 8 | 4 | =W |
 

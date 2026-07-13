@@ -5,7 +5,7 @@
 ## Profile
 
 **Skink Priest:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | **2** | **4** | 3 | 3 | 2 | 2 | 4 | 6 | 1 | 2 |
 
@@ -14,7 +14,7 @@
 |-----|-----|----|----|----|----|----|-----|
 | 2 | 1 | 2 | +1 | +0 | 18" | 2 | **2** |
 
-**Points:** 56 base (with Mark of the Old One + hand weapon + Moonstone Javelin)
+**Points:** 62 base (with Mark of the Old One + hand weapon + Moonstone Javelin) *(Pass 10 Wizard pricing re-derivation, 2026-05-08: 56 → 62 under §13.8 framework; Skink Priest's pre-Pass-8 eyeball corrected upward to align with Empire Lvl 2 equivalent magic profile.)*
 
 **Unit type:** Infantry (Character); may take a mount
 
@@ -39,8 +39,7 @@
 ## Options
 
 **Equipment options:**
-- Cloak of Feathers (magic item — grants Fly (6) to the Priest; see Armoury)
-- Magic items up to 50 pts
+- Magic items up to 50 pts *(see Lizardmen Magic Items in §10 of `core-rules-draft.md` — note **The Cloak of Feathers** at 20 pts grants Fly (8) and Magic Resistance (1), Skink character on foot only)*
 - Blessed Spawnings — up to 3, per-character costs from §10 menu (Mark of the Old Ones counts as one slot)
 
 **Mount options:** Raptadon, Terradon, Ripperdactyl, **Stegadon** *(adds ~80 pts; see Character Mounts — Stegadon mount profile pending write-up)*

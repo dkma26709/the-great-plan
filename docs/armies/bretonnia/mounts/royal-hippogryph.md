@@ -3,7 +3,7 @@
 ## Profile
 
 **Royal Hippogryph (barded):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 6 | 5 | 5 | 0 | 5 | 5 | 5 | 5 | 7 |
 

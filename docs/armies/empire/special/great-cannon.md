@@ -5,11 +5,11 @@
 ## Profile
 
 **Great Cannon (platform + crew, unified profile):**
-| M | WS-A | WS-D | BS | S | T (ranged) | T (melee) | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T (ranged) | T (melee) | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|---|----|-----|----|
 | 2 | 3 | 3 | 3 | 3 | **7** | **3** | **5** | 3 | 8 | 2 | 2 |
 
-**Points:** 110 for the Great Cannon (platform + crew bundle, W 5 baseline). +5 for optional **Reinforced Crew** upgrade (raises W to 6 and melee A to 4 — represents an additional engineer trained to assist with loading, sighting, and melee defence).
+**Points:** 90 for the Great Cannon (platform + crew bundle, W 5 baseline). +4 for optional **Reinforced Crew** upgrade (raises W to 6 and melee A to 4 — represents an additional engineer trained to assist with loading, sighting, and melee defence). *(Pass 9 refresh, 2026-05-07: 110 → 90 at 0.8× scaling; Reinforced Crew +5 → +4.)*
 
 **Unit type:** War Machine — single unified profile. Dual Toughness (T 7 ranged / T 3 melee). W is a wound pool, not a crew count. Combat output stays at baseline until W=0. Can be charged normally; in melee, resolve against melee T
 
@@ -27,7 +27,7 @@
 ## Special Rules
 
 - **War Machine** *(unit type)* — single-profile unit with dual T. Ranged incoming: T 7. Melee incoming: T 3. W is a wound pool — wounds accumulate but do not reduce combat output, melee A, or fire rate. The unit fires at full effectiveness from W=full all the way down to W=1; the cannon goes silent only at W=0 (destroyed). Can be charged normally. Cannot itself Charge
-- **Crew attack in melee** — Crew fight with hand weapons at unified WS 3, I 3, **A 3** baseline (A 4 with Reinforced Crew upgrade). Melee A is fixed and does not scale with remaining wounds — the crew fights at full effort until the machine is destroyed
+- **Crew attack in melee** — Crew fight with hand weapons at unified MA 3 MD 3, I 3, **A 3** baseline (A 4 with Reinforced Crew upgrade). Melee A is fixed and does not scale with remaining wounds — the crew fights at full effort until the machine is destroyed
 - **Imperial Engineers** *(identity rule)* — once per battle, the Crew may **re-roll the Artillery Die** for a cannon shot, including re-rolling a MISFIRE result. The re-roll stands (no re-re-rolling). Represents the Nuln Imperial Engineers' Guild training — the three engineers work the cannon with a precision and MISFIRE-recovery that other factions' artillery crews cannot match
 
 ## Options

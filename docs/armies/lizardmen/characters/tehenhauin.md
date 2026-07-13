@@ -5,7 +5,7 @@
 ## Profile
 
 **Tehenhauin (Hero, Named — Skink Priest variant; Prophet of Sotek, Skink prophet/caster):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 2 | 5 | 3 | 3 | 3 | 3 | 5 | 8 | 1 | 1 |
 
@@ -33,7 +33,7 @@
 
 ## Special Rules
 
-- **Skink species package** — Disciplined, Cold-Blooded, Aquatic, Skirmisher, Slippery (WS-A < WS-D split), Sotek's Children (cumulative passive — see species page)
+- **Skink species package** — Disciplined, Cold-Blooded, Aquatic, Skirmisher, Slippery (MA < MD split), Sotek's Children (cumulative passive — see species page)
 - **Wizard** (caster — see Magic Profile above; Lore of Beasts locked, with Mark of the Old One as locked signature)
 - **Sotek's Blessing** *(identity rule — chosen of the Serpent God)* — Tehenhauin gains **+1 S on the turn he charges** (lore-direct "Sotek's righteous fury fuels his charge"), is **Immune to Poisoned Attacks** (snakes do not strike their prophet), and gains **Hatred (Skaven)** for the entire battle (lore-direct "first true war of revenge against ratkind").
 - **Master of Snakes** *(aura — jungle swarms answer his call)* — friendly **Jungle Swarms** (and other Sotek-aligned snake units) within **12"** of Tehenhauin gain **+1 Res** and **reroll 1s to hit in melee**. Captures lore-direct "serpents coil around his arms... swarms slither in his wake at his bidding."

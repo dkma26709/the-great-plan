@@ -5,7 +5,7 @@
 ## Profile
 
 **Vampire:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 5 | 5 | 4 | 4 | 4 | 4 | 6 | 9 | 1 | 2 |
 
@@ -13,9 +13,9 @@
 | Level | LA | CaB | DiB | Ch | CB | DB | DR | SK |
 |-------|----|-----|-----|----|----|----|-----|-----|
 | **Lvl 1** *(base)* | 1 | 2 | 1 | 1 | +0 | +0 | 18" | **2** |
-| **Lvl 2** *(+30 pts)* | 2 | 2 | 1 | 2 | +1 | +0 | 18" | **2** |
+| **Lvl 2** *(+18 pts)* | 2 | 2 | 1 | 2 | +1 | +0 | 18" | **2** |
 
-**Points:** 125 base (Lvl 1, heavy armour + shield + hand weapon, no Bloodline Powers). **+30** to Lvl 2 (= 155 pts). Bloodline Powers add listed costs.
+**Points:** **84** base (Lvl 1, heavy armour + shield + hand weapon, no Bloodline Powers). **+18** to Lvl 2 (= 102 pts). Bloodline Powers add listed costs. *(Pass 10 Wizard pricing re-derivation, 2026-05-08: 100 → 84 under §13.8 framework; Lvl 2 upgrade 24 → 18.)*
 
 **Unit type:** Infantry (Character)
 
@@ -43,7 +43,7 @@
 
 **Equipment options:** (pick one melee swap)
 - **Great weapon** (free swap — no shield; save drops to 4+) — 1" reach | A 3 | S+2 (= S 6) | AP -2 | D 1 | Two-Handed
-- **Lance** (+8 pts, mounted only) — 2" reach | A 3 | charge: S+2, AP -2, D 2; subsequent: S+0, AP 0, D 1
+- **Lance** (+6.5 pts, mounted only) — 2" reach | A 3 | charge: S+2, AP -2, D 2; subsequent: S+0, AP 0, D 1
 
 **Magic items:** up to **50 pts** (Hero-tier)
 

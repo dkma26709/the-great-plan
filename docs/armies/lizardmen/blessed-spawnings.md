@@ -59,7 +59,7 @@
 
 ##### Expansion Five
 
-**Tlanxla** *(Tlanxla's Wrath)* — The unit/character gains **+1 WS-A** on all melee attacks. Earth-toned, red-brown scales. *(Rider-only — mount's natural weapons unaffected.)*
+**Tlanxla** *(Tlanxla's Wrath)* — The unit/character gains **+1 MA** on all melee attacks. Earth-toned, red-brown scales. *(Rider-only — mount's natural weapons unaffected.)*
 
 **Tzcatli** *(Tzcatli's Strength)* — All melee attacks made by the unit/character gain **+1 AP** (shifts AP one step toward more negative — e.g., AP 0 → -1, AP -1 → -2, AP -2 → -3). *(Rider-only — mount's natural weapons unaffected.)*
 

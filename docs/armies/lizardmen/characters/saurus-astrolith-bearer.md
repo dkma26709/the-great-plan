@@ -5,11 +5,11 @@
 ## Profile
 
 **Saurus Astrolith Bearer:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 4 | 5 | 5 | 0 | 4 | 4 | 4 | 2 | 10 | 1 | 2 |
+| 4 | 5 | 4 | 0 | 4 | 4 | 4 | 2 | 10 | 1 | 2 |
 
-**Points:** 112 base (with Celestite Blade + shield + intrinsic Astrolith)
+**Points:** 111 base (with Celestite Blade + shield + intrinsic Astrolith) *(2026-05-15: MD 5 → 4 to partially preserve the Saurus cold-blooded slow-defence axis on the support-Hero line. The Bearer is lore-explicit "not the greatest fighter, nor most capable general; but deemed by the Slann to bear a great destiny" — closer to rank-and-file Saurus than to combat-Hero tier. MD 4 captures the icon-bearer's accumulated battle experience without elevating him to Scar-Vet defensive reflex.)*
 
 **Unit type:** Infantry (Character); foot only — the Astrolith is too cumbersome to bear on a mount
 

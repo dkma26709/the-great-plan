@@ -5,7 +5,7 @@
 ## Profile
 
 **Slann Mage-Priest:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 0 | 1 | 0 | 3 | 4 | 8 | 1 | 12 | 3 | 4 |
 
@@ -14,7 +14,7 @@
 |-----|-----|----|----|----|----|----|-----|
 | 5 | 5 | 5 | +4 | +4 | 36" | 4 | **6** |
 
-**Points:** 344 base (with 3 chosen lores via Mastery of All Winds, no Disciplines purchased)
+**Points:** 325 base (with 3 chosen lores via Mastery of All Winds, no Disciplines purchased) *(Pass 10 Wizard pricing re-derivation, 2026-05-08: 344 → 325 under §13.8 framework; Slann's apex Wizard package re-derived per the per-component schema with multi-lore intrinsic premium. Disciplines remain priced as separate upgrades on top of base.)*
 
 **Unit type:** Infantry (Character — Slann on floating palanquin)
 
@@ -33,7 +33,7 @@
 
 - Cold-Blooded
 - **Mastery of All Winds** *(identity rule)* — at list-building, the Slann selects **3 lores** from any combination of **general lores** (Heavens, Beasts, Fire, Light, Death, Shadow, Metal, Life) + **faction lores** (**Cosmic Architecture**, **Geomancy**). Total lore pool: 10 lores, pick any 3. The Slann has **LA 4** (Master-tier) access to all three chosen lores. Knows the **Signature Spell from each of the 3** (free; do not count against additional picks) + picks **3 additional spells** from the combined spell pool (any tier within LA limits — 6 known spells baseline: 3 Signatures + 3 picks). Represents the lore-canonical "Slann may use any Lore and mix them" — the fundamental identity difference between a Slann and any other caster. Skink Priests get one lore via Mark of the Old One; Slann get three and mix freely across them
-- **Contemplation** — the Slann does not personally engage in melee. The Slann's WS-A 0 reflects this — all melee output is delivered through the **Palanquin Lightning** weapon profile (the celestite array's lightning lashes independently at any foe in base contact). The Slann **cannot be equipped with magical weapons or magical armour** — other magic items are permitted within the 100-pt allowance
+- **Contemplation** — the Slann does not personally engage in melee. The Slann's MA 0 reflects this — all melee output is delivered through the **Palanquin Lightning** weapon profile (the celestite array's lightning lashes independently at any foe in base contact). The Slann **cannot be equipped with magical weapons or magical armour** — other magic items are permitted within the 100-pt allowance
 - **Inspiring Presence (24")** *(see §8 — extended range)* — friendly Lizardmen units within **24"** of the Slann gain the standard Inspiring Presence package: +1 Res for threshold purposes, rally enablement, rally-in-combat, reroll recovery and rally rolls. The 24" range (double the standard 12") reflects the Slann's lore-canonical role as the army's *cosmic* commander — the Slann directs the entire battle-line through telepathic projection and the Geomantic Web alignment, not just the units within shouting distance. Larger-Lord-on-larger-mount baselines (Oldblood on Carnosaur, etc.) typically extend Inspiring Presence ranges; the Slann sits one tier above that as the apex commander
 - **Arcane Vassal** *(identity rule — keyword-based)* — when this Slann casts a spell, the caster may resolve **range and line-of-sight from any friendly model with the Arcane Vassal keyword on the battlefield**, instead of from the Slann's own model position. The Slann remains the caster for all other purposes (CaB, DiB, Ch, CB, DB, LA, lore, miscast, dispel resistance). The spell's range is measured from the chosen vassal; the Slann's DR is not extended. Represents the lore-canonical "voice of the Slann" — the Slann's psychic attention projects through any sufficiently-attuned vassal across the army. Vassal-bearing units in the Lizardmen roster: **Skink Priest, Skink High Priest, Skink Oracle (Troglodon-mounted)**.
 - **Shield of the Old Ones** — baseline Ward Save 4+ (already encoded in the profile line above; listed here for reference)
@@ -45,7 +45,7 @@
 ## Options
 
 **Equipment options:**
-- Magic items up to **100 pts** — **may NOT take magical weapons or magical armour** (see Contemplation). Eligible item: **Amulet of the Old Ones** (Slann-exclusive — see Magic Items below)
+- Magic items up to **100 pts** — **may NOT take magical weapons or magical armour** (see Contemplation). Slann-exclusive item: **Amulet of the Old Ones** (see Lizardmen Magic Items in §10 of `core-rules-draft.md`)
 - Up to **2 Disciplines of the Slann** picked from the menu below (each +pts as listed)
 
 **Blessed Spawnings:** **none** — the Slann are too rarefied to bear a spawning. The Slann may freely *join* any blessed unit; the joining rule does not transfer the unit's spawning to the Slann, nor restrict the Slann's joining choice in any way (cf. §10 Blessed Spawnings menu).
@@ -59,7 +59,7 @@
 
 ### Close Combat
 
-- **Palanquin Lightning** *(intrinsic, melee — the Slann's full combat answer)* — **1" reach** | **A 3** | **2+ to hit (fixed)** | **S 5** | **AP -1** | **D D3** | **Magical Attacks** | resolved at I 1 — the celestite palanquin's array lashes scouring azure lightning at any enemy in base contact. The Slann does not roll WS-based to-hit; the array fires independently at a fixed 2+ (only a natural 1 misjumps). Auto-targets enemy models in base contact in front arc; controlling player chooses targets if multiple equidistant. Single attack per round per target permitted; A 3 distributes across as many enemies as the controller wishes within the rules of normal melee attack distribution `[Natural — palanquin-intrinsic]`
+- **Palanquin Lightning** *(intrinsic, melee — the Slann's full combat answer)* — **1" reach** | **A 3** | **2+ to hit (fixed)** | **S 5** | **AP -1** | **D D3** | **Magical Attacks** | resolved at I 1 — the celestite palanquin's array lashes scouring azure lightning at any enemy in base contact. The Slann does not roll MA-based to-hit; the array fires independently at a fixed 2+ (only a natural 1 misjumps). Auto-targets enemy models in base contact in front arc; controlling player chooses targets if multiple equidistant. Single attack per round per target permitted; A 3 distributes across as many enemies as the controller wishes within the rules of normal melee attack distribution `[Natural — palanquin-intrinsic]`
 
 **Disciplines of the Slann** *(pick 0–2 at list-build)*:
 
@@ -78,10 +78,4 @@
 | **Reservoirs of Mystery** | At the start of each friendly Magic phase, add **1 extra die** to the shared Magic pool (any friendly wizard may claim it into Cast or Dispel) | +24 |
 | **Fury of the Ancients** | Bound Spell (CV 8): 24" range, **D6 hits at S 4, AP -1, D 1, Magical Attacks**. Once per phase; uses Slann's dice pool normally | +24 |
 
-**Slann Magic Items (faction-exclusive):**
-
-| Item | Effect | Pts |
-|---|---|---|
-| **Amulet of the Old Ones** | When this Slann would be reduced to 0 Wounds, instead the amulet activates: the Slann is **teleported to safety** — placed anywhere in the controlling player's deployment zone (more than 12" from any enemy, in a legal position), retains **1 W** remaining, and **may not cast spells for the rest of the battle** (the amulet expended its arcane charge to anchor the Slann's consciousness through the Geomantic Web back to the temple-city). **Once per battle.** Lore: "Slann regularly wear protective amulets that, when they face the threat of injury or death, transport them to a Star Chamber within the pyramid-temple of the nearest temple-city" — the amulet captures the canonical "Slann are very rarely slain in combat, for they will usually magically teleport themselves out of danger before a killing blow is landed" detail. | +24 |
-
-*Amulet sits within the Slann's 100-pt magic-item allowance. Slann-exclusive (other characters cannot purchase it). Full Magic Items list deferred to a separate pass; the Amulet is drafted here as a Slann-pass-2 inclusion since it's the most lore-canonical Slann survival mechanic.*
+**Slann Magic Items (faction-exclusive):** see *Lizardmen Magic Items* in §10 of `core-rules-draft.md` — the Slann-exclusive **Amulet of the Old Ones** (20 pts) is hosted in the consolidated items section per the §11.5 framework. The Slann's 100-pt magic-item allowance applies; the Slann's Magic-Weapon and Magic-Armour restriction (per Contemplation, above) excludes those two categories but permits Talismans, Arcane Items, Enchanted Items, and Magic Banners.

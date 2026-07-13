@@ -5,7 +5,7 @@
 ## Profile
 
 **Oxyotl (Hero, Named — Chameleon Stalker variant; apex anti-Chaos hunter):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 4 | 5 | **7** | 3 | 3 | **4** | **8** | 9 | 1 | 1 |
 

@@ -5,12 +5,12 @@
 ## Profile
 
 **Rider (Great Crested Skink):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 6 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 |
 
 **Mount (Horned One):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 10 | 3 | 3 | 0 | 4 | 4 | 1 | 3 | 3 |
 
@@ -59,4 +59,4 @@
 
 - **Hand weapon** *(rider, implicit melee fallback)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
 - **Light Lance** *(rider, default)* — 2" reach | **A 1** | on charge: +1 S, AP -1, D 1; subsequent rounds: AP 0, D 1 (see Armoury)
-- **Horned One's Bite and Horns** *(mount natural, each model)* — 1" reach | **A 2** | S 4 | AP 0 | D 1 — resolved at mount WS 3, I 3; on charge gains Impaling Charge bonus (+1 S, AP -1) `[Natural]`
+- **Horned One's Bite and Horns** *(mount natural, each model)* — 1" reach | **A 2** | S 4 | AP 0 | D 1 — resolved at mount MA 3, I 3; on charge gains Impaling Charge bonus (+1 S, AP -1) `[Natural]`

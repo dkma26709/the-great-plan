@@ -5,12 +5,12 @@
 ## Profile
 
 **Bastiladon (Beast):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 3 | 3 | 0 | 5 | 7 | 10 | 1 | 6 | 4 | =W |
 
 **Skink Crew (3 or 4, fixed by relic choice):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | — | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 
@@ -58,5 +58,5 @@
     - **1** — D3 hits at S 3
     - **2–3** — D6 hits at S 4
     - **4–5** — 2D6 hits at S 5
-    - **6** — 2D6 hits at S 6, **and** the target unit suffers **-1 WS and -1 BS** (minimum 1) until the start of the target's next friendly turn
+    - **6** — 2D6 hits at S 6, **and** the target unit suffers **-1 MA, -1 MD, -1 BS** (minimum 1) until the start of the target's next friendly turn
   - Magical Attacks and Flaming keywords apply to every hit regardless of the D6 roll. Slow to Fire does NOT apply — the engine is always ready to fire; the crew merely aims.

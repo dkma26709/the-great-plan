@@ -5,11 +5,11 @@
 ## Profile
 
 **Imperial General:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 6 | 6 | 5 | 4 | 4 | 4 | 6 | 10 | 2 | 3 |
 
-**Points:** 150 base (on foot, hand weapon + heavy armour + shield)
+**Points:** 120 base (on foot, hand weapon + heavy armour + shield) *(Pass 9 refresh, 2026-05-07: 150 → 120 at 0.8× scaling)*
 
 **Unit type:** Infantry (Character); may take a mount
 

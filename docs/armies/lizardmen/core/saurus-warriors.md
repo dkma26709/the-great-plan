@@ -1,14 +1,14 @@
 # Saurus Warriors
 
-> Spawned for war, drilled by instinct. These are not human soldiers who trained for a few years — they emerged from the spawning pools as fighters. WS-A 4 reflects that baseline martial ability; WS-D 3 captures the slower defensive instinct of the cold-blooded predator-warrior — the Saurus hits well but reacts a half-beat slow to incoming blows. Six-to-eight feet tall, broad-muscled, scales hardening with age; the Old Ones engineered them for a single purpose and a Saurus cohort fulfils that purpose with eerie, unspoken synchronicity. They register no emotion save savagery — and lesser troops that face them feel it.
+> Spawned for war, drilled by instinct, and drilled again in the temple-barracks. These are not human soldiers who trained for a few years — they emerged from the spawning pools as fighters, then refined that innate skill through centuries of barracks-drill until they hold their own against any other faction's elite infantry. **MA 5** reflects that apex-trained martial skill — the spawn-bred frame, the drilled veteran, the cohort's predator-thresher synchronicity. **MD 3** captures the slower defensive reflex of the cold-blooded predator-warrior: the Saurus hits at the apex tier but reacts a half-beat slow to incoming blows, leaning on the Medium Shield's Parry to compensate (effective MD 5 in melee). Six-to-eight feet tall, broad-muscled, scales hardening with age; the Old Ones engineered them for a single purpose and a Saurus cohort fulfils that purpose with eerie, unspoken synchronicity. They register no emotion save savagery — and lesser troops that face them feel it.
 
 ## Profile
 
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
-| 4 | 4 | 3 | 0 | 4 | 4 | 3 | 2 | 10 | 1 | 2 |
+| 4 | 5 | 3 | 0 | 4 | 4 | 3 | 2 | 10 | 1 | 2 |
 
-**Points:** 29 per model
+**Points:** 30 per model *(2026-05-15 external-balance pass: MA 4 → 5 to land Saurus at the cross-faction apex-elite-Infantry tier per the canonical lore — "able to hold their own against what other factions consider elite infantry." +0.5 raw × 1.48 wound factor × 0.8 scaling = +0.59 final → 29 → 30 pts. MD 3 held: the cold-blooded slow-defence asymmetry is preserved; effective MD in melee is 5 via Medium Shield Parry, which closes the defensive gap without erasing the lore signature.)*
 
 **Unit size:** 10-30
 

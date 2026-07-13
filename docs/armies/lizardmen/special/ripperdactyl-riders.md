@@ -5,12 +5,12 @@
 ## Profile
 
 **Rider (Skink Brave):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 6 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 7 |
 
 **Mount (Ripperdactyl):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 2 | 3 | 3 | 0 | 4 | 3 | 3 | 3 | 3 |
 
@@ -60,4 +60,4 @@
 
 - **Hand weapon** *(rider, implicit melee fallback)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 `[1H Blade]`
 - **Light Lance** *(rider, default)* — 2" reach | **A 1** | on charge: +1 S, AP -1, D 1; subsequent rounds: AP 0, D 1 (see Armoury)
-- **Ripperdactyl's Jaws and Claws** *(mount natural, each model)* — 1" reach | **A 3** | S 4 | AP -2 | D 1 | Killing Blow (W ≤ 2, D 3) (see §8) — resolved at mount WS 3, I 3; A 3 reflects the innate predatory aggression baked into the base stat `[Natural]`
+- **Ripperdactyl's Jaws and Claws** *(mount natural, each model)* — 1" reach | **A 3** | S 4 | AP -2 | D 1 | Killing Blow (W ≤ 2, D 3) (see §8) — resolved at mount MA 3, I 3; A 3 reflects the innate predatory aggression baked into the base stat `[Natural]`

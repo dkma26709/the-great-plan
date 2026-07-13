@@ -3,7 +3,7 @@
 ## Profile
 
 **Royal Pegasus (barded):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res |
+| M | MA | MD | BS | S | T | W | I | Res |
 |---|----|----|----|---|---|---|---|----|
 | 6 | 4 | 4 | 0 | 5 | 4 | 3 | 4 | 6 |
 

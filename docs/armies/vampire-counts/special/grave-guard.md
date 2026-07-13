@@ -4,11 +4,11 @@
 
 ## Profile
 
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 3 | 3 | 3 | 4 | 4 | 1 | 3 | 6 | 1 | 1 |
 
-**Points:** 12 per model
+**Points:** 10 per model *(Pass 9 refresh, 2026-05-07: 12 → 10 at 0.8× scaling. Pure 0.8×; Wizard pricing formalisation completed in §13.8 (Pass 10) does not affect rank-and-file Grave Guard — they carry no magic profile.)*
 
 **Unit size:** 10-20
 
@@ -35,16 +35,16 @@
 ## Options
 
 **Worn armour options:**
-- Heavy armour (+2 pt/model — replaces medium armour) → 3+ save
+- Heavy armour (+1.5 pt/model — replaces medium armour) → 3+ save *(Pass 9: 4+ → 3+ marginal +2 raw × 0.8 = 1.6 → 1.5)*
 
 **Equipment options:** (pick one)
-- **Polearm** (+2 pt/model — replaces Wight Blade) — 2" reach, S+1, AP -1, *Killing Blow*
-- **Great weapon** (+2 pt/model — replaces Wight Blade, Two-Handed; loses shield) — 1" reach, S+2, AP -2, *Killing Blow*
+- **Polearm** (+1.5 pt/model — replaces Wight Blade) — 2" reach, S+1, AP -1, *Killing Blow*
+- **Great weapon** (+1.5 pt/model — replaces Wight Blade, Two-Handed; loses shield) — 1" reach, S+2, AP -2, *Killing Blow*
 
 **Command options:**
-- **Leader** (+5 pts) — Wight champion
-- **Standard bearer** (+10 pts — Magic Standard up to 50 pts; Grave Guard's banner budget matches Empire elite tier)
-- **Musician** (+5 pts — mechanically inert per Undead, list-complete only)
+- **Leader** (+4 pts) — Wight champion
+- **Standard bearer** (+8 pts — Magic Standard up to 50 pts; Grave Guard's banner budget matches Empire elite tier)
+- **Musician** (+4 pts — mechanically inert per Undead, list-complete only)
 
 ## Weapon Profiles
 

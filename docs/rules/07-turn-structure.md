@@ -32,7 +32,7 @@ Divided into two sub-phases: **Charges** (all charges declared and resolved firs
 
 Players alternate declaring charges. The active player declares first. For each declared charge:
 
-1. **Declare target.** The charger picks an enemy unit in sight and within charge range (Formed M + D6; Loose M + 2D6).
+1. **Declare target.** The charger picks an enemy unit in sight and within its maximum possible charge range (Formed M + 6; Loose M + 12). Whether the charge actually reaches is settled by the roll at step 4.
 2. **Determine charge arc.** Based on the charger's position *before any charge movement*, relative to the defender's facing (see §6).
 3. **Stand and Shoot.** The defender may declare Stand and Shoot as a charge reaction **only if the distance between the charger and the defender is greater than the charger's M value**. If the charger's M is equal to or greater than the distance, the charger closes too fast to react and no Stand and Shoot is permitted. The defender must also have eligible shooting models (per §7.4) and cannot have already shot this turn. Once declared, the defender's unit has used its Shooting-phase activation for the turn.
 4. **Roll charge distance.** D6 or 2D6 as appropriate.
@@ -41,7 +41,7 @@ Players alternate declaring charges. The active player declares first. For each 
     - **Eligibility per model:** the charger must be in the model's weapon range, in its shooting arc, and visible. Models in the defender's own unit do **not** block LOS (the volley is a unit act). The target is measured to the charger's **final position** after its charge move (whether contact was made or not).
     - **Weapon rule interactions:** **Quick to Fire** ignores the -1 to-hit penalty. **Slow to Fire** cannot participate. **Multiple Shots (X)**, **Rapid Fire**, **Ponderous**, and **Move or Fire** apply per their normal effects.
     - **Failed charges:** Stand and Shoot resolves even if the charge fails due to insufficient distance — the volley flies at the closing enemy regardless of whether they reach contact.
-7. **Apply casualties** to the charger (front-rank models first). If coherency breaks or the unit is reduced below charge eligibility, the charge fails — the unit ends at its stopping point and cannot act further this turn.
+7. **Apply casualties** to the charger (models closest to the defender first). If the survivors' coherency is broken, or no surviving model remains within weapon reach of a target model, the charge fails — pull the unit directly back along its charge path to the nearest legal position outside mutual melee reach; it cannot act further this turn.
 8. **Resolve contact.** If the charge succeeds, the charger ends in weapon reach of a target model.
 9. **Impact attacks.** If any model in the charging unit has a weapon with the Impact keyword (see §8), those attacks are resolved now — before the Combat phase begins. Apply wounds, make saves, remove casualties. If the defender's formation breaks or it is reduced, that state persists into the Combat phase.
 
@@ -88,6 +88,7 @@ There is **no per-wizard cap** on casts: a wizard may keep casting as long as th
 
 - A wizard may not cast the same spell more than once per turn.
 - A unit may not be targeted by the same spell more than once per turn, regardless of which wizard casts it. **Exception:** direct damage spells (magic missiles and similar) may target the same unit multiple times from different casters — they are magical shooting, not persistent effects.
+- **Engaged wizards.** A wizard engaged in melee may cast and dispel normally, with one restriction: **magic missiles and direct damage spells may only target a unit in the wizard's own engagement** — no lobbing destructive magic across the field from inside a scrum. Buffs, hexes, auras, and battlefield spells are unrestricted.
 
 **Range and line of sight** are defined per spell. Some spells require line of sight; others do not. Some target a point on the battlefield; others target a unit. The spell's description is authoritative.
 
@@ -161,7 +162,7 @@ There is no automatic success on any cast. Even a roll of all 6s must meet the C
 
 #### Remains In Play
 
-Certain spells have the **Remains In Play (RIP)** keyword. A RIP spell is cast as normal, resolving its initial effect immediately, and then **persists on the battlefield** — continuing to apply its effect during each subsequent Magic phase of the controlling player's turn.
+Certain spells have the **Remains In Play (RIP)** keyword. A RIP spell is cast as normal, resolving its initial effect immediately, and then **persists on the battlefield** — continuing to apply its effect during each subsequent Magic phase.
 
 **Dispelling a RIP spell:**
 
@@ -174,7 +175,7 @@ Certain spells have the **Remains In Play (RIP)** keyword. A RIP spell is cast a
 
 **Caster death:** the caster being slain does **not** automatically end their RIP spells — the magic was released, not tethered.
 
-**Effect timing:** RIP spell effects that produce ongoing damage or state changes trigger during the controlling player's Magic phase each turn (after the initial cast's turn), unless the spell specifies different timing.
+**Effect timing:** RIP spell effects that produce ongoing damage or state changes trigger once per turn, during the Magic phase (from the turn after the initial cast onward), unless the spell specifies different timing.
 
 #### Summoning
 
@@ -238,6 +239,15 @@ Intervening models include friendly units, enemy units, and parts of the shooter
 
 A unit's shooting is a single alternating action — all its eligible models shoot together, then the opposing player activates the next unit.
 
+#### Shooting into melee
+
+An enemy unit engaged in combat with a friendly unit **may** be targeted by shooting — but firing into a swirling melee is dangerous work:
+
+- All shots against a target engaged with any friendly unit suffer **-1 to hit** (stacks with other modifiers).
+- Each **natural 1** rolled to hit strikes the **nearest friendly unit in that engagement** instead of the target. Resolve the hit against the friendly unit at the weapon's normal profile — wound roll, saves, and allocation as usual. Stray hits do not trigger the friendly unit's "being a shooting target" stress (they are strays, not a volley), but wounds contribute to casualty stress normally.
+- **Templates are unaffected** — they already fall where they fall and hit every unit under them, friend or foe (per *Templates* below).
+- **Spells are unaffected** — magic discriminates. A spell may target an engaged unit freely unless its own text says otherwise.
+
 #### Move-and-shoot
 
 A unit that made any **voluntary movement during its own activation** this turn (Advance, March, Wheel, reform) suffers **-1 to hit** on all shots this turn. Stand and Shoot is exempt (it is a reaction, not a Shooting-phase activation). Involuntary relocation (push-back, forced movement from spells, Impact displacement) does **not** count.
@@ -249,6 +259,8 @@ Several weapon rules modify the baseline (see §8):
 - **Slow to Fire** — no move-penalty impact, but the weapon cannot be used in a Stand and Shoot reaction.
 
 #### Cover
+
+> See §6.5 Terrain for the full terrain keyword library, terrain types, and Line of Sight rules. This sub-section covers cover-modifier mechanics specifically; terrain types that *grant* cover (Forest, Walls, Buildings) are defined in §6.5.
 
 Two cover levels modify to-hit rolls against the target unit:
 
@@ -286,7 +298,7 @@ Three standard template shapes:
 
 **Cross-unit coverage:** a single template may cover models from multiple units. Each model takes a hit; apply damage unit by unit, with each unit rolling its own saves and wound allocation separately.
 
-**RIP template behaviour:** by default, a template from a Remains In Play spell **re-scatters** at the start of each controlling-player's Magic phase (scatter die + distance, no BS mod). Per-spell text may override:
+**RIP template behaviour:** by default, a template from a Remains In Play spell **re-scatters** at the start of each Magic phase, before any activations (scatter die + distance, no BS mod). Per-spell text may override:
 - "Stays in place" — the template does not move after initial placement.
 - "Moves in [direction]" — the template moves a specified distance each phase in a specified direction (e.g. scatter die direction, or "directly forward").
 

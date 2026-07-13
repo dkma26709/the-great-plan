@@ -5,7 +5,7 @@
 ## Profile
 
 **Wizard Lord:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 3 | 3 | 3 | 3 | 4 | 4 | 3 | 9 | 1 | 2 |
 
@@ -13,9 +13,9 @@
 | Level | LA | CaB | DiB | Ch | CB | DB | DR | SK |
 |-------|----|-----|-----|----|----|----|-----|-----|
 | **Lvl 3** *(base)* | 3 | 3 | 2 | 3 | +2 | +1 | 24" | **2** |
-| **Lvl 4** *(+35 pts)* | 4 | 4 | 3 | 3 | +3 | +2 | 24" | **2** |
+| **Lvl 4** *(+25 pts)* | 4 | 4 | 3 | 3 | +3 | +2 | 24" | **2** |
 
-**Points:** 160 base (Lvl 3, hand weapon, no armour). **+35** to upgrade to Lvl 4 (= 195 pts).
+**Points:** 100 base (Lvl 3, hand weapon, no armour). **+25** to upgrade to Lvl 4 (= 125 pts). *(Pass 10 Wizard pricing re-derivation, 2026-05-08: 130 → 100 under §13.8 framework; Lvl 4 upgrade 28 → 25. Earlier Pass 9 refresh had 160 → 130 at 0.8× scaling; full Wizard package now framework-derived per §13.8.)*
 
 **Unit type:** Infantry (Character); may take a mount
 

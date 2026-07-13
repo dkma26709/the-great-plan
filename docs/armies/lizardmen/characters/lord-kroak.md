@@ -5,7 +5,7 @@
 ## Profile
 
 **Lord Kroak (Slann variant — Relic Priest):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 0 | 0 | 0 | 3 | 5 | 10 | 1 | 12 | 3 | 4 |
 

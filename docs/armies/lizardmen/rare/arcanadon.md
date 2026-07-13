@@ -5,12 +5,12 @@
 ## Profile
 
 **Arcanadon (Beast):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 3 | 3 | 0 | 6 | 6 | 14 | 1 | 6 | 5 | =W |
 
 **Skink Crew (×3, fixed — fires the Power of the Ancients relic):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | — | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 

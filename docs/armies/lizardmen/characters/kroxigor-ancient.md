@@ -5,7 +5,7 @@
 ## Profile
 
 **Kroxigor Ancient:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 4 | 4 | 0 | 6 | 6 | 10 | 2 | 9 | 4 | 5 |
 

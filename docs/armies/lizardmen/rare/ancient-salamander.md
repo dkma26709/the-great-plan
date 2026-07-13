@@ -5,12 +5,12 @@
 ## Profile
 
 **Ancient Salamander (Beast):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 3 | 3 | 0 | 5 | 4 | 7 | 3 | 4 | 2 | 3 |
 
 **Skink Handler (×3, fixed):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 
@@ -53,5 +53,5 @@
 ### Close Combat
 
 - **Searing Stream** *(Ancient Salamander ranged)* — **Flame Template | S 5 | AP -2 | D 1 | Flaming (see §8) | Slow to Fire (see §8) | Scatter (Artillery Die) (see §8)**. Same mechanic as Spout Flames (template placement + Artillery Die scatter with MISFIRE → D3 Handlers removed), but **hotter (S 5)** and **armour-piercing (AP -2)**. The Ancient's flame-sac holds a more concentrated mix — where the younger beast sprays, the Ancient projects. Catches the armoured infantry the regular Salamander can't crack.
-- **Claws and Bite** *(Ancient Salamander natural)* — 1" reach | **A 3** | S 5 | AP -1 | D 1 (at WS 3, I 3) — bigger than regular Salamander's claws `[Natural]`
+- **Claws and Bite** *(Ancient Salamander natural)* — 1" reach | **A 3** | S 5 | AP -1 | D 1 (at MA 3, I 3) — bigger than regular Salamander's claws `[Natural]`
 - **Hand weapon** *(Handler)* — 1" reach | **A 1** | AP 0 | D 1 `[1H Blade]`

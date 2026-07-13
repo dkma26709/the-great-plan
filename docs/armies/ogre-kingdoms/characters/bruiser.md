@@ -5,11 +5,11 @@
 ## Profile
 
 **Bruiser:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 5 | 5 | 3 | 5 | 5 | 9 | 3 | 8 | 2 | 3 |
 
-**Points:** 140 base (gut-plate + hand weapon)
+**Points:** **130** base *(Pass 9 refresh, 2026-05-07: framework re-derivation lands at 130 at 0.8× — was 140 at 1.0×. Stat 17 + Equipment 4.5 + Rules 3 (Disciplined + Bully) = 24.5 raw × 6.76 wound factor (W 9) × 0.8 = 132.5 → 130.)* (gut-plate + hand weapon)
 
 **Unit type:** Monstrous Infantry (Character)
 
@@ -33,12 +33,12 @@
 ## Options
 
 **Worn armour options:**
-- Light armour (+5 pts) → 5+ save
+- Light armour (+1 pt) → 5+ save *(Pass 9 framework: 6+ → 5+ marginal +1 raw × 0.8 = 1.0)*
 
 **Equipment options:** (pick one melee swap)
-- **Additional hand weapon** (+5 pts — paired) — +1 A on the hand weapon profile
-- **Ironfists** (+5 pts) — paired Ironfists, see Ogre Bulls weapon profile
-- **Great weapon** (+10 pts) — 1" reach | A 4 | S+2 | AP -2 | D 1 | Two-Handed
+- **Additional hand weapon** (+1 pt — paired) — +1 A on the hand weapon profile *(Pass 9: A 4 → A 5, multiplier 1.0; per-extra-A 1.5 × 0.8 = 1.2 → 1.0)*
+- **Ironfists** (+4 pts) — paired Ironfists, see Ogre Bulls weapon profile *(Pass 9: AP -1 multiplier 1.5; delta 5 raw × 0.8 = 4.0)*
+- **Great weapon** (+9 pts) — 1" reach | A 4 | S+2 | AP -2 | D 1 | Two-Handed *(Pass 9: S+2 / AP -2 multiplier 3.0; first-attack 2.5 + 3 extras × 4.5 = 16 raw, vs hand weapon 4.5 raw → delta 11.5 raw × 0.8 = 9.2 → 9.0)*
 
 **Magic items:** up to **50 pts** (Hero-tier convention)
 

@@ -4,7 +4,7 @@
 
 ## Profile
 
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 4 | 5 | 5 | 0 | 4 | 4 | 3 | 2 | 12 | 1 | 2 |
 
@@ -33,9 +33,10 @@
 - Stubborn
 - Predatory Fighter
 - **Fear** *(Psychology — see §8)* — Saurus baseline; the cohort's silent vigil + bared jaws + sudden-eruption capacity unsettles any living creature within 7"
+- **Pack Cohesion** *(Saurus species identity rule)* — *Spawn-brother instinct.* This unit is treated as **Formed for the purpose of receiving `[Command]` abilities**, regardless of its actual formation state. Temple Guard hold the cohort's silent-vigil cadence to its purest expression — the Master of the Twenty-Two's growl, the General's voice, the Slann's command all reach them through the shared spawn-instinct whether the cohort stands shoulder-to-shoulder around its charge or spreads to repel attackers from multiple sides. *Saurus break formation; they do not break command.*
 - **Locked Jaws** *(Saurus species rule)* — when a Temple Guard is removed as a casualty during the Combat phase, before removal it makes 1 final Saurus Jaws attack against the killing model (or closest enemy in base contact). Single attack, no Predatory Fighter cascade.
-- **Shield Wall** *(unit identity rule)* — while this unit is in Formed formation and **does not declare a charge** this turn, all melee attacks against this unit are resolved against **+1 WS-D** (effective WS-D 6 vs frontal melee). Captures "masters of defensive warfare, almost invulnerable within their shield walls, standing firm as waves upon waves of enemies crash against them" — the interlocked Stardrake Shields, dust-settled centuries of vigilance, the ancient bodyguards holding while the Slann completes his work. Stacks with Parry from the wielded weapon-and-shield (per §8 Parry computation): 1H Reach Halberd + Medium Shield = Parry(1), so Temple Guard with Halberd + Stardrake Shield + Shield Wall in Formed not-charging = WS-D 5 + Parry(1) + Shield Wall(+1) = **effective WS-D 7** in melee.
-- **Sworn Protectors** — see below
+- **Shield Wall** *(unit identity rule)* — while this unit is in Formed formation and **does not declare a charge** this turn, all melee attacks against this unit are resolved against **+1 MD** (effective MD 6 vs frontal melee). Captures "masters of defensive warfare, almost invulnerable within their shield walls, standing firm as waves upon waves of enemies crash against them" — the interlocked Stardrake Shields, dust-settled centuries of vigilance, the ancient bodyguards holding while the Slann completes his work. Stacks with Parry from the wielded weapon-and-shield (per §8 Parry computation): 1H Reach Halberd + Medium Shield = Parry(1), so Temple Guard with Halberd + Stardrake Shield + Shield Wall in Formed not-charging = MD 5 + Parry(1) + Shield Wall(+1) = **effective MD 7** in melee.
+- **Sworn Protectors** *(identity rule — Slann bodyguard)* — while a friendly **Slann Mage-Priest** is joined to this unit, the Slann **cannot be the target of melee attacks** so long as any Temple Guard model in this unit is within the attacker's weapon-reach. The attacker must instead resolve the attack against a Temple Guard model in base contact (defender's choice if more than one is available). Captures the lore-canonical *"form a wall of scale and snapping jaws around a Starmaster and will never abandon their master during battle"* and the *"Vale of Statues — formed a dome of shields overhead, their locked arms saving him from the descending foot of the Brazen Gargant"* — the Temple Guard physically interpose between any blow and their charge. Spawning-oath made flesh: they die before they let the Slann fall.
 
 ## Options
 

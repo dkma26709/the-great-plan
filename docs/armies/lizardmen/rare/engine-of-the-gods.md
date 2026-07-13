@@ -5,12 +5,12 @@
 ## Profile
 
 **Ancient Stegadon (Beast):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 4 | 4 | 0 | 6 | 7 | 12 | 2 | 5 | 4 | =W |
 
 **Skink Priest-Crew (×5 per Stegadon, fixed — operates the Engine):**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | — | 3 | 3 | 3 | 3 | 2 | 1 | 4 | 6 | 1 | 1 |
 

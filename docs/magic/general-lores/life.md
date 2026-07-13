@@ -113,7 +113,7 @@ Target friendly unit restores **D6+3 wounds**. Wounds restore to wounded models 
 |----|-------|------|
 | 13 | 18" | Conveyance |
 
-Remove a friendly unit from the battlefield — it passes through the living root-network of the world, dissolving into nearby growth. At the start of any subsequent friendly Magic phase (including the one immediately following the cast), the caster may place the unit anywhere on the battlefield more than **9" from any enemy model**. The unit arrives in a legal formation and **may not declare a charge on the turn it arrives**. If the caster dies before the unit returns, the unit is lost — the root-paths collapse and the travellers remain within the soil.
+Remove a friendly unit from the battlefield — it passes through the living root-network of the world, dissolving into nearby growth. At the start of any subsequent Magic phase (including the one immediately following the cast), the caster may place the unit anywhere on the battlefield more than **9" from any enemy model**. The unit arrives in a legal formation and **may not declare a charge on the turn it arrives**. If the caster dies before the unit returns, the unit is lost — the root-paths collapse and the travellers remain within the soil.
 
 Uniquely Life-thematic — organic teleportation through the plant network of the world, distinct from Heavens' Sapphire Arch (which is a celestial gateway between stars). Pairs naturally with Awaken the Wild — you can emerge near or within a summoned forest.
 

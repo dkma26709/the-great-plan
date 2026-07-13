@@ -4,11 +4,11 @@
 
 ## Profile
 
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 3 | 3 | 2 | 4 | 4 | 7 | 2 | 8 | 2 | 3 |
 
-**Points:** 70 per model
+**Points:** 100 per model *(Pass 9 refresh, 2026-05-07: framework re-derivation lands at 100 at 0.8× — Stat 12.25 + Equipment 11.5 (Great Weapon multiplier 3.0 compounds aggressively on A 3) + Rules 4.5 (Bull Charge + Bone Crackers) = 28.25 raw × 4.36 wound factor (W 7) × 0.8 = 98.5 → 100. Old 70 was below formula; new value reflects the per-extra-A multiplier impact on the unit's mandatory great weapon.)*
 
 **Unit size:** 3-6
 
@@ -39,9 +39,9 @@
 - **Additional Great weapon** *(no — Ironguts are great-weapon-only by tradition)*
 
 **Command options:**
-- **Bellower (Leader)** (+10 pts)
-- **Standard bearer** (+15 pts — Magic Standard up to 50 pts; Ironguts get the elite banner budget matching Greatswords)
-- **Musician** (+10 pts)
+- **Bellower (Leader)** (+8 pts)
+- **Standard bearer** (+12 pts — Magic Standard up to 50 pts; Ironguts get the elite banner budget matching Greatswords)
+- **Musician** (+8 pts)
 
 ## Weapon Profiles
 

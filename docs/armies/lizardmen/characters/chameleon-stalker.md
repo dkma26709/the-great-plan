@@ -5,7 +5,7 @@
 ## Profile
 
 **Chameleon Stalker:**
-| M | WS-A | WS-D | BS | S | T | W | I | Res | LiS | US |
+| M | MA | MD | BS | S | T | W | I | Res | LiS | US |
 |---|----|----|----|---|---|---|---|----|-----|----|
 | 6 | 4 | 4 | 6 | 3 | 3 | 3 | 7 | 8 | 1 | 1 |
 

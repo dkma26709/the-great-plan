@@ -150,3 +150,100 @@ All enemy units with at least one model within **18"** of the caster suffer **D3
 > **Design note on CV / Range placeholders.** Spell CVs and ranges in this entry are first-pass placeholders. The broader §11 magic system is pending an audit pass to update CV thresholds, range diversity, and difficulty calibration across all lores. When that audit lands, expect Lady spell CVs and ranges to shift — possibly significantly. The current values are designed to feel proportional within the lore (Signature/Basic moderate CV, Master high CV) but are not anchored to a finalised magic-system numerical spec. If a Lady spell here lines up suspiciously with a Heavens or Life or Light spell value, that's drift from the legacy spell drafts rather than a deliberate cross-lore parity statement.
 
 ---
+
+## 11.5. Magic Items
+
+> **Magic items are bespoke per faction.** Unlike many tabletop systems that maintain a cross-faction "Common Magic Items" pool extended by faction-specific lists, this ruleset has **no common pool**. Every faction defines its own complete magic items menu drawn from that faction's lore and aesthetic. A Lizardmen character cannot purchase an Empire item; an Empire character cannot purchase a Bretonnian banner; a Vampire Counts character has no overlap with an Ogre Kingdoms character. The framework defined here is cross-cutting (categories, slot discipline, budgets, restrictions); the *items* themselves live in each faction's own section.
+>
+> **Design rationale.** Common items create generic equivalence — a Sword of Might looks the same in every army. Faction-bespoke items amplify faction flavour: every item a player picks is a small cultural marker, every army's magic-item kit reads as that faction's rather than as "another generic warhammer list." This trades cataloguing efficiency for thematic depth, which the ruleset prioritises.
+
+### Categories
+
+Magic items are organised into six categories, matching the Warhammer Fantasy convention:
+
+| Category | Slot | Description |
+|---|---|---|
+| **Magic Weapons** | Replaces a mundane weapon | Enchanted blades, daemon-bound axes, celestite spears, runic warhammers — items the wearer wields in melee or ranged combat. Profile typically modifies an existing weapon profile (range, S, AP, D, special rules) rather than adding a separate weapon |
+| **Magic Armour** | Replaces or supplements mundane armour | Enchanted plate, runic shields, hide-of-mythic-beasts, scale-skin items granting Natural Armour or improved saves. May replace heavy armour, light armour, shields, or stack as additional protective layers per item text |
+| **Talismans** | No kit displacement | Ward Saves, Magic Resistance, anti-magic charms, life-saving amulets. Talismans typically grant *defensive* benefits that don't displace existing kit — worn at the neck, belt, or sewn into clothing |
+| **Arcane Items** | Wizards only | Spell-supporting items: extra dice for the Magic pool, channel bonuses, casting bonuses, dispel bonuses, lore-extending grimoires, bound spells. Arcane Items may only be purchased by characters with the **Wizard** keyword |
+| **Enchanted Items** | Generic / utility slot | The catch-all category — flight cloaks, healing potions, charge-trigger items, once-per-battle effects, position-rerolls, artefacts that don't fit Weapon / Armour / Talisman / Arcane / Banner. Enchanted Items are typically *active* effects rather than passive auras |
+| **Magic Banners** | Standard-bearing units only | Carried by a unit's **Standard Bearer** command upgrade or by a character with the **Battle Standard** upgrade. Banners typically confer unit-wide auras (CR bonuses, reroll auras, fear / immunity effects, charge-trigger effects). Banners belong to the unit (or to the BSB-carrying character), not to individual models |
+
+### Slot discipline
+
+A character may carry **at most one item from each category**. A character may simultaneously carry one Magic Weapon AND one Magic Armour AND one Talisman AND one Arcane Item AND one Enchanted Item — slots are independent — but never two from the same category.
+
+A character without the **Wizard** keyword may not purchase Arcane Items.
+
+A unit's Standard Bearer command upgrade may carry one Magic Banner up to a per-unit cap (defined on the unit profile — typically 20–40 pts depending on tier). A character carrying the Battle Standard upgrade may carry a Magic Banner with no points cap, subject to the BSB-budget convention defined per character (see Battle Standard interactions below).
+
+**Magic items take precedence over mundane equivalents.** A character who owns a magic item from a category uses that item in any phase where the slot applies; mundane equipment options that share the slot are unused while the magic item is active. The character cannot opt to use the mundane version instead. *Practical consequence:* do not pay for mundane equipment options that overlap with a magic-item-occupied slot — those points are wasted.
+
+### Magic Weapon pinning
+
+Magic Weapons additionally **pin to a specific baseline weapon slot** — Hand Weapon, Polearm, Lance, Great Weapon, or Ranged. Each magic weapon entry states its pinned slot. The item **replaces only that slot's weapon profile** for the wielder; reach, A, S derivation, and D inherit from the wielder's baseline weapon for that slot, while the item overrides AP, special rules, and any other modifications stated in its Effect column.
+
+This convention solves a structural problem unique to our system: weapons in this ruleset carry rich baseline profiles (S+2 great weapons, AP -2 polearms, charge-spike lances), so a magic effect added on top of an arbitrary baseline stacks unpredictably (a "+1 AP" item is dramatically stronger when stacked on a base AP -2 weapon than on a base AP 0 hand weapon). Pinning the magic weapon to a single declared slot fixes the calibration target — the cost reflects the item *plus* that specific baseline, predictably. Most Lizardmen and cross-faction magic weapons pin to Hand Weapon (the most common chivalric / officer baseline); specific exotic items pin to other slots as flagged.
+
+A character with multiple weapon options (e.g. a Saurus Oldblood with Hand Weapon, Great Weapon, Polearm equipment options) may purchase a magic weapon only if it pins to a slot the character can actually wield. The wielder's baseline weapon for that slot must already exist in the character's equipment options.
+
+### Item budgets
+
+Each character profile lists a magic-item points budget:
+
+- **Lord-tier:** 100 pts
+- **Sub-Lord tier:** 75 pts (mid-tier characters with Lord-class durability but reduced item allowance — e.g., Skink High Priest, Skink High Chief)
+- **Hero-tier:** 50 pts
+
+Items priced in flat points come out of this budget. The total cost of all items a character carries (across all six categories) must not exceed the budget. Unspent budget is forfeit.
+
+**Pass 8 0.8× scaling does not apply to magic items.** Magic items are armoury-budget content priced as a separate game pool, not stat-formula derivatives — the global scaling factor (§13.0) tunes unit pricing for army-density purposes, but item pricing is anchored to the items list itself. A 100-pt item budget buys 100 pts of items at any global scaling factor; relative item values stay consistent across faction passes.
+
+### Battle Standard interactions
+
+A character with the Battle Standard upgrade (+25 pts on top of the character's base cost) carries the Army Battle Standard. The Battle Standard is itself a banner — typically a magic banner — with **no points cap on the banner choice** (unlike the per-unit Standard Bearer cap).
+
+Whether the Battle Standard upgrade reduces the character's magic-item budget varies by character (defined in the character profile). Two patterns recur:
+
+- **Full budget retained** — the character keeps full magic-item allowance alongside the magic banner. *Examples:* Bretonnian Lord, Slann Mage-Priest, Saurus Oldblood, Skink High Chief, Skink High Priest.
+- **Budget reduced** — taking a magic banner forces a budget reduction. *Example:* Bretonnian Paladin (50 → 25 when carrying a magic banner — the Hero-tier character's banner-and-item load competes with personal kit).
+
+The faction-specific item lists do not redefine the Battle Standard convention; this is set on the character profile.
+
+### Cross-faction restrictions
+
+The framework permits all six categories, but several factions impose restrictions for thematic reasons. These are restated here for cross-reference:
+
+- **Lizardmen — Slann Mage-Priest:** **may not take Magic Weapons or Magic Armour** (per §10 Contemplation rule — the Slann is borne aloft and does not engage in personal melee). Eligible for Talismans, Arcane Items, Enchanted Items, and Magic Banners. The **Amulet of the Old Ones** is Slann-exclusive; see Lizardmen Magic Items in §10
+- **Daemons** *(faction pending full draft)*: **may not wield non-chaos magic items** (per §1.5 Daemons — chaos-aligned essence rejects mortal-magical bindings). Daemon characters draw exclusively from Daemon-keyword items
+- **Dwarfs** *(faction pending full draft)*: cultural disinclination toward magic items beyond rune-engineered equivalents. The Dwarf magic items list will be constructed entirely of **Runes** (rune-bound weapons, armour, talismans, banners) — a faction-parallel to the standard six-category list, deferred to a dedicated treatment when Dwarfs are drafted
+
+### Item presentation
+
+Each faction's items section presents items in tables grouped by category:
+
+```
+**Magic Weapons**
+
+| Item | Effect | Pts |
+|---|---|---|
+| ...  | ...    | ... |
+```
+
+Per-item restrictions (e.g. "Wizard only," "[specific character] only," "may not be combined with X") are stated inline in the Effect column. Character profiles do not redundantly list eligible items — eligibility is defined item-side.
+
+### Faction items sections
+
+Each faction's magic items live as a sub-section within that faction's own section:
+
+- **Lizardmen Magic Items** — drafted in §10 *(folds in the existing Amulet of the Old Ones and Cloak of Feathers)*
+- **Empire Magic Items** — pending §14
+- **Ogre Kingdoms Magic Items** — pending §15
+- **Vampire Counts Magic Items** — pending §16
+- **Bretonnia Magic Items** — drafted in §17 *(this pass — first 12 items; Virtues of the Chivalric Knight sub-system queued as next Bretonnia pass)*
+- **Cross-Faction Reference Magic Items** — not applicable; the §18 cross-faction reference units exist for stress-testing and do not host a magic-item list
+
+When a faction is drafted, its items section is anchored from this framework section by direct cross-reference. List-builders consult this framework for slot rules and the faction list for the items themselves.
+
+---
