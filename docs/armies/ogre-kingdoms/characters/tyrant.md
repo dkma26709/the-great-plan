@@ -42,7 +42,7 @@
 
 **Magic items:** up to **100 pts** (Lord-tier convention)
 
-**Mount options:** *(**Stonehorn drafted** — see [Stonehorn/profile.md](../Stonehorn/profile.md), +509 pts mount-adder (super-apex W 14); Thundertusk still pending separate write-up)*
+**Mount options:** *(**Stonehorn drafted** — see Stonehorn/profile.md, +509 pts mount-adder (super-apex W 14); Thundertusk still pending separate write-up)*
 
 **Battle Standard option:** +25 pts — one Tyrant in the army may carry the Army Battle Standard. Banner may be a magic banner with no points limit; the Tyrant's other magic item allowance remains intact (taking a magic banner does **not** reduce the magic-item budget)
 

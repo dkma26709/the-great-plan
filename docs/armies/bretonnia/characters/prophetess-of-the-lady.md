@@ -61,7 +61,3 @@
 ### Close Combat
 
 - **Hand weapon** *(default, 1H)* — 1" reach | **A 1** | S 3 | AP 0 | D 1 — a slim ceremonial blade or carved bone-handled knife from the Lady's grove. Even less impressive in melee than the Damsel's, given the Prophetess's age and focus on the magical arts. She is not a fighter `[1H Blade]`
-- [The Fay Enchantress](units/Bretonnia/The%20Fay%20Enchantress/profile.md) *(named, Unique — mounted on Silvermane the Unicorn by default; may not be fielded alongside the Prophetess of the Lady)*
-
-
-Lord-tier and Hero-tier mount options for Bretonnian characters. Warhorse and Pegasus profiles are documented inline in the Knights of the Realm (§17 Core) and Pegasus Knights (§17 Special) entries respectively; this section adds the four Bretonnia-exclusive mounts referenced from the character entries.

@@ -10,6 +10,19 @@ The factions drafted so far. Each army has its own section with faction-specific
 - **[Vampire Counts](vampire-counts/index.md)** — Undead paradigm; Vampiric Hunger, Bloodline Powers, raise economy
 - **[Bretonnia](bretonnia/index.md)** — feature-complete chivalric faction; cavalry-dominant, faith-blessed, with full vow ladder and Lore of the Lady
 
+## Reference rosters
+
+Factions drafted so far as **cross-faction reference rosters** (see [Cross-Faction Reference Units](../misc/cross-faction-reference-units.md)) — real unit cards used to stress-test the rules across every species axis, with full-faction promotion pending. Each has a faction design reference and its drafted unit cards:
+
+- **[Orcs & Goblins](orcs-goblins/index.md)** — the broadest reference roster; three sub-species (Orc / Goblin / Snotling), Animosity, Loves a Scrap
+- **[High Elves](high-elves/index.md)** — disciplined-skill axis; Martial Prowess, Elven Grace, dragon age-tiers
+- **[Dark Elves](dark-elves/index.md)** — frenzied-lethal axis; Murderous Prowess, Khainite cult elites
+- **[Wood Elves](wood-elves/index.md)** — hunter axis; Hunter's Prowess, forest-bond, Forest Spirits
+- **[Dwarfs](dwarfs/index.md)** — the patient anvil; Resolute, Slayer death-oaths, runic engineering
+- **[Skaven](skaven/index.md)** — verminous swarm; skitter-numbers and warp-engineering
+- **[Tomb Kings](tomb-kings/index.md)** — animated-construct undead of Nehekhara
+- **[Warriors of Chaos](warriors-of-chaos/index.md)** — mortal Chaos elite; Will of Chaos
+
 Each faction has a distinct mechanical paradigm:
 
 | Faction | Combat-output engine | Defensive engine | Magic axis |

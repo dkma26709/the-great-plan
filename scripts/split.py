@@ -66,24 +66,37 @@ KEEP_EXISTING = {
 }
 
 # Directories that the split script owns — wiped before each run
+# (armies/index.md survives via KEEP_EXISTING)
 WIPE_DIRS = [
     "rules",
     "magic",
-    "armies/lizardmen",
-    "armies/empire",
-    "armies/ogre-kingdoms",
-    "armies/vampire-counts",
-    "armies/bretonnia",
+    "armies",
     "misc",
 ]
+
+# Factions whose public pages come from their master-file section (§10, §14-§17).
+# Every other units/<Faction> folder is a reference roster, rendered by
+# reference_faction_pass() from FACTION.md + per-unit profile.md files.
+MASTER_SECTION_FACTIONS = {
+    "Lizardmen", "Empire", "Ogre Kingdoms", "Vampire Counts", "Bretonnia",
+}
 
 
 # Bullet-link pattern used inside faction tier subsections (Core / Special /
 # Rare / Characters / Character Mounts) and §18. Format produced by the
-# 2026-05-05 master shrink:
+# 2026-05-05 master shrink, optionally followed by an italic annotation:
 #   - [Saurus Warriors](units/Lizardmen/Saurus%20Warriors/profile.md)
+#   - [The Fay Enchantress](units/Bretonnia/The%20Fay%20Enchantress/profile.md) *(named, Unique — …)*
 UNIT_BULLET_RE = re.compile(
-    r"^- \[([^\]]+)\]\(units/([^/]+)/([^/]+)/profile\.md\)\s*$"
+    r"^- \[([^\]]+)\]\(units/([^/]+)/([^/]+)/profile\.md\)(?:\s+.*)?$"
+)
+
+
+# Relative .md links inside profile bodies point at the private tree
+# (./design.md, ../<Unit>/profile.md, ../FACTION.md, lore files) — unwrap
+# them to plain text on the public site.
+RELATIVE_MD_LINK_RE = re.compile(
+    r"\[([^\]]+)\]\((?!https?://|#)[^)]*\.md(?:#[^)]*)?\)"
 )
 
 
@@ -92,7 +105,7 @@ def slurp_profile(faction_dir_name: str, unit_dir_name: str) -> str | None:
 
     Strips the H1 title (MkDocs derives it from the page) and the
     `## References` section (links to design.md / lore source files that
-    don't exist in the public tree).
+    don't exist in the public tree). Unwraps private-tree relative links.
     """
     src = UNITS_DIR / faction_dir_name / unit_dir_name / "profile.md"
     if not src.exists():
@@ -120,6 +133,8 @@ def slurp_profile(faction_dir_name: str, unit_dir_name: str) -> str | None:
 
     while out and out[-1].strip() == "":
         out.pop()
+
+    out = [RELATIVE_MD_LINK_RE.sub(r"\1", ln) for ln in out]
 
     return "\n".join(out) + "\n"
 
@@ -149,6 +164,109 @@ def classify_faction_subsection(heading: str) -> tuple[str, str, str]:
     if re.search(r"\b(Armoury|Equipment)\b", clean):
         return ("page", "armoury", "Armoury")
     return ("page", slugify(clean), clean)
+
+
+# Relative profile.md links inside FACTION.md files:
+#   [Orc Boyz](Orc%20Boyz/profile.md)          — same-faction
+#   [War Lions](../High%20Elves/War%20Lions/profile.md) — cross-faction
+FACTION_MD_LINK_RE = re.compile(r"\]\(((?:\.\./)?[^)]*?)/profile\.md\)")
+
+
+def rewrite_faction_md_links(line: str) -> str:
+    """Rewrite FACTION.md-relative profile.md links to public unit pages."""
+    def repl(m):
+        target = urllib.parse.unquote(m.group(1))
+        if target.startswith("../"):
+            parts = target[3:].split("/")
+            if len(parts) == 2:
+                other_faction, unit = parts
+                return f"](../{slugify(other_faction)}/units/{slugify(unit)}.md)"
+            return m.group(0)
+        return f"](units/{slugify(target)}.md)"
+    return FACTION_MD_LINK_RE.sub(repl, line)
+
+
+def sanitize_faction_md(text: str, faction_name: str) -> list[str]:
+    """Prep a FACTION.md for the public site.
+
+    - H1 replaced with the plain faction name (nav title)
+    - `## Anchors` section stripped (references private file paths)
+    - `> **Design diary:**` blockquotes stripped
+    - relative profile.md links rewritten to public unit pages
+    """
+    out = [f"# {faction_name}", ""]
+    skipping_section = False
+    skipping_diary = False
+    lines = text.splitlines()
+    if lines and lines[0].startswith("# "):
+        lines = lines[1:]
+    for ln in lines:
+        if skipping_diary:
+            if ln.startswith(">"):
+                continue
+            skipping_diary = False
+            if ln.strip() == "":
+                continue
+        if ln.startswith("> **Design diary:**"):
+            skipping_diary = True
+            continue
+        if ln.startswith("## "):
+            skipping_section = ln.startswith("## Anchors")
+            if skipping_section:
+                continue
+        if skipping_section:
+            continue
+        ln = rewrite_faction_md_links(ln)
+        # Unwrap any remaining private-tree links (design.md, FACTION.md, …)
+        ln = re.sub(
+            r"\[([^\]]+)\]\([^)]*(?:design|FACTION|Lore)[^)]*\.md(?:#[^)]*)?\)",
+            r"\1", ln)
+        out.append(ln)
+    while out and out[-1].strip() == "":
+        out.pop()
+    return out
+
+
+def reference_faction_pass(pages: dict[str, list[str]]):
+    """Render units/<Faction> folders not covered by a master-file section.
+
+    Each becomes armies/<faction-slug>/ with an index.md (sanitized FACTION.md,
+    or a minimal auto-index when absent) and units/<slug>.md per profile.md.
+    The folder scan is the source of truth — a unit ships as soon as its
+    profile.md exists, regardless of §18 bullets or FACTION.md link lists.
+    """
+    for fdir in sorted(UNITS_DIR.iterdir()):
+        if not fdir.is_dir() or fdir.name in MASTER_SECTION_FACTIONS:
+            continue
+        unit_dirs = [d for d in sorted(fdir.iterdir())
+                     if d.is_dir() and (d / "profile.md").exists()]
+        if not unit_dirs:
+            continue
+        fslug = slugify(fdir.name)
+        base = f"armies/{fslug}"
+
+        faction_md = fdir / "FACTION.md"
+        if faction_md.exists():
+            pages[f"{base}/index.md"] = sanitize_faction_md(
+                faction_md.read_text(encoding="utf-8"), fdir.name)
+        else:
+            body = [
+                f"# {fdir.name}", "",
+                "> Reference roster — units drafted for cross-faction "
+                "calibration (§18); full-faction promotion pending.", "",
+                "**Drafted units:**", "",
+            ]
+            body += [f"- [{d.name}](units/{slugify(d.name)}.md)"
+                     for d in unit_dirs]
+            pages[f"{base}/index.md"] = body
+
+        for d in unit_dirs:
+            profile_body = slurp_profile(fdir.name, d.name)
+            if profile_body is None:
+                continue
+            page = [f"# {d.name}", ""]
+            page += profile_body.splitlines()
+            pages[f"{base}/units/{slugify(d.name)}.md"] = page
 
 
 def main():
@@ -301,36 +419,26 @@ def main():
                     append(ln)
                 continue
 
-        # §18 cross-faction reference — inline each unit's profile (no per-unit
-        # pages — keep all 7 reference units on a single misc page since they
-        # are calibration data, not a faction commitment).
+        # §18 cross-faction reference — reference units now have real pages
+        # under armies/<faction>/units/ (reference_faction_pass), so the misc
+        # page links to them instead of inlining duplicates.
         if section == "18":
             mb = UNIT_BULLET_RE.match(line)
             if mb:
                 unit_name = mb.group(1).strip()
                 faction_dir_name = urllib.parse.unquote(mb.group(2))
                 unit_dir_name = urllib.parse.unquote(mb.group(3))
-                profile_body = slurp_profile(faction_dir_name, unit_dir_name)
-                if profile_body is None:
-                    print(f"  [warn] missing profile.md for {unit_name} "
-                          f"(§18, looked in units/{faction_dir_name}/{unit_dir_name}/)")
-                    continue
-                # Demote inlined `## ` headers to `### ` (and `### ` to `#### `)
-                # so each reference unit sits as a `## ` block under the misc H1.
-                append(f"## {unit_name} *({faction_dir_name})*")
-                append("")
-                for ln in profile_body.splitlines():
-                    if ln.startswith("## "):
-                        append("#" + ln)
-                    elif ln.startswith("### "):
-                        append("#" + ln)
-                    else:
-                        append(ln)
-                append("")
+                fslug = slugify(faction_dir_name)
+                uslug = slugify(unit_dir_name)
+                append(f"- **[{unit_name}](../armies/{fslug}/units/{uslug}.md)** "
+                       f"*({faction_dir_name})*")
                 continue
 
         # default: append to current page
         append(line)
+
+    # Reference rosters — units/<Faction> folders without a master section
+    reference_faction_pass(pages)
 
     # Write all pages
     written = 0
